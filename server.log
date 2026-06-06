@@ -11,3 +11,4 @@
  GET / 200 in 4.9s (next.js: 4.3s, application-code: 569ms)
 ○ Compiling /planner ...
  GET /planner 200 in 4.4s (next.js: 4.3s, application-code: 67ms)
+✓ Compiled in 572ms

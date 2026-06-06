@@ -15,6 +15,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Wedding Seating Planner | Design your perfect layout",
   description: "Design your perfect wedding seating chart in minutes — visually, beautifully, stress-free.",
+  other: {
+    "google-adsense-account": "ca-pub-6393936268623951"
+  }
 };
 
 export default function RootLayout({
