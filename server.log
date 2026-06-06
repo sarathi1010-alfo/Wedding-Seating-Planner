@@ -12,3 +12,7 @@
 ○ Compiling /planner ...
  GET /planner 200 in 4.4s (next.js: 4.3s, application-code: 67ms)
 ✓ Compiled in 572ms
+ GET /templates 200 in 3.1s (next.js: 2.8s, application-code: 358ms)
+ GET /templates/barn-wedding-for-50-guests 200 in 2.2s (next.js: 2.2s, generate-params: 878ms, application-code: 66ms)
+ GET /guides 200 in 923ms (next.js: 818ms, application-code: 105ms)
+ GET /guides/wedding-seating-etiquette 200 in 1536ms (next.js: 1483ms, generate-params: 592ms, application-code: 53ms)

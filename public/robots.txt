@@ -1,0 +1,35 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /planner
+Disallow: /api/*
+
+# GPTBot
+User-agent: GPTBot
+Allow: /guides/*
+Allow: /templates/*
+Allow: /faq
+
+# ChatGPT-User
+User-agent: ChatGPT-User
+Allow: /guides/*
+Allow: /templates/*
+Allow: /faq
+
+# Google-Extended
+User-agent: Google-Extended
+Allow: /guides/*
+Allow: /templates/*
+Allow: /faq
+
+# PerplexityBot
+User-agent: PerplexityBot
+Allow: /guides/*
+Allow: /templates/*
+Allow: /faq
+
+# Host
+Host: https://weddingseatingplanner.com
+
+# Sitemaps
+Sitemap: https://weddingseatingplanner.com/sitemap.xml
