@@ -6,7 +6,8 @@
     "keywords": ["free seating chart maker", "wedding table planner", "event layout designer"],
     "description": "Design your perfect seating chart in minutes. Drag, drop, and export print-ready PDFs for any event.",
     "tag": "productivity",
-    "competitors": ["allseated", "socialtables", "weddingwire"]
+    "competitors": ["allseated", "socialtables", "weddingwire"],
+    "templates": ["barn-wedding-for-50-guests", "round-tables-gala", "u-shape-conference"]
   },
   {
     "tool": "qr-generator",
@@ -24,6 +25,7 @@
     "keywords": ["free resume builder", "cv maker", "professional resume templates"],
     "description": "Build professional, ATS-friendly resumes in minutes.",
     "tag": "document",
-    "competitors": ["canva", "zety", "novoresume"]
+    "competitors": ["canva", "zety", "novoresume"],
+    "templates": ["modern-minimalist", "tech-focused", "creative-director"]
   }
 ]

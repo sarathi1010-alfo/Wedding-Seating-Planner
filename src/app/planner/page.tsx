@@ -12,7 +12,8 @@ export default function PlannerPage() {
   // To avoid hydration mismatch with Konva which requires DOM
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
-    setMounted(true);
+    const timer = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(timer);
   }, []);
 
   return (

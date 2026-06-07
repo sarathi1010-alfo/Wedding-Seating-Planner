@@ -15,7 +15,7 @@ function getToolsData() {
 
 export async function generateStaticParams() {
   const tools = getToolsData();
-  let params: any[] = [];
+  const params: any[] = [];
 
   tools.forEach((tool: any) => {
     tool.useCases.forEach((useCase: string) => {
