@@ -6,6 +6,8 @@ import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
 function getToolsData() {
   const filePath = path.join(process.cwd(), "src/data/tools-data.json");
@@ -41,23 +43,14 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
 
   const keyword = `${tool.name} vs ${competitor}`;
   const fullTitle = `${keyword} — Which is better? | alfo.online`;
-  const canonicalUrl = `https://alfo.online/${tool.tool}/vs/${params.competitor}`;
+  const canonicalUrl = `${siteConfig.url}/${tool.tool}/vs/${params.competitor}`;
   const description = `Thinking about using ${competitor}? See why ${tool.name} is the better free alternative. Compare features, pricing, and ease of use.`;
 
-  return {
+  return constructMetadata({
     title: fullTitle,
     description: description,
-    keywords: `${keyword}, ${competitor} alternative, free ${competitor}`,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: fullTitle,
-      description: description,
-      url: canonicalUrl,
-      type: "article",
-    },
-  };
+    canonicalUrl: canonicalUrl,
+  });
 }
 
 export default async function ComparisonPage({ params }: { params: { tool_slug: string, competitor: string } }) {

@@ -6,6 +6,8 @@ import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
 function getToolsData() {
   const filePath = path.join(process.cwd(), "src/data/tools-data.json");
@@ -41,28 +43,14 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
 
   const keyword = `${tool.name} for ${originalUseCase}`;
   const fullTitle = `${keyword} | alfo.online`;
-  const canonicalUrl = `https://alfo.online/${tool.tool}/${params.use_case}`;
+  const canonicalUrl = `${siteConfig.url}/${tool.tool}/${params.use_case}`;
   const description = `Learn how to use ${tool.name} specifically for ${originalUseCase}. ${tool.description}`;
 
-  return {
+  return constructMetadata({
     title: fullTitle,
     description: description,
-    keywords: `${keyword}, ${tool.keywords.join(", ")}`,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: fullTitle,
-      description: description,
-      url: canonicalUrl,
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: fullTitle,
-      description: description,
-    },
-  };
+    canonicalUrl: canonicalUrl,
+  });
 }
 
 export default async function UseCasePage({ params }: { params: { tool_slug: string, use_case: string } }) {
@@ -88,7 +76,7 @@ export default async function UseCasePage({ params }: { params: { tool_slug: str
     "description": tool.description,
     "applicationCategory": "Utility",
     "operatingSystem": "All",
-    "url": `https://alfo.online/${tool.tool}/${params.use_case}`
+    "url": `${siteConfig.url}/${tool.tool}/${params.use_case}`
   };
 
   return (

@@ -6,6 +6,8 @@ import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
 function getToolsData() {
   const filePath = path.join(process.cwd(), "src/data/tools-data.json");
@@ -26,27 +28,13 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
   if (!tool) return {};
 
   const fullTitle = `${tool.name} — ${tool.keywords[0] || tool.name} | alfo.online`;
-  const canonicalUrl = `https://alfo.online/${tool.tool}`;
+  const canonicalUrl = `${siteConfig.url}/${tool.tool}`;
 
-  return {
+  return constructMetadata({
     title: fullTitle,
     description: tool.description,
-    keywords: tool.keywords.join(", "),
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: fullTitle,
-      description: tool.description,
-      url: canonicalUrl,
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: fullTitle,
-      description: tool.description,
-    },
-  };
+    canonicalUrl: canonicalUrl,
+  });
 }
 
 export default async function ToolPage({ params }: { params: { tool_slug: string } }) {
@@ -64,7 +52,7 @@ export default async function ToolPage({ params }: { params: { tool_slug: string
     "description": tool.description,
     "applicationCategory": "Utility",
     "operatingSystem": "All",
-    "url": `https://alfo.online/${tool.tool}`
+    "url": `${siteConfig.url}/${tool.tool}`
   };
 
   return (

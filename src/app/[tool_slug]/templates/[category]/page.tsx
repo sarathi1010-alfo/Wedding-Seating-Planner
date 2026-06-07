@@ -6,6 +6,8 @@ import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
 function getToolsData() {
   const filePath = path.join(process.cwd(), "src/data/tools-data.json");
@@ -41,23 +43,14 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
 
   const cleanTemplateName = template.split('-').join(' ');
   const fullTitle = `${cleanTemplateName} Template | Free ${tool.name} | alfo.online`;
-  const canonicalUrl = `https://alfo.online/${tool.tool}/templates/${params.category}`;
+  const canonicalUrl = `${siteConfig.url}/${tool.tool}/templates/${params.category}`;
   const description = `Get a free, customizable ${cleanTemplateName} template. Use ${tool.name} to modify and download it instantly without an account.`;
 
-  return {
+  return constructMetadata({
     title: fullTitle,
     description: description,
-    keywords: `${cleanTemplateName} template, free ${cleanTemplateName}, ${tool.name} template`,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: fullTitle,
-      description: description,
-      url: canonicalUrl,
-      type: "website",
-    },
-  };
+    canonicalUrl: canonicalUrl,
+  });
 }
 
 export default async function TemplatePage({ params }: { params: { tool_slug: string, category: string } }) {

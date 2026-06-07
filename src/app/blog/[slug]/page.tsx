@@ -6,6 +6,8 @@ import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
 function getBlogData() {
   const filePath = path.join(process.cwd(), "src/data/blog-data.json");
@@ -32,21 +34,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!blog) return {};
 
   const fullTitle = `${blog.title} | alfo.online Blog`;
-  const canonicalUrl = `https://alfo.online/blog/${params.slug}`;
+  const canonicalUrl = `${siteConfig.url}/blog/${params.slug}`;
 
-  return {
+  return constructMetadata({
     title: fullTitle,
     description: blog.excerpt,
-    alternates: {
-      canonical: canonicalUrl,
-    },
-    openGraph: {
-      title: fullTitle,
-      description: blog.excerpt,
-      url: canonicalUrl,
-      type: "article",
-    },
-  };
+    canonicalUrl: canonicalUrl,
+  });
 }
 
 export default async function BlogPostPage({ params }: { params: { slug: string } }) {
