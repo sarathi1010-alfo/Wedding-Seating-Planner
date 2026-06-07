@@ -1,27 +1,13 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Navbar } from "@/components/shared/Navbar";
+import { Footer } from "@/components/shared/Footer";
+import { RelatedTools } from "@/components/shared/RelatedTools";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <header className="flex h-20 items-center px-6 lg:px-12 border-b border-border bg-card">
-        <Link href="/" className="flex items-center gap-2 font-heading font-bold text-xl text-primary-foreground">
-          <span className="w-6 h-6 rounded-full bg-primary inline-block"></span>
-          SeatingPlanner
-        </Link>
-        <nav className="ml-auto hidden md:flex gap-6 text-sm font-medium">
-          <Link href="/templates" className="hover:text-primary transition-colors text-muted-foreground">Templates</Link>
-          <Link href="/faq" className="hover:text-primary transition-colors text-muted-foreground">FAQ</Link>
-          <Link href="/contact" className="hover:text-primary transition-colors text-muted-foreground">Contact</Link>
-        </nav>
-        <div className="ml-6 flex items-center gap-4">
-          <Link href="/planner">
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
-              Start Planning
-            </Button>
-          </Link>
-        </div>
-      </header>
+      <Navbar />
 
       <main className="flex-1">
         <section className="py-24 md:py-32 px-6 lg:px-12 max-w-6xl mx-auto text-center">
@@ -69,24 +55,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <RelatedTools currentTag="productivity" />
       </main>
 
-      <footer className="bg-card py-12 px-6 lg:px-12 border-t border-border">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2 font-heading font-bold text-lg text-primary-foreground">
-            <span className="w-4 h-4 rounded-full bg-primary inline-block"></span>
-            SeatingPlanner
-          </div>
-          <div className="flex gap-6 text-sm text-muted-foreground">
-            <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link>
-            <Link href="/contact" className="hover:text-foreground transition-colors">Contact</Link>
-          </div>
-          <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} SeatingPlanner. All rights reserved.
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

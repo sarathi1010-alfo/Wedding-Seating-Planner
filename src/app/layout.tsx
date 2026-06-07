@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   }
 };
 
+import { AnalyticsBlock } from "@/components/shared/AnalyticsBlock";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -30,6 +32,9 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
+      <head>
+        <AnalyticsBlock gtmId="GTM-XXXXXXX" />
+      </head>
       <body className="min-h-full flex flex-col font-sans">{children}</body>
     </html>
   );
