@@ -12,7 +12,7 @@ export const usePlannerStore = create<PlannerState>()(
       addTable: (table) => set((state) => ({ tables: [...state.tables, table] })),
 
       updateTable: (id, updates) => set((state) => {
-        let newAssignments = { ...state.assignments };
+        const newAssignments = { ...state.assignments };
         const currentTable = state.tables.find(t => t.id === id);
 
         // If seat count is being reduced, remove assignments for seats that no longer exist

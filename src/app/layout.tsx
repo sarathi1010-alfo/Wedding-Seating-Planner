@@ -12,13 +12,14 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+import { constructMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = constructMetadata({
   title: "Wedding Seating Planner | Design your perfect layout",
   description: "Design your perfect wedding seating chart in minutes — visually, beautifully, stress-free.",
-  other: {
-    "google-adsense-account": "ca-pub-6393936268623951"
-  }
-};
+});
+
+import { AnalyticsBlock } from "@/components/shared/AnalyticsBlock";
 
 export default function RootLayout({
   children,
@@ -30,6 +31,9 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
+      <head>
+        <AnalyticsBlock gtmId="GTM-XXXXXXX" />
+      </head>
       <body className="min-h-full flex flex-col font-sans">{children}</body>
     </html>
   );
