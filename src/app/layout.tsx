@@ -26,6 +26,29 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Alfo Online",
+    "url": "https://alfo.online",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://alfo.online/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Alfo Online",
+    "url": "https://alfo.online",
+    "logo": "https://alfo.online/logo.png",
+    "sameAs": [
+      "https://twitter.com/alfo_online"
+    ]
+  };
+
   return (
     <html
       lang="en"
@@ -33,6 +56,14 @@ export default function RootLayout({
     >
       <head>
         <AnalyticsBlock gtmId="GTM-XXXXXXX" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
       </head>
       <body className="min-h-full flex flex-col font-sans">{children}</body>
     </html>
