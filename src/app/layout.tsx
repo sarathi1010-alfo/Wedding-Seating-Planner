@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
@@ -18,6 +18,12 @@ export const metadata: Metadata = constructMetadata({
   title: "Wedding Seating Planner | Design your perfect layout",
   description: "Design your perfect wedding seating chart in minutes — visually, beautifully, stress-free.",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
 
 import { AnalyticsBlock } from "@/components/shared/AnalyticsBlock";
 
@@ -55,6 +61,7 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <head>
+        <meta charSet="utf-8" />
         <AnalyticsBlock gtmId="GTM-XXXXXXX" />
         <script
           type="application/ld+json"

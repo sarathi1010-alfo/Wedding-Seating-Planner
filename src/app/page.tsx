@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { RelatedTools } from "@/components/shared/RelatedTools";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
+
+export const metadata = constructMetadata({
+  title: "Wedding Seating Planner | Design your perfect layout",
+  description: "Design your perfect wedding seating chart in minutes — visually, beautifully, stress-free.",
+  canonicalUrl: siteConfig.url
+});
 
 export default function Home() {
   return (

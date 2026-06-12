@@ -1,36 +1,36 @@
-import { FAQBlock } from "@/components/seo/FAQBlock";
+import { Navbar } from "@/components/shared/Navbar";
+import { Footer } from "@/components/shared/Footer";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
 
-export default function FAQ() {
-  const faqs = [
-    {
-      question: "How do I create a wedding seating chart?",
-      answer: "The easiest way to create a wedding seating chart is to use an interactive drag-and-drop tool like SeatingPlanner. First, gather your finalized guest list and RSVPs. Next, determine your venue's table sizes and shapes (e.g., 60-inch round tables seat 8 guests). Finally, use the visual canvas to group guests by relationships and dietary needs, dragging them into specific seats."
-    },
-    {
-      question: "How much space do you need between wedding tables?",
-      answer: "You need a minimum of 60 inches (5 feet) between round wedding tables. This provides 18 inches for each chair (when pulled out) and 24 inches of walking space for guests and catering staff to move comfortably between tables."
-    },
-    {
-      question: "Is this seating chart maker free to use?",
-      answer: "Yes, SeatingPlanner is a 100% free frontend utility. You can create tables, add guests, assign seats, and export your layout to PDF or PNG directly in your browser without creating an account or paying a subscription fee."
-    },
-    {
-      question: "Where should the bride and groom sit at a wedding reception?",
-      answer: "The bride and groom traditionally sit either at a sweetheart table (just the couple) positioned centrally for full room visibility, or at a head table with the wedding party. A modern alternative is the 'King's Table' where the couple sits with their wedding party and their respective dates."
-    }
-  ];
+export const metadata = constructMetadata({
+  title: "FAQ | alfo.online",
+  description: "Frequently asked questions about alfo.online tools and services.",
+  canonicalUrl: `${siteConfig.url}/faq`
+});
 
+export default function FAQPage() {
   return (
-    <div className="min-h-screen bg-background py-20 px-6">
-      <div className="max-w-3xl mx-auto prose prose-stone">
-        <h1 className="text-4xl md:text-5xl font-heading mb-6 text-center">Expert Answers to Wedding Seating Questions</h1>
-        <p className="lead text-center text-muted-foreground mb-12">
-          Clear, concise answers to help you navigate the logistics and etiquette of arranging your reception.
-        </p>
-
-        {/* Semantic component that injects schema and renders AI-friendly chunks */}
-        <FAQBlock faqs={faqs} />
-      </div>
+    <div className="flex flex-col min-h-screen bg-background">
+      <Navbar />
+      <main className="flex-1 py-16 px-6 lg:px-12 max-w-3xl mx-auto w-full prose prose-lg">
+        <h1 className="text-4xl md:text-5xl font-heading font-medium tracking-tight mb-6">Frequently Asked Questions</h1>
+        <div className="space-y-8">
+          <div>
+            <h3 className="text-xl font-bold">Are the tools really free?</h3>
+            <p>Yes. All core functionalities of our tools are 100% free to use. We may introduce premium features in the future, but the free tier will always remain robust.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold">Do I need to create an account?</h3>
+            <p>No account is required to use most of our tools. Some tools may offer optional accounts for saving progress across devices.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold">Is my data secure?</h3>
+            <p>We take privacy seriously. Many of our tools process data locally in your browser. When server processing is required, we do not store your data beyond the immediate session.</p>
+          </div>
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }
