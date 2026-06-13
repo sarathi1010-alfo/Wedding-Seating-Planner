@@ -1,0 +1,11 @@
+
+> temp-app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 558ms
+
+○ Compiling /planner ...
+ GET /planner 200 in 8.9s (next.js: 7.7s, proxy.ts: 255ms, application-code: 913ms)
