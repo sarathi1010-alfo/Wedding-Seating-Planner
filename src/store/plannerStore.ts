@@ -1,13 +1,23 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { PlannerState, Table, Guest } from './types';
+import { PlannerState, Guest } from './types';
 
 export const usePlannerStore = create<PlannerState>()(
   persist(
-    (set) => ({
+    (set, get) => ({
+      event: {
+        id: 'default-event',
+        name: 'My Wedding',
+        theme: 'luxury',
+        venueLayout: 'ballroom',
+      },
       tables: [],
       guests: [],
       assignments: {},
+
+      updateEvent: (updates) => set((state) => ({
+        event: { ...state.event, ...updates }
+      })),
 
       addTable: (table) => set((state) => ({ tables: [...state.tables, table] })),
 
@@ -100,6 +110,103 @@ export const usePlannerStore = create<PlannerState>()(
 
         return { assignments: newAssignments };
       }),
+
+      autoArrangeGuests: () => set((state) => {
+        const newAssignments: Record<string, string> = {};
+
+        // Very basic heuristic for Phase 1 auto-arrangement:
+        // Group by 'group' tags. Seat VIPs first. Fill tables up.
+
+        // 1. Clear existing assignments
+        // 2. Sort guests (VIPs first, then grouped by family/friends)
+        const unassignedGuests = [...state.guests].sort((a, b) => {
+           if (a.isVIP && !b.isVIP) return -1;
+           if (!a.isVIP && b.isVIP) return 1;
+
+           const groupA = a.group || 'z_none';
+           const groupB = b.group || 'z_none';
+           return groupA.localeCompare(groupB);
+        });
+
+        // 3. Track available seats
+        const availableSeats: {tableId: string, seatIndex: number}[] = [];
+        state.tables.forEach(table => {
+           for (let i = 0; i < table.seats; i++) {
+               availableSeats.push({tableId: table.id, seatIndex: i});
+           }
+        });
+
+        // 4. Assign linearly
+        unassignedGuests.forEach((guest, idx) => {
+            if (idx < availableSeats.length) {
+                const seat = availableSeats[idx];
+                newAssignments[`${seat.tableId}-${seat.seatIndex}`] = guest.id;
+            }
+        });
+
+        return { assignments: newAssignments };
+      }),
+
+      detectConflicts: () => {
+         const state = get();
+         const conflicts: string[] = [];
+
+         // Helper: get guest assigned to a seat
+         const tableGuestsMap: Record<string, Guest[]> = {};
+
+         state.tables.forEach(table => {
+            tableGuestsMap[table.id] = [];
+            for (let i = 0; i < table.seats; i++) {
+                const guestId = state.assignments[`${table.id}-${i}`];
+                if (guestId) {
+                    const guest = state.guests.find(g => g.id === guestId);
+                    if (guest) tableGuestsMap[table.id].push(guest);
+                }
+            }
+         });
+
+         // Check heuristics
+         Object.keys(tableGuestsMap).forEach(tableId => {
+             const guestsAtTable = tableGuestsMap[tableId];
+             const table = state.tables.find(t => t.id === tableId);
+
+             // Conflict: Incompatible guests
+             guestsAtTable.forEach(guest => {
+                 if (guest.incompatibleWith && guest.incompatibleWith.length > 0) {
+                     guest.incompatibleWith.forEach(incId => {
+                         if (guestsAtTable.some(g => g.id === incId)) {
+                             const incGuest = guestsAtTable.find(g => g.id === incId);
+                             conflicts.push(`Conflict: ${guest.name} is seated at the same table as ${incGuest?.name || 'an incompatible guest'}.`);
+                         }
+                     });
+                 }
+             });
+
+             // Notice: VIPs at energetic tables
+             if (table?.mood === 'energetic' && guestsAtTable.some(g => g.isElder)) {
+                 conflicts.push(`Notice: Elder guest(s) are seated at an energetic table (${table.name}).`);
+             }
+         });
+
+         // Notice: Groups split
+         const groupTables: Record<string, Set<string>> = {};
+         Object.keys(tableGuestsMap).forEach(tableId => {
+             tableGuestsMap[tableId].forEach(guest => {
+                 if (guest.group) {
+                     if (!groupTables[guest.group]) groupTables[guest.group] = new Set();
+                     groupTables[guest.group].add(tableId);
+                 }
+             });
+         });
+
+         Object.keys(groupTables).forEach(group => {
+             if (groupTables[group].size > 2) {
+                 conflicts.push(`Notice: The ${group} group is split across ${groupTables[group].size} tables.`);
+             }
+         });
+
+         return conflicts;
+      }
     }),
     {
       name: 'wedding-planner-storage',
