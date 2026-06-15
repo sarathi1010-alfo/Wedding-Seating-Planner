@@ -42,6 +42,9 @@ export function constructMetadata({
     alternates: {
       canonical: canonicalUrl || siteConfig.url,
     },
+    other: {
+      monetag: "86950f5308b2a836fd804730ef0e5e7d",
+    },
     ...(noIndex && {
       robots: {
         index: false,
