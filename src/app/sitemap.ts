@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const tools = getToolsData();
   const blogs = getBlogData();
 
-  const routes: MetadataRoute.Sitemap = [
+  const rawRoutes: MetadataRoute.Sitemap = [
     {
       url: siteConfig.url,
       lastModified: new Date(),
@@ -52,23 +52,52 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
+    {
+      url: `${siteConfig.url}/contact`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: `${siteConfig.url}/faq`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: `${siteConfig.url}/privacy-policy`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: `${siteConfig.url}/terms-of-service`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
   ];
 
   // Dynamic Tool Pages
   tools.forEach((tool: any) => {
+    if (!tool || !tool.tool) return;
+    const toolSlug = encodeURIComponent(tool.tool);
+
     // Main tool page
-    routes.push({
-      url: `${siteConfig.url}/${tool.tool}`,
+    rawRoutes.push({
+      url: `${siteConfig.url}/${toolSlug}`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     });
 
     // Use Case Pages
-    if (tool.useCases) {
+    if (tool.useCases && Array.isArray(tool.useCases)) {
         tool.useCases.forEach((useCase: string) => {
-            routes.push({
-                url: `${siteConfig.url}/${tool.tool}/${useCase.toLowerCase().replace(/ /g, "-")}`,
+            if (!useCase) return;
+            const useCaseSlug = encodeURIComponent(useCase.toLowerCase().replace(/ /g, "-"));
+            rawRoutes.push({
+                url: `${siteConfig.url}/${toolSlug}/${useCaseSlug}`,
                 lastModified: new Date(),
                 changeFrequency: 'monthly',
                 priority: 0.7,
@@ -77,10 +106,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // Comparison Pages
-    if (tool.competitors) {
+    if (tool.competitors && Array.isArray(tool.competitors)) {
         tool.competitors.forEach((competitor: string) => {
-            routes.push({
-                url: `${siteConfig.url}/${tool.tool}/vs/${competitor.toLowerCase()}`,
+            if (!competitor) return;
+            const competitorSlug = encodeURIComponent(competitor.toLowerCase());
+            rawRoutes.push({
+                url: `${siteConfig.url}/${toolSlug}/vs/${competitorSlug}`,
                 lastModified: new Date(),
                 changeFrequency: 'monthly',
                 priority: 0.7,
@@ -89,10 +120,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // Template Pages
-    if (tool.templates) {
+    if (tool.templates && Array.isArray(tool.templates)) {
         tool.templates.forEach((template: string) => {
-            routes.push({
-                url: `${siteConfig.url}/${tool.tool}/templates/${template.toLowerCase()}`,
+            if (!template) return;
+            const templateSlug = encodeURIComponent(template.toLowerCase());
+            rawRoutes.push({
+                url: `${siteConfig.url}/${toolSlug}/templates/${templateSlug}`,
                 lastModified: new Date(),
                 changeFrequency: 'monthly',
                 priority: 0.6,
@@ -103,13 +136,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Dynamic Blog Pages
   blogs.forEach((blog: any) => {
-    routes.push({
-      url: `${siteConfig.url}/blog/${blog.slug}`,
+    if (!blog || !blog.slug) return;
+    const blogSlug = encodeURIComponent(blog.slug);
+    rawRoutes.push({
+      url: `${siteConfig.url}/blog/${blogSlug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     });
   });
 
-  return routes;
+  // Deduplicate and filter out undefined/null URLs
+  const uniqueUrls = new Set<string>();
+  const finalRoutes: MetadataRoute.Sitemap = [];
+
+  for (const route of rawRoutes) {
+    if (!route.url) continue;
+
+    // Check if the URL contains literally "undefined" or "null" which happens if a variable wasn't defined correctly
+    if (route.url.includes('undefined') || route.url.includes('null')) continue;
+
+    // Must be https
+    if (!route.url.startsWith('https://')) continue;
+
+    if (!uniqueUrls.has(route.url)) {
+      uniqueUrls.add(route.url);
+      finalRoutes.push(route);
+    }
+  }
+
+  return finalRoutes;
 }

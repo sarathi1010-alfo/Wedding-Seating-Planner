@@ -1,5 +1,13 @@
 import { Navbar } from "@/components/shared/Navbar";
 import { Footer } from "@/components/shared/Footer";
+import { constructMetadata } from "@/lib/seo";
+import { siteConfig } from "@/config/site";
+
+export const metadata = constructMetadata({
+  title: "About | alfo.online",
+  description: "Learn more about alfo.online, an ecosystem of free, privacy-first web utilities.",
+  canonicalUrl: `${siteConfig.url}/about`
+});
 
 export default function AboutPage() {
   return (
