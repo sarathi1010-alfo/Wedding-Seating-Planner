@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
 
   const keyword = `${tool.name} for ${originalUseCase}`;
   const fullTitle = `${keyword} | alfo.online`;
-  const canonicalUrl = `${siteConfig.url}/${tool.tool}/${params.use_case}`;
+  const canonicalUrl = `/${tool.tool}/${params.use_case}`;
   const description = `Learn how to use ${tool.name} specifically for ${originalUseCase}. ${tool.description}`;
 
   return constructMetadata({

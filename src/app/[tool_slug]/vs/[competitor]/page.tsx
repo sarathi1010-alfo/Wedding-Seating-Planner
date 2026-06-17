@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
 
   const keyword = `${tool.name} vs ${competitor}`;
   const fullTitle = `${keyword} — Which is better? | alfo.online`;
-  const canonicalUrl = `${siteConfig.url}/${tool.tool}/vs/${params.competitor}`;
+  const canonicalUrl = `/${tool.tool}/vs/${params.competitor}`;
   const description = `Thinking about using ${competitor}? See why ${tool.name} is the better free alternative. Compare features, pricing, and ease of use.`;
 
   return constructMetadata({

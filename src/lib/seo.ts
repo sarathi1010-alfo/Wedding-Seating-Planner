@@ -1,23 +1,33 @@
-import { siteConfig } from "@/config/site";
 import { Metadata } from "next";
+import { seoConfig } from "@/config/seo.config";
+import { generateCanonicalUrl } from "./seo/url-utils";
 
-export function constructMetadata({
-  title = siteConfig.name,
-  description = siteConfig.description,
-  image = `${siteConfig.url}/og.jpg`,
-  icons = "/favicon.ico",
-  noIndex = false,
-  canonicalUrl,
-}: {
+interface MetadataProps {
   title?: string;
   description?: string;
   image?: string;
   icons?: string;
   noIndex?: boolean;
   canonicalUrl?: string;
-} = {}): Metadata {
+}
+
+export function constructMetadata({
+  title = seoConfig.defaultTitle,
+  description = seoConfig.defaultDescription,
+  image = seoConfig.openGraph.images[0].url,
+  icons = "/favicon.ico",
+  noIndex = false,
+  canonicalUrl,
+}: MetadataProps = {}): Metadata {
+
+  // Auto-generate canonical URL correctly based on provided or default
+  const normalizedCanonical = generateCanonicalUrl(canonicalUrl || seoConfig.siteUrl);
+
   return {
-    title,
+    title: {
+      default: title,
+      template: seoConfig.titleTemplate,
+    },
     description,
     openGraph: {
       title,
@@ -27,29 +37,30 @@ export function constructMetadata({
           url: image,
         },
       ],
-      url: canonicalUrl || siteConfig.url,
+      url: normalizedCanonical,
       type: "website",
+      siteName: seoConfig.openGraph.siteName,
+      locale: seoConfig.openGraph.locale,
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
       images: [image],
-      creator: "@alfo_online",
+      creator: seoConfig.twitter.handle,
+      site: seoConfig.twitter.site,
     },
     icons,
-    metadataBase: new URL(siteConfig.url),
+    metadataBase: new URL(seoConfig.siteUrl),
     alternates: {
-      canonical: canonicalUrl || siteConfig.url,
+      canonical: normalizedCanonical,
     },
     other: {
       monetag: "86950f5308b2a836fd804730ef0e5e7d",
     },
-    ...(noIndex && {
-      robots: {
-        index: false,
-        follow: false,
-      },
-    }),
+    robots: noIndex ? {
+      index: false,
+      follow: false,
+    } : seoConfig.robots,
   };
 }

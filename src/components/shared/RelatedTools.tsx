@@ -9,12 +9,12 @@ interface Tool {
 }
 
 const ALL_TOOLS: Tool[] = [
-  { name: "QR Generator", description: "Create document sharing QR codes.", url: "https://hub.alfo.online/qr-generator", tag: "productivity" },
-  { name: "Image Compressor", description: "Reduce image file sizes instantly.", url: "https://hub.alfo.online/image-compressor", tag: "media" },
-  { name: "Resume Forge", description: "Build professional resumes in minutes.", url: "https://hub.alfo.online/resume-forge", tag: "document" },
-  { name: "Palette Flow", description: "Generate beautiful color palettes.", url: "https://hub.alfo.online/palette-flow", tag: "design" },
-  { name: "Pack Fit", description: "Calculate luggage and packing needs.", url: "https://hub.alfo.online/pack-fit", tag: "lifestyle" },
-  { name: "Brand Forge", description: "Apply colors to your brand kit.", url: "https://hub.alfo.online/brand-forge", tag: "design" },
+  { name: "QR Generator", description: "Create document sharing QR codes.", url: "/qr-generator", tag: "productivity" },
+  { name: "Image Compressor", description: "Reduce image file sizes instantly.", url: "/image-compressor", tag: "media" },
+  { name: "Resume Forge", description: "Build professional resumes in minutes.", url: "/resume-forge", tag: "document" },
+  { name: "Palette Flow", description: "Generate beautiful color palettes.", url: "/palette-flow", tag: "design" },
+  { name: "Pack Fit", description: "Calculate luggage and packing needs.", url: "/pack-fit", tag: "lifestyle" },
+  { name: "Brand Forge", description: "Apply colors to your brand kit.", url: "/brand-forge", tag: "design" },
 ];
 
 export function RelatedTools({ currentTag }: { currentTag: string }) {

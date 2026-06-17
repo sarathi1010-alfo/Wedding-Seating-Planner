@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 export const metadata = constructMetadata({
   title: "Terms of Service | alfo.online",
   description: "Terms of service for using alfo.online web utilities.",
-  canonicalUrl: `${siteConfig.url}/terms-of-service`
+  canonicalUrl: "/terms-of-service"
 });
 
 export default function TermsOfServicePage() {

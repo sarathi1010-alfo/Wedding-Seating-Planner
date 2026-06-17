@@ -1,6 +1,6 @@
 import { constructMetadata } from "./seo";
 import { Metadata } from "next";
-import { siteConfig } from "@/config/site";
+import { generateCanonicalUrl } from "./seo/url-utils";
 
 export interface ToolData {
   tool_name: string;
@@ -41,11 +41,8 @@ export function generateToolMetadata(tool: ToolData): Metadata {
     .sort((a, b) => b.length - a.length)[0] || descriptionVariants[0];
 
   // Canonical URL
-  const canonicalUrl = `${siteConfig.url}/tools/${cluster.toLowerCase()}/${slug.toLowerCase()}`;
-
-  // OG Data
-  const ogTitle = `${tool_name} - Free Online Tool`;
-  const ogDescription = `Free online tool to ${primary_action.toLowerCase()} ${input_type.toLowerCase()}. ${key_benefit}.`;
+  const canonicalPath = `/tools/${cluster.toLowerCase()}/${slug.toLowerCase()}`;
+  const canonicalUrl = generateCanonicalUrl(canonicalPath);
 
   return constructMetadata({
     title: optimizedTitle,
