@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 export const metadata = constructMetadata({
   title: "Privacy Policy | alfo.online",
   description: "Privacy policy for alfo.online. Learn how we handle your data.",
-  canonicalUrl: `${siteConfig.url}/privacy-policy`
+  canonicalUrl: "/privacy-policy"
 });
 
 export default function PrivacyPolicyPage() {

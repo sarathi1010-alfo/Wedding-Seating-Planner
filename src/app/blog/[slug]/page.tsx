@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!blog) return {};
 
   const fullTitle = `${blog.title} | alfo.online Blog`;
-  const canonicalUrl = `${siteConfig.url}/blog/${params.slug}`;
+  const canonicalUrl = `/blog/${params.slug}`;
 
   return constructMetadata({
     title: fullTitle,

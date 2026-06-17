@@ -9,7 +9,7 @@ import { siteConfig } from "@/config/site";
 export const metadata = constructMetadata({
   title: "Wedding Seating Planner | Design your perfect layout",
   description: "Design your perfect wedding seating chart in minutes — visually, beautifully, stress-free.",
-  canonicalUrl: siteConfig.url
+  canonicalUrl: "/"
 });
 
 export default function Home() {

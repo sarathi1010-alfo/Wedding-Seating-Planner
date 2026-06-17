@@ -17,11 +17,11 @@ export function Navbar() {
             Related Tools ▾
           </span>
           <div className="absolute top-full right-0 mt-2 w-48 bg-card border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col p-2">
-            <Link href="https://hub.alfo.online/qr-generator" className="p-2 hover:bg-muted rounded text-foreground text-sm">QR Generator</Link>
-            <Link href="https://hub.alfo.online/image-compressor" className="p-2 hover:bg-muted rounded text-foreground text-sm">Image Compressor</Link>
-            <Link href="https://hub.alfo.online/resume-forge" className="p-2 hover:bg-muted rounded text-foreground text-sm">Resume Forge</Link>
-            <Link href="https://hub.alfo.online/palette-flow" className="p-2 hover:bg-muted rounded text-foreground text-sm">Palette Flow</Link>
-            <Link href="https://hub.alfo.online/pack-fit" className="p-2 hover:bg-muted rounded text-foreground text-sm">Pack Fit</Link>
+            <Link href="/qr-generator" className="p-2 hover:bg-muted rounded text-foreground text-sm">QR Generator</Link>
+            <Link href="/" className="p-2 hover:bg-muted rounded text-foreground text-sm">Image Compressor</Link>
+            <Link href="/resume-forge" className="p-2 hover:bg-muted rounded text-foreground text-sm">Resume Forge</Link>
+            <Link href="/" className="p-2 hover:bg-muted rounded text-foreground text-sm">Palette Flow</Link>
+            <Link href="/" className="p-2 hover:bg-muted rounded text-foreground text-sm">Pack Fit</Link>
           </div>
         </div>
         <Link href="/blog" className="hover:text-primary transition-colors text-muted-foreground">Blog</Link>

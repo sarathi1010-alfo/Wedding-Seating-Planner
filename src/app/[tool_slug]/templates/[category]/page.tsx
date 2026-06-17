@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
 
   const cleanTemplateName = template.split('-').join(' ');
   const fullTitle = `${cleanTemplateName} Template | Free ${tool.name} | alfo.online`;
-  const canonicalUrl = `${siteConfig.url}/${tool.tool}/templates/${params.category}`;
+  const canonicalUrl = `/${tool.tool}/templates/${params.category}`;
   const description = `Get a free, customizable ${cleanTemplateName} template. Use ${tool.name} to modify and download it instantly without an account.`;
 
   return constructMetadata({

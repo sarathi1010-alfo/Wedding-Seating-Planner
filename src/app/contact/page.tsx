@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 export const metadata = constructMetadata({
   title: "Contact | alfo.online",
   description: "Get in touch with the alfo.online team for support, feedback, or business inquiries.",
-  canonicalUrl: `${siteConfig.url}/contact`
+  canonicalUrl: "/contact"
 });
 
 export default function ContactPage() {

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
   if (!tool) return {};
 
   const fullTitle = `${tool.name} — ${tool.keywords[0] || tool.name} | alfo.online`;
-  const canonicalUrl = `${siteConfig.url}/${tool.tool}`;
+  const canonicalUrl = `/${tool.tool}`;
 
   return constructMetadata({
     title: fullTitle,

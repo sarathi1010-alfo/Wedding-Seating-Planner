@@ -16,11 +16,11 @@ export function Footer() {
 
         <div className="flex flex-col gap-2 text-sm">
           <h4 className="font-semibold text-foreground mb-2">Tools Hub</h4>
-          <Link href="https://hub.alfo.online/qr-generator" className="text-muted-foreground hover:text-foreground transition-colors">QR Generator</Link>
-          <Link href="https://hub.alfo.online/resume-forge" className="text-muted-foreground hover:text-foreground transition-colors">Resume Forge</Link>
-          <Link href="https://hub.alfo.online/palette-flow" className="text-muted-foreground hover:text-foreground transition-colors">Palette Flow</Link>
-          <Link href="https://hub.alfo.online/pack-fit" className="text-muted-foreground hover:text-foreground transition-colors">Pack Fit</Link>
-          <Link href="https://hub.alfo.online/emi-calculator" className="text-muted-foreground hover:text-foreground transition-colors">EMI Calculator</Link>
+          <Link href="/qr-generator" className="text-muted-foreground hover:text-foreground transition-colors">QR Generator</Link>
+          <Link href="/resume-forge" className="text-muted-foreground hover:text-foreground transition-colors">Resume Forge</Link>
+          <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">Palette Flow</Link>
+          <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">Pack Fit</Link>
+          <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">EMI Calculator</Link>
         </div>
 
         <div className="flex flex-col gap-2 text-sm">
