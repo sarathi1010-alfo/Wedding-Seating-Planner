@@ -23,9 +23,20 @@ function getBlogData() {
   }
 }
 
+function getTableGuidesData() {
+  try {
+    const filePath = path.join(process.cwd(), "src/data/table-guides-data.json");
+    if (!fs.existsSync(filePath)) return [];
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (e) {
+    return [];
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const tools = getToolsData();
   const blogs = getBlogData();
+  const tableGuides = getTableGuidesData();
 
   const rawRoutes: MetadataRoute.Sitemap = [
     {
@@ -143,6 +154,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    });
+  });
+
+  // Dynamic Table Guide Pages
+  tableGuides.forEach((guide: any) => {
+    if (!guide || !guide.slug) return;
+    const guideSlug = encodeURIComponent(guide.slug);
+    rawRoutes.push({
+      url: `${siteConfig.url}/guides/tables/${guideSlug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
     });
   });
 

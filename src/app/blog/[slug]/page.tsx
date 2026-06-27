@@ -8,6 +8,7 @@ import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
 import { constructMetadata } from "@/lib/seo";
 import { siteConfig } from "@/config/site";
+import { generateArticleSchema } from "@/lib/schema-utils";
 
 function getBlogData() {
   const filePath = path.join(process.cwd(), "src/data/blog-data.json");
@@ -52,24 +53,15 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   const tools = getToolsData();
   const relatedTool = tools.find((t: any) => t.tool === blog.tool_slug);
 
-  const schemaJSON = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": blog.title,
-    "description": blog.excerpt,
-    "author": {
-      "@type": "Organization",
-      "name": "alfo.online"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "alfo.online"
-    }
-  };
+  const articleSchema = generateArticleSchema({
+    title: blog.title,
+    description: blog.excerpt,
+    url: `${siteConfig.url}/blog/${blog.slug}`
+  });
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <SchemaBlock schemaJSON={schemaJSON} />
+      <SchemaBlock schemaJSON={articleSchema} />
       <Navbar />
 
       <main className="flex-1 py-16 px-6 lg:px-12 max-w-3xl mx-auto w-full">

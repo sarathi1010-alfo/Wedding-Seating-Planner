@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "60-inch-round-table-seating",
+    "title": "60\" Round Table Seating Guide — Capacity and Layouts",
+    "table_type": "60\" Round",
+    "description": "Learn how many guests comfortably fit at a 60-inch round table and explore the best layout ideas for your wedding reception.",
+    "aeo_answer": "A 60-inch round table can comfortably seat 8 guests. While you can fit 10 guests maximum, it will feel tight and limit table decor. It is the most common and versatile table size for wedding receptions.",
+    "capacity": {
+      "minimum": 6,
+      "comfortable": 8,
+      "maximum": 10
+    },
+    "best_for": ["Classic wedding receptions", "Square venues", "Encouraging conversation"],
+    "pros": ["Encourages cross-table conversation", "Easy to navigate around", "Standard size for rental linens"],
+    "cons": ["Takes up more floor space per guest than long tables", "Large centerpieces can block views"],
+    "faqs": [
+      {
+        "question": "How many chairs fit around a 60-inch round table?",
+        "answer": "You can comfortably fit 8 chairs around a 60-inch round table. Pushing it to 10 chairs is possible but will be cramped."
+      },
+      {
+        "question": "What size tablecloth do I need for a 60-inch round table?",
+        "answer": "For a floor-length drop, you will need a 120-inch round tablecloth. For a lap-length drop, a 90-inch round tablecloth works well."
+      }
+    ]
+  },
+  {
+    "slug": "72-inch-round-table-seating",
+    "title": "72\" Round Table Seating Guide — Guests, Layouts & Spacing",
+    "table_type": "72\" Round",
+    "description": "Discover the optimal seating arrangements and capacity for 72-inch round banquet tables at your wedding or event.",
+    "aeo_answer": "A 72-inch round table comfortably seats 10 guests. You can maximize it to 12 guests for a tighter fit, or seat 8 for a more spacious, formal dining experience. It's ideal for large ballrooms.",
+    "capacity": {
+      "minimum": 8,
+      "comfortable": 10,
+      "maximum": 12
+    },
+    "best_for": ["Large ballrooms", "Formal gala dinners", "Maximizing guest count with fewer tables"],
+    "pros": ["Seats more guests per table", "Allows for grand, tall centerpieces", "Reduces total number of tables needed"],
+    "cons": ["Harder for guests across the table to converse", "Requires large floor space"],
+    "faqs": [
+      {
+        "question": "How many people does a 72-inch round table seat?",
+        "answer": "A 72-inch round table seats 10 people comfortably, but can hold up to 12 if you are trying to maximize space."
+      },
+      {
+        "question": "What size linen goes on a 72-inch round table?",
+        "answer": "You need a 132-inch round linen to reach the floor on a standard 30-inch high 72-inch round table."
+      }
+    ]
+  },
+  {
+    "slug": "8ft-long-table-seating",
+    "title": "8ft Long Table Seating Guide — Family Style Layouts",
+    "table_type": "8ft Long Rectangular",
+    "description": "Everything you need to know about seating guests at 8-foot long rectangular tables, from capacity to centerpiece ideas.",
+    "aeo_answer": "An 8-foot long rectangular table comfortably seats 8 guests (4 on each side). You can fit 10 guests if you add one chair to each end. This table style is perfect for rustic, family-style dining.",
+    "capacity": {
+      "minimum": 8,
+      "comfortable": 8,
+      "maximum": 10
+    },
+    "best_for": ["Rustic or bohemian weddings", "Tents and narrow venues", "Family-style meal service"],
+    "pros": ["Excellent for narrow spaces", "Creates an intimate, communal dining feel", "Great for garland or runner-style centerpieces"],
+    "cons": ["Conversation is limited to immediate neighbors", "Can feel crowded with lots of glassware and plates"],
+    "faqs": [
+      {
+        "question": "How many people can sit at an 8-foot rectangular table?",
+        "answer": "An 8-foot rectangular table seats 8 to 10 people. You can seat 4 on each long side, and optionally 1 on each end."
+      },
+      {
+        "question": "Can you put two 8-foot tables together?",
+        "answer": "Yes, you can line them up end-to-end to create extra-long banquet tables, which is very popular for modern and rustic weddings."
+      }
+    ]
+  }
+]
