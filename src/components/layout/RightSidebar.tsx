@@ -10,7 +10,7 @@ interface RightSidebarProps {
 }
 
 export function RightSidebar({ selectedTableId }: RightSidebarProps) {
-  const { tables, addTable, updateTable, removeTable, assignments, guests, unassignGuest } = usePlannerStore();
+  const { tables, addTable, updateTable, removeTable, assignments, guests, unassignGuest, roomShape, updateRoomShape, addObstacle } = usePlannerStore();
 
   // Track selected guest (optional enhancement for Phase 2, but for now we focus on tables)
   // When a table is selected, we can list its seated guests.
@@ -40,8 +40,38 @@ export function RightSidebar({ selectedTableId }: RightSidebarProps) {
       };
     }) : [];
 
+  const handleAddObstacle = () => {
+    addObstacle({
+      id: `obs-${Date.now()}`,
+      x: 350,
+      y: 350,
+      width: 100,
+      height: 100,
+      type: 'generic'
+    });
+  };
+
   return (
-    <div className="w-72 border-l border-border bg-card flex flex-col h-full z-10 relative">
+    <div className="w-72 border-l border-border bg-card flex flex-col h-full z-10 relative overflow-y-auto">
+      <div className="p-4 border-b border-border">
+        <h3 className="font-heading font-medium text-lg mb-4">Room Layout</h3>
+        <div className="mb-4">
+          <label className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2 block">Room Shape</label>
+          <select
+            value={roomShape}
+            onChange={(e) => updateRoomShape(e.target.value as any)}
+            className="w-full p-2 text-sm rounded-md border border-border bg-background focus:outline-none focus:ring-1 focus:ring-primary"
+          >
+            <option value="rectangle">Rectangle</option>
+            <option value="square">Square</option>
+            <option value="round">Round</option>
+            <option value="l-shaped">L-Shaped</option>
+          </select>
+        </div>
+        <Button variant="outline" onClick={handleAddObstacle} className="w-full mb-4">
+          + Add Obstacle
+        </Button>
+      </div>
       <div className="p-4 border-b border-border">
         <h3 className="font-heading font-medium text-lg mb-4">Add Tables</h3>
         <div className="grid grid-cols-2 gap-2">
@@ -56,7 +86,7 @@ export function RightSidebar({ selectedTableId }: RightSidebarProps) {
         </div>
       </div>
 
-      <div className="p-4 flex-1 overflow-y-auto">
+      <div className="p-4 flex-1">
         <h3 className="font-heading font-medium text-lg mb-4 text-foreground">Inspector</h3>
 
         {selectedTable ? (

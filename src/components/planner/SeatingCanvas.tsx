@@ -11,7 +11,7 @@ interface SeatingCanvasProps {
 }
 
 export function SeatingCanvas({ onSelectTable, selectedTableId }: SeatingCanvasProps) {
-  const { tables, updateTable, assignments, assignGuestToSeat, guests } = usePlannerStore();
+  const { tables, updateTable, assignments, assignGuestToSeat, guests, roomShape, obstacles, updateObstacle } = usePlannerStore();
   const stageRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
@@ -32,11 +32,50 @@ export function SeatingCanvas({ onSelectTable, selectedTableId }: SeatingCanvasP
   }, []);
 
   const handleDragEndTable = (e: any, id: string) => {
+    const newX = e.target.x();
+    const newY = e.target.y();
+    const table = tables.find(t => t.id === id);
+    if (!table) return;
+
+    // Simple bounding box for table (rough approximation using TABLE_RADIUS / RECT_WIDTH)
+    const tw = table.shape === 'round' ? TABLE_RADIUS * 2 : RECT_WIDTH;
+    const th = table.shape === 'round' ? TABLE_RADIUS * 2 : RECT_HEIGHT;
+    const tx = table.shape === 'round' ? newX - TABLE_RADIUS : newX - RECT_WIDTH / 2;
+    const ty = table.shape === 'round' ? newY - TABLE_RADIUS : newY - RECT_HEIGHT / 2;
+
+    // Check collision with any obstacle
+    let hasCollision = false;
+    for (const obs of obstacles) {
+      if (
+        tx < obs.x + obs.width &&
+        tx + tw > obs.x &&
+        ty < obs.y + obs.height &&
+        ty + th > obs.y
+      ) {
+        hasCollision = true;
+        break;
+      }
+    }
+
+    if (hasCollision) {
+      // Revert position by resetting target position to previous
+      e.target.x(table.position.x);
+      e.target.y(table.position.y);
+      return; // Do not update store
+    }
+
     updateTable(id, {
       position: {
-        x: e.target.x(),
-        y: e.target.y()
+        x: newX,
+        y: newY
       }
+    });
+  };
+
+  const handleDragEndObstacle = (e: any, id: string) => {
+    updateObstacle(id, {
+      x: e.target.x(),
+      y: e.target.y()
     });
   };
 
@@ -312,6 +351,54 @@ export function SeatingCanvas({ onSelectTable, selectedTableId }: SeatingCanvasP
         ref={stageRef}
       >
         <Layer>
+          {/* Render Room Shape Background */}
+          {roomShape === 'rectangle' && (
+            <Rect x={100} y={100} width={dimensions.width - 200} height={dimensions.height - 200} stroke="#E8E2DA" strokeWidth={2} dash={[10, 10]} />
+          )}
+          {roomShape === 'square' && (
+            <Rect x={dimensions.width/2 - 250} y={dimensions.height/2 - 250} width={500} height={500} stroke="#E8E2DA" strokeWidth={2} dash={[10, 10]} />
+          )}
+          {roomShape === 'round' && (
+            <Circle x={dimensions.width/2} y={dimensions.height/2} radius={300} stroke="#E8E2DA" strokeWidth={2} dash={[10, 10]} />
+          )}
+          {roomShape === 'l-shaped' && (
+            <Group x={100} y={100}>
+               <Rect x={0} y={0} width={200} height={400} stroke="#E8E2DA" strokeWidth={2} dash={[10, 10]} />
+               <Rect x={200} y={200} width={200} height={200} stroke="#E8E2DA" strokeWidth={2} dash={[10, 10]} />
+            </Group>
+          )}
+
+          {/* Render Obstacles */}
+          {obstacles.map(obs => (
+            <Group
+              key={obs.id}
+              x={obs.x}
+              y={obs.y}
+              draggable
+              onDragEnd={(e) => handleDragEndObstacle(e, obs.id)}
+            >
+              <Rect
+                width={obs.width}
+                height={obs.height}
+                fill="#f8d7da"
+                stroke="#f5c2c7"
+                strokeWidth={2}
+                cornerRadius={4}
+                opacity={0.8}
+              />
+              <Text
+                text="Obstacle"
+                width={obs.width}
+                height={obs.height}
+                align="center"
+                verticalAlign="middle"
+                fill="#842029"
+                fontSize={12}
+                fontFamily="Inter"
+              />
+            </Group>
+          ))}
+
           {tables.map(renderTable)}
         </Layer>
       </Stage>

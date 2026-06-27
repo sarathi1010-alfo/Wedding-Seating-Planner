@@ -14,9 +14,21 @@ export const usePlannerStore = create<PlannerState>()(
       tables: [],
       guests: [],
       assignments: {},
+      roomShape: 'rectangle',
+      obstacles: [],
 
       updateEvent: (updates) => set((state) => ({
         event: { ...state.event, ...updates }
+      })),
+
+      updateRoomShape: (shape) => set({ roomShape: shape }),
+
+      addObstacle: (obs) => set((state) => ({ obstacles: [...state.obstacles, obs] })),
+
+      removeObstacle: (id) => set((state) => ({ obstacles: state.obstacles.filter(o => o.id !== id) })),
+
+      updateObstacle: (id, updates) => set((state) => ({
+        obstacles: state.obstacles.map(o => o.id === id ? { ...o, ...updates } : o)
       })),
 
       addTable: (table) => set((state) => ({ tables: [...state.tables, table] })),
@@ -114,34 +126,74 @@ export const usePlannerStore = create<PlannerState>()(
       autoArrangeGuests: () => set((state) => {
         const newAssignments: Record<string, string> = {};
 
-        // Very basic heuristic for Phase 1 auto-arrangement:
-        // Group by 'group' tags. Seat VIPs first. Fill tables up.
-
-        // 1. Clear existing assignments
-        // 2. Sort guests (VIPs first, then grouped by family/friends)
-        const unassignedGuests = [...state.guests].sort((a, b) => {
-           if (a.isVIP && !b.isVIP) return -1;
-           if (!a.isVIP && b.isVIP) return 1;
-
-           const groupA = a.group || 'z_none';
-           const groupB = b.group || 'z_none';
-           return groupA.localeCompare(groupB);
+        // 1. Group guests by their `group` tag
+        const groupedGuests: Record<string, Guest[]> = {};
+        state.guests.forEach(guest => {
+          const groupName = guest.group || 'Ungrouped';
+          if (!groupedGuests[groupName]) {
+            groupedGuests[groupName] = [];
+          }
+          groupedGuests[groupName].push(guest);
         });
 
-        // 3. Track available seats
-        const availableSeats: {tableId: string, seatIndex: number}[] = [];
-        state.tables.forEach(table => {
-           for (let i = 0; i < table.seats; i++) {
-               availableSeats.push({tableId: table.id, seatIndex: i});
-           }
-        });
+        // 2. Sort groups (VIPs can be prioritized later if needed, simple logic for now)
+        const groups = Object.values(groupedGuests);
 
-        // 4. Assign linearly
-        unassignedGuests.forEach((guest, idx) => {
-            if (idx < availableSeats.length) {
-                const seat = availableSeats[idx];
-                newAssignments[`${seat.tableId}-${seat.seatIndex}`] = guest.id;
+        // Track available seats per table
+        const tablesWithSeats = state.tables.map(t => ({
+          id: t.id,
+          totalSeats: t.seats,
+          availableSeats: t.seats,
+          assignedCount: 0
+        }));
+
+        let currentTableIndex = 0;
+
+        const assignGuest = (guestId: string) => {
+          if (currentTableIndex >= tablesWithSeats.length) return false;
+
+          let table = tablesWithSeats[currentTableIndex];
+          if (table.availableSeats <= 0) {
+            currentTableIndex++;
+            if (currentTableIndex >= tablesWithSeats.length) return false;
+            table = tablesWithSeats[currentTableIndex];
+          }
+
+          const seatIndex = table.totalSeats - table.availableSeats;
+          newAssignments[`${table.id}-${seatIndex}`] = guestId;
+          table.availableSeats--;
+          table.assignedCount++;
+          return true;
+        };
+
+        groups.forEach(group => {
+          const processed = new Set<string>();
+
+          group.forEach(guest => {
+            if (processed.has(guest.id)) return;
+
+            // Check if there is enough room at the current table for a pair
+            if (guest.pairedWith && !processed.has(guest.pairedWith)) {
+               const table = tablesWithSeats[currentTableIndex];
+               if (table && table.availableSeats < 2) {
+                 // Move to next table if current table doesn't have 2 seats
+                 currentTableIndex++;
+               }
             }
+
+            assignGuest(guest.id);
+            processed.add(guest.id);
+
+            if (guest.pairedWith && !processed.has(guest.pairedWith)) {
+              assignGuest(guest.pairedWith);
+              processed.add(guest.pairedWith);
+            }
+          });
+
+          // Strategy: Try not to split groups too much,
+          // if we moved to a new group, we can just continue on the current table
+          // to fill it up, or we can move to a new table.
+          // For simple layout, we just fill linearly.
         });
 
         return { assignments: newAssignments };
@@ -206,7 +258,16 @@ export const usePlannerStore = create<PlannerState>()(
          });
 
          return conflicts;
-      }
+      },
+
+      toggleCheckIn: (guestId) => set((state) => ({
+        guests: state.guests.map(g => {
+          if (g.id === guestId) {
+            return { ...g, checkInStatus: g.checkInStatus === 'checked_in' ? 'pending' : 'checked_in' };
+          }
+          return g;
+        })
+      }))
     }),
     {
       name: 'wedding-planner-storage',
