@@ -3,6 +3,18 @@ export type TableMood = 'quiet' | 'energetic' | 'family' | 'networking' | 'mixed
 export type VenueLayout = 'ballroom' | 'outdoor_garden' | 'banquet_hall' | 'rooftop' | 'conference';
 export type EventTheme = 'luxury' | 'minimalist' | 'floral' | 'royal' | 'beach' | 'traditional' | 'modern';
 
+export type RoomShape = 'rectangle' | 'square' | 'round' | 'l-shaped';
+
+export interface Obstacle {
+  id: string;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  type: string;
+  name?: string;
+}
+
 export interface Position {
   x: number;
   y: number;
@@ -31,6 +43,7 @@ export interface Guest {
   isElder?: boolean;
   dietary?: string;
   incompatibleWith?: string[]; // Array of Guest IDs this guest shouldn't sit with
+  pairedWith?: string; // ID of a guest they must sit with
   rsvpStatus?: RSVPStatus;
   checkInStatus?: CheckInStatus;
 }
@@ -52,8 +65,16 @@ export interface PlannerState {
   guests: Guest[];
   assignments: Assignments;
 
+  roomShape: RoomShape;
+  obstacles: Obstacle[];
+
   // Event Actions
   updateEvent: (updates: Partial<EventMetadata>) => void;
+
+  updateRoomShape: (shape: RoomShape) => void;
+  addObstacle: (obs: Obstacle) => void;
+  removeObstacle: (id: string) => void;
+  updateObstacle: (id: string, updates: Partial<Obstacle>) => void;
 
   // Actions
   addTable: (table: Table) => void;
@@ -71,4 +92,6 @@ export interface PlannerState {
   // Smart Tools
   autoArrangeGuests: () => void;
   detectConflicts: () => string[]; // Returns array of conflict warning messages
+
+  toggleCheckIn: (guestId: string) => void;
 }
