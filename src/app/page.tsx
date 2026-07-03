@@ -33,7 +33,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-16 w-full max-w-5xl mx-auto rounded-xl shadow-2xl border border-border overflow-hidden bg-card h-[500px] flex items-center justify-center">
+          <div id="demo" className="mt-16 w-full max-w-5xl mx-auto rounded-xl shadow-2xl border border-border overflow-hidden bg-card h-[500px] flex items-center justify-center">
             <div className="text-muted-foreground text-lg">Interactive Planner Demo View</div>
           </div>
         </section>

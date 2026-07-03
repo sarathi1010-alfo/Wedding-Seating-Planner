@@ -1,0 +1,112 @@
+{
+  "styles": [
+    {
+      "slug": "rustic-barn-seating",
+      "title": "Rustic Barn Wedding Seating Layouts",
+      "h1": "How to Plan Seating for a Rustic Barn Wedding",
+      "description": "Discover how to arrange seating in a rustic barn venue. Focus on long wooden tables and open floor plans.",
+      "faqs": [
+        {
+          "question": "What are the best tables for a barn wedding?",
+          "answer": "Long rectangular farmhouse tables are the most popular choice for barn weddings as they complement the rustic aesthetic and encourage communal dining."
+        },
+        {
+          "question": "How do I handle pillars in a barn?",
+          "answer": "Use pillars as natural dividers between the dining area and the dance floor, and ensure tables are spaced at least 60 inches away from any structural supports."
+        }
+      ]
+    },
+    {
+      "slug": "ballroom-elegance",
+      "title": "Ballroom Elegance: Formal Wedding Seating",
+      "h1": "Elegant Ballroom Wedding Seating Strategies",
+      "description": "Master the art of formal seating in grand ballrooms with round tables and sophisticated layouts.",
+      "faqs": [
+        {
+          "question": "How many people fit at a standard ballroom table?",
+          "answer": "Most ballrooms use 60-inch round tables which seat 8 guests comfortably, or 72-inch rounds which can accommodate 10 to 12 guests."
+        },
+        {
+          "question": "Where should the head table be placed in a ballroom?",
+          "answer": "The head table should be the focal point, typically placed against a main wall or on a riser facing the dance floor and the rest of the guests."
+        }
+      ]
+    }
+  ],
+  "guest-counts": [
+    {
+      "slug": "intimate-50-guests",
+      "title": "Intimate Wedding Seating: 50 Guests",
+      "h1": "Seating Chart Ideas for Intimate Weddings of 50 Guests",
+      "description": "Small weddings offer unique seating opportunities. Explore layouts for 50 guests that feel cozy and connected.",
+      "faqs": [
+        {
+          "question": "What is the best layout for 50 guests?",
+          "answer": "A U-shaped table or one long continuous table is excellent for 50 guests, as it allows everyone to see each other and feels like a large family dinner."
+        }
+      ]
+    },
+    {
+      "slug": "medium-150-guests",
+      "title": "Seating Charts for 150 Guests",
+      "h1": "Optimal Seating Layouts for 150-Guest Weddings",
+      "description": "The 150-guest wedding is the most common size. Learn how to balance groups and ensure smooth flow.",
+      "faqs": [
+        {
+          "question": "How many tables do I need for 150 guests?",
+          "answer": "For 150 guests, you will need approximately 19 tables of 8 guests each, or 15 tables of 10 guests each."
+        }
+      ]
+    },
+    {
+      "slug": "large-300-guests",
+      "title": "Large Wedding Seating: 300+ Guests",
+      "h1": "Managing Seating for Large Receptions of 300 Guests",
+      "description": "Scaling up to 300 guests requires precision. Learn how to avoid bottlenecks and manage large floor plans.",
+      "faqs": [
+        {
+          "question": "How do I manage a seating chart for 300 people?",
+          "answer": "Use a digital tool to categorize guests into groups and ensure you have multiple large seating chart displays at the entrance to avoid crowding."
+        }
+      ]
+    }
+  ],
+  "venue-types": [
+    {
+      "slug": "beach-wedding-layout",
+      "title": "Beach Wedding Seating & Layouts",
+      "h1": "Planning the Perfect Beach Wedding Seating Chart",
+      "description": "Seating guests on sand requires special considerations. Explore beach-friendly layouts and chair options.",
+      "faqs": [
+        {
+          "question": "Can I use standard chairs on a beach?",
+          "answer": "Yes, but ensure you use chairs with wider legs or 'sand skids' to prevent them from sinking into the sand."
+        }
+      ]
+    },
+    {
+      "slug": "garden-party-seating",
+      "title": "Garden Party Wedding Seating Guide",
+      "h1": "Whimsical Garden Party Seating Arrangements",
+      "description": "Leverage natural beauty with garden layouts that work with trees, paths, and floral borders.",
+      "faqs": [
+        {
+          "question": "How do I deal with uneven ground in a garden?",
+          "answer": "Always visit the site and mark the flattest areas for table placement. Use shims if necessary to level table legs."
+        }
+      ]
+    },
+    {
+      "slug": "outdoor-tent-layout",
+      "title": "Outdoor Tent Wedding Seating",
+      "h1": "How to Arrange Seating Under a Wedding Tent",
+      "description": "Tent poles and sidewalls change the dynamics of a floor plan. Learn how to optimize your tented reception.",
+      "faqs": [
+        {
+          "question": "Where should the bar go in a tent?",
+          "answer": "Place the bar near the entrance or close to the dance floor, but away from the main dining tables to prevent overcrowding."
+        }
+      ]
+    }
+  ]
+}
