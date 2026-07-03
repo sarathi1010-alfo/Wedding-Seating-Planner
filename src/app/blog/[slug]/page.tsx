@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown';
 import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
@@ -29,13 +30,14 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
   const blogs = getBlogData();
-  const blog = blogs.find((b: any) => b.slug === params.slug);
+  const blog = blogs.find((b: any) => b.slug === resolvedParams.slug);
   if (!blog) return {};
 
   const fullTitle = `${blog.title} | alfo.online Blog`;
-  const canonicalUrl = `${siteConfig.url}/blog/${params.slug}`;
+  const canonicalUrl = `${siteConfig.url}/blog/${resolvedParams.slug}`;
 
   return constructMetadata({
     title: fullTitle,
@@ -44,9 +46,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   });
 }
 
-export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
   const blogs = getBlogData();
-  const blog = blogs.find((b: any) => b.slug === params.slug);
+  const blog = blogs.find((b: any) => b.slug === resolvedParams.slug);
 
   if (!blog) notFound();
 
@@ -61,7 +64,10 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <SchemaBlock schemaJSON={articleSchema} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Navbar />
 
       <main className="flex-1 py-16 px-6 lg:px-12 max-w-3xl mx-auto w-full">
@@ -78,13 +84,21 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
             </p>
 
             <div className="text-foreground">
-                {/* Simulated Content */}
-                <p>Welcome to this comprehensive guide on {blog.title.toLowerCase()}. Finding the right approach can be difficult, but our methodology streamlines the process.</p>
-                <h2>The Core Problem</h2>
-                <p>Many users struggle with achieving their desired outcome because existing tools are too complex or expensive. This doesn't have to be the case.</p>
-                <h2>The Solution</h2>
-                <p>By leveraging the right free tools, you can bypass these hurdles. We recommend experimenting with different setups to find what perfectly aligns with your workflow.</p>
-                <p>{blog.content}</p>
+                <ReactMarkdown
+                  components={{
+                    h1: ({node, ...props}) => <h1 className="text-4xl md:text-5xl font-heading font-medium tracking-tight mb-6 text-foreground" {...props} />,
+                    h2: ({node, ...props}) => <h2 className="text-3xl font-heading font-medium tracking-tight mt-12 mb-6 text-foreground" {...props} />,
+                    h3: ({node, ...props}) => <h3 className="text-2xl font-heading font-medium tracking-tight mt-8 mb-4 text-foreground" {...props} />,
+                    p: ({node, ...props}) => <p className="mb-6 leading-relaxed" {...props} />,
+                    ul: ({node, ...props}) => <ul className="list-disc list-inside mb-6 space-y-2" {...props} />,
+                    ol: ({node, ...props}) => <ol className="list-decimal list-inside mb-6 space-y-2" {...props} />,
+                    li: ({node, ...props}) => <li className="text-foreground" {...props} />,
+                    blockquote: ({node, ...props}) => <blockquote className="border-l-4 border-primary pl-4 italic my-8 text-muted-foreground" {...props} />,
+                    a: ({node, ...props}) => <Link href={props.href || '#'} className="text-primary hover:underline" {...props as any} />,
+                  }}
+                >
+                  {blog.content}
+                </ReactMarkdown>
             </div>
 
             {relatedTool && (

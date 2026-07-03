@@ -1,0 +1,443 @@
+
+> temp-app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 472ms
+
+○ Compiling /blog/[slug] ...
+Error: Route "/blog/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at <unknown> (src/app/blog/[slug]/page.tsx:49:57)
+    at Array.find (<anonymous>)
+    at BlogPostPage (src/app/blog/[slug]/page.tsx:49:22)
+  47 | export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+  48 |   const blogs = getBlogData();
+> 49 |   const blog = blogs.find((b: any) => b.slug === params.slug);
+     |                                                         ^
+  50 |
+  51 |   if (!blog) notFound();
+  52 |
+ GET /blog/wedding-seating-chart-guide 404 in 5.4s (next.js: 4.8s, proxy.ts: 209ms, generate-params: 1030ms, application-code: 434ms)
+ GET /styles/rustic-barn-seating 200 in 1844ms (next.js: 1524ms, proxy.ts: 5ms, generate-params: 869ms, application-code: 315ms)
+ GET /guest-counts/intimate-50-guests 200 in 1698ms (next.js: 1584ms, proxy.ts: 6ms, generate-params: 933ms, application-code: 108ms)
+ GET /venue-types/beach-wedding-layout 200 in 1464ms (next.js: 1343ms, proxy.ts: 5ms, generate-params: 784ms, application-code: 115ms)
+○ Compiling /planner ...
+ GET /planner 200 in 4.3s (next.js: 3.8s, proxy.ts: 7ms, application-code: 560ms)
+✓ Compiled in 59ms
+ GET /blog/wedding-seating-chart-guide 200 in 204ms (next.js: 41ms, proxy.ts: 10ms, generate-params: 30ms, application-code: 153ms)
+ GET /styles/rustic-barn-seating 200 in 232ms (next.js: 54ms, proxy.ts: 5ms, generate-params: 47ms, application-code: 172ms)
+ GET /guest-counts/intimate-50-guests 200 in 131ms (next.js: 36ms, proxy.ts: 5ms, generate-params: 29ms, application-code: 89ms)
+ GET /venue-types/beach-wedding-layout 200 in 165ms (next.js: 33ms, proxy.ts: 6ms, generate-params: 26ms, application-code: 126ms)
+ GET /planner 200 in 59ms (next.js: 5ms, proxy.ts: 4ms, application-code: 50ms)
+✓ Compiled in 114ms
+ GET /blog/wedding-seating-chart-guide 200 in 193ms (next.js: 36ms, proxy.ts: 5ms, generate-params: 28ms, application-code: 152ms)
+⨯ ./src/app/blog/[slug]/page.tsx:1:1
+Module not found: Can't resolve 'react-markdown'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mReactMarkdown[0m [36mfrom[0m [32m'react-markdown'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { notFound } [36mfrom[0m [32m"next/navigation"[0m;
+  [90m3 |[0m [36mimport[0m fs [36mfrom[0m [32m"fs"[0m;
+  [90m4 |[0m [36mimport[0m path [36mfrom[0m [32m"path"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/blog/[slug]/page.tsx:1:1
+Module not found: Can't resolve 'react-markdown'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m [33mReactMarkdown[0m [36mfrom[0m [32m'react-markdown'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m [36mimport[0m { notFound } [36mfrom[0m [32m"next/navigation"[0m;
+  [90m3 |[0m [36mimport[0m fs [36mfrom[0m [32m"fs"[0m;
+  [90m4 |[0m [36mimport[0m path [36mfrom[0m [32m"path"[0m;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:12:1
+Module not found: Can't resolve '#minpath'
+  [90m10 |[0m
+  [90m11 |[0m [36mimport[0m {[33mVFileMessage[0m} [36mfrom[0m [32m'vfile-message'[0m
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+  [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m15 |[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:12:1
+Module not found: Can't resolve '#minpath'
+  [90m10 |[0m
+  [90m11 |[0m [36mimport[0m {[33mVFileMessage[0m} [36mfrom[0m [32m'vfile-message'[0m
+[31m[1m>[0m [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+  [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m15 |[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:13:1
+Module not found: Can't resolve '#minproc'
+  [90m11 |[0m [36mimport[0m {[33mVFileMessage[0m} [36mfrom[0m [32m'vfile-message'[0m
+  [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+[31m[1m>[0m [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m15 |[0m
+  [90m16 |[0m /**
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:13:1
+Module not found: Can't resolve '#minproc'
+  [90m11 |[0m [36mimport[0m {[33mVFileMessage[0m} [36mfrom[0m [32m'vfile-message'[0m
+  [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+[31m[1m>[0m [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m15 |[0m
+  [90m16 |[0m /**
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:14:1
+Module not found: Can't resolve '#minurl'
+  [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+  [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+[31m[1m>[0m [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m15 |[0m
+  [90m16 |[0m /**
+  [90m17 |[0m  * [33mOrder[0m [36mof[0m setting (least specific to most), we need [36mthis[0m because otherwise
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:14:1
+Module not found: Can't resolve '#minurl'
+  [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+  [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+[31m[1m>[0m [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m15 |[0m
+  [90m16 |[0m /**
+  [90m17 |[0m  * [33mOrder[0m [36mof[0m setting (least specific to most), we need [36mthis[0m because otherwise
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/vfile/lib/index.js:14:1
+Module not found: Can't resolve '#minurl'
+  [90m12 |[0m [36mimport[0m {minpath} [36mfrom[0m [32m'#minpath'[0m
+  [90m13 |[0m [36mimport[0m {minproc} [36mfrom[0m [32m'#minproc'[0m
+[31m[1m>[0m [90m14 |[0m [36mimport[0m {urlToPath, isUrl} [36mfrom[0m [32m'#minurl'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m15 |[0m
+  [90m16 |[0m /**
+  [90m17 |[0m  * [33mOrder[0m [36mof[0m setting (least specific to most), we need [36mthis[0m because otherwise
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/vfile/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/devlop/lib/development.js:1:1
+Module not found: Can't resolve 'dequal'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m {dequal} [36mfrom[0m [32m'dequal'[0m
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m /**
+  [90m4 |[0m  * @[36mtype[0m {[33mSet[0m<string>}
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/devlop/lib/development.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/devlop/lib/development.js:1:1
+Module not found: Can't resolve 'dequal'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m {dequal} [36mfrom[0m [32m'dequal'[0m
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m /**
+  [90m4 |[0m  * @[36mtype[0m {[33mSet[0m<string>}
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/devlop/lib/development.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  [90m34 |[0m [90m */[0m
+  [90m35 |[0m
+[31m[1m>[0m [90m36 |[0m [36mimport[0m {toHast} [36mfrom[0m [32m'mdast-util-to-hast'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m37 |[0m
+  [90m38 |[0m /**
+  [90m39 |[0m  * [33mTurn[0m markdown into [33mHTML[0m.
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/remark-rehype/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  [90m34 |[0m [90m */[0m
+  [90m35 |[0m
+[31m[1m>[0m [90m36 |[0m [36mimport[0m {toHast} [36mfrom[0m [32m'mdast-util-to-hast'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m37 |[0m
+  [90m38 |[0m /**
+  [90m39 |[0m  * [33mTurn[0m markdown into [33mHTML[0m.
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/remark-rehype/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:16:1
+Module not found: Can't resolve 'property-information'
+  [90m14 |[0m [36mimport[0m {name [36mas[0m isIdentifierName} [36mfrom[0m [32m'estree-util-is-identifier-name'[0m
+  [90m15 |[0m [36mimport[0m {whitespace} [36mfrom[0m [32m'hast-util-whitespace'[0m
+[31m[1m>[0m [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+  [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:16:1
+Module not found: Can't resolve 'property-information'
+  [90m14 |[0m [36mimport[0m {name [36mas[0m isIdentifierName} [36mfrom[0m [32m'estree-util-is-identifier-name'[0m
+  [90m15 |[0m [36mimport[0m {whitespace} [36mfrom[0m [32m'hast-util-whitespace'[0m
+[31m[1m>[0m [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+  [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:16:1
+Module not found: Can't resolve 'property-information'
+  [90m14 |[0m [36mimport[0m {name [36mas[0m isIdentifierName} [36mfrom[0m [32m'estree-util-is-identifier-name'[0m
+  [90m15 |[0m [36mimport[0m {whitespace} [36mfrom[0m [32m'hast-util-whitespace'[0m
+[31m[1m>[0m [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+  [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:16:1
+Module not found: Can't resolve 'property-information'
+  [90m14 |[0m [36mimport[0m {name [36mas[0m isIdentifierName} [36mfrom[0m [32m'estree-util-is-identifier-name'[0m
+  [90m15 |[0m [36mimport[0m {whitespace} [36mfrom[0m [32m'hast-util-whitespace'[0m
+[31m[1m>[0m [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+  [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:16:1
+Module not found: Can't resolve 'property-information'
+  [90m14 |[0m [36mimport[0m {name [36mas[0m isIdentifierName} [36mfrom[0m [32m'estree-util-is-identifier-name'[0m
+  [90m15 |[0m [36mimport[0m {whitespace} [36mfrom[0m [32m'hast-util-whitespace'[0m
+[31m[1m>[0m [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+  [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:18:1
+Module not found: Can't resolve 'style-to-js'
+  [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+[31m[1m>[0m [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+  [90m20 |[0m [36mimport[0m {[33mVFileMessage[0m} [36mfrom[0m [32m'vfile-message'[0m
+  [90m21 |[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./node_modules/hast-util-to-jsx-runtime/lib/index.js:18:1
+Module not found: Can't resolve 'style-to-js'
+  [90m16 |[0m [36mimport[0m {find, hastToReact, html, svg} [36mfrom[0m [32m'property-information'[0m
+  [90m17 |[0m [36mimport[0m {stringify [36mas[0m spaces} [36mfrom[0m [32m'space-separated-tokens'[0m
+[31m[1m>[0m [90m18 |[0m [36mimport[0m styleToJs [36mfrom[0m [32m'style-to-js'[0m
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m [36mimport[0m {pointStart} [36mfrom[0m [32m'unist-util-position'[0m
+  [90m20 |[0m [36mimport[0m {[33mVFileMessage[0m} [36mfrom[0m [32m'vfile-message'[0m
+  [90m21 |[0m
+
+
+
+Import trace:
+  Server Component:
+    ./node_modules/hast-util-to-jsx-runtime/lib/index.js
+    ./node_modules/react-markdown/lib/index.js
+    ./src/app/blog/[slug]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 677ms
+ GET /blog/wedding-seating-chart-guide 200 in 818ms (next.js: 213ms, proxy.ts: 79ms, generate-params: 30ms, application-code: 526ms)
+ GET /styles/rustic-barn-seating 200 in 173ms (next.js: 61ms, proxy.ts: 5ms, generate-params: 29ms, application-code: 107ms)
+ GET /guest-counts/intimate-50-guests 200 in 194ms (next.js: 51ms, proxy.ts: 4ms, generate-params: 27ms, application-code: 139ms)
+ GET /venue-types/beach-wedding-layout 200 in 165ms (next.js: 60ms, proxy.ts: 5ms, generate-params: 28ms, application-code: 100ms)
+Several Konva instances detected. It is not recommended to use multiple Konva instances in the same environment.
+ GET /planner 200 in 345ms (next.js: 18ms, proxy.ts: 5ms, application-code: 322ms)
+✓ Compiled in 74ms
