@@ -62,6 +62,14 @@ export const venues: VenueType[] = [
     description: "Outdoor and garden weddings offer flexibility but require planning for uneven ground and weather contingencies.",
     seoTitle: "Outdoor Wedding Seating Chart Ideas & Templates",
     seoDescription: "Interactive seating planners for outdoor and garden weddings. Explore flexible layouts and tent seating arrangements."
+  },
+  {
+    id: "tent",
+    name: "Outdoor Tent",
+    slug: "outdoor-tent-layout",
+    description: "Tent weddings offer a blank canvas but require careful planning for pole placement and perimeter seating.",
+    seoTitle: "Outdoor Tent Wedding Seating Chart & Layout Guide",
+    seoDescription: "Create the perfect outdoor tent wedding layout. Visual seating planners and table arrangement tips for tented receptions."
   }
 ];
 
@@ -81,6 +89,38 @@ export const styles: WeddingStyle[] = [
     description: "Formal weddings traditionally use 8-10 person round tables to maximize conversation and sightlines.",
     seoTitle: "Elegant Formal Wedding Seating Arrangements",
     seoDescription: "Classic formal wedding seating charts. Design elegant round-table layouts for your reception instantly."
+  },
+  {
+    id: "rustic-barn",
+    name: "Rustic Barn",
+    slug: "rustic-barn-seating",
+    description: "Rustic barn seating emphasizes natural elements and communal dining with long wooden tables.",
+    seoTitle: "Rustic Barn Wedding Seating Chart Layouts",
+    seoDescription: "Design your rustic barn wedding seating. Explore long table arrangements and cozy floor plans for barn venues."
+  },
+  {
+    id: "ballroom-elegance",
+    name: "Ballroom Elegance",
+    slug: "ballroom-elegance",
+    description: "Achieve ballroom elegance with symmetrical round table layouts and a grand focal point for the couple.",
+    seoTitle: "Ballroom Elegance Wedding Seating & Layout Ideas",
+    seoDescription: "Formal ballroom wedding seating charts. Create a sophisticated layout for your elegant reception."
+  },
+  {
+    id: "beach-wedding",
+    name: "Beach Wedding",
+    slug: "beach-wedding-layout",
+    description: "Beach weddings require relaxed, airy seating arrangements that account for wind and sand.",
+    seoTitle: "Beach Wedding Seating Chart & Layout Planner",
+    seoDescription: "Plan your seaside celebration. Interactive beach wedding seating charts and relaxed reception layouts."
+  },
+  {
+    id: "garden-party",
+    name: "Garden Party",
+    slug: "garden-party-seating",
+    description: "Garden party seating uses the natural landscape to create intimate clusters and winding pathways.",
+    seoTitle: "Garden Party Wedding Seating Chart Ideas",
+    seoDescription: "Design a whimsical garden party reception. Visual seating planners for outdoor floral-focused weddings."
   }
 ];
 
@@ -111,6 +151,33 @@ export const guestCounts: GuestCount[] = [
     description: "Large weddings of 200+ guests demand strict organizational flow to ensure smooth catering and venue navigation.",
     seoTitle: "Wedding Seating Charts for 200+ Guests | Large Receptions",
     seoDescription: "Organize large wedding receptions easily. Free seating chart maker for 200+ guests with optimal floor plan layouts."
+  },
+  {
+    id: "intimate-50",
+    name: "Intimate 50 Guests",
+    slug: "intimate-50-guests",
+    count: 50,
+    description: "For an intimate 50-guest wedding, prioritize closeness and conversation with curated small groupings.",
+    seoTitle: "Intimate Wedding Seating Chart for 50 Guests",
+    seoDescription: "Create a cozy 50-guest wedding layout. Interactive seating planners for small, intimate celebrations."
+  },
+  {
+    id: "medium-150",
+    name: "Medium 150 Guests",
+    slug: "medium-150-guests",
+    count: 150,
+    description: "A medium-sized wedding of 150 guests needs a balanced layout to maintain energy without feeling crowded.",
+    seoTitle: "150 Guest Wedding Seating Chart & Layout Templates",
+    seoDescription: "Plan your 150-guest wedding reception. Visual tools to arrange tables and seats for medium-sized guest lists."
+  },
+  {
+    id: "large-300",
+    name: "Large 300 Guests",
+    slug: "large-300-guests",
+    count: 300,
+    description: "300 guests require a highly efficient floor plan with multiple bars and clear traffic lanes for waitstaff.",
+    seoTitle: "Large 300 Guest Wedding Seating Chart & Floor Plans",
+    seoDescription: "Manage a large 300-guest wedding reception with ease. Professional seating chart tools for high-capacity events."
   }
 ];
 
