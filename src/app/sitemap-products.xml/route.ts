@@ -65,6 +65,30 @@ export async function GET() {
     }
   });
 
+  // Programmatic Entity Pages
+  const { venues, styles, guestCounts } = require('@/data/entities/wedding-entities');
+
+  venues.forEach((venue: any) => {
+    entries.push({
+      url: `${siteConfig.url}/venue-types/${venue.slug}`,
+      priority: 0.6
+    });
+  });
+
+  styles.forEach((style: any) => {
+    entries.push({
+      url: `${siteConfig.url}/styles/${style.slug}`,
+      priority: 0.6
+    });
+  });
+
+  guestCounts.forEach((gc: any) => {
+    entries.push({
+      url: `${siteConfig.url}/guest-counts/${gc.slug}`,
+      priority: 0.6
+    });
+  });
+
   // Deduplicate and filter
   const uniqueUrls = new Set<string>();
   const finalEntries = entries.filter(entry => {
