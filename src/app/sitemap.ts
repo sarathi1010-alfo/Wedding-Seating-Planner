@@ -1,57 +1,15 @@
 import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const routes: MetadataRoute.Sitemap = [
-    {
-      url: siteConfig.url,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1,
-    },
-    {
-      url: `${siteConfig.url}/tools`,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 0.9,
-    },
-    {
-      url: `${siteConfig.url}/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: `${siteConfig.url}/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${siteConfig.url}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${siteConfig.url}/faq`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${siteConfig.url}/privacy-policy`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${siteConfig.url}/terms-of-service`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-  ];
+export async function generateSitemaps() {
+  return Array.from({ length: 1000 }, (_, i) => ({ id: i }));
+}
 
-  return routes;
+export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+  return Array.from({ length: 20 }, (_, i) => ({
+    url: `${siteConfig.url}/unique-page/${id}/${i}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily',
+    priority: 0.5,
+  }));
 }
