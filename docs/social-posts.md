@@ -1,24 +1,59 @@
-# Social Media Distribution Posts for "Wedding Seating Chart That Guests Will Love"
+# Social Media Distribution Posts - Wedding Seating Chart Guide
 
-## Pinterest (Focus: Visuals & Inspiration)
-1. **Pin Title:** How to Create a Wedding Seating Chart Guests Love 💍
-   **Description:** Stop stressing over your seating chart! Our ultimate guide covers everything from grouping guests to handling family etiquette. Try our free visual planner! #WeddingSeating #WeddingPlanning #TableVows
-2. **Pin Title:** Round vs. Rectangular Tables: Which is Better? 🍽️
-   **Description:** Table shape changes EVERYTHING about your wedding reception energy. Discover how to choose the perfect tables for your style. #WeddingDecor #ReceptionIdeas #TableVows
-3. **Pin Title:** 5 Pro Tips for a Stress-Free Seating Chart ✨
-   **Description:** From placing VIPs first to using a digital planner, these tips will make your seating chart a breeze. Check out the guide! #WeddingTips #BrideToBe #SeatingChart
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Wedding Seating Chart Guide
+   **Description**: Stressing about your wedding seating? Our comprehensive guide covers family dynamics, table styles, and etiquette to help you create a layout your guests will LOVE.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: A clean, elegant infographic showing different table arrangements (Round vs. Rectangular).
 
-## Instagram (Focus: Engagement & Features)
-4. **Post Caption:** Drag, drop, and DONE! ✅ Wedding seating doesn't have to be a headache. Our visual planner at TableVows lets you move guests around in seconds. Link in bio for the full guide on creating a layout your guests will love! 💖 #TableVows #WeddingHack #SeatingPlanner
-5. **Post Caption:** Dealing with tricky family dynamics? 🤐 We’ve got you covered. Check out our latest article on seating etiquette to ensure everyone stays happy (and far enough apart!). Read more at the link in our bio! 🔗 #WeddingEtiquette #WeddingPlanningTips #ModernBride
-6. **Reel/Story Idea:** A screen recording of the TableVows drag-and-drop feature in action, showing how easy it is to assign 100+ guests to tables. Overlay text: "The secret to a stress-free seating chart."
+2. **Title**: How to Seat Divorced Parents at Your Wedding
+   **Description**: Don't let family drama ruin your big day. Learn the best etiquette for seating divorced parents and keeping the peace at your reception.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: A "pro-tip" card with soft ivory background and elegant typography.
 
-## Facebook (Focus: Community & Long-form)
-7. **Post Text:** Planning a wedding? One of the biggest challenges is the seating chart. We just published the ULTIMATE guide on how to create a layout that fosters conversation and keeps the energy high all night long. Check it out here: [Link] #WeddingReception #SeatingChartGuide #TableVows
-8. **Post Text:** Round tables for conversation? Or long tables for that family-style feel? 🍷 We break down the pros and cons of every arrangement style in our new blog post. Plus, try our free digital planner to visualize your room before the big day! #WeddingInspiration #EventPlanning #TableVows
-9. **Post Text:** Don't let RSVPs stress you out. With TableVows, you can adjust your seating chart in real-time as those final responses come in. Read our latest guide for a step-by-step walkthrough of the process! [Link]
+3. **Title**: 5 Secrets to a Seating Chart Guests Will Adore
+   **Description**: From grouping friends to placing VIPs, discover how to make your wedding reception social and seamless.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: A high-resolution photo of a beautifully set wedding table.
 
-## Twitter/X (Focus: Quick Tips & Links)
-10. **Tweet:** Your seating chart is the silent director of your wedding reception. 🎬 Ensure it’s a hit with our latest guide! #WeddingPlanning #SeatingChart https://tablevows.alfo.online/blog/wedding-seating-chart-guide
-11. **Tweet:** Drag & drop your way to the perfect wedding layout. 🖱️ Our visual planner is free, easy to use, and print-ready. Try it today! #TableVows #WeddingTech #Bride
-12. **Tweet:** Handling divorced parents in your seating chart? 🧘 Our etiquette guide has the solutions you need for a drama-free day. Read more: [Link] #WeddingTips #Etiquette
+## Instagram (3 Posts)
+1. **Carousel Post**:
+   - Slide 1: How to Create a Seating Chart Guests LOVE (Cover)
+   - Slide 2: Start with an accurate floor plan from your venue.
+   - Slide 3: Group guests by relationship and shared interests.
+   - Slide 4: Place your VIPs and elderly guests first for comfort.
+   - Slide 5: Use TableVows to visualize it all in 2D/3D!
+   **Caption**: Planning your wedding seating doesn't have to be a headache. 🥂 Swipe for our top tips and click the link in bio for the full guide! #WeddingPlanning #SeatingChart #TableVows
+
+2. **Reel/Video**:
+   - Screen recording of the TableVows drag-and-drop visual planner in action.
+   - **Text Overlay**: "Tired of sticky notes? Plan your wedding seating in minutes with TableVows."
+   **Caption**: Say goodbye to seating chart stress! 👋 Our visual planner makes it easy to move guests, change table shapes, and export your final layout. Try it for free! #WeddingHacks #BrideToBe #EventPlanning
+
+3. **Story**:
+   - Polling: "Round Tables or Long Tables?"
+   - Link sticker to the guide.
+   - **Text**: "Which is better for conversation? Find out in our latest blog post!"
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a wedding? The seating chart is often the most stressful part, but it doesn't have to be! We've put together the ultimate guide to creating a layout your guests will actually enjoy. Read more: http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+   **Image**: A shot of a wedding reception in progress with happy guests.
+
+2. **Post**:
+   "Round tables maximize conversation, while long tables create a communal family-style feel. Which one is right for your wedding? Compare the pros and cons in our new guide! http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+   **Image**: Split screen showing a round table setup vs. a long table setup.
+
+3. **Post**:
+   "Handle wedding seating etiquette like a pro. From sweetheart tables to seating complex family structures, we've got you covered. Check out our latest tips: http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+   **Image**: A close-up of elegant place cards on a table.
+
+## Twitter/X (3 Posts)
+1. **Post**:
+   "Stop struggling with spreadsheets! 🛑 Create a wedding seating chart your guests will LOVE with our new comprehensive guide. 🥂 Read more: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingPlanning #Bride"
+
+2. **Post**:
+   "Family dynamics making seating difficult? Our latest blog post covers the best etiquette for seating divorced parents and VIPs. 🕊️ http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingTips #Etiquette"
+
+3. **Post**:
+   "Visualize your wedding reception in 2D/3D with TableVows! 🖱️ Drag and drop guests, adjust layouts, and export PDFs instantly. Try it now: http://tablevows.alfo.online #WeddingTech #SeatingChart"
