@@ -38,7 +38,7 @@ export default async function GuestCountPage({ params }: { params: Promise<{ slu
     notFound();
   }
 
-  const faqs = gc.faqs || [
+  const faqs = [
     {
       question: `How many tables do I need for ${gc.count} guests?`,
       answer: `For ${gc.count} guests, you typically need between ${Math.ceil(gc.count / 10)} and ${Math.ceil(gc.count / 8)} tables, depending on whether you use 60-inch or 72-inch round tables.`

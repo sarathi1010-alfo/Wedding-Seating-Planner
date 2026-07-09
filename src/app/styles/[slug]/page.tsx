@@ -38,7 +38,7 @@ export default async function StylePage({ params }: { params: Promise<{ slug: st
     notFound();
   }
 
-  const faqs = style.faqs || [
+  const faqs = [
     {
       question: `What is the best way to arrange seating for a ${style.name} wedding?`,
       answer: `The best way to arrange seating for a ${style.name} wedding is to focus on ${style.description.toLowerCase()} and use a visual planner to ensure proper spacing and guest comfort.`

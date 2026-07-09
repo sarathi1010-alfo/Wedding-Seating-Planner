@@ -86,7 +86,7 @@ export const venues: VenueType[] = [
     faqs: [
   {
     question: 'How do I arrange seating for a tent with center poles?',
-    answer: 'Integrate center poles into your layout by using them as anchors for decor or by placing circular tables directly around them to maximize the "dead" space.'
+    answer: 'Integrate center poles into your layout by using them as anchors for decor or by placing circular tables directly around them to maximize the \'dead\' space.'
   },
   {
     question: 'Should I have a seating chart for a tented buffet?',
@@ -183,7 +183,7 @@ export const guestCounts: GuestCount[] = [
     faqs: [
   {
     question: 'Is a seating chart necessary for only 50 guests?',
-    answer: 'Yes, even for 50 guests, a seating chart prevents the "first-day-at-school" awkwardness and ensures families and friend groups can sit together comfortably.'
+    answer: 'Yes, even for 50 guests, a seating chart prevents the \'first-day-at-school\' awkwardness and ensures families and friend groups can sit together comfortably.'
   },
   {
     question: 'What is the most intimate layout for 50 people?',
