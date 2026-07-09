@@ -38,7 +38,7 @@ export default async function VenueTypePage({ params }: { params: Promise<{ slug
     notFound();
   }
 
-  const faqs = [
+  const faqs = venue.faqs || [
     {
       question: `How do I plan a seating chart for a ${venue.name} wedding?`,
       answer: `Planning a ${venue.name} wedding involves considering the unique layout of the venue. ${venue.description} Use TableVows to visualize the space and guest placement.`

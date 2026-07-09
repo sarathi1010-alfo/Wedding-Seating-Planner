@@ -14,3 +14,16 @@
   - http://tablevows.alfo.online/venue-types/barn-wedding
 - **Internal Linking**: Completed retroactive linking from 2 older articles to the new Authority Tier 1 post.
 - **Content Refresh**: Updated 'Wedding Seating Chart Etiquette — Who Sits Where' with new content and refreshed metadata.
+
+## 2026-07-08
+- **Sitemap Ping**: Triggered sitemap pings for all updated sitemaps (root, articles, products).
+- **IndexNow API**: Notified IndexNow about 9 new/updated URLs:
+  - /blog/wedding-seating-chart-guide
+  - /styles/rustic-barn-seating
+  - /styles/ballroom-elegance
+  - /styles/beach-wedding-layout
+  - /styles/garden-party-seating
+  - /guest-counts/intimate-50-guests
+  - /guest-counts/medium-150-guests
+  - /guest-counts/large-300-guests
+  - /venue-types/outdoor-tent-layout
