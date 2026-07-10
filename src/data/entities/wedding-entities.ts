@@ -1,5 +1,10 @@
 // Defines the semantic entities used for generating programmatic SEO pages
 
+export type FAQ = {
+  question: string;
+  answer: string;
+};
+
 export type VenueType = {
   id: string;
   name: string;
@@ -7,6 +12,7 @@ export type VenueType = {
   description: string;
   seoTitle: string;
   seoDescription: string;
+  faqs?: FAQ[];
 };
 
 export type WeddingStyle = {
@@ -16,6 +22,7 @@ export type WeddingStyle = {
   description: string;
   seoTitle: string;
   seoDescription: string;
+  faqs?: FAQ[];
 };
 
 export type GuestCount = {
@@ -26,6 +33,7 @@ export type GuestCount = {
   description: string;
   seoTitle: string;
   seoDescription: string;
+  faqs?: FAQ[];
 };
 
 export type TableType = {
@@ -35,6 +43,7 @@ export type TableType = {
   description: string;
   seoTitle: string;
   seoDescription: string;
+  faqs?: FAQ[];
 };
 
 // Core Entities
@@ -45,7 +54,17 @@ export const venues: VenueType[] = [
     slug: "barn-wedding",
     description: "Rustic and spacious barn venues require careful flow planning around structural posts and dance floors.",
     seoTitle: "Barn Wedding Seating Chart Templates & Layout Ideas",
-    seoDescription: "Plan your perfect barn wedding reception. Free interactive seating charts and floor plans optimized for rustic barn venues."
+    seoDescription: "Plan your perfect barn wedding reception. Free interactive seating charts and floor plans optimized for rustic barn venues.",
+    faqs: [
+      {
+        question: "How do I handle structural pillars in a barn wedding seating chart?",
+        answer: "The best way to handle pillars is to use a visual planner to ensure a minimum of 60 inches of clearance around each post for guest movement and waitstaff flow."
+      },
+      {
+        question: "What table shapes work best for a rustic barn reception?",
+        answer: "Long rectangular farmhouse tables are the most popular choice for barns as they complement the rustic aesthetic and maximize seating capacity in long, narrow spaces."
+      }
+    ]
   },
   {
     id: "ballroom",
@@ -69,7 +88,17 @@ export const venues: VenueType[] = [
     slug: "beach-wedding",
     description: "Beach weddings offer a unique, relaxed atmosphere but require considerations for sand, wind, and outdoor lighting.",
     seoTitle: "Beach Wedding Seating Chart Ideas & Layouts",
-    seoDescription: "Plan your perfect beach wedding reception. Interactive seating charts and floor plans optimized for seaside venues."
+    seoDescription: "Plan your perfect beach wedding reception. Interactive seating charts and floor plans optimized for seaside venues.",
+    faqs: [
+      {
+        question: "What is the best way to arrange seating for a beach wedding?",
+        answer: "The best way to arrange beach seating is to use stable, wide-footed chairs on firm sand and maintain wide aisles to accommodate the natural flow of the coastline."
+      },
+      {
+        question: "How do I protect my seating chart from wind at a beach wedding?",
+        answer: "Use heavy acrylic or framed seating charts, and ensure individual place cards are weighted or securely tucked into napkins to prevent them from blowing away."
+      }
+    ]
   },
   {
     id: "tent",
@@ -77,7 +106,17 @@ export const venues: VenueType[] = [
     slug: "outdoor-tent-layout",
     description: "Tent weddings provide a blank canvas, allowing for creative table arrangements and a clear focus on the landscape.",
     seoTitle: "Outdoor Tent Wedding Seating Layouts & Ideas",
-    seoDescription: "Design your outdoor tent wedding floor plan. Free interactive seating charts for spacious tented receptions."
+    seoDescription: "Design your outdoor tent wedding floor plan. Free interactive seating charts for spacious tented receptions.",
+    faqs: [
+      {
+        question: "How do I plan a seating chart for a pole tent wedding?",
+        answer: "The best way to plan for a pole tent is to use a digital layout tool to position tables in the 'bays' between poles, ensuring guests have clear sightlines to the head table."
+      },
+      {
+        question: "How much space should I leave between tables in a wedding tent?",
+        answer: "Aim for at least 5 feet (60 inches) between tables to allow for comfortable seating and enough room for guests and service staff to move freely throughout the tent."
+      }
+    ]
   }
 ];
 
@@ -88,7 +127,17 @@ export const styles: WeddingStyle[] = [
     slug: "rustic-barn-seating",
     description: "Rustic weddings often feature long farmhouse rectangular tables to encourage family-style dining.",
     seoTitle: "Rustic Barn Wedding Seating Chart Ideas (Farmhouse Tables)",
-    seoDescription: "Plan a beautiful rustic barn wedding reception. Interactive seating charts featuring long rectangular farmhouse table layouts."
+    seoDescription: "Plan a beautiful rustic barn wedding reception. Interactive seating charts featuring long rectangular farmhouse table layouts.",
+    faqs: [
+      {
+        question: "What is the best way to seat guests for a rustic barn wedding?",
+        answer: "The best way is to use long farmhouse tables grouped by family or friendship circles, fostering a communal, 'family-style' dining atmosphere that fits the rustic theme."
+      },
+      {
+        question: "Can I mix round and rectangular tables in a rustic seating chart?",
+        answer: "Yes! Mixing table shapes adds visual interest. Try using long tables for the wedding party and immediate family, and round tables for the remaining guests."
+      }
+    ]
   },
   {
     id: "elegant",
@@ -96,7 +145,17 @@ export const styles: WeddingStyle[] = [
     slug: "ballroom-elegance",
     description: "Formal weddings traditionally use 8-10 person round tables to maximize conversation and sightlines.",
     seoTitle: "Elegant Ballroom Wedding Seating Arrangements",
-    seoDescription: "Classic formal wedding seating charts. Design elegant round-table layouts for your ballroom reception instantly."
+    seoDescription: "Classic formal wedding seating charts. Design elegant round-table layouts for your ballroom reception instantly.",
+    faqs: [
+      {
+        question: "How many guests should I seat at a standard ballroom round table?",
+        answer: "For an elegant feel, seat 8 guests at a 60-inch round or 10 guests at a 72-inch round to ensure everyone has ample elbow room and space for formal place settings."
+      },
+      {
+        question: "Where should the head table be placed in a formal ballroom?",
+        answer: "The head table should be placed centrally along the most prominent wall, often on a slight riser, facing the dance floor and the majority of the guest tables."
+      }
+    ]
   },
   {
     id: "beach",
@@ -104,7 +163,17 @@ export const styles: WeddingStyle[] = [
     slug: "beach-wedding-layout",
     description: "Seaside celebrations focus on relaxed, flowing layouts that embrace the natural beauty of the ocean.",
     seoTitle: "Beach Wedding Style Seating Arrangements",
-    seoDescription: "Design a beautiful beach-themed wedding seating chart. Relaxed layouts and templates for seaside ceremonies."
+    seoDescription: "Design a beautiful beach-themed wedding seating chart. Relaxed layouts and templates for seaside ceremonies.",
+    faqs: [
+      {
+        question: "What is the best way to arrange seating for a beach style wedding?",
+        answer: "The best way is to create a flowing, organic layout that maximizes ocean views for all guests, using natural materials like driftwood and linen in your seating display."
+      },
+      {
+        question: "How do I handle footwear for a beach wedding seating area?",
+        answer: "Provide a 'shoe valet' station near the entrance of the seating area so guests can swap formal shoes for flip-flops before navigating the sand to their tables."
+      }
+    ]
   },
   {
     id: "garden",
@@ -112,7 +181,17 @@ export const styles: WeddingStyle[] = [
     slug: "garden-party-seating",
     description: "Garden parties thrive on botanical elements and open-air seating that encourages mingling among the blooms.",
     seoTitle: "Garden Party Wedding Seating Chart Ideas",
-    seoDescription: "Plan an enchanting garden wedding reception. Interactive seating charts for romantic outdoor garden settings."
+    seoDescription: "Plan an enchanting garden wedding reception. Interactive seating charts for romantic outdoor garden settings.",
+    faqs: [
+      {
+        question: "How do I organize seating for a garden party wedding?",
+        answer: "The best way is to use the natural landscape of the garden to define 'rooms' or zones, placing tables among flower beds and under trees for a whimsical, immersive feel."
+      },
+      {
+        question: "Should I provide shade for my garden wedding seating chart?",
+        answer: "Absolutely. Position tables under natural shade, provide parasols, or use high-quality market umbrellas to ensure guests remain comfortable during an outdoor garden meal."
+      }
+    ]
   }
 ];
 
@@ -124,7 +203,17 @@ export const guestCounts: GuestCount[] = [
     count: 50,
     description: "Intimate weddings of 50 guests or fewer allow for unique configurations like a single U-shaped table or a few large family-style tables.",
     seoTitle: "Wedding Seating Charts for 50 Guests (Intimate Layouts)",
-    seoDescription: "Planning an intimate wedding? Use our free tool to design seating charts and floor plans for 50 guests."
+    seoDescription: "Planning an intimate wedding? Use our free tool to design seating charts and floor plans for 50 guests.",
+    faqs: [
+      {
+        question: "What is the best seating layout for 50 guests?",
+        answer: "The best layout for 50 guests is often a single large U-shaped or rectangular 'King's Table' to foster a sense of unity and allow everyone to be part of one conversation."
+      },
+      {
+        question: "Can I use round tables for an intimate 50-person wedding?",
+        answer: "Yes, 6 round tables of 8-9 guests each works well, but consider grouping them closely together to maintain the intimate atmosphere of the smaller guest count."
+      }
+    ]
   },
   {
     id: "medium-100",
@@ -142,7 +231,17 @@ export const guestCounts: GuestCount[] = [
     count: 150,
     description: "A 150-guest wedding is a popular size that balances a lively atmosphere with a manageable number of tables and groups.",
     seoTitle: "Wedding Seating Charts for 150 Guests | Medium Receptions",
-    seoDescription: "Plan your 150-guest wedding reception easily. Interactive seating charts and floor plans for mid-sized celebrations."
+    seoDescription: "Plan your 150-guest wedding reception easily. Interactive seating charts and floor plans for mid-sized celebrations.",
+    faqs: [
+      {
+        question: "How many tables do I need for a 150 guest wedding?",
+        answer: "For a 150 guest wedding, you will typically need 15 to 19 tables, depending on whether you choose 60-inch (8 guests) or 72-inch (10 guests) round tables."
+      },
+      {
+        question: "What is the best way to group 150 guests on a seating chart?",
+        answer: "The best way is to divide them into 15-18 'family and friend' units of 8-10 people, ensuring each table has at least one social anchor to keep conversation lively."
+      }
+    ]
   },
   {
     id: "large-200",
@@ -160,7 +259,17 @@ export const guestCounts: GuestCount[] = [
     count: 300,
     description: "Managing a guest list of 300 requires professional-grade layout tools to ensure comfort and efficient movement.",
     seoTitle: "Wedding Seating Charts for 300 Guests | Large Weddings",
-    seoDescription: "Design floor plans for a 300-guest wedding. Our interactive tool helps you manage large-scale seating arrangements with ease."
+    seoDescription: "Design floor plans for a 300-guest wedding. Our interactive tool helps you manage large-scale seating arrangements with ease.",
+    faqs: [
+      {
+        question: "How do I manage a seating chart for 300 guests without it being chaotic?",
+        answer: "The best way is to use a digital planner like TableVows to visualize the layout, and then use clearly numbered tables and multiple alphabetical escort card stations to avoid bottlenecks."
+      },
+      {
+        question: "What is the best floor plan layout for 300 guests?",
+        answer: "A 'grid' or 'honeycomb' arrangement of 30 round tables is most efficient for 300 guests, ensuring clear sightlines to the head table and ample space for servers to navigate."
+      }
+    ]
   }
 ];
 

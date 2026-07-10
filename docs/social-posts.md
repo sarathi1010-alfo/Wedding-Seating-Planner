@@ -1,4 +1,5 @@
 # Social Media Distribution Posts - Wedding Seating Chart Guide
+# Updated: 2025-05-15
 
 ## Pinterest (3 Posts)
 1. **Title**: The Ultimate Wedding Seating Chart Guide
