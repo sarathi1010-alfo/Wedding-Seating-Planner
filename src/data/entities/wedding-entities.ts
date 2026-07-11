@@ -117,6 +117,90 @@ export const venues: VenueType[] = [
         answer: "Aim for at least 5 feet (60 inches) between tables to allow for comfortable seating and enough room for guests and service staff to move freely throughout the tent."
       }
     ]
+  },
+  {
+    id: "industrial",
+    name: "Industrial Warehouse",
+    slug: "industrial-wedding-seating",
+    description: "Industrial venues like warehouses and lofts offer high ceilings and open floor plans perfect for creative seating arrangements.",
+    seoTitle: "Industrial Wedding Seating Chart Ideas & Floor Plans",
+    seoDescription: "Plan your industrial wedding reception. Interactive seating charts for warehouse and loft venues with modern layouts.",
+    faqs: [
+      {
+        question: "What table styles work best in an industrial wedding venue?",
+        answer: "Long rectangular banquet tables or a mix of square and round tables work exceptionally well in industrial spaces to complement the geometric and structured environment."
+      }
+    ]
+  },
+  {
+    id: "vineyard",
+    name: "Vineyard",
+    slug: "vineyard-wedding-seating",
+    description: "Vineyards and wineries provide romantic, rolling landscapes that call for elegant and flowing reception layouts.",
+    seoTitle: "Vineyard Wedding Seating Charts & Layout Ideas",
+    seoDescription: "Design the perfect vineyard wedding reception. Free interactive seating charts and floor plans for winery weddings.",
+    faqs: [
+      {
+        question: "How do I handle outdoor vineyard seating on uneven ground?",
+        answer: "The best way is to use a digital planner to map out the flattest areas for the dining tables and ensure all chair legs are stable on the terrain."
+      }
+    ]
+  },
+  {
+    id: "hotel",
+    name: "Hotel",
+    slug: "hotel-wedding-seating",
+    description: "Hotels offer professional amenities and structured ballrooms that are perfect for large, formal wedding receptions.",
+    seoTitle: "Hotel Wedding Seating Arrangements & Templates",
+    seoDescription: "Plan your hotel wedding reception with ease. Interactive seating charts for formal hotel ballroom layouts."
+  },
+  {
+    id: "church",
+    name: "Church Hall",
+    slug: "church-hall-seating",
+    description: "Church halls are versatile spaces that often require efficient seating arrangements for community-focused celebrations.",
+    seoTitle: "Church Hall Wedding Seating Chart Ideas",
+    seoDescription: "Design your church hall reception floor plan. Simple and effective seating chart templates for community spaces."
+  },
+  {
+    id: "backyard",
+    name: "Backyard",
+    slug: "backyard-wedding-seating",
+    description: "Backyard weddings are intimate and personal, requiring creative use of home and garden spaces for seating.",
+    seoTitle: "Backyard Wedding Seating Charts & Layout Ideas",
+    seoDescription: "Plan a beautiful backyard wedding. Interactive seating planners for intimate home and garden reception layouts."
+  },
+  {
+    id: "castle",
+    name: "Castle",
+    slug: "castle-wedding-seating",
+    description: "Historic castle venues provide a grand backdrop for regal and formal seating arrangements.",
+    seoTitle: "Castle & Historic Venue Seating Chart Ideas",
+    seoDescription: "Design a royal wedding reception layout. Interactive seating charts for castles and historic venues."
+  },
+  {
+    id: "mountain",
+    name: "Mountain",
+    slug: "mountain-wedding-seating",
+    description: "Mountain and lodge venues offer breathtaking views and rustic charm for cozy reception layouts.",
+    seoTitle: "Mountain & Lodge Wedding Seating Chart Ideas",
+    seoDescription: "Plan your mountain wedding reception. Interactive seating charts and floor plans for lodge and alpine venues."
+  },
+  {
+    id: "rooftop",
+    name: "Rooftop",
+    slug: "rooftop-wedding-seating",
+    description: "Rooftop venues provide stunning urban views and require compact, efficient seating arrangements.",
+    seoTitle: "Rooftop Wedding Seating Chart Ideas & Layouts",
+    seoDescription: "Design the perfect rooftop wedding reception. Interactive seating charts for urban and penthouse venues."
+  },
+  {
+    id: "restaurant",
+    name: "Restaurant",
+    slug: "restaurant-wedding-seating",
+    description: "Restaurant weddings utilize existing layouts and require strategic guest placement within defined spaces.",
+    seoTitle: "Restaurant Wedding Seating Arrangements & Tips",
+    seoDescription: "Plan your restaurant wedding reception. Interactive seating charts for intimate dining and buyout venues."
   }
 ];
 
@@ -192,6 +276,44 @@ export const styles: WeddingStyle[] = [
         answer: "Absolutely. Position tables under natural shade, provide parasols, or use high-quality market umbrellas to ensure guests remain comfortable during an outdoor garden meal."
       }
     ]
+  },
+  {
+    id: "modern",
+    name: "Modern Minimalist",
+    slug: "modern-minimalist-seating",
+    description: "Modern weddings focus on clean lines, intentional spacing, and a minimalist aesthetic for a sophisticated feel.",
+    seoTitle: "Modern Minimalist Wedding Seating Chart Ideas",
+    seoDescription: "Design a sleek modern wedding reception. Interactive seating charts for minimalist and contemporary styles.",
+    faqs: [
+      {
+        question: "What is the best way to achieve a minimalist seating chart look?",
+        answer: "The best way is to use simple, sans-serif fonts, ample white space on your display, and a structured grid layout for your tables to maintain a clean aesthetic."
+      }
+    ]
+  },
+  {
+    id: "luxury",
+    name: "Luxury Designer",
+    slug: "luxury-wedding-seating",
+    description: "Luxury weddings emphasize opulence, high-end decor, and meticulously planned guest experiences.",
+    seoTitle: "Luxury & Designer Wedding Seating Chart Ideas",
+    seoDescription: "Plan a high-end luxury wedding reception. Interactive seating charts for designer and opulent celebrations."
+  },
+  {
+    id: "diy",
+    name: "DIY Budget",
+    slug: "diy-wedding-seating",
+    description: "DIY and budget-friendly weddings prioritize creative, cost-effective seating solutions without sacrificing style.",
+    seoTitle: "DIY & Budget Wedding Seating Chart Ideas",
+    seoDescription: "Plan your DIY wedding on a budget. Free interactive seating charts and creative layout ideas for cost-effective receptions."
+  },
+  {
+    id: "destination",
+    name: "Destination",
+    slug: "destination-wedding-seating",
+    description: "Destination weddings require planning for travel logistics and often involve intimate, scenic seating arrangements.",
+    seoTitle: "Destination Wedding Seating Chart Ideas",
+    seoDescription: "Design your destination wedding reception. Interactive seating planners for unique and scenic wedding locations."
   }
 ];
 
@@ -289,6 +411,54 @@ export const tableTypes: TableType[] = [
     description: "Long rectangular tables (banquet or farmhouse style) create a communal, modern, or rustic dining experience.",
     seoTitle: "Rectangular Table Wedding Seating Chart Templates",
     seoDescription: "Design beautiful banquet and farmhouse table layouts. Free interactive seating planner for rectangular wedding tables."
+  },
+  {
+    id: "square",
+    name: "Square Tables",
+    slug: "square-tables",
+    description: "Square tables offer a modern, geometric look and ample center space for grand floral arrangements.",
+    seoTitle: "Square Table Wedding Seating Charts & Layout Ideas",
+    seoDescription: "Plan your reception with square tables. Interactive seating charts and capacity guides for modern square layouts."
+  },
+  {
+    id: "sweetheart",
+    name: "Sweetheart Table",
+    slug: "sweetheart-table-layout",
+    description: "A private table for the newlyweds to enjoy their first meal together as a married couple.",
+    seoTitle: "Sweetheart Table Layout Ideas & Placement Guide",
+    seoDescription: "Design the perfect sweetheart table setup. Interactive seating planners for romantic and intimate couple tables."
+  },
+  {
+    id: "head",
+    name: "Head Table",
+    slug: "head-table-layout",
+    description: "A large table for the couple, wedding party, and sometimes immediate family members.",
+    seoTitle: "Wedding Head Table Layouts & Seating Arrangements",
+    seoDescription: "Plan your wedding head table. Interactive seating charts for traditional and modern bridal party arrangements."
+  },
+  {
+    id: "u-shape",
+    name: "U-Shape Layout",
+    slug: "u-shape-layout",
+    description: "An intimate, inward-facing arrangement perfect for smaller weddings and rehearsal dinners.",
+    seoTitle: "U-Shape Wedding Reception Layouts & Ideas",
+    seoDescription: "Design a stunning U-shape wedding reception. Interactive seating charts for intimate and engaging layouts."
+  },
+  {
+    id: "cocktail",
+    name: "Cocktail Tables",
+    slug: "cocktail-table-seating",
+    description: "High-top cocktail tables encourage mingling and movement during cocktail hour or relaxed receptions.",
+    seoTitle: "Cocktail Table Seating Chart Ideas & Layouts",
+    seoDescription: "Plan your cocktail hour seating. Interactive charts for high-top and cruiser table arrangements."
+  },
+  {
+    id: "mixed",
+    name: "Mixed Layout",
+    slug: "mixed-table-layout",
+    description: "Combining different table shapes and sizes creates visual interest and accommodates various group dynamics.",
+    seoTitle: "Mixed Table Wedding Seating Charts & Layout Ideas",
+    seoDescription: "Design a dynamic mixed-table reception. Interactive seating charts for combining round, square, and long tables."
   }
 ];
 
