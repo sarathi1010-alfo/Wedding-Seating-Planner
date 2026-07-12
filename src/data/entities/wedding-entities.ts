@@ -72,7 +72,17 @@ export const venues: VenueType[] = [
     slug: "ballroom-wedding",
     description: "Elegant ballroom settings typically utilize large round tables and formal head table arrangements.",
     seoTitle: "Ballroom Wedding Seating Arrangements & Floor Plans",
-    seoDescription: "Design an elegant ballroom wedding reception. Free interactive seating charts and formal layout templates."
+    seoDescription: "Design an elegant ballroom wedding reception. Free interactive seating charts and formal layout templates.",
+    faqs: [
+      {
+        question: "What is the best way to arrange seating in a formal ballroom?",
+        answer: "The best way is to use large round tables (60-72 inches) to maximize conversation and sightlines toward the head table and dance floor."
+      },
+      {
+        question: "How do I handle a large guest list in a ballroom seating chart?",
+        answer: "Use a visual planner to stagger tables in a honeycomb pattern, which maximizes capacity while maintaining clear pathways for guests and waitstaff."
+      }
+    ]
   },
   {
     id: "outdoor",
@@ -80,7 +90,17 @@ export const venues: VenueType[] = [
     slug: "outdoor-wedding",
     description: "Outdoor and garden weddings offer flexibility but require planning for uneven ground and weather contingencies.",
     seoTitle: "Outdoor Wedding Seating Chart Ideas & Templates",
-    seoDescription: "Interactive seating planners for outdoor and garden weddings. Explore flexible layouts and tent seating arrangements."
+    seoDescription: "Interactive seating planners for outdoor and garden weddings. Explore flexible layouts and tent seating arrangements.",
+    faqs: [
+      {
+        question: "How do I manage seating for an outdoor wedding with no floor?",
+        answer: "The best way is to choose level ground for dining tables and use wider-footed chairs that won't sink into the grass or soil."
+      },
+      {
+        question: "What is the best backup plan for outdoor wedding seating?",
+        answer: "Always have a tent or indoor alternative mapped out in your visual planner so you can quickly pivot your seating chart if the weather changes."
+      }
+    ]
   },
   {
     id: "beach",
@@ -129,6 +149,10 @@ export const venues: VenueType[] = [
       {
         question: "What table styles work best in an industrial wedding venue?",
         answer: "Long rectangular banquet tables or a mix of square and round tables work exceptionally well in industrial spaces to complement the geometric and structured environment."
+      },
+      {
+        question: "How do I manage acoustics in an industrial wedding seating chart?",
+        answer: "The best way to manage acoustics is to use a visual planner to position the dance floor and speakers away from hard, reflective surfaces like exposed brick or metal beams."
       }
     ]
   },
@@ -143,6 +167,10 @@ export const venues: VenueType[] = [
       {
         question: "How do I handle outdoor vineyard seating on uneven ground?",
         answer: "The best way is to use a digital planner to map out the flattest areas for the dining tables and ensure all chair legs are stable on the terrain."
+      },
+      {
+        question: "What is the best way to incorporate wine barrels into my seating chart?",
+        answer: "Use wine barrels as bases for high-top cocktail tables or as pedestals for your escort card display to seamlessly integrate the vineyard theme into your layout."
       }
     ]
   },
@@ -232,12 +260,12 @@ export const styles: WeddingStyle[] = [
     seoDescription: "Classic formal wedding seating charts. Design elegant round-table layouts for your ballroom reception instantly.",
     faqs: [
       {
-        question: "How many guests should I seat at a standard ballroom round table?",
-        answer: "For an elegant feel, seat 8 guests at a 60-inch round or 10 guests at a 72-inch round to ensure everyone has ample elbow room and space for formal place settings."
+        question: "What is the best way to arrange seating in a formal ballroom?",
+        answer: "The best way is to use large round tables (60-72 inches) to maximize conversation and sightlines toward the head table and dance floor."
       },
       {
-        question: "Where should the head table be placed in a formal ballroom?",
-        answer: "The head table should be placed centrally along the most prominent wall, often on a slight riser, facing the dance floor and the majority of the guest tables."
+        question: "How do I handle a large guest list in a ballroom seating chart?",
+        answer: "Use a visual planner to stagger tables in a honeycomb pattern, which maximizes capacity while maintaining clear pathways for guests and waitstaff."
       }
     ]
   },
@@ -288,6 +316,10 @@ export const styles: WeddingStyle[] = [
       {
         question: "What is the best way to achieve a minimalist seating chart look?",
         answer: "The best way is to use simple, sans-serif fonts, ample white space on your display, and a structured grid layout for your tables to maintain a clean aesthetic."
+      },
+      {
+        question: "Can I use ghost chairs for a modern minimalist seating chart?",
+        answer: "Absolutely. Ghost chairs or sleek acrylic seating options are the best way to maintain sightlines and a sense of openness in a modern minimalist reception layout."
       }
     ]
   },
@@ -297,7 +329,17 @@ export const styles: WeddingStyle[] = [
     slug: "luxury-wedding-seating",
     description: "Luxury weddings emphasize opulence, high-end decor, and meticulously planned guest experiences.",
     seoTitle: "Luxury & Designer Wedding Seating Chart Ideas",
-    seoDescription: "Plan a high-end luxury wedding reception. Interactive seating charts for designer and opulent celebrations."
+    seoDescription: "Plan a high-end luxury wedding reception. Interactive seating charts for designer and opulent celebrations.",
+    faqs: [
+      {
+        question: "How do I create a luxury seating chart experience?",
+        answer: "The best way is to prioritize ample spacing between tables and use high-quality materials like acrylic or velvet for your physical seating display."
+      },
+      {
+        question: "What table configurations work best for luxury weddings?",
+        answer: "Mixing oversized round tables with long, dramatic estate tables is the best way to create a high-end, designer look in your reception layout."
+      }
+    ]
   },
   {
     id: "diy",
@@ -344,7 +386,17 @@ export const guestCounts: GuestCount[] = [
     count: 100,
     description: "The classic 100-guest wedding typically requires 10-12 tables and careful balancing of family and friend groups.",
     seoTitle: "Wedding Seating Charts for 100 Guests | Free Templates",
-    seoDescription: "Design the perfect seating arrangement for your 100-guest wedding. Interactive layouts, templates, and etiquette guides."
+    seoDescription: "Design the perfect seating arrangement for your 100-guest wedding. Interactive layouts, templates, and etiquette guides.",
+    faqs: [
+      {
+        question: "How many tables are needed for 100 guests?",
+        answer: "The best way is to use 10 to 12 tables, depending on your choice of round or rectangular seating, to ensure everyone has enough space."
+      },
+      {
+        question: "What is the best layout for 100 guests?",
+        answer: "For 100 guests, a balanced grid of 12 round tables is the best way to ensure clear sightlines and efficient service flow."
+      }
+    ]
   },
   {
     id: "medium-150",
@@ -372,7 +424,17 @@ export const guestCounts: GuestCount[] = [
     count: 200,
     description: "Large weddings of 200+ guests demand strict organizational flow to ensure smooth catering and venue navigation.",
     seoTitle: "Wedding Seating Charts for 200+ Guests | Large Receptions",
-    seoDescription: "Organize large wedding receptions easily. Free seating chart maker for 200+ guests with optimal floor plan layouts."
+    seoDescription: "Organize large wedding receptions easily. Free seating chart maker for 200+ guests with optimal floor plan layouts.",
+    faqs: [
+      {
+        question: "How do I avoid bottlenecks for a 200-guest wedding?",
+        answer: "The best way is to provide multiple alphabetical seating chart displays and ensure clear, wide aisles in your floor plan layout."
+      },
+      {
+        question: "What table shape is most efficient for 200 guests?",
+        answer: "Using 72-inch round tables that seat 10-12 guests is the best way to maximize space and reduce the total number of tables needed for 200 people."
+      }
+    ]
   },
   {
     id: "large-300",
