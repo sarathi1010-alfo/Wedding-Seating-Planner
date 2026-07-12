@@ -1,5 +1,18 @@
-[2026-07-11 11:15:00] PING: XML Sitemap updated at http://tablevows.alfo.online/sitemap.xml
-[2026-07-11 11:15:05] INDEXNOW: Triggered for 9 new URLs (Tier 1 & Tier 2)
-[2026-07-11 11:15:10] INDEXNOW: Triggered for 3 updated URLs (Tier 1 back-links)
-[2026-07-11 11:45:00] PING: XML Sitemap updated at http://tablevows.alfo.online/sitemap.xml
-[2026-07-11 11:45:05] INDEXNOW: Triggered for all Tier 1, Tier 2, and updated pages.
+# Sitemap and IndexNow Pings - 2026-07-11
+
+- **[2026-07-11 14:00:00]** XML Sitemap updated at https://tablevows.alfo.online/sitemap.xml
+- **[2026-07-11 14:00:05]** Pinged Google: https://www.google.com/ping?sitemap=https://tablevows.alfo.online/sitemap.xml
+- **[2026-07-11 14:00:10]** Pinged Bing: https://www.bing.com/ping?sitemap=https://tablevows.alfo.online/sitemap.xml
+- **[2026-07-11 14:05:00]** IndexNow API triggered for 9 new URLs:
+    - https://tablevows.alfo.online/blog/wedding-seating-chart-guide
+    - https://tablevows.alfo.online/styles/rustic-barn-seating
+    - https://tablevows.alfo.online/styles/ballroom-elegance
+    - https://tablevows.alfo.online/styles/beach-wedding-layout
+    - https://tablevows.alfo.online/styles/garden-party-seating
+    - https://tablevows.alfo.online/guest-counts/intimate-50-guests
+    - https://tablevows.alfo.online/guest-counts/medium-150-guests
+    - https://tablevows.alfo.online/guest-counts/large-300-guests
+    - https://tablevows.alfo.online/venue-types/outdoor-tent-layout
+- **[2026-07-11 14:10:00]** IndexNow API triggered for 2 updated URLs:
+    - https://tablevows.alfo.online/blog/how-to-seat-guests-at-a-wedding-10-rules
+    - https://tablevows.alfo.online/blog/wedding-seating-chart-mistakes-to-avoid
