@@ -46,14 +46,45 @@ test.describe('Technical Verification - Zero Errors Policy', () => {
 
     // Switch to Visual Seating Canvas
     await page.click('text=Visual Seating Canvas');
+    await page.waitForTimeout(1000);
 
     // Verify canvas exists (Konva)
     const canvas = page.locator('.konvajs-content');
     await expect(canvas).toBeVisible();
 
-    // Export buttons
-    const exportPdfBtn = page.locator('button:has-text("Export"), [aria-label*="Export"]');
-    await expect(exportPdfBtn.first()).toBeVisible();
+    // Drag and Drop Guest Verification (Simulate D&D)
+    // Add a guest if none exist
+    const guestInput = page.locator('input[placeholder="Guest name..."]');
+    await expect(guestInput).toBeVisible({ timeout: 10000 });
+    await guestInput.fill('Test Guest');
+    await page.click('button:has-text("Add Guest")');
+
+    // First, find a guest
+    const guest = page.locator('[draggable="true"]').first();
+    await expect(guest).toBeVisible();
+
+    // Simulate drag and drop onto the canvas
+    const box = await canvas.boundingBox();
+    if (box) {
+      await guest.dragTo(canvas, {
+        targetPosition: { x: box.width / 2, y: box.height / 2 }
+      });
+    }
+
+    // Export buttons and interaction
+    const exportBtn = page.locator('button:has-text("Export"), [aria-label*="Export"]').first();
+    await expect(exportBtn).toBeVisible();
+
+    // Click export and check for console errors
+    const logs: string[] = [];
+    page.on('console', msg => {
+      if (msg.type() === 'error') logs.push(msg.text());
+    });
+
+    await exportBtn.click();
+    // Wait a bit for any async export processes
+    await page.waitForTimeout(1000);
+    expect(logs.filter(l => !l.includes('Warning:'))).toHaveLength(0);
 
     // Take a screenshot for verification
     await page.screenshot({ path: 'scripts/verification-results.png' });
