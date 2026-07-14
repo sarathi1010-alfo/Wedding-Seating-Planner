@@ -22,9 +22,10 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { tool_slug: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ tool_slug: string }> }) {
+  const resolvedParams = await params;
   const tools = getToolsData();
-  const tool = tools.find((t: any) => t.tool === params.tool_slug);
+  const tool = tools.find((t: any) => t.tool === resolvedParams.tool_slug);
   if (!tool) return {};
 
   const fullTitle = `${tool.name} — ${tool.keywords[0] || tool.name} | alfo.online`;
@@ -37,9 +38,10 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
   });
 }
 
-export default async function ToolPage({ params }: { params: { tool_slug: string } }) {
+export default async function ToolPage({ params }: { params: Promise<{ tool_slug: string }> }) {
+  const resolvedParams = await params;
   const tools = getToolsData();
-  const tool = tools.find((t: any) => t.tool === params.tool_slug);
+  const tool = tools.find((t: any) => t.tool === resolvedParams.tool_slug);
 
   if (!tool) {
     notFound();
