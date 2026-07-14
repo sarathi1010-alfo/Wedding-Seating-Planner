@@ -31,19 +31,20 @@ export async function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: { params: { tool_slug: string, use_case: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ tool_slug: string, use_case: string }> }) {
+  const resolvedParams = await params;
   const tools = getToolsData();
-  const tool = tools.find((t: any) => t.tool === params.tool_slug);
+  const tool = tools.find((t: any) => t.tool === resolvedParams.tool_slug);
   if (!tool) return {};
 
   const originalUseCase = tool.useCases.find(
-    (uc: string) => uc.toLowerCase().replace(/ /g, "-") === params.use_case
+    (uc: string) => uc.toLowerCase().replace(/ /g, "-") === resolvedParams.use_case
   );
   if (!originalUseCase) return {};
 
   const keyword = `${tool.name} for ${originalUseCase}`;
   const fullTitle = `${keyword} | alfo.online`;
-  const canonicalUrl = `${siteConfig.url}/${tool.tool}/${params.use_case}`;
+  const canonicalUrl = `${siteConfig.url}/${tool.tool}/${resolvedParams.use_case}`;
   const description = `Learn how to use ${tool.name} specifically for ${originalUseCase}. ${tool.description}`;
 
   return constructMetadata({
@@ -53,16 +54,17 @@ export async function generateMetadata({ params }: { params: { tool_slug: string
   });
 }
 
-export default async function UseCasePage({ params }: { params: { tool_slug: string, use_case: string } }) {
+export default async function UseCasePage({ params }: { params: Promise<{ tool_slug: string, use_case: string }> }) {
+  const resolvedParams = await params;
   const tools = getToolsData();
-  const tool = tools.find((t: any) => t.tool === params.tool_slug);
+  const tool = tools.find((t: any) => t.tool === resolvedParams.tool_slug);
 
   if (!tool) {
     notFound();
   }
 
   const originalUseCase = tool.useCases.find(
-    (uc: string) => uc.toLowerCase().replace(/ /g, "-") === params.use_case
+    (uc: string) => uc.toLowerCase().replace(/ /g, "-") === resolvedParams.use_case
   );
 
   if (!originalUseCase) {
@@ -76,7 +78,7 @@ export default async function UseCasePage({ params }: { params: { tool_slug: str
     "description": tool.description,
     "applicationCategory": "Utility",
     "operatingSystem": "All",
-    "url": `${siteConfig.url}/${tool.tool}/${params.use_case}`
+    "url": `${siteConfig.url}/${tool.tool}/${resolvedParams.use_case}`
   };
 
   return (
