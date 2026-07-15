@@ -179,3 +179,63 @@
 
 3. **Post**:
    "Ditch the sticky notes. 🖱️ TableVows makes complex seating layouts effortless. Drag-and-drop guests, handle last-minute RSVPs, and export high-res PDFs instantly. Try it: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingApp #EventProfs"
+
+# Daily Distribution Posts - 2026-07-15
+# Focus: How to Create a Wedding Seating Chart That Guests Will Love (Authority Guide)
+
+## Pinterest (3 Posts)
+1. **Title**: 5 Secrets to a Wedding Seating Chart Guests Will LOVE ❤️
+   **Description**: Hospitality starts with the floor plan! Learn how to group guests, handle family dynamics, and use TableVows to visualize your perfect reception.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: Aesthetic collage of different table layouts (round vs. long).
+
+2. **Title**: The Ultimate Wedding Seating Etiquette Guide (2026)
+   **Description**: From divorced parents to the "singles table" myth—we're breaking down the modern rules of wedding seating. Read the 1,300-word deep dive!
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: Elegant typography over a blurry ballroom background.
+
+3. **Title**: Visual Seating Planner: Drag, Drop, Done! 🖱️
+   **Description**: Stop struggling with sticky notes. TableVows' interactive planner lets you design your floor plan and export high-res PDFs in seconds.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: A screen recording of the TableVows drag-and-drop interface.
+
+## Instagram (3 Posts)
+1. **Carousel**:
+   - Slide 1: How to Create a Seating Chart Guests Actually Enjoy (Cover)
+   - Slide 2: Group by relationship, not just status.
+   - Slide 3: Prioritize VIP sightlines and comfort.
+   - Slide 4: Balance high-energy zones (dance floor) with quiet ones.
+   - Slide 5: Use a visual tool like TableVows to iterate!
+   **Caption**: Your seating chart is the silent director of your reception. 🎬 Ensure your guests have the best time ever with our top tips! Link in bio for the full guide. #TableVows #WeddingPlanning #SeatingChart
+
+2. **Reel**:
+   - Text overlay: "POV: You found the easiest way to plan your wedding seating."
+   - Visual: Fast-paced shots of moving guests on the TableVows canvas.
+   **Caption**: Say goodbye to seating stress. 👋 TableVows makes floor plans effortless. #WeddingHack #BrideToBe #ReceptionLayout
+
+3. **Story**:
+   - "Struggling with your seating chart? We've got you."
+   - "Swipe up for the ultimate 1,300-word guide + a free visual planner!"
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a wedding is stressful enough—your seating chart shouldn't be! We just published a massive 1,300-word guide on creating a layout your guests will adore. From family dynamics to table shapes, we've covered it all. Read it here: http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+   **Image**: A photo of happy guests chatting at a beautifully decorated round table.
+
+2. **Post**:
+   "Did you know the 'singles table' is officially out? 🙅‍♀️ Learn the modern psychology of wedding seating and how to foster real connections between your guests in our latest guide. Plus, try our free visual planner! http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+   **Image**: Close-up of elegant place cards on a farmhouse table.
+
+3. **Post**:
+   "Visualizing your reception space has never been easier. With TableVows, you can drag-and-drop your tables, assign guests, and export print-ready PDFs for your venue and florist. See how it works in our new guide: http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+   **Image**: A high-resolution export of a wedding floor plan.
+
+## Twitter/X (3 Posts)
+1. **Post**:
+   "Stop 🛑 seating chart stress. Our new 1,300-word guide covers 2026 trends: Etiquette, Psychology, and Visual Planning. 🥂 Read more: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingTech #SeatingChart"
+
+2. **Post**:
+   "Hospitality = a great floor plan. 📐 Learn how to seat your VIPs, handle complex dynamics, and ensure a smooth flow for your catering team. Full guide: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingPlanner #Bride2026"
+
+3. **Post**:
+   "Ditch the sticky notes. 🖱️ TableVows makes complex seating layouts effortless. Drag-and-drop guests, handle last-minute RSVPs, and export high-res PDFs instantly. Try it: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingApp #EventProfs"
