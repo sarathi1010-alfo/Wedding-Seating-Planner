@@ -299,3 +299,63 @@
 
 3. **Post**:
    "Ditch the sticky notes. 🖱️ TableVows makes complex seating layouts effortless. Drag-and-drop guests, handle last-minute RSVPs, and export high-res PDFs instantly. Try it: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingApp #EventProfs"
+
+# Daily Distribution Posts - 2026-07-17
+# Focus: Inclusive Seating for LGBTQ+ Weddings (Authority Guide)
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Inclusive Wedding Seating (LGBTQ+ Friendly)
+   **Description**: Ditch the traditional "bride's side" and "groom's side." Learn how to plan a modern, inclusive wedding seating chart that prioritizes chosen family and makes everyone feel welcome.
+   **Link**: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings
+   **Visual Concept**: Aesthetic collage of diverse wedding parties and a mixed seating layout.
+
+2. **Title**: De-gendering Your Wedding Tables (A 2026 Guide)
+   **Description**: Why alternating genders at tables is outdated, and what to do instead. Read our comprehensive guide to inclusive wedding seating!
+   **Link**: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings
+   **Visual Concept**: Elegant typography over a modern chic table setting with gender-neutral place cards.
+
+3. **Title**: Visual Seating Planner for Modern Couples 🖱️
+   **Description**: TableVows' interactive planner lets you design inclusive floor plans effortlessly. Drag, drop, and celebrate your chosen family.
+   **Link**: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings
+   **Visual Concept**: A screen recording of the TableVows interface showing a lounge area and sweetheart table setup.
+
+## Instagram (3 Posts)
+1. **Carousel**:
+   - Slide 1: How to Plan Inclusive Seating for Your Wedding
+   - Slide 2: Rethink the "Traditional" Layout - Mix families and friends!
+   - Slide 3: Elevate your Chosen Family - They deserve VIP seats too.
+   - Slide 4: De-gender the Table - Ditch the alternating gender rules.
+   - Slide 5: Use a visual tool like TableVows to perfect your inclusive layout.
+   **Caption**: Love is love, and your seating chart should reflect that! 🏳️‍🌈 Celebrate your chosen family and create a welcoming space with our new inclusive seating guide. Link in bio! #LGBTQWedding #InclusiveWedding #TableVows
+
+2. **Reel**:
+   - Text overlay: "POV: Planning a wedding seating chart that actually includes everyone."
+   - Visual: Fast-paced shots of a beautiful, diverse wedding reception, followed by the TableVows canvas in action.
+   **Caption**: Throw out the old rulebook. 👋 Create a modern, inclusive seating plan with TableVows. #WeddingInspo #ModernWedding #ReceptionLayout
+
+3. **Story**:
+   - "Traditional wedding etiquette not working for you?"
+   - "Swipe up for our new 1,300-word guide on Inclusive LGBTQ+ Wedding Seating!"
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning an LGBTQ+ wedding? Many traditional seating 'rules' just don't apply. We just published a massive guide on how to create an inclusive, welcoming reception layout that honors your chosen family and de-genders the tables. Read it here: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings"
+   **Image**: A photo of a joyful, diverse wedding party celebrating together.
+
+2. **Post**:
+   "Did you know alternating genders around a table is officially out for 2026? 🙅‍♀️ Learn how to group guests by connection and compatibility in our latest inclusive seating guide. Plus, try our free visual planner! http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings"
+   **Image**: Close-up of elegant, gender-neutral place cards on a modern table.
+
+3. **Post**:
+   "Visualizing your inclusive reception space is crucial. With TableVows, you can easily experiment with sweetheart tables, lounges, and mixed layouts. Ensure everyone feels welcome: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings"
+   **Image**: A high-resolution export of a diverse, mixed wedding floor plan.
+
+## Twitter/X (3 Posts)
+1. **Post**:
+   "Ditch the 'bride's side' and 'groom's side'. Our new guide covers 2026 trends for Inclusive LGBTQ+ Wedding Seating. 🏳️‍🌈 Read more: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings #LGBTQWedding #SeatingChart"
+
+2. **Post**:
+   "Chosen family IS family. 💖 Learn how to elevate your VIPs and handle complex family dynamics in our new inclusive wedding seating guide: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings #ModernWedding #Bride2026"
+
+3. **Post**:
+   "De-gender your wedding tables! 🖱️ TableVows makes inclusive seating layouts effortless. Prioritize connection over outdated etiquette. Try it: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings #WeddingTech #InclusiveEvent"
