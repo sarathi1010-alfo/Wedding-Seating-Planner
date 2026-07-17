@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-    'http://tablevows.alfo.online/blog/wedding-seating-chart-guide',
-    'http://tablevows.alfo.online/styles/rustic-barn-seating',
-    'http://tablevows.alfo.online/styles/ballroom-elegance',
-    'http://tablevows.alfo.online/styles/beach-wedding-layout',
-    'http://tablevows.alfo.online/styles/garden-party-seating',
-    'http://tablevows.alfo.online/guest-counts/intimate-50-guests',
-    'http://tablevows.alfo.online/guest-counts/medium-150-guests',
-    'http://tablevows.alfo.online/guest-counts/large-300-guests',
-    'http://tablevows.alfo.online/venue-types/outdoor-tent-layout'
+    'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
+    'http://tablevows.alfo.online/venue-types/inclusive-outdoor-tent-layout',
+    'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
+    'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
+    'http://tablevows.alfo.online/styles/classic-inclusive-wedding-seating',
+    'http://tablevows.alfo.online/styles/chic-inclusive-wedding-seating',
+    'http://tablevows.alfo.online/guest-counts/inclusive-50-guest-wedding',
+    'http://tablevows.alfo.online/guest-counts/inclusive-150-guest-wedding',
+    'http://tablevows.alfo.online/guest-counts/inclusive-300-guest-wedding'
 ];
 
 console.log('Starting simulated SEO pings...');
