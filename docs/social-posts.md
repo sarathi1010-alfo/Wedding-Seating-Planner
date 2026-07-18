@@ -359,3 +359,63 @@
 
 3. **Post**:
    "De-gender your wedding tables! 🖱️ TableVows makes inclusive seating layouts effortless. Prioritize connection over outdated etiquette. Try it: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings #WeddingTech #InclusiveEvent"
+
+# Daily Distribution Posts - 2026-07-18
+# Focus: Seasonal Outdoor Wedding Seating (Authority Guide)
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Seasonal Outdoor Wedding Seating
+   **Description**: From spring showers to winter chills, learn how to perfectly plan your outdoor wedding seating chart for any season to keep guests comfortable.
+   **Link**: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide
+   **Visual Concept**: A split image showing a beautiful summer tent setup vs a cozy winter heated tent.
+
+2. **Title**: 5 Mistakes to Avoid with Outdoor Wedding Seating
+   **Description**: Don't let weather ruin your layout. Read our comprehensive guide on seasonal outdoor wedding seating!
+   **Link**: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide
+   **Visual Concept**: Checkbox list graphic over a fall outdoor wedding background.
+
+3. **Title**: Visual Seating Planner for Outdoor Weddings 🖱️
+   **Description**: TableVows' interactive planner lets you design seasonal floor plans effortlessly, accounting for heaters, fans, and tent poles.
+   **Link**: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide
+   **Visual Concept**: A screen recording of the TableVows interface showing a tent layout being mapped out.
+
+## Instagram (3 Posts)
+1. **Carousel**:
+   - Slide 1: How to Plan Seating for an Outdoor Wedding (By Season)
+   - Slide 2: Spring: Keep it open, but plan for soft ground.
+   - Slide 3: Summer: Shade and airflow are your best friends.
+   - Slide 4: Fall: Cozy up with clustered tables and heaters.
+   - Slide 5: Winter: Go for fully enclosed, heated tents. Use TableVows to plan!
+   **Caption**: Mother Nature is unpredictable, but your seating chart shouldn't be! 🌤️ Learn how to adapt your outdoor layout for any season in our new guide. Link in bio! #OutdoorWedding #WeddingSeating #TableVows
+
+2. **Reel**:
+   - Text overlay: "POV: You realized you need to plan your outdoor seating chart around the weather."
+   - Visual: Fast-paced shots of different outdoor wedding setups (sunny, rainy, snowy) followed by the TableVows canvas in action.
+   **Caption**: Weather-proof your layout. 👋 Create a comfortable, seasonal seating plan with TableVows. #WeddingInspo #OutdoorBride #ReceptionLayout
+
+3. **Story**:
+   - "Planning an outdoor wedding? Don't forget to factor in the season!"
+   - "Swipe up for our new comprehensive guide on Seasonal Outdoor Layouts!"
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning an outdoor wedding? The floor plan is about much more than just aesthetics; it's about survival! We just published a massive guide on how to create a weather-proof layout for spring, summer, fall, and winter. Read it here: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide"
+   **Image**: A photo of a beautifully lit outdoor tent reception at dusk.
+
+2. **Post**:
+   "Did you know that you should leave extra space between tables for summer weddings to improve airflow? 🌬️ Learn more seasonal seating tips in our latest guide. Plus, try our free visual planner! http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide"
+   **Image**: Close-up of a breezy summer table setting.
+
+3. **Post**:
+   "Visualizing your outdoor reception space is crucial, especially when you have to account for tent poles and heaters. With TableVows, you can easily map out your seasonal layout. Ensure everyone stays comfortable: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide"
+   **Image**: A high-resolution export of a tented wedding floor plan.
+
+## Twitter/X (3 Posts)
+1. **Post**:
+   "Don't let the weather ruin your reception! Our new guide covers 2026 trends for Seasonal Outdoor Wedding Seating. 🌦️ Read more: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide #OutdoorWedding #SeatingChart"
+
+2. **Post**:
+   "Guest comfort is key. 💖 Learn how to plan your layout for summer heat or winter chill in our new seasonal wedding seating guide: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide #WeddingPlanning #Bride2026"
+
+3. **Post**:
+   "Weather-proof your tables! 🖱️ TableVows makes seasonal seating layouts effortless. Account for heaters, shade, and tent walls easily. Try it: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide #WeddingTech #EventProfs"
