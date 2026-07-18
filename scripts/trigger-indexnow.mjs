@@ -11,7 +11,7 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-    'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
+'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
     'http://tablevows.alfo.online/venue-types/inclusive-outdoor-tent-layout',
     'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
     'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
@@ -19,7 +19,16 @@ const newUrls = [
     'http://tablevows.alfo.online/styles/chic-inclusive-wedding-seating',
     'http://tablevows.alfo.online/guest-counts/inclusive-50-guest-wedding',
     'http://tablevows.alfo.online/guest-counts/inclusive-150-guest-wedding',
-    'http://tablevows.alfo.online/guest-counts/inclusive-300-guest-wedding'
+    'http://tablevows.alfo.online/guest-counts/inclusive-300-guest-wedding',
+  'http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide',
+  'http://tablevows.alfo.online/venue-types/seasonal-outdoor-tent-layout',
+  'http://tablevows.alfo.online/styles/spring-outdoor-wedding-seating',
+  'http://tablevows.alfo.online/styles/summer-outdoor-wedding-seating',
+  'http://tablevows.alfo.online/styles/fall-outdoor-wedding-seating',
+  'http://tablevows.alfo.online/styles/winter-outdoor-wedding-seating',
+  'http://tablevows.alfo.online/guest-counts/seasonal-50-guest-wedding',
+  'http://tablevows.alfo.online/guest-counts/seasonal-150-guest-wedding',
+  'http://tablevows.alfo.online/guest-counts/seasonal-300-guest-wedding'
 ];
 
 console.log('Starting simulated SEO pings...');

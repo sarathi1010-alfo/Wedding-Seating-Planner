@@ -247,7 +247,25 @@ export const venues: VenueType[] = [
     description: "Restaurant weddings utilize existing layouts and require strategic guest placement within defined spaces.",
     seoTitle: "Restaurant Wedding Seating Arrangements & Tips",
     seoDescription: "Plan your restaurant wedding reception. Interactive seating charts for intimate dining and buyout venues."
-  }
+  },
+  {
+    id: "seasonal-tent",
+    name: "Seasonal Outdoor Tent",
+    slug: "seasonal-outdoor-tent-layout",
+    description: "Seasonal outdoor tent layouts adapt to the time of year, incorporating weather-appropriate features while maintaining beautiful seating flows.",
+    seoTitle: "Seasonal Outdoor Tent Wedding Seating Layouts",
+    seoDescription: "Design a seasonal outdoor tent wedding layout. Our free seating planner helps you create weather-ready spaces.",
+    faqs: [
+      {
+        question: "How do I make a seasonal tent wedding layout work?",
+        answer: "The best way is to ensure you have space for seasonal necessities like heaters or fans, and use a visual planner to test the flow before the big day."
+      },
+      {
+        question: "What tables work best for a seasonal outdoor tent?",
+        answer: "A mix of table sizes allows you to accommodate guests comfortably, placing vulnerable guests away from drafts or direct sun."
+      }
+    ]
+  },
 ];
 
 export const styles: WeddingStyle[] = [
@@ -446,7 +464,79 @@ export const styles: WeddingStyle[] = [
     description: "Destination weddings require planning for travel logistics and often involve intimate, scenic seating arrangements.",
     seoTitle: "Destination Wedding Seating Chart Ideas",
     seoDescription: "Design your destination wedding reception. Interactive seating planners for unique and scenic wedding locations."
-  }
+  },
+  {
+    id: "spring-outdoor",
+    name: "Spring Outdoor",
+    slug: "spring-outdoor-wedding-seating",
+    description: "Spring outdoor seating embraces fresh blooms and mild weather, prioritizing open layouts and garden integrations.",
+    seoTitle: "Spring Outdoor Wedding Seating Layouts & Ideas",
+    seoDescription: "Plan a beautiful spring outdoor wedding reception. Free interactive seating charts designed for seasonal celebrations.",
+    faqs: [
+      {
+        question: "What makes a spring wedding seating chart ideal?",
+        answer: "The best way is to integrate natural venue features like blooming trees into your layout, using round tables to encourage conversation."
+      },
+      {
+        question: "Can I use long tables for a spring outdoor wedding?",
+        answer: "Absolutely! Long tables under a clear tent or open sky create a beautiful, communal dining experience perfect for spring."
+      }
+    ]
+  },
+  {
+    id: "summer-outdoor",
+    name: "Summer Outdoor",
+    slug: "summer-outdoor-wedding-seating",
+    description: "Summer outdoor seating focuses on shade, airflow, and relaxed vibes, ensuring guests stay cool and comfortable.",
+    seoTitle: "Summer Outdoor Wedding Seating Chart Ideas",
+    seoDescription: "Design a cool and comfortable summer outdoor wedding layout. Interactive seating planners for warm-weather receptions.",
+    faqs: [
+      {
+        question: "How do I plan seating for a summer outdoor wedding?",
+        answer: "The best way is to prioritize shaded areas for older guests and ensure ample space between tables for airflow."
+      },
+      {
+        question: "What is a good layout for a hot summer reception?",
+        answer: "A mix of round tables under large umbrellas or a breezy tent creates a welcoming, comfortable environment for guests."
+      }
+    ]
+  },
+  {
+    id: "fall-outdoor",
+    name: "Fall Outdoor",
+    slug: "fall-outdoor-wedding-seating",
+    description: "Fall outdoor seating embraces cozy atmospheres, incorporating heaters, rich colors, and intimate table arrangements.",
+    seoTitle: "Fall Outdoor Wedding Seating Arrangements",
+    seoDescription: "Cozy elegance meets autumn vibes. Plan your fall outdoor wedding seating chart with our free interactive tool.",
+    faqs: [
+      {
+        question: "How do I make a fall outdoor seating chart comfortable?",
+        answer: "The best way is to strategically place tables near heat sources and use long, family-style tables to create a cozy, intimate feel."
+      },
+      {
+        question: "Can an outdoor fall wedding use round tables?",
+        answer: "Yes, by designing a layout that clusters round tables closer together, you can maintain warmth and encourage intimate conversation."
+      }
+    ]
+  },
+  {
+    id: "winter-outdoor",
+    name: "Winter Outdoor",
+    slug: "winter-outdoor-wedding-seating",
+    description: "Winter outdoor seating requires robust tenting and heating, focusing on creating a warm, magical enclosed environment.",
+    seoTitle: "Winter Outdoor Wedding Seating Layouts (Tented)",
+    seoDescription: "Design a magical and warm winter outdoor wedding reception. Interactive seating charts that prioritize guest comfort against the cold.",
+    faqs: [
+      {
+        question: "What is the best seating for a winter outdoor wedding?",
+        answer: "The best way to achieve this is by grouping tables closely in the center of a heated tent, keeping guests away from cold exterior walls."
+      },
+      {
+        question: "How do I arrange tables for a winter tent reception?",
+        answer: "Use a visual planner to create a compact mix of square and round tables, ensuring everyone is close to the warmth and the dance floor."
+      }
+    ]
+  },
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -601,7 +691,64 @@ export const guestCounts: GuestCount[] = [
         answer: "A 'grid' or 'honeycomb' arrangement of 30 round tables is most efficient for 300 guests, ensuring clear sightlines to the head table and ample space for servers to navigate."
       }
     ]
-  }
+  },
+  {
+    id: "seasonal-50",
+    name: "Seasonal 50 Guests",
+    slug: "seasonal-50-guest-wedding",
+    count: 50,
+    description: "An intimate seasonal wedding for 50 allows you to perfectly tailor the seating to the weather, using one large communal table or a cozy setup.",
+    seoTitle: "Seasonal Seating Charts for 50 Guests (Intimate Weddings)",
+    seoDescription: "Plan an intimate, seasonal wedding for 50 guests. Free interactive seating planner for perfectly weather-adapted celebrations.",
+    faqs: [
+      {
+        question: "What is the best seasonal layout for 50 guests?",
+        answer: "The best layout is often a single large U-shaped or rectangular table, allowing all guests to share in the seasonal atmosphere together."
+      },
+      {
+        question: "How do I seat 50 guests seasonally?",
+        answer: "Prioritize comfort by ensuring the single table setup is perfectly positioned for shade in summer or warmth in autumn."
+      }
+    ]
+  },
+  {
+    id: "seasonal-150",
+    name: "Seasonal 150 Guests",
+    slug: "seasonal-150-guest-wedding",
+    count: 150,
+    description: "For 150 guests, a seasonal layout balances weather considerations with energetic zones for a medium-sized crowd.",
+    seoTitle: "Seasonal Seating Charts for 150 Guests | Free Templates",
+    seoDescription: "Design a seasonal seating chart for 150 guests. Interactive layouts that prioritize comfort and weather readiness.",
+    faqs: [
+      {
+        question: "How do I plan seasonal seating for 150 guests?",
+        answer: "The best way is to use a visual planner to ensure all 15-19 tables are adequately covered or heated depending on the season."
+      },
+      {
+        question: "How many tables are needed for a 150-guest seasonal wedding?",
+        answer: "Typically 15 to 19 tables, positioned carefully to maximize the seasonal ambiance while protecting guests from the elements."
+      }
+    ]
+  },
+  {
+    id: "seasonal-300",
+    name: "Seasonal 300 Guests",
+    slug: "seasonal-300-guest-wedding",
+    count: 300,
+    description: "A large seasonal wedding for 300 requires extensive planning for weather contingencies, clear pathways, and robust tenting.",
+    seoTitle: "Seasonal Seating Charts for 300 Guests | Large Weddings",
+    seoDescription: "Manage a 300-guest seasonal outdoor wedding with ease. Our free tool helps you design weather-ready large-scale layouts.",
+    faqs: [
+      {
+        question: "How do I make a 300-guest outdoor wedding comfortable in any season?",
+        answer: "The best way is to ensure your floor plan includes multiple climate-controlled zones and to seat vulnerable guests away from the edges."
+      },
+      {
+        question: "What is the best way to handle seating for 300 guests outdoors?",
+        answer: "Create a mix of long and round tables, ensuring that large aisles are maintained even with added seasonal decor or heating units."
+      }
+    ]
+  },
 ];
 
 export const tableTypes: TableType[] = [
