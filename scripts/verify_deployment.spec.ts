@@ -3,24 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
-'/blog/inclusive-seating-for-lgbtq-weddings',
-  '/venue-types/inclusive-outdoor-tent-layout',
-  '/styles/modern-inclusive-wedding-seating',
-  '/styles/boho-inclusive-wedding-seating',
-  '/styles/classic-inclusive-wedding-seating',
-  '/styles/chic-inclusive-wedding-seating',
-  '/guest-counts/inclusive-50-guest-wedding',
-  '/guest-counts/inclusive-150-guest-wedding',
-  '/guest-counts/inclusive-300-guest-wedding',
-  '/blog/seasonal-outdoor-layouts-guide',
-  '/venue-types/seasonal-outdoor-tent-layout',
-  '/styles/spring-outdoor-wedding-seating',
-  '/styles/summer-outdoor-wedding-seating',
-  '/styles/fall-outdoor-wedding-seating',
-  '/styles/winter-outdoor-wedding-seating',
-  '/guest-counts/seasonal-50-guest-wedding',
-  '/guest-counts/seasonal-150-guest-wedding',
-  '/guest-counts/seasonal-300-guest-wedding'
+  '/blog/micro-wedding-seating-chart-guide',
+  '/styles/micro-wedding-style',
+  '/styles/elopement-reception-seating',
+  '/styles/intimate-dinner-party-wedding',
+  '/styles/courthouse-celebration-lunch',
+  '/guest-counts/10-guests-micro',
+  '/guest-counts/20-guests-micro',
+  '/venue-types/private-dining-room-seating',
+  '/venue-types/historic-library-wedding-seating'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {

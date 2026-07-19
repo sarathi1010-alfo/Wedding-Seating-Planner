@@ -419,3 +419,63 @@
 
 3. **Post**:
    "Weather-proof your tables! 🖱️ TableVows makes seasonal seating layouts effortless. Account for heaters, shade, and tent walls easily. Try it: http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide #WeddingTech #EventProfs"
+
+# Daily Distribution Posts - 2026-07-19
+# Focus: Micro-Wedding Seating (Authority Guide)
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Micro-Wedding Seating
+   **Description**: Planning an intimate wedding for 20 guests or fewer? Learn how to arrange a stunning and engaging seating chart for a micro-wedding.
+   **Link**: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide
+   **Visual Concept**: A top-down shot of a beautifully styled, long King's table set for 15 guests in a private room.
+
+2. **Title**: 3 Best Layouts for a Micro-Wedding
+   **Description**: Should you use a King's table, a U-shape, or clustered rounds? Read our comprehensive guide on micro-wedding seating!
+   **Link**: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide
+   **Visual Concept**: A graphic showing a U-shape vs King's table layout with guest avatars.
+
+3. **Title**: Visual Seating Planner for Intimate Weddings 🖱️
+   **Description**: TableVows' interactive planner lets you design a luxurious dinner party atmosphere for your micro-wedding effortlessly.
+   **Link**: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide
+   **Visual Concept**: A screen recording of the TableVows interface showing a single long banquet table being set up.
+
+## Instagram (3 Posts)
+1. **Carousel**:
+   - Slide 1: How to Plan Seating for a Micro-Wedding
+   - Slide 2: Ditch the "Sides": Focus on connection over tradition.
+   - Slide 3: The King's Table: One long table for a family dinner feel.
+   - Slide 4: Strategic Placement: Pair guests to spark cross-table conversation.
+   - Slide 5: Use TableVows to perfect your intimate layout!
+   **Caption**: When you only have 20 guests, every seat matters! 🥂 Learn how to design a luxurious dinner party atmosphere for your micro-wedding in our new guide. Link in bio! #MicroWedding #IntimateWedding #TableVows
+
+2. **Reel**:
+   - Text overlay: "POV: You realized a 15-person wedding still needs a seating chart."
+   - Visual: Fast-paced shots of a beautiful small wedding dinner party, followed by the TableVows canvas in action creating a King's table layout.
+   **Caption**: Yes, you still need a seating chart for a micro-wedding! 👋 Ensure your intimate reception flows perfectly with TableVows. #WeddingInspo #MicroBride #ReceptionLayout
+
+3. **Story**:
+   - "Planning an intimate wedding for 20 guests or fewer?"
+   - "Swipe up for our new comprehensive guide on Micro-Wedding Seating!"
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a micro-wedding? You might think you don't need a seating chart for 15 people, but a little organization goes a long way to making it feel like a luxurious dinner party. We just published a guide on how to create the perfect intimate layout. Read it here: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide"
+   **Image**: A photo of a warmly lit, intimate wedding dinner in a private restaurant room.
+
+2. **Post**:
+   "Did you know the U-shape layout is one of the best ways to seat 20 guests? 🥂 Learn more micro-wedding seating tips in our latest guide. Plus, try our free visual planner! http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide"
+   **Image**: Close-up of personalized place cards and low floral arrangements on a banquet table.
+
+3. **Post**:
+   "Visualizing your intimate reception space ensures everyone feels like a VIP. With TableVows, you can easily map out your King's table or clustered rounds. Create a connected atmosphere: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide"
+   **Image**: A high-resolution export of a micro-wedding floor plan with one long table.
+
+## Twitter/X (3 Posts)
+1. **Post**:
+   "Yes, you still need a seating chart for 15 guests! Our new guide covers 2026 trends for Micro-Wedding Seating. 🥂 Read more: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide #MicroWedding #SeatingChart"
+
+2. **Post**:
+   "Make your wedding feel like a luxurious dinner party. 💖 Learn how to plan your layout for an intimate celebration in our new micro-wedding seating guide: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide #IntimateWedding #Bride2026"
+
+3. **Post**:
+   "Design the perfect King's table! 🖱️ TableVows makes micro-wedding seating layouts effortless. Ensure everyone is connected. Try it: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide #WeddingTech #EventProfs"
