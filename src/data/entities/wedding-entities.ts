@@ -266,6 +266,42 @@ export const venues: VenueType[] = [
       }
     ]
   },
+  {
+    id: "private-dining-room",
+    name: "Private Dining Room",
+    slug: "private-dining-room-seating",
+    description: "Intimate and sophisticated layouts designed to maximize connection within the cozy confines of a restaurant or private dining space.",
+    seoTitle: "Private Dining Room Wedding Seating Layouts",
+    seoDescription: "Plan an elegant reception in a private dining room. Interactive seating charts optimized for intimate, small spaces.",
+    faqs: [
+      {
+        question: "How do you layout seating in a private dining room?",
+        answer: "The best way is to utilize the existing space naturally, often relying on one large rectangular king's table or a U-shape layout to foster intimacy."
+      },
+      {
+        question: "What is the best table shape for a restaurant wedding?",
+        answer: "Long rectangular tables or a combination of smaller square tables work best to mirror the traditional restaurant dining experience."
+      }
+    ]
+  },
+  {
+    id: "historic-library",
+    name: "Historic Library",
+    slug: "historic-library-wedding-seating",
+    description: "Unique seating strategies for historic spaces, balancing grand architecture and narrow book-lined aisles with elegant table placement.",
+    seoTitle: "Historic Library Wedding Seating & Layout Ideas",
+    seoDescription: "Design a stunning seating chart for a historic library venue. Free interactive planner for unique, narrow, and grand spaces.",
+    faqs: [
+      {
+        question: "How do I arrange tables in a historic library?",
+        answer: "The best way is to embrace the linear architecture by placing long rectangular tables down the main aisles or between bookcases."
+      },
+      {
+        question: "What are the challenges of seating in historic venues?",
+        answer: "You must often work around strict spacing rules and protected architectural features; using a visual floor planner is essential."
+      }
+    ]
+  }
 ];
 
 export const styles: WeddingStyle[] = [
@@ -537,9 +573,119 @@ export const styles: WeddingStyle[] = [
       }
     ]
   },
+  {
+    id: "micro-wedding-style",
+    name: "Micro-Wedding",
+    slug: "micro-wedding-style",
+    description: "Highly intimate and detail-oriented styling designed specifically for guest counts of 20 or fewer.",
+    seoTitle: "Micro-Wedding Seating Chart & Layout Ideas",
+    seoDescription: "Design a flawless micro-wedding layout. Free interactive seating planner for highly intimate celebrations.",
+    faqs: [
+      {
+        question: "How do you seat guests at a micro-wedding?",
+        answer: "The best way to seat guests at a micro-wedding is to use a single large communal table to foster deep connections and a family dinner atmosphere."
+      },
+      {
+        question: "Do I need a seating chart for a micro-wedding?",
+        answer: "Yes, assigning seats even for a small group ensures balanced conversation and removes any awkwardness when it's time to sit down."
+      }
+    ]
+  },
+  {
+    id: "elopement-reception",
+    name: "Elopement Reception",
+    slug: "elopement-reception-seating",
+    description: "Casual yet celebratory layouts for couples throwing a reception after an intimate elopement.",
+    seoTitle: "Elopement Reception Seating Chart Ideas",
+    seoDescription: "Plan the perfect post-elopement reception. Interactive layouts for relaxed and joyful celebrations.",
+    faqs: [
+      {
+        question: "What is the best layout for an elopement reception?",
+        answer: "The best layout is usually a mix of cocktail tables and lounge seating to encourage mingling, reflecting the casual nature of the event."
+      },
+      {
+        question: "How formal should elopement reception seating be?",
+        answer: "It can be entirely informal; however, providing a few reserved tables for older guests or immediate family is highly recommended."
+      }
+    ]
+  },
+  {
+    id: "intimate-dinner-party",
+    name: "Intimate Dinner Party",
+    slug: "intimate-dinner-party-wedding",
+    description: "Elegant, food-focused layouts that turn a small wedding reception into a luxurious dinner party experience.",
+    seoTitle: "Intimate Dinner Party Wedding Seating",
+    seoDescription: "Create a luxurious dinner party atmosphere for your wedding. Free seating planner for intimate table layouts.",
+    faqs: [
+      {
+        question: "How do you make a wedding feel like an intimate dinner party?",
+        answer: "The best way is to use a long rectangular banquet table, low floral centerpieces, and personalized place settings to create closeness."
+      },
+      {
+        question: "What table shape is best for a dinner party wedding?",
+        answer: "A single long rectangular table or a large U-shape layout is best to ensure everyone feels part of one unified conversation."
+      }
+    ]
+  },
+  {
+    id: "courthouse-celebration",
+    name: "Courthouse Celebration",
+    slug: "courthouse-celebration-lunch",
+    description: "Quick, joyous, and relaxed seating setups perfect for a post-city-hall lunch or brunch.",
+    seoTitle: "Courthouse Wedding Celebration Seating Ideas",
+    seoDescription: "Plan a beautiful post-courthouse celebration. Interactive seating planner for relaxed lunches and intimate brunches.",
+    faqs: [
+      {
+        question: "How do you handle seating for a courthouse wedding lunch?",
+        answer: "The best way is to reserve a private room at a local restaurant and use a single large table or a few closely grouped round tables."
+      },
+      {
+        question: "Is assigned seating necessary for a post-courthouse brunch?",
+        answer: "While not strictly necessary, having loose assigned seating or reserved areas helps the event flow smoothly and makes guests feel special."
+      }
+    ]
+  }
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "small-10",
+    name: "10 Guests",
+    slug: "10-guests-micro",
+    count: 10,
+    description: "Extremely intimate gatherings where every guest is an absolute VIP, perfect for private dining rooms.",
+    seoTitle: "Wedding Seating Charts for 10 Guests | Micro-Weddings",
+    seoDescription: "Plan an ultra-intimate 10-guest wedding reception. Free interactive seating planner for perfect micro-weddings.",
+    faqs: [
+      {
+        question: "How do you seat 10 guests at a wedding?",
+        answer: "The best way is to seat everyone, including the couple, at a single rectangular or round table to create a warm, family-style dinner atmosphere."
+      },
+      {
+        question: "Is a seating chart necessary for 10 guests?",
+        answer: "While it seems small, pre-assigning seats for 10 guests ensures the couple is seated centrally and avoids any hesitation when guests sit down."
+      }
+    ]
+  },
+  {
+    id: "small-20",
+    name: "20 Guests",
+    slug: "20-guests-micro",
+    count: 20,
+    description: "Small, highly curated gatherings where layout focuses on shared experiences and close conversation.",
+    seoTitle: "Wedding Seating Charts for 20 Guests | Intimate Receptions",
+    seoDescription: "Organize a perfect 20-guest wedding reception. Interactive seating planner for intimate and meaningful celebrations.",
+    faqs: [
+      {
+        question: "What is the best layout for a 20 guest wedding?",
+        answer: "The best layout is typically a large U-shape arrangement or a single long banquet table, ensuring everyone feels connected to the couple."
+      },
+      {
+        question: "How many tables do I need for 20 guests?",
+        answer: "You generally need one large king's table, or two to three 60-inch round tables, depending on the shape of your venue."
+      }
+    ]
+  },
   {
     id: "inclusive-50",
     name: "Inclusive 50 Guests",

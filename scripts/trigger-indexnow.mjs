@@ -11,24 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
-    'http://tablevows.alfo.online/venue-types/inclusive-outdoor-tent-layout',
-    'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
-    'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
-    'http://tablevows.alfo.online/styles/classic-inclusive-wedding-seating',
-    'http://tablevows.alfo.online/styles/chic-inclusive-wedding-seating',
-    'http://tablevows.alfo.online/guest-counts/inclusive-50-guest-wedding',
-    'http://tablevows.alfo.online/guest-counts/inclusive-150-guest-wedding',
-    'http://tablevows.alfo.online/guest-counts/inclusive-300-guest-wedding',
-  'http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide',
-  'http://tablevows.alfo.online/venue-types/seasonal-outdoor-tent-layout',
-  'http://tablevows.alfo.online/styles/spring-outdoor-wedding-seating',
-  'http://tablevows.alfo.online/styles/summer-outdoor-wedding-seating',
-  'http://tablevows.alfo.online/styles/fall-outdoor-wedding-seating',
-  'http://tablevows.alfo.online/styles/winter-outdoor-wedding-seating',
-  'http://tablevows.alfo.online/guest-counts/seasonal-50-guest-wedding',
-  'http://tablevows.alfo.online/guest-counts/seasonal-150-guest-wedding',
-  'http://tablevows.alfo.online/guest-counts/seasonal-300-guest-wedding'
+  'http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide',
+  'http://tablevows.alfo.online/styles/micro-wedding-style',
+  'http://tablevows.alfo.online/styles/elopement-reception-seating',
+  'http://tablevows.alfo.online/styles/intimate-dinner-party-wedding',
+  'http://tablevows.alfo.online/styles/courthouse-celebration-lunch',
+  'http://tablevows.alfo.online/guest-counts/10-guests-micro',
+  'http://tablevows.alfo.online/guest-counts/20-guests-micro',
+  'http://tablevows.alfo.online/venue-types/private-dining-room-seating',
+  'http://tablevows.alfo.online/venue-types/historic-library-wedding-seating'
 ];
 
 console.log('Starting simulated SEO pings...');
