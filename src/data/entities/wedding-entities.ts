@@ -48,7 +48,43 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+    {
+    id: "convention-center",
+    name: "Convention Center",
+    slug: "convention-center-wedding-seating",
+    description: "Convention centers offer massive, flexible spaces ideal for grand weddings, requiring strategic table placement to avoid feeling cavernous.",
+    seoTitle: "Convention Center Wedding Seating Layouts | Large Weddings",
+    seoDescription: "Plan a massive convention center wedding layout. Free interactive seating charts designed to optimize massive floor plans.",
+    faqs: [
+      {
+        question: "How do you make a convention center feel intimate?",
+        answer: "Use clustered table arrangements, tall statement centerpieces, and strategic lighting or draping to visually lower the ceiling and create cozy zones within the large space."
+      },
+      {
+        question: "What is the best table shape for a convention center?",
+        answer: "A mix of long banquet tables and large 72-inch round tables works best to break up the uniform space and add visual interest to the expansive floor plan."
+      }
+    ]
+  },
   {
+    id: "grand-ballroom",
+    name: "Grand Ballroom",
+    slug: "grand-ballroom-wedding-seating",
+    description: "Grand ballrooms provide a luxurious backdrop for large guest counts, needing precise layouts to accommodate dance floors and large bands.",
+    seoTitle: "Grand Ballroom Wedding Seating Charts | Elegant Layouts",
+    seoDescription: "Design an elegant grand ballroom seating chart. Optimize your massive guest list with our free drag-and-drop planner.",
+    faqs: [
+      {
+        question: "How do you plan seating in a grand ballroom with pillars?",
+        answer: "Map the pillars on your floor plan first. Avoid placing tables directly behind them to ensure all guests have a clear line of sight to the head table and dance floor."
+      },
+      {
+        question: "Where should the head table go in a grand ballroom?",
+        answer: "Place the head table on the longest wall or centered opposite the main entrance, ensuring it is the focal point of the room."
+      }
+    ]
+  },
+{
     id: "inclusive-tent",
     name: "Inclusive Outdoor Tent",
     slug: "inclusive-outdoor-tent-layout",
@@ -305,7 +341,79 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+    {
+    id: "black-tie-gala",
+    name: "Black-Tie Gala",
+    slug: "black-tie-gala-wedding-seating",
+    description: "Black-tie gala seating emphasizes formal elegance and luxury, often utilizing grand banquet tables and precise symmetrical layouts.",
+    seoTitle: "Black-Tie Gala Wedding Seating Layouts & Formal Floor Plans",
+    seoDescription: "Plan a formal black-tie gala wedding reception. Free interactive seating charts for elegant and luxurious events.",
+    faqs: [
+      {
+        question: "What is the most formal table layout for a black-tie gala?",
+        answer: "Long, continuous banquet tables or U-shape layouts are highly formal and create a stunning visual impact for black-tie events."
+      },
+      {
+        question: "Do I need escort cards for a black-tie gala?",
+        answer: "Yes, formal escort cards and strictly assigned seats at specific tables are essential for maintaining the elegance and organization of a black-tie gala."
+      }
+    ]
+  },
   {
+    id: "royal-banquet",
+    name: "Royal Banquet",
+    slug: "royal-banquet-wedding-layout",
+    description: "Royal banquet style focuses on opulence, long continuous tables, and a regal atmosphere suitable for the grandest celebrations.",
+    seoTitle: "Royal Banquet Wedding Seating Charts & Opulent Layouts",
+    seoDescription: "Design a royal banquet wedding layout. Create opulent, continuous table arrangements with our free visual planner.",
+    faqs: [
+      {
+        question: "How do you arrange a royal banquet seating chart?",
+        answer: "Use exceptionally long rectangular tables positioned parallel to each other, with the couple seated at a raised or prominently placed head table at the top of the room."
+      },
+      {
+        question: "What size tables are used for royal banquets?",
+        answer: "Custom or seamlessly joined 8-foot rectangular tables are typically used to create the illusion of one massive, continuous dining table."
+      }
+    ]
+  },
+  {
+    id: "festival-style-large",
+    name: "Large Festival Style",
+    slug: "large-festival-wedding-seating",
+    description: "Festival style for large weddings uses a mix of informal seating, lounges, and scattered tables to encourage mingling and a relaxed vibe.",
+    seoTitle: "Large Festival Style Wedding Seating & Relaxed Layouts",
+    seoDescription: "Plan a large festival-style wedding layout. Combine lounges and varied tables for a relaxed, mingling-focused reception.",
+    faqs: [
+      {
+        question: "How do you seat 300 guests festival style?",
+        answer: "Provide a mix of traditional tables for older guests, high-top cocktail tables, and relaxed lounge areas. You don't need a formal seat for every single guest if food is served via food trucks or stations."
+      },
+      {
+        question: "Is assigned seating necessary for a festival wedding?",
+        answer: "No, open seating or 'zones' work better for a festival vibe, though it's wise to reserve specific traditional tables for immediate family and elderly guests."
+      }
+    ]
+  },
+  {
+    id: "massive-tent-gala",
+    name: "Massive Tent Gala",
+    slug: "massive-tent-gala-seating",
+    description: "Massive tent galas require specialized seating to account for tent poles, uneven ground, and creating distinct zones for dining and dancing.",
+    seoTitle: "Massive Tent Gala Wedding Seating Layouts | Outdoor Events",
+    seoDescription: "Design a massive tent gala seating chart. Free interactive planner to manage tent poles, dance floors, and large guest lists.",
+    faqs: [
+      {
+        question: "How do you layout seating in a massive pole tent?",
+        answer: "Map the center poles first and arrange your dance floor and main tables around them, using the poles as natural dividers for different zones (e.g., dining vs. lounging)."
+      },
+      {
+        question: "What is the best way to light a massive tent layout?",
+        answer: "Use a mix of perimeter uplighting, overhead string lights or chandeliers, and pin-spotting on the tables to ensure the large space feels warm and intimate."
+      }
+    ]
+  },
+{
     id: "modern-inclusive",
     name: "Modern Inclusive",
     slug: "modern-inclusive-wedding-seating",
@@ -648,7 +756,45 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+    {
+    id: "large-250",
+    name: "250 Guests",
+    slug: "250-guests-large",
+    count: 250,
+    description: "Large 250-guest weddings require precise traffic flow management and strategic mixing of table shapes to maximize space.",
+    seoTitle: "Wedding Seating Charts for 250 Guests | Large Layouts",
+    seoDescription: "Plan a massive 250-guest wedding reception. Free interactive seating planner for perfect large-scale layouts.",
+    faqs: [
+      {
+        question: "How many tables do I need for 250 guests?",
+        answer: "You will need approximately 25 to 32 tables, depending on whether you use 60-inch rounds (seating 8) or 72-inch rounds (seating 10)."
+      },
+      {
+        question: "How do you manage traffic flow for 250 guests?",
+        answer: "Ensure aisles between tables are at least 60 inches wide, place multiple bars strategically around the room, and keep the dance floor centrally located and easily accessible."
+      }
+    ]
+  },
   {
+    id: "massive-400",
+    name: "400 Guests",
+    slug: "400-guests-massive",
+    count: 400,
+    description: "Massive 400-guest weddings are monumental events where crowd control, clear signage, and spacious layouts are absolutely critical.",
+    seoTitle: "Wedding Seating Charts for 400 Guests | Massive Layouts",
+    seoDescription: "Design a flawless 400-guest wedding layout. Manage huge guest lists effortlessly with our free visual seating planner.",
+    faqs: [
+      {
+        question: "How do you seat 400 guests at a wedding?",
+        answer: "Use a mix of long banquet tables to maximize space efficiency and large round tables. Strict assigned seating is mandatory to prevent chaos during dinner service."
+      },
+      {
+        question: "How do guests find their seats at a 400-person wedding?",
+        answer: "Use alphabetized escort cards displayed on multiple large tables in the cocktail area, rather than a single seating chart poster which will cause a massive bottleneck."
+      }
+    ]
+  },
+{
     id: "small-10",
     name: "10 Guests",
     slug: "10-guests-micro",

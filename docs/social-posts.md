@@ -479,3 +479,63 @@
 
 3. **Post**:
    "Design the perfect King's table! 🖱️ TableVows makes micro-wedding seating layouts effortless. Ensure everyone is connected. Try it: http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide #WeddingTech #EventProfs"
+
+# Daily Distribution Posts - 2026-07-20
+# Focus: Large Wedding Seating Charts (Authority Guide)
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Large Wedding Seating (250+ Guests)
+   **Description**: Planning a massive wedding? Learn how to arrange a 200+ guest seating chart for perfect flow and no bottlenecks.
+   **Link**: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide
+   **Visual Concept**: A top-down split image showing a chaotic messy room vs a highly organized mixed-table layout.
+
+2. **Title**: 5 Rules for Seating 300+ Wedding Guests
+   **Description**: Don't let your massive guest list turn into chaos. Read our comprehensive guide on large wedding seating charts!
+   **Link**: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide
+   **Visual Concept**: An infographic showing traffic flow arrows and mixed table shapes for a grand ballroom.
+
+3. **Title**: Visual Seating Planner for Massive Weddings 🖱️
+   **Description**: TableVows' interactive planner lets you design a 400-guest layout effortlessly, mapping out tables, bars, and dance floors.
+   **Link**: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide
+   **Visual Concept**: A screen recording of the TableVows interface zooming out to show dozens of tables perfectly aligned.
+
+## Instagram (3 Posts)
+1. **Carousel**:
+   - Slide 1: How to Plan Seating for 250+ Guests
+   - Slide 2: Map the Traffic Zones: Leave 60+ inches between tables.
+   - Slide 3: Mix Table Shapes: Combine long banquets with round tables to save space.
+   - Slide 4: Grouping VIPs: Keep the core near you, but don't banish the outer rings.
+   - Slide 5: Use TableVows to visualize your massive layout!
+   **Caption**: Hosting a massive wedding? Logistics trump aesthetics! 🥂 Learn how to design a flawless large-scale layout in our new guide. Link in bio! #LargeWedding #WeddingLogistics #TableVows
+
+2. **Reel**:
+   - Text overlay: "POV: You have 300 guests and one giant empty ballroom."
+   - Visual: Fast-paced shots of a large elegant ballroom, followed by the TableVows canvas quickly populating with dozens of mixed tables.
+   **Caption**: Don't guess with 300 guests. 👋 Ensure your massive reception flows perfectly with TableVows. #WeddingInspo #BigWedding #ReceptionLayout
+
+3. **Story**:
+   - "Planning a wedding with over 200 guests?"
+   - "Swipe up for our new comprehensive guide on Large Wedding Seating!"
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a massive wedding? Managing 250+ guests is like orchestrating a small city! We just published a guide on how to create the perfect large-scale layout to avoid bottlenecks. Read it here: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide"
+   **Image**: A photo of an expansive, elegantly decorated grand ballroom.
+
+2. **Post**:
+   "Did you know that mixing long banquet tables with round tables is the best way to maximize space for a 300-guest wedding? 🥂 Learn more large wedding seating tips in our latest guide. Plus, try our free visual planner! http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide"
+   **Image**: An overhead shot of a wedding reception featuring mixed table shapes.
+
+3. **Post**:
+   "Visualizing your massive reception space is essential to avoid gridlock during dinner service. With TableVows, you can easily map out your 400-guest layout. Keep the traffic flowing: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide"
+   **Image**: A high-resolution export of a 400-guest floor plan with clear traffic aisles.
+
+## Twitter/X (3 Posts)
+1. **Post**:
+   "Logistics > Aesthetics for massive weddings! Our new guide covers 2026 trends for Large Wedding Seating. 🥂 Read more: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide #BigWedding #SeatingChart"
+
+2. **Post**:
+   "Don't banish guests to the back corner! 💖 Learn how to plan your layout for 250+ guests in our new large wedding seating guide: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide #LargeWedding #Bride2026"
+
+3. **Post**:
+   "Mix your table shapes! 🖱️ TableVows makes massive seating layouts effortless. Ensure everyone has space to mingle. Try it: http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide #WeddingTech #EventProfs"

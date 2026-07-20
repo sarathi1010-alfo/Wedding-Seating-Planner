@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/micro-wedding-seating-chart-guide',
-  'http://tablevows.alfo.online/styles/micro-wedding-style',
-  'http://tablevows.alfo.online/styles/elopement-reception-seating',
-  'http://tablevows.alfo.online/styles/intimate-dinner-party-wedding',
-  'http://tablevows.alfo.online/styles/courthouse-celebration-lunch',
-  'http://tablevows.alfo.online/guest-counts/10-guests-micro',
-  'http://tablevows.alfo.online/guest-counts/20-guests-micro',
-  'http://tablevows.alfo.online/venue-types/private-dining-room-seating',
-  'http://tablevows.alfo.online/venue-types/historic-library-wedding-seating'
+  'http://tablevows.alfo.online/blog/large-wedding-seating-chart-guide',
+  'http://tablevows.alfo.online/styles/black-tie-gala-wedding-seating',
+  'http://tablevows.alfo.online/styles/royal-banquet-wedding-layout',
+  'http://tablevows.alfo.online/styles/large-festival-wedding-seating',
+  'http://tablevows.alfo.online/styles/massive-tent-gala-seating',
+  'http://tablevows.alfo.online/guest-counts/250-guests-large',
+  'http://tablevows.alfo.online/guest-counts/400-guests-massive',
+  'http://tablevows.alfo.online/venue-types/convention-center-wedding-seating',
+  'http://tablevows.alfo.online/venue-types/grand-ballroom-wedding-seating'
 ];
 
 console.log('Starting simulated SEO pings...');
