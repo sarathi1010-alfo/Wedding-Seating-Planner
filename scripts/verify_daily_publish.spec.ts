@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
-  '/blog/micro-wedding-seating-chart-guide',
-  '/styles/micro-wedding-style',
-  '/styles/elopement-reception-seating',
-  '/styles/intimate-dinner-party-wedding',
-  '/styles/courthouse-celebration-lunch',
-  '/guest-counts/10-guests-micro',
-  '/guest-counts/20-guests-micro',
-  '/venue-types/private-dining-room-seating',
-  '/venue-types/historic-library-wedding-seating'
+  '/blog/large-wedding-seating-chart-guide',
+  '/styles/black-tie-gala-wedding-seating',
+  '/styles/royal-banquet-wedding-layout',
+  '/styles/large-festival-wedding-seating',
+  '/styles/massive-tent-gala-seating',
+  '/guest-counts/250-guests-large',
+  '/guest-counts/400-guests-massive',
+  '/venue-types/convention-center-wedding-seating',
+  '/venue-types/grand-ballroom-wedding-seating'
 ];
 
 test.describe('Daily Publish Verification', () => {
