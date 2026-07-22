@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
-  'http://tablevows.alfo.online/venue-types/inclusive-outdoor-tent-layout',
-  'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
-  'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
-  'http://tablevows.alfo.online/styles/classic-inclusive-wedding-seating',
-  'http://tablevows.alfo.online/styles/chic-inclusive-wedding-seating',
-  'http://tablevows.alfo.online/guest-counts/inclusive-50-guest-wedding',
-  'http://tablevows.alfo.online/guest-counts/inclusive-150-guest-wedding',
-  'http://tablevows.alfo.online/guest-counts/inclusive-300-guest-wedding'
+  'http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide',
+  'http://tablevows.alfo.online/styles/tropical-destination-seating',
+  'http://tablevows.alfo.online/styles/european-villa-seating',
+  'http://tablevows.alfo.online/styles/mountain-resort-layout',
+  'http://tablevows.alfo.online/styles/desert-oasis-seating',
+  'http://tablevows.alfo.online/guest-counts/destination-30-guests',
+  'http://tablevows.alfo.online/guest-counts/destination-75-guests',
+  'http://tablevows.alfo.online/guest-counts/destination-150-guests',
+  'http://tablevows.alfo.online/venue-types/beachfront-resort-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

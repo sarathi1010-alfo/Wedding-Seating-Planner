@@ -48,6 +48,25 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "beachfront-resort",
+    name: "Beachfront Resort",
+    slug: "beachfront-resort-layout",
+    description: "Beachfront resort layouts prioritize stunning ocean views and flexible seating to handle sand or decking terrain.",
+    seoTitle: "Beachfront Resort Wedding Seating & Layout Ideas",
+    seoDescription: "Plan a beautiful beachfront resort wedding reception. Interactive seating charts optimized for coastal and destination venues.",
+    faqs: [
+      {
+        question: "How do you seat guests for a beachfront resort wedding?",
+        answer: "The best way is to use a visual planner to position tables parallel to the shoreline, ensuring all guests have an unobstructed view of the ocean."
+      },
+      {
+        question: "What is the best layout for a beach resort reception?",
+        answer: "U-shape layouts or mixed long and round tables work best, allowing for flexible spacing depending on the beach's exact dimensions and terrain."
+      }
+    ]
+  },
+
     {
     id: "convention-center",
     name: "Convention Center",
@@ -341,6 +360,79 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "tropical-destination",
+    name: "Tropical Destination",
+    slug: "tropical-destination-seating",
+    description: "Tropical destination seating emphasizes shade, airflow, and relaxed configurations suited for warm climates.",
+    seoTitle: "Tropical Destination Wedding Seating Layouts",
+    seoDescription: "Plan a beautiful tropical destination wedding reception. Free interactive seating charts for beach and resort events.",
+    faqs: [
+      {
+        question: "How do you arrange seating for a tropical destination wedding?",
+        answer: "The best way is to ensure tables are spaced widely apart to allow for cross-breezes, and position vulnerable guests in the shadiest areas."
+      },
+      {
+        question: "What table shape is best for a tropical wedding?",
+        answer: "Mixed layouts featuring both round and rectangular tables work well to adapt to the unique shapes of tropical outdoor venues."
+      }
+    ]
+  },
+  {
+    id: "european-villa",
+    name: "European Villa",
+    slug: "european-villa-seating",
+    description: "European villa styles often utilize long banquet tables in narrow courtyards or terraced gardens.",
+    seoTitle: "European Villa Wedding Seating Layouts & Floor Plans",
+    seoDescription: "Design an elegant European villa wedding layout. Create stunning continuous table arrangements with our visual planner.",
+    faqs: [
+      {
+        question: "What is the best seating layout for a European villa courtyard?",
+        answer: "The best way is to use long, continuous rectangular tables to maximize the narrow space and create an intimate, family-style atmosphere."
+      },
+      {
+        question: "How do you seat guests on a terraced villa property?",
+        answer: "Use smaller round tables scattered across the different terrace levels, keeping families or friend groups together on each level."
+      }
+    ]
+  },
+  {
+    id: "mountain-resort",
+    name: "Mountain Resort",
+    slug: "mountain-resort-layout",
+    description: "Mountain resort layouts prioritize cozy seating arrangements and strategic placement near heat sources or fireplaces.",
+    seoTitle: "Mountain Resort Wedding Seating Charts & Layouts",
+    seoDescription: "Plan a cozy mountain resort wedding layout. Interactive seating planner for rustic and alpine celebrations.",
+    faqs: [
+      {
+        question: "How do you plan seating for a mountain resort wedding?",
+        answer: "The best way is to cluster tables closer together for warmth and ensure no guests are seated in drafty areas near entrances."
+      },
+      {
+        question: "What is a good layout for an alpine wedding reception?",
+        answer: "U-shape layouts or mixed layouts with long farm tables perfectly complement the rustic, cozy vibe of a mountain resort."
+      }
+    ]
+  },
+  {
+    id: "desert-oasis",
+    name: "Desert Oasis",
+    slug: "desert-oasis-seating",
+    description: "Desert oasis seating charts must account for dramatic temperature shifts, often requiring flexible indoor/outdoor configurations.",
+    seoTitle: "Desert Oasis Wedding Seating Layouts & Charts",
+    seoDescription: "Design a stunning desert oasis wedding seating chart. Free interactive planner to manage flexible outdoor layouts.",
+    faqs: [
+      {
+        question: "How do you arrange seating for a desert oasis wedding?",
+        answer: "The best way is to plan for the dropping temperatures by clustering tables near fire pits or heat lamps as the evening progresses."
+      },
+      {
+        question: "What table shapes work best in a desert setting?",
+        answer: "Long rectangular tables look striking against a sweeping desert landscape and encourage a communal dining experience."
+      }
+    ]
+  },
+
     {
     id: "black-tie-gala",
     name: "Black-Tie Gala",
@@ -756,6 +848,64 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "destination-30",
+    name: "Destination 30 Guests",
+    slug: "destination-30-guests",
+    count: 30,
+    description: "An intimate destination wedding for 30 guests allows for highly personalized and cohesive seating arrangements.",
+    seoTitle: "Destination Wedding Seating Charts for 30 Guests",
+    seoDescription: "Plan an intimate 30-guest destination wedding. Free interactive seating planner for perfect small-scale layouts.",
+    faqs: [
+      {
+        question: "How do you seat 30 guests at a destination wedding?",
+        answer: "The best way is to use a single long King's table or a U-shape layout to foster deep connections among your traveled guests."
+      },
+      {
+        question: "What is the best table shape for a 30 guest destination wedding?",
+        answer: "A single long rectangular table is ideal, creating a luxurious and intimate dinner party atmosphere."
+      }
+    ]
+  },
+  {
+    id: "destination-75",
+    name: "Destination 75 Guests",
+    slug: "destination-75-guests",
+    count: 75,
+    description: "A medium-sized destination wedding requires careful grouping to integrate different sets of traveling friends and family.",
+    seoTitle: "Destination Wedding Seating Charts for 75 Guests",
+    seoDescription: "Manage a 75-guest destination wedding with ease. Our free tool helps you design perfectly balanced layouts.",
+    faqs: [
+      {
+        question: "How do you organize a seating chart for 75 destination guests?",
+        answer: "The best way is to group guests based on the relationships formed during pre-wedding travel activities and excursions."
+      },
+      {
+        question: "How many tables are needed for a 75-guest destination wedding?",
+        answer: "Typically 8 to 10 tables, depending on whether you choose to mix round tables with long banquet tables."
+      }
+    ]
+  },
+  {
+    id: "destination-150",
+    name: "Destination 150 Guests",
+    slug: "destination-150-guests",
+    count: 150,
+    description: "A large destination wedding needs robust logistics to ensure all traveling guests feel included and comfortable.",
+    seoTitle: "Destination Wedding Seating Charts for 150 Guests",
+    seoDescription: "Design a flawless 150-guest destination wedding layout. Free interactive seating planner for large celebrations.",
+    faqs: [
+      {
+        question: "How do I plan seating for a large 150-guest destination wedding?",
+        answer: "The best way is to use a visual planner to test the flow, ensuring clear pathways and comfortable spacing in unfamiliar venue layouts."
+      },
+      {
+        question: "What is the best layout for 150 guests at a destination wedding?",
+        answer: "A mix of round and long tables works best to accommodate both large families and smaller groups of traveling friends."
+      }
+    ]
+  },
+
     {
     id: "large-250",
     name: "250 Guests",

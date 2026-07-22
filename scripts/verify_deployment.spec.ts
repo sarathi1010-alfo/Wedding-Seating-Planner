@@ -3,15 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
-  '/blog/inclusive-seating-for-lgbtq-weddings',
-  '/venue-types/inclusive-outdoor-tent-layout',
-  '/styles/modern-inclusive-wedding-seating',
-  '/styles/boho-inclusive-wedding-seating',
-  '/styles/classic-inclusive-wedding-seating',
-  '/styles/chic-inclusive-wedding-seating',
-  '/guest-counts/inclusive-50-guest-wedding',
-  '/guest-counts/inclusive-150-guest-wedding',
-  '/guest-counts/inclusive-300-guest-wedding'
+  '/blog/destination-wedding-seating-chart-guide',
+  '/styles/tropical-destination-seating',
+  '/styles/european-villa-seating',
+  '/styles/mountain-resort-layout',
+  '/styles/desert-oasis-seating',
+  '/guest-counts/destination-30-guests',
+  '/guest-counts/destination-75-guests',
+  '/guest-counts/destination-150-guests',
+  '/venue-types/beachfront-resort-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
