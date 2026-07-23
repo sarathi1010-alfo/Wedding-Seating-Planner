@@ -49,6 +49,25 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "backyard-garden",
+    name: "Backyard Garden",
+    slug: "backyard-garden-layout",
+    description: "Backyard garden layouts prioritize utilizing natural features, navigating uneven terrain, and ensuring a relaxed, intimate vibe.",
+    seoTitle: "Backyard Garden Wedding Seating & Layout Ideas",
+    seoDescription: "Plan a beautiful backyard garden wedding reception. Interactive seating charts optimized for intimate outdoor spaces.",
+    faqs: [
+      {
+        question: "How do you seat guests for a backyard garden wedding?",
+        answer: "The best way is to use a visual planner to position tables on the flattest terrain available, working around natural features like trees and flower beds."
+      },
+      {
+        question: "What is the best layout for a backyard garden reception?",
+        answer: "Long banquet tables often work best, as they can be arranged in rows to maximize the available lawn space and create a family-style dining experience."
+      }
+    ]
+  },
+
+  {
     id: "beachfront-resort",
     name: "Beachfront Resort",
     slug: "beachfront-resort-layout",
@@ -360,6 +379,39 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "backyard-boho",
+    name: "Backyard Boho",
+    slug: "backyard-boho-seating",
+    description: "A relaxed, bohemian style perfect for backyard settings, featuring eclectic mix-and-match tables and cozy lounge areas.",
+    seoTitle: "Backyard Boho Wedding Seating Charts & Ideas",
+    seoDescription: "Design a relaxed backyard boho wedding. Free seating planner for eclectic and cozy outdoor layouts."
+  },
+  {
+    id: "rustic-backyard",
+    name: "Rustic Backyard",
+    slug: "rustic-backyard-layout",
+    description: "Embrace the outdoors with a rustic backyard style, utilizing wooden farmhouse tables and natural elements in your seating plan.",
+    seoTitle: "Rustic Backyard Wedding Seating Layouts",
+    seoDescription: "Plan a charming rustic backyard wedding. Interactive layouts for farmhouse tables and relaxed seating arrangements."
+  },
+  {
+    id: "elegant-backyard",
+    name: "Elegant Backyard",
+    slug: "elegant-backyard-wedding",
+    description: "Elevate your backyard space with elegant seating, incorporating round tables, crisp linens, and strategic tenting.",
+    seoTitle: "Elegant Backyard Wedding Seating & Floor Plans",
+    seoDescription: "Host a sophisticated elegant backyard wedding. Design your upscale outdoor seating chart with our free tools."
+  },
+  {
+    id: "casual-bbq",
+    name: "Casual Backyard BBQ",
+    slug: "casual-backyard-bbq-seating",
+    description: "Keep things laid-back with a casual BBQ style, featuring picnic-style seating and wide aisles for easy buffet access.",
+    seoTitle: "Casual Backyard BBQ Wedding Seating Charts",
+    seoDescription: "Plan a fun, casual backyard BBQ wedding. Interactive seating planner for relaxed, buffet-friendly layouts."
+  },
+
   {
     id: "tropical-destination",
     name: "Tropical Destination",
@@ -848,6 +900,64 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "backyard-50",
+    name: "Backyard 50 Guests",
+    slug: "backyard-50-guests",
+    count: 50,
+    description: "A 50-guest backyard wedding allows for an intimate, communal seating arrangement, often using a single long table or a U-shape.",
+    seoTitle: "Backyard Seating Charts for 50 Guests (Intimate Weddings)",
+    seoDescription: "Plan an intimate backyard wedding for 50 guests. Free interactive seating planner for cozy outdoor celebrations.",
+    faqs: [
+      {
+        question: "What is the best backyard layout for 50 guests?",
+        answer: "The best layout is often a single large U-shaped or long rectangular table, fostering a close-knit, family dinner atmosphere."
+      },
+      {
+        question: "How do I seat 50 guests in a backyard?",
+        answer: "Prioritize comfort by ensuring the seating area is flat and accessible, using a visual planner to test the flow before the big day."
+      }
+    ]
+  },
+  {
+    id: "backyard-100",
+    name: "Backyard 100 Guests",
+    slug: "backyard-100-guests",
+    count: 100,
+    description: "Hosting 100 guests in a backyard requires careful planning of table groups and clear pathways to manage the larger crowd.",
+    seoTitle: "Backyard Seating Charts for 100 Guests | Outdoor Layouts",
+    seoDescription: "Design a backyard seating chart for 100 guests. Interactive layouts that prioritize flow and comfort in outdoor spaces.",
+    faqs: [
+      {
+        question: "How do I plan backyard seating for 100 guests?",
+        answer: "The best way is to use a visual planner to ensure you have enough flat space for 10-12 round tables or a mix of long tables."
+      },
+      {
+        question: "How many tables are needed for a 100-guest backyard wedding?",
+        answer: "Typically 10 to 12 tables, positioned carefully to maximize the lawn space while leaving room for a dance floor and catering paths."
+      }
+    ]
+  },
+  {
+    id: "backyard-150",
+    name: "Backyard 150 Guests",
+    slug: "backyard-150-guests",
+    count: 150,
+    description: "A large 150-guest backyard wedding requires maximizing every square foot and strict logistical planning for flow and facilities.",
+    seoTitle: "Backyard Seating Charts for 150 Guests | Large Outdoor Weddings",
+    seoDescription: "Manage a 150-guest backyard wedding with ease. Our free tool helps you design efficient, large-scale outdoor layouts.",
+    faqs: [
+      {
+        question: "How do I make a 150-guest backyard wedding comfortable?",
+        answer: "The best way is to ensure your floor plan includes clear, wide aisles and to carefully map out the placement of rented tents and restroom trailers."
+      },
+      {
+        question: "What is the best floor plan for 150 guests in a backyard?",
+        answer: "Create a mix of long and round tables to fit the unique shape of the yard, ensuring that large aisles are maintained for catering flow."
+      }
+    ]
+  },
+
   {
     id: "destination-30",
     name: "Destination 30 Guests",
