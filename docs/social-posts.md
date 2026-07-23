@@ -659,3 +659,63 @@
 
 3. **Tweet**:
    "Don't let complex destination venue layouts ruin your reception. Use a visual drag-and-drop planner to experiment and find the perfect harmony. 🖱️ Try it today: http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide #WeddingTech #EventProfs"
+
+## Social Media Distribution Posts - Backyard Wedding Seating
+# Updated: 2026-07-23
+
+**Status: Queued for publishing.**
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Backyard Wedding Seating
+   **Description**: Planning an intimate backyard wedding? Learn how to arrange your seating chart to handle uneven terrain, shade, and string lights for the perfect vibe.
+   **Link**: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide
+   **Visual Concept**: A cozy, well-lit backyard reception with long wooden tables under string lights.
+
+2. **Title**: Backyard BBQ Wedding Seating Ideas
+   **Description**: Organize your casual outdoor celebration! Group guests comfortably and maximize lawn space with these smart layouts.
+   **Link**: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide
+   **Visual Concept**: A long-form infographic showing the best table shapes for grassy terrain.
+
+3. **Title**: Backyard Wedding Seating Mistakes to Avoid
+   **Description**: Don't let your guests sit in the mud or bake in the sun! Discover the essential rules for seating guests comfortably in a backyard setting.
+   **Link**: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide
+   **Visual Concept**: A list graphic with common backyard wedding seating errors and their solutions.
+
+## Instagram (3 Posts)
+1. **Carousel Post**:
+   - Slide 1: How to Plan a Backyard Wedding Seating Chart
+   - Slide 2: Account for Terrain (Flat ground is key!)
+   - Slide 3: Factor in shade and power sources for lighting.
+   - Slide 4: Use flexible table shapes to fit unconventional yard layouts.
+   - Slide 5: Visualize your space easily with TableVows.
+   **Caption**: Tying the knot at home? 🏡 Swipe for our top tips on creating a backyard seating chart that ensures everyone's comfort. Link in bio for the full guide! #BackyardWedding #WeddingPlanning
+
+2. **Reel**:
+   - **Video**: Screen recording of TableVows showing a mixed round and long table layout on a backyard patio and lawn, cutting to a beautiful evening shot of a backyard reception.
+   - **Audio**: A chill, acoustic instrumental track.
+   - **Text on Screen**: "Planning seating for a backyard wedding? We got you. ✨"
+   - **Caption**: Your seating chart needs to adapt to your yard, not the other way around. Use our free tool to perfectly place your VIPs. Guide link in bio! #WeddingInspo #BackyardVows
+
+3. **Static Post**:
+   - **Image**: A stunning evening shot of long banquet tables arranged in a lush backyard garden under string lights.
+   - **Caption**: Maximizing space in a backyard requires creative layouts! What's your dream backyard wedding setup? Let us know below! 👇 And check out our new Backyard Seating guide via the link in our bio.
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a backyard wedding and feeling stressed about navigating the yard's layout? We've got you covered. Read our brand new guide on creating a Backyard Seating Chart where everyone feels comfortable! 🏡 http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide"
+
+2. **Post**:
+   "Did you know that long banquet tables are often the most space-efficient choice for a backyard? Discover modern outdoor seating tips in our latest article: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide"
+
+3. **Post**:
+   "Your backyard is unique, and your seating chart should be too! Stop worrying about standard ballroom layouts and focus on the natural terrain. Try our free drag-and-drop planner to visualize your perfect reception. http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide"
+
+## Twitter/X (3 Posts)
+1. **Tweet**:
+   "Wedding seating rule #1 for backyard weddings: Prioritize the terrain! Ensure your older guests are on flat, stable ground. 🥂 Read our full backyard seating guide: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide #BackyardWedding"
+
+2. **Tweet**:
+   "Make sure your seating chart reflects the relaxed vibe of your backyard. Keep it intimate and communal! ❤️ Learn how in our new guide: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide #WeddingTips"
+
+3. **Tweet**:
+   "Don't let complex yard layouts ruin your reception. Use a visual drag-and-drop planner to experiment and find the perfect harmony. 🖱️ Try it today: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide #WeddingTech #EventProfs"

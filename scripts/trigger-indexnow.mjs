@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide',
-  'http://tablevows.alfo.online/styles/tropical-destination-seating',
-  'http://tablevows.alfo.online/styles/european-villa-seating',
-  'http://tablevows.alfo.online/styles/mountain-resort-layout',
-  'http://tablevows.alfo.online/styles/desert-oasis-seating',
-  'http://tablevows.alfo.online/guest-counts/destination-30-guests',
-  'http://tablevows.alfo.online/guest-counts/destination-75-guests',
-  'http://tablevows.alfo.online/guest-counts/destination-150-guests',
-  'http://tablevows.alfo.online/venue-types/beachfront-resort-layout'
+  'http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide',
+  'http://tablevows.alfo.online/styles/backyard-boho-seating',
+  'http://tablevows.alfo.online/styles/rustic-backyard-layout',
+  'http://tablevows.alfo.online/styles/elegant-backyard-wedding',
+  'http://tablevows.alfo.online/styles/casual-backyard-bbq-seating',
+  'http://tablevows.alfo.online/guest-counts/backyard-50-guests',
+  'http://tablevows.alfo.online/guest-counts/backyard-100-guests',
+  'http://tablevows.alfo.online/guest-counts/backyard-150-guests',
+  'http://tablevows.alfo.online/venue-types/backyard-garden-layout'
 ];
 
 console.log('Starting simulated SEO pings...');
