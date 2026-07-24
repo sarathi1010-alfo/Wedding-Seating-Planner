@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
-  '/blog/backyard-wedding-seating-chart-guide',
-  '/styles/backyard-boho-seating',
-  '/styles/rustic-backyard-layout',
-  '/styles/elegant-backyard-wedding',
-  '/styles/casual-backyard-bbq-seating',
-  '/guest-counts/backyard-50-guests',
-  '/guest-counts/backyard-100-guests',
-  '/guest-counts/backyard-150-guests',
-  '/venue-types/backyard-garden-layout'
+  '/blog/dietary-restrictions-wedding-seating-guide',
+  '/styles/dietary-friendly-seating',
+  '/styles/allergy-conscious-layout',
+  '/styles/vegan-wedding-seating',
+  '/styles/inclusive-menu-seating',
+  '/guest-counts/dietary-50-guests',
+  '/guest-counts/dietary-100-guests',
+  '/guest-counts/dietary-150-guests',
+  '/venue-types/specialty-catering-venue-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {

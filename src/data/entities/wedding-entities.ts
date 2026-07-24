@@ -49,6 +49,20 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "venue-specialty-catering",
+    name: "Specialty Catering Venue",
+    slug: "specialty-catering-venue-layout",
+    description: "Layouts optimized for venues handling complex, specialized catering and dietary menus.",
+    seoTitle: "Specialty Catering Venue Layouts - Safe Seating Ideas",
+    seoDescription: "Design a floor plan that supports your specialty caterer in delivering safe, dietary-compliant meals to every guest.",
+    faqs: [
+      { question: "What is a specialty catering layout?", answer: "A layout designed specifically to give catering staff clear, unobstructed access to every table to ensure safe meal delivery." },
+      { question: "Why is the floor plan important for caterers?", answer: "It allows them to map out exactly where specialized meals need to go, preventing dangerous mix-ups." },
+      { question: "How much space do servers need?", answer: "Leave at least 60 inches between tables to allow servers to carry large trays comfortably." }
+    ]
+  },
+
+  {
     id: "backyard-garden",
     name: "Backyard Garden",
     slug: "backyard-garden-layout",
@@ -379,6 +393,59 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "style-dietary-friendly",
+    name: "Dietary-Friendly Seating",
+    slug: "dietary-friendly-seating",
+    description: "Layouts designed to easily accommodate and serve guests with dietary restrictions.",
+    seoTitle: "Dietary-Friendly Wedding Seating - Safe & Easy Layouts",
+    seoDescription: "Discover how to arrange a dietary-friendly wedding seating chart to ensure all guests are served safely and comfortably.",
+    faqs: [
+      { question: "What is dietary-friendly seating?", answer: "It is a seating layout that groups guests with specific dietary needs, making it easier for caterers to serve them safely." },
+      { question: "Should I group all guests with allergies together?", answer: "While grouping can help staff, always prioritize social comfort and mix them with friends if they prefer." },
+      { question: "How do I communicate this to the caterer?", answer: "Use a color-coded floor plan and detailed lists with exact seat assignments." }
+    ]
+  },
+  {
+    id: "style-allergy-conscious",
+    name: "Allergy-Conscious Layout",
+    slug: "allergy-conscious-layout",
+    description: "Seating charts that prioritize the safety and comfort of guests with severe allergies.",
+    seoTitle: "Allergy-Conscious Wedding Layouts - Safe Seating Ideas",
+    seoDescription: "Plan an allergy-conscious wedding layout with buffer zones and strategic seating for guests with severe allergies.",
+    faqs: [
+      { question: "What is an allergy-conscious layout?", answer: "A layout designed to prevent cross-contamination by keeping guests with severe allergies away from high-traffic kitchen areas." },
+      { question: "How do I mark seats for allergies?", answer: "Subtly indicate allergies on place cards and clearly mark them on the master chart for caterers." },
+      { question: "Where is the safest place to sit?", answer: "Away from the kitchen doors and buffet lines to minimize exposure." }
+    ]
+  },
+  {
+    id: "style-vegan-wedding",
+    name: "Vegan Wedding Seating",
+    slug: "vegan-wedding-seating",
+    description: "Thoughtful seating arrangements for serving vegan and plant-based meals efficiently.",
+    seoTitle: "Vegan Wedding Seating - Layouts for Plant-Based Menus",
+    seoDescription: "Ensure your vegan guests receive their meals quickly and correctly with these strategic seating chart tips.",
+    faqs: [
+      { question: "Do I need a separate vegan table?", answer: "No, it's usually better to integrate vegan guests with their friends, but marking their seats clearly for the staff is essential." },
+      { question: "How can I ensure quick service?", answer: "Grouping a few vegan guests at the same table can speed up service, but never at the expense of their social experience." },
+      { question: "What if the whole wedding is vegan?", answer: "Then you can seat guests purely based on relationships and ignore meal-based placement!" }
+    ]
+  },
+  {
+    id: "style-inclusive-menu",
+    name: "Inclusive Menu Seating",
+    slug: "inclusive-menu-seating",
+    description: "Flexible layouts designed to manage diverse menus with multiple dietary requirements.",
+    seoTitle: "Inclusive Menu Seating Charts - Managing Complex Menus",
+    seoDescription: "Learn how to organize a seating chart when your wedding features a highly inclusive menu with diverse dietary needs.",
+    faqs: [
+      { question: "How do I handle multiple restrictions at one table?", answer: "Use a highly detailed, color-coded floor plan so servers know exactly who gets what." },
+      { question: "Is a buffet better for inclusive menus?", answer: "Plated dinners are often safer because the caterer controls exactly what goes to each seat, minimizing cross-contamination." },
+      { question: "What tool should I use?", answer: "A digital visual planner like TableVows is essential for tracking complex meal assignments." }
+    ]
+  },
+
   {
     id: "backyard-boho",
     name: "Backyard Boho",
@@ -900,6 +967,49 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "gc-dietary-50",
+    name: "50 Guests (Dietary Focus)",
+    count: 50,
+    slug: "dietary-50-guests",
+    description: "Managing complex dietary needs for an intimate 50-guest wedding.",
+    seoTitle: "Intimate 50-Guest Dietary Seating - Safe & Close",
+    seoDescription: "With 50 guests, managing dietary needs is easier. Learn how to map out a safe and intimate seating chart.",
+    faqs: [
+      { question: "Is it easier to manage diets with 50 guests?", answer: "Yes, fewer guests means fewer specialized meals and less chance of a mix-up by the catering staff." },
+      { question: "How should I arrange the tables?", answer: "A U-shape or long banquet table works well, allowing servers easy access to every seat." },
+      { question: "Do I still need place cards?", answer: "Yes, assigned seats are still critical to ensure the right meal goes to the right person." }
+    ]
+  },
+  {
+    id: "gc-dietary-100",
+    name: "100 Guests (Dietary Focus)",
+    count: 100,
+    slug: "dietary-100-guests",
+    description: "Organizing seating and meal service for 100 guests with varied dietary needs.",
+    seoTitle: "100-Guest Dietary Seating Chart - Organized Layouts",
+    seoDescription: "Ensure smooth service for 100 guests by strategically planning your seating chart around dietary restrictions.",
+    faqs: [
+      { question: "How do I manage diets for 100 people?", answer: "Use a digital planner to track all restrictions and provide a detailed map to your caterer." },
+      { question: "Should I group guests by diet?", answer: "Grouping can help, but always prioritize seating guests with their friends and family first." },
+      { question: "What is the best table shape?", answer: "Round tables of 8 or 10 are excellent for allowing servers to easily navigate the room." }
+    ]
+  },
+  {
+    id: "gc-dietary-150",
+    name: "150 Guests (Dietary Focus)",
+    count: 150,
+    slug: "dietary-150-guests",
+    description: "Scaling up dietary management and seating for a 150-guest celebration.",
+    seoTitle: "150-Guest Dietary Seating - Managing Large Menus",
+    seoDescription: "Learn the logistics of seating 150 guests while safely managing multiple allergies and dietary preferences.",
+    faqs: [
+      { question: "Is 150 guests too many for specialized meals?", answer: "Not at all, but it requires rigorous organization and a flawless, color-coded seating chart." },
+      { question: "How can I prevent service delays?", answer: "Ensure wide aisles (at least 60 inches) between tables so staff can move quickly with specialized trays." },
+      { question: "Should I warn the caterer?", answer: "Yes, provide final dietary numbers and the exact seating map at least two weeks in advance." }
+    ]
+  },
+
   {
     id: "backyard-50",
     name: "Backyard 50 Guests",

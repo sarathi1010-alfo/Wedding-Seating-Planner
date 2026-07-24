@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide',
-  'http://tablevows.alfo.online/styles/backyard-boho-seating',
-  'http://tablevows.alfo.online/styles/rustic-backyard-layout',
-  'http://tablevows.alfo.online/styles/elegant-backyard-wedding',
-  'http://tablevows.alfo.online/styles/casual-backyard-bbq-seating',
-  'http://tablevows.alfo.online/guest-counts/backyard-50-guests',
-  'http://tablevows.alfo.online/guest-counts/backyard-100-guests',
-  'http://tablevows.alfo.online/guest-counts/backyard-150-guests',
-  'http://tablevows.alfo.online/venue-types/backyard-garden-layout'
+  'http://tablevows.alfo.online/blog/dietary-restrictions-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/dietary-friendly-seating',
+  'http://tablevows.alfo.online/styles/allergy-conscious-layout',
+  'http://tablevows.alfo.online/styles/vegan-wedding-seating',
+  'http://tablevows.alfo.online/styles/inclusive-menu-seating',
+  'http://tablevows.alfo.online/guest-counts/dietary-50-guests',
+  'http://tablevows.alfo.online/guest-counts/dietary-100-guests',
+  'http://tablevows.alfo.online/guest-counts/dietary-150-guests',
+  'http://tablevows.alfo.online/venue-types/specialty-catering-venue-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

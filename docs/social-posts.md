@@ -719,3 +719,29 @@
 
 3. **Tweet**:
    "Don't let complex yard layouts ruin your reception. Use a visual drag-and-drop planner to experiment and find the perfect harmony. 🖱️ Try it today: http://tablevows.alfo.online/blog/backyard-wedding-seating-chart-guide #WeddingTech #EventProfs"
+
+### Dietary Restrictions Wedding Seating Guide for 2026
+
+**For Pinterest (Inspiration & Tutorials):**
+
+- **Pin 1:** "How to Manage Dietary Restrictions in Your Wedding Seating Chart" (vertical infographic with 3 steps: Collect early, Map clearly, Communicate).
+- **Pin 2:** "Allergy-Safe Wedding Layouts – Keeping Your Guests Comfortable" (curated style pin).
+- **Pin 3:** "5 Mistakes to Avoid When Seating Guests with Dietary Needs" (list pin).
+
+**For Instagram (Visual & Educational):**
+
+- **Carousel:** Slide 1 (Map your dietary needs) → Slide 2 (Group guests logically) → Slide 3 (Color code your chart) → Slide 4 (Communicate with the caterer) → Slide 5 (Use a digital planner). CTA: Link in bio.
+- **Reel:** Screen recording of attaching a "Vegan" tag to a guest profile in TableVows and viewing the color-coded layout.
+- **Static Post:** "Navigating severe allergies at your reception doesn't have to be stressful. Learn how to map a safe floor plan."
+- **Story:** Poll: "Plated dinner or buffet?" + link to the guide on why plated is often safer for complex menus.
+
+**For Facebook (Community Engagement):**
+
+- **Post:** "Stressed about accommodating vegan, gluten-free, and allergy needs? Your seating chart is the secret to a seamless service. Read our complete guide!"
+- **Post:** "Should you create a 'vegan table'? We break down the etiquette of seating guests with specialized menus."
+
+**For Twitter/X (Quick Wedding Tips):**
+
+- **Tweet:** "Wedding seating rule: Don't wait until the last minute to map out dietary restrictions. Give your caterer the layout 2 weeks out!"
+- **Tweet:** "Grouping guests with similar dietary needs can speed up service, but never isolate people from their friends just because they're vegan."
+- **Tweet:** "Ditch the spreadsheet. A visual seating chart that tracks dietary needs is the only way to guarantee a safe and seamless meal."
