@@ -8,7 +8,7 @@ import { RelatedTools } from "@/components/shared/RelatedTools";
 import { SchemaBlock } from "@/components/shared/SchemaBlock";
 import { constructMetadata } from "@/lib/seo";
 import { siteConfig } from "@/config/site";
-import { generateArticleSchema } from "@/lib/schema-utils";
+import { generateArticleSchema, generateFAQSchema } from "@/lib/schema-utils";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
@@ -57,6 +57,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const tools = getToolsData();
   const relatedTool = tools.find((t: any) => t.tool === blog.tool_slug);
 
+  const faqSchema = blog.faqs ? generateFAQSchema(blog.faqs) : null;
+
   const articleSchema = generateArticleSchema({
     title: blog.title,
     description: blog.excerpt,
@@ -66,6 +68,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <SchemaBlock schemaJSON={articleSchema} />
+      {faqSchema && <SchemaBlock schemaJSON={faqSchema} />}
       <Navbar />
 
       <main className="flex-1 py-16 px-6 lg:px-12 max-w-3xl mx-auto w-full">

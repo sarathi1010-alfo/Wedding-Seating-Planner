@@ -19,7 +19,14 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/dietary-50-guests',
   'http://tablevows.alfo.online/guest-counts/dietary-100-guests',
   'http://tablevows.alfo.online/guest-counts/dietary-150-guests',
-  'http://tablevows.alfo.online/venue-types/specialty-catering-venue-layout'
+  'http://tablevows.alfo.online/venue-types/specialty-catering-venue-layout',
+  'http://tablevows.alfo.online/blog/cultural-seating-traditions-guide',
+  'http://tablevows.alfo.online/blog/ultimate-guide-wedding-seating-charts-2026',
+  'http://tablevows.alfo.online/blog/what-is-wedding-seating-chart',
+  'http://tablevows.alfo.online/blog/what-is-sweetheart-table',
+  'http://tablevows.alfo.online/blog/who-sits-at-head-table',
+  'http://tablevows.alfo.online/blog/how-to-seat-divorced-parents',
+  'http://tablevows.alfo.online/blog/what-is-place-card'
 ];
 
 console.log('Starting simulated SEO pings...');
