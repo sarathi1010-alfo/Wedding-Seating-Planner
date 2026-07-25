@@ -745,3 +745,63 @@
 - **Tweet:** "Wedding seating rule: Don't wait until the last minute to map out dietary restrictions. Give your caterer the layout 2 weeks out!"
 - **Tweet:** "Grouping guests with similar dietary needs can speed up service, but never isolate people from their friends just because they're vegan."
 - **Tweet:** "Ditch the spreadsheet. A visual seating chart that tracks dietary needs is the only way to guarantee a safe and seamless meal."
+
+## Social Media Distribution Posts - Eco-Friendly Wedding Seating
+# Updated: 2026-07-26
+
+**Status: Queued for publishing.**
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Eco-Friendly Wedding Seating
+   **Description**: Planning a sustainable wedding? Learn how to arrange your seating chart to minimize waste and maximize connection.
+   **Link**: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide
+   **Visual Concept**: A beautifully set long banquet table with natural, compostable elements.
+
+2. **Title**: Zero-Waste Wedding Seating Ideas
+   **Description**: Ditch the paper! Discover digital alternatives to place cards and how to group guests sustainably.
+   **Link**: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide
+   **Visual Concept**: A long-form infographic showing the best sustainable seating strategies.
+
+3. **Title**: Sustainable Seating Mistakes to Avoid
+   **Description**: Don't let your seating chart ruin your green wedding! Discover the essential rules for a zero-waste reception.
+   **Link**: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide
+   **Visual Concept**: A list graphic with common sustainable seating errors and their eco-friendly solutions.
+
+## Instagram (3 Posts)
+1. **Carousel Post**:
+   - Slide 1: How to Plan a Zero-Waste Wedding Seating Chart
+   - Slide 2: Go digital! Ditch the paper drafts and use TableVows.
+   - Slide 3: Use long family-style tables to reduce centerpiece waste.
+   - Slide 4: Skip paper place cards and send digital assignments.
+   - Slide 5: Visualize your sustainable space easily with our planner.
+   **Caption**: Planning a green wedding? 🌱 Swipe for our top tips on creating a sustainable seating chart that eliminates waste. Link in bio for the full guide! #SustainableWedding #EcoFriendlyWedding
+
+2. **Reel**:
+   - **Video**: Screen recording of TableVows showing a digital layout, cutting to a time-lapse of a beautiful, zero-waste table setting.
+   - **Audio**: An upbeat, acoustic instrumental track.
+   - **Text on Screen**: "Planning seating for a sustainable wedding? Ditch the paper. 🌍"
+   - **Caption**: Your seating chart doesn't have to be wasteful. Use our free digital tool to plan perfectly without the paper trail. Guide link in bio! #GreenWedding #WeddingInspo
+
+3. **Static Post**:
+   - **Image**: A stunning shot of a large seating chart displayed on an antique rented mirror.
+   - **Caption**: Reusable displays are the future of wedding seating! What's your favorite eco-friendly wedding idea? Let us know below! 👇 And check out our new Sustainable Seating guide via the link in our bio.
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning an eco-friendly wedding and feeling stressed about generating waste with your seating chart? We've got you covered. Read our brand new guide on creating a Sustainable Seating Chart! 🌿 http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide"
+
+2. **Post**:
+   "Did you know that long banquet tables require fewer centerpieces and create less floral waste? Discover modern sustainable seating tips in our latest article: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide"
+
+3. **Post**:
+   "Your wedding should be beautiful, not wasteful! Stop using paper drafts and sticky notes. Try our free digital drag-and-drop planner to visualize your perfect, zero-waste reception. http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide"
+
+## Twitter/X (3 Posts)
+1. **Tweet**:
+   "Wedding seating rule #1 for eco-friendly weddings: Ditch the paper! Use a digital planner to map your floor plan. 🌍 Read our full sustainable seating guide: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide #SustainableWedding"
+
+2. **Tweet**:
+   "Make sure your seating chart reflects your green values. Skip the individual paper place cards and opt for a large, reusable display! 🌿 Learn how in our new guide: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide #WeddingTips"
+
+3. **Tweet**:
+   "Don't let paper waste ruin your green wedding. Use a visual drag-and-drop planner to experiment and find the perfect harmony digitally. 🖱️ Try it today: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide #EcoFriendlyWedding #EventProfs"

@@ -49,6 +49,21 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "venue-botanical-garden-eco",
+    name: "Botanical Garden Eco Venue",
+    slug: "botanical-garden-eco-layout",
+    description: "Eco-friendly seating layouts that integrate with botanical and sustainable outdoor spaces.",
+    seoTitle: "Botanical Garden Eco Wedding Seating Layouts | TableVows",
+    seoDescription: "Explore sustainable and eco-friendly wedding seating charts for botanical gardens.",
+    faqs: [
+      {
+        question: "How to arrange seating for an eco-friendly botanical garden wedding?",
+        answer: "Use sustainable seating options, respect the natural terrain, and utilize a visual planner to organize guests comfortably while minimizing environmental impact."
+      }
+    ]
+  },
+
+  {
     id: "venue-specialty-catering",
     name: "Specialty Catering Venue",
     slug: "specialty-catering-venue-layout",
@@ -393,6 +408,63 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "style-eco-friendly",
+    name: "Eco-Friendly Seating",
+    slug: "eco-friendly-seating",
+    description: "Sustainable seating arrangements focusing on minimal waste and natural aesthetics.",
+    seoTitle: "Eco-Friendly Wedding Seating Charts & Layouts | TableVows",
+    seoDescription: "Plan a sustainable wedding with eco-friendly seating charts and arrangements.",
+    faqs: [
+      {
+        question: "What makes a seating chart eco-friendly?",
+        answer: "An eco-friendly seating chart minimizes printed materials by using digital planners or recycled materials, and optimizes the layout for sustainable catering flow."
+      }
+    ]
+  },
+  {
+    id: "style-sustainable-reception",
+    name: "Sustainable Reception Layout",
+    slug: "sustainable-reception-layout",
+    description: "Layouts designed for maximum sustainability and efficient service flow.",
+    seoTitle: "Sustainable Wedding Reception Layouts | TableVows",
+    seoDescription: "Design a sustainable wedding reception with optimized seating charts.",
+    faqs: [
+      {
+        question: "How do sustainable layouts improve reception flow?",
+        answer: "By strategically placing tables to minimize catering travel distance and waste, sustainable layouts create a smoother, greener reception experience."
+      }
+    ]
+  },
+  {
+    id: "style-zero-waste",
+    name: "Zero-Waste Wedding Seating",
+    slug: "zero-waste-wedding-seating",
+    description: "Seating plans tailored for zero-waste weddings, utilizing digital-first organization.",
+    seoTitle: "Zero-Waste Wedding Seating Layouts | TableVows",
+    seoDescription: "Discover zero-waste wedding seating strategies with our digital planner tools.",
+    faqs: [
+      {
+        question: "How can I achieve zero-waste seating?",
+        answer: "Achieve zero-waste seating by sending digital table assignments instead of printed place cards and using a digital drag-and-drop tool for all planning."
+      }
+    ]
+  },
+  {
+    id: "style-green-wedding",
+    name: "Green Wedding Seating",
+    slug: "green-wedding-seating",
+    description: "Environmentally conscious seating layouts emphasizing natural connections.",
+    seoTitle: "Green Wedding Seating Charts | TableVows",
+    seoDescription: "Plan your green wedding with environmentally conscious seating charts.",
+    faqs: [
+      {
+        question: "What is green wedding seating?",
+        answer: "Green wedding seating incorporates eco-friendly furniture, digital planning tools, and layouts that respect the natural environment."
+      }
+    ]
+  },
+
   {
     id: "style-dietary-friendly",
     name: "Dietary-Friendly Seating",
@@ -967,6 +1039,52 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "gc-eco-50",
+    name: "50 Guests (Eco-Friendly)",
+    count: 50,
+    slug: "eco-50-guests",
+    description: "Intimate and sustainable seating for 50 guests.",
+    seoTitle: "Eco-Friendly Seating for 50 Wedding Guests | TableVows",
+    seoDescription: "Plan sustainable wedding seating for an intimate 50-guest reception.",
+    faqs: [
+      {
+        question: "How to seat 50 guests sustainably?",
+        answer: "Use reusable materials and long communal tables to minimize the environmental footprint while keeping guests connected."
+      }
+    ]
+  },
+  {
+    id: "gc-eco-100",
+    name: "100 Guests (Eco-Friendly)",
+    count: 100,
+    slug: "eco-100-guests",
+    description: "Balanced sustainable seating for 100 guests.",
+    seoTitle: "Eco-Friendly Seating for 100 Wedding Guests | TableVows",
+    seoDescription: "Plan sustainable wedding seating for a mid-sized 100-guest reception.",
+    faqs: [
+      {
+        question: "How to arrange eco-friendly seating for 100 guests?",
+        answer: "Opt for grouped table layouts to optimize space and minimize the number of centerpieces, reducing overall waste."
+      }
+    ]
+  },
+  {
+    id: "gc-eco-150",
+    name: "150 Guests (Eco-Friendly)",
+    count: 150,
+    slug: "eco-150-guests",
+    description: "Large sustainable seating layouts for 150 guests.",
+    seoTitle: "Eco-Friendly Seating for 150 Wedding Guests | TableVows",
+    seoDescription: "Plan sustainable wedding seating for a large 150-guest eco-conscious reception.",
+    faqs: [
+      {
+        question: "Can I have an eco-friendly seating chart for 150 guests?",
+        answer: "Yes, by using a digital planner to avoid printed drafts and organizing efficient catering routes, you can significantly lower the event's footprint."
+      }
+    ]
+  },
+
   {
     id: "gc-dietary-50",
     name: "50 Guests (Dietary Focus)",
