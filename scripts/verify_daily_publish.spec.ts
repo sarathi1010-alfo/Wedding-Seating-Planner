@@ -9,7 +9,14 @@ const targetUrls = [
   '/guest-counts/dietary-50-guests',
   '/guest-counts/dietary-100-guests',
   '/guest-counts/dietary-150-guests',
-  '/venue-types/specialty-catering-venue-layout'
+  '/venue-types/specialty-catering-venue-layout',
+  '/blog/cultural-seating-traditions-guide',
+  '/blog/ultimate-guide-wedding-seating-charts-2026',
+  '/blog/what-is-wedding-seating-chart',
+  '/blog/what-is-sweetheart-table',
+  '/blog/who-sits-at-head-table',
+  '/blog/how-to-seat-divorced-parents',
+  '/blog/what-is-place-card'
 ];
 
 test.describe('Daily Publish Verification', () => {

@@ -1,196 +1,333 @@
-# TableVows: Weekly Content Engine (2026 Edition)
+WEEKLY CONTENT ENGINE: TABLEVOWS EDITION
+Target: https://tablevows.alfo.online/ | GA4 ID: G-HZQ3QT11QC (Immutable)
 
-This document defines the repeatable content strategy to build massive semantic surface area for TableVows. Follow this system to scale content, dominate AEO (AI Engine Optimization), and outrank competitors through programmatic and editorial excellence.
+PRE-EXECUTION TECHNICAL MANDATE (IMMUTABLE - RUN EVERY PUBLISH)
+Analytics Lock: Preserve G-HZQ3QT11QC & all GTM scripts in <head> across all Alfo subdomains.
 
----
+Append-Only Law: NEVER delete existing blog posts, pages, or IDs. Only CREATE or UPDATE.
 
-## 1. THE REPEATABLE WEEKLY TEMPLATE SYSTEM
+Zero Hallucination: Do not invent fake table capacities, venue layouts, or competitor features. Use verified wedding planning data.
 
-### Template A – Cluster Article (700-1000 words)
-**Goal:** Educational depth and internal linking.
-- **H1:** `[PRIMARY_KEYWORD]`: Complete Guide for `[TARGET_AUDIENCE]` in 2026
-- **AEO Answer Block:** The best way to `[ACTION]` is to `[CONCISE_30_WORD_ANSWER]` because `[REASONING]`.
-- **H2:** Why `[PRIMARY_KEYWORD]` Matters for `[AUDIENCE/USE_CASE]`
-- **H2:** How to `[ACTION]` with `[PRIMARY_KEYWORD]` (Step-by-Step)
-- **H2:** Top `[NUMBER]` `[STRATEGIES/TOOLS]` for `[PRIMARY_KEYWORD]`
-- **H3:** [Detailed Breakdown with examples]
-- **H2:** Common `[PRIMARY_KEYWORD]` Mistakes to Avoid (Include Comparison Table)
-- **AEO Box:** 5 Key Takeaways (Bulleted list)
-- **AEO Box:** FAQ Section (5 questions)
-- **Schema:** Article, BreadcrumbList, FAQPage.
-- **Internal Links:** 1 Pillar + 2 Clusters + [Interactive Planner](/#demo).
+DELIVERABLE 1: THE 6 REPEATABLE AEO TEMPLATES (TABLEVOWS EDITION)
+Template A – Cluster Article (700-1000 words) – Daily educational depth.
 
-### Template B – Programmatic Comparison Page (500-700 words)
-**Goal:** Capturing "Comparison" intent and high-conversion traffic.
-- **H1:** `[ENTITY_A]` vs `[ENTITY_B]`: Which Seating Chart Tool is Better for `[USE_CASE]`?
-- **AEO Answer Block:** The best choice between `[ENTITY_A]` and `[ENTITY_B]` for `[USE_CASE]` is `[WINNER]` due to `[KEY_FEATURE]`.
-- **Comparison Table:** (Features | `[ENTITY_A]` | `[ENTITY_B]` | Winner)
-- **Deep Dive [ENTITY_A]:** Pros & Cons
-- **Deep Dive [ENTITY_B]:** Pros & Cons
-- **Scenario Analysis:** When to choose each.
-- **AEO Box:** "Best Pick for [Scenario]" Verdict.
-- **Schema:** Review, Product (if applicable), BreadcrumbList.
-- **Internal Links:** Pillar + [TableVows Tool](/#demo).
+H1: [PRIMARY_KEYWORD]: Complete Guide for [TARGET_AUDIENCE] in 2026
 
-### Template C – Micro-Answer Page (300-500 words)
-**Goal:** Featured snippets and voice search (GEO/AEO).
-- **H1:** What is `[SEATING_TERM]`?
-- **AEO Answer Block:** `[SEATING_TERM]` is a `[40-60_WORD_DEFINITION]` that is used in wedding planning to `[FUNCTION]`.
-- **H2:** How Does `[TERM]` Work?
-- **H2:** Real-World Example of `[TERM]` in `[WEDDING_STYLE]`
-- **H2:** Why is `[TERM]` Important for Your Layout?
-- **H2:** `[TERM]` vs `[RELATED_TERM]` (Comparison Table)
-- **AEO Box:** Core Principles (Bulleted list)
-- **Schema:** FAQPage (single entry), BreadcrumbList.
-- **Internal Links:** 1 Cluster + [TableVows Tool](/#demo).
+Intro (30 words): Define the wedding planning concept. State why it's critical for [TARGET_AUDIENCE]'s big day success.
 
-### Template D – Pillar Page (3000-7000 words)
-**Goal:** Establishing domain authority on broad topics.
-- **H1:** The Ultimate 2026 Guide to `[BROAD_TOPIC]`
-- **AEO Answer Block:** This comprehensive guide covers `[TOPIC]` by analyzing `[X]`, `[Y]`, and `[Z]`, providing the definitive resource for `[AUDIENCE]`.
-- **Interactive TOC:** Jump links to chapters.
-- **Chapters:**
-    1. Introduction & Evolution of `[TOPIC]`
-    2. Technical Foundation & Rules
-    3. Top 10 Advanced Strategies
-    4. Case Study: Real Wedding Example
-    5. Future Trends (2026-2030)
-- **AEO Box:** Statistical Data Table (e.g., Guest Counts vs Table Capacity).
-- **AEO Box:** 10+ FAQ with FAQPage Schema.
-- **Internal Links:** 15+ Cluster Articles + [TableVows Tool](/#demo).
+H2: Why [PRIMARY_KEYWORD] Matters for [AUDIENCE]
 
-### Template E – Venue/Style-Specific Seating Guide (600-800 words)
-**Goal:** Long-tail commercial intent.
-- **H1:** `[VENUE_TYPE]` Wedding Seating Guide: Layouts & Tips for 2026
-- **AEO Answer Block:** The best way to arrange seating for a `[VENUE_TYPE]` wedding is to `[30-WORD_STRATEGY]` to maximize `[SPACE/FLOW]`.
-- **H2:** Why `[VENUE_TYPE]` Seating Requires Special Planning
-- **H2:** 3 Recommended Seating Layouts for `[VENUE_TYPE]`
-- **H2:** Table Configuration Recommendations for `[VENUE_TYPE]`
-- **H2:** Flow and Traffic Considerations
-- **AEO Box:** Quick Reference Table (Venue Type → Best Layout → Table Types → Capacity)
-- **Schema:** Article, ImageObject, BreadcrumbList.
-- **Internal Links:** Pillar + Tool + Table Type Deep-Dive.
+H2: How to [ACTION] with [PRIMARY_KEYWORD] (Step-by-Step, e.g., creating a seating chart)
 
-### Template F – Table Type Deep-Dive (600-800 words)
-**Goal:** High-intent educational content.
-- **H1:** The Complete Guide to `[TABLE_TYPE]` Wedding Seating
-- **AEO Answer Block:** `[TABLE_TYPE]` tables are best for `[SCENARIO]` because they offer `[BENEFIT]`, typically seating `[COUNT]` guests comfortably.
-- **H2:** What are `[TABLE_TYPE]` Tables and When to Use Them
-- **H2:** Capacity Guidelines for `[TABLE_TYPE]` Tables
-- **H2:** Pros and Cons of `[TABLE_TYPE]` Layouts
-- **H2:** How to Arrange `[TABLE_TYPE]` Tables in Your Floor Plan
-- **AEO Box:** Quick Reference Table (Table Type → Capacity → Best For → Seating Style)
-- **Schema:** Article, FAQPage.
-- **Internal Links:** Pillar + Tool + Venue Guide.
+H2: Top [NUMBER] Strategies for [PRIMARY_KEYWORD] (H3s for each with real wedding examples)
 
----
+AEO Box (5 Key Takeaways): Bulleted list.
 
-## 2. THE REPEATABLE WEEKLY CALENDAR
+AEO FAQ (5 Qs): Inject FAQPage Schema JSON-LD.
 
-| Day | Content Type | Theme / Niche Focus |
-| :--- | :--- | :--- |
-| **Monday** | Seating Fundamentals | Etiquette, family dynamics, VIP placement, guest grouping. |
-| **Tuesday** | Comparisons | TableVows vs Competitors (AllSeated, The Knot, etc.). |
-| **Wednesday**| Table Deep-Dives | Specific table shapes (Round, Long, Square, Sweetheart). |
-| **Thursday** | Venue/Style Guides | Specific locations (Barn, Beach, Garden, Industrial). |
-| **Friday** | Logistics | RSVPs, children, elderly guests, dietary needs. |
-| **Saturday** | Audit & Linking | Internal linking audit, updating old posts, schema checks. |
-| **Sunday** | Refresh & Pruning | Updating lastModified, pruning thin content, stationery guides. |
+Internal Links: 1 Pillar (Ultimate Guide), 2 Clusters, 1 Tool (/).
 
----
+Template B – Programmatic Comparison (500-700 words) – Infinite scaling.
 
-## 3. PROGRAMMATIC CSV MAPPING
+H1: [ENTITY_A] vs [ENTITY_B]: Which Seating Chart Tool is Better for [USE_CASE]?
 
-### Comparison Mapping (Template B)
-`entity_a`, `entity_b`, `use_case`, `features_list`, `pros_a`, `cons_a`, `pros_b`, `cons_b`, `verdict`, `internal_link_slug`
+Quick Verdict (1 sentence): "For [USE_CASE], [WINNER] wins due to [KEY_FEATURE]."
 
-### Venue/Style Mapping (Template E)
-`venue_type`, `best_layouts`, `table_types`, `capacity_limits`, `flow_tips`, `decor_notes`, `slug`, `seo_title`
+Table: Feature | [A] | [B] | Winner.
 
-### Table Type Mapping (Template F)
-`table_type`, `standard_dimensions`, `capacity`, `best_for`, `pros`, `cons`, `arrangement_tips`, `slug`
+Pros/Cons: Bulleted lists for both.
 
----
+AEO Box: "Best Pick for [Scenario]".
 
-## 4. THE ETERNAL WEEKLY RHYTHM
+Schema: Product or FAQPage Schema.
 
-- **Weekly Pillar:** 1 Hub Article (Monday)
-- **Weekly Venue/Style Guides:** 2 per week (Tuesday/Thursday)
-- **Weekly Table Type Deep-Dives:** 2 per week (Wednesday/Friday)
-- **Weekly Comparisons:** 2 per week (Tuesday/Wednesday)
-- **Daily Clusters:** 3 Articles per day
-- **Daily Programmatic:** 5-10 auto-generated pages (via CSV)
-- **Daily Micro-Answers:** 5 snippet-targeted pages
-- **Target:** 50-100 indexed pages per week.
+Template C – Micro-Answer (300-500 words) – Featured snippets & voice search.
 
----
+H1: What is [SEATING_TERM]? (Direct Question, e.g., "What is a sweetheart table?")
 
-## 5. PRIORITY TOPIC QUEUE (First 4 Weeks)
+Definition (40-60 words): Concise, jargon-free with real wedding example.
 
-### Week 1: Authority Engine - Fundamentals
-- **Pillar:** The Ultimate Guide to Wedding Seating Charts in 2026
-- **Comparisons:** TableVows vs AllSeated, TableVows vs WeddingWire
-- **Table Types:** Round Tables Deep-Dive, Long Tables Deep-Dive
-- **Venue:** Barn Wedding Seating Guide, Beach Wedding Seating Guide
-- **Micro:** "What is a Wedding Seating Chart?", "What is a Sweetheart Table?"
+H2: How Does [TERM] Work?
 
-### Week 2: Etiquette & Guest Management
-- **Pillar:** The Complete Guide to Wedding Seating Etiquette
-- **Comparisons:** TableVows vs The Knot, TableVows vs Zola
-- **Table Types:** Square Tables Deep-Dive, U-Shape Layout Guide
-- **Venue:** Garden Wedding Seating Guide, Hotel Ballroom Seating Guide
-- **Micro:** "Who Sits at the Head Table?", "How to Seat Divorced Parents?"
+H2: Real-World Example in [WEDDING_STYLE] (e.g., Rustic barn weddings using long tables).
 
-### Week 3: Layouts & Design
-- **Pillar:** The Ultimate Guide to Wedding Reception Layouts
-- **Comparisons:** TableVows vs Joy, TableVows vs Aisle Planner
-- **Table Types:** Sweetheart Table Deep-Dive, Head Table Deep-Dive
-- **Venue:** Industrial Wedding Seating Guide, Vineyard Wedding Seating Guide
-- **Micro:** "What is a Buffet vs Plated Dinner Seating?", "What are Escort Cards?"
+H2: [TERM] vs [RELATED_TERM] (Table).
 
-### Week 4: Advanced Topics & Special Cases
-- **Pillar:** The Complete Guide to Wedding Guest Management
-- **Comparisons:** TableVows vs RSVPify, TableVows vs SimpleSeating
-- **Table Types:** Mixing Table Types Guide, Small Space Seating Guide
-- **Venue:** Outdoor Wedding Seating Guide, Church Hall Seating Guide
-- **Micro:** "How to Seat Children at Weddings?", "How to Handle Last-Minute Changes?"
+Schema: FAQPage Schema.
 
----
+Template D – Pillar Page (3000-7000 words) – Weekly hub.
 
-## 6. TABLE TYPE DEEP-DIVE QUEUE (Weeks 1-8)
-- **W1:** Round Tables
-- **W2:** Long/Rectangular Tables
-- **W3:** Square Tables
-- **W4:** Sweetheart Tables
-- **W5:** Head Tables
-- **W6:** U-Shape Layouts
-- **W7:** Cocktail Tables
-- **W8:** Mixed Table Layouts
+H1: The Ultimate 2026 Guide to [BROAD_TOPIC] (e.g., Wedding Seating Charts)
 
----
+Executive Summary (200 words): AI Overview targeting.
 
-## 7. VENUE/STYLE SEATING GUIDE QUEUE (Weeks 1-8)
-- **W1:** Barn Weddings, Beach Weddings
-- **W2:** Garden Weddings, Hotel Ballrooms
-- **W3:** Industrial Venues, Vineyards/Wineries
-- **W4:** Outdoor/Tented Weddings, Church Halls
-- **W5:** Rustic Weddings, Modern/Minimalist Weddings
-- **W6:** Destination Weddings, Backyard Weddings
-- **W7:** Castle/Historic Venues, Mountain/Lodge Weddings
-- **W8:** Rooftop Weddings, Restaurant Weddings
+TOC: Jump links.
 
----
+Chapters: Evolution of Wedding Seating, Technical Foundation (Table Capacities, Floor Plans), Top 10 Seating Strategies, Case Studies (Real Weddings), Future Trends (AI-Planned Layouts).
 
-## 8. MICRO-ANSWER TOPIC QUEUE (Weeks 1-5)
-- **W1:** What is a seating chart?, What is a sweetheart table?, Who sits at the head table?, Divorced parents seating, What is a place card?
-- **W2:** What is an escort card?, Children at weddings, Tables for 100 guests, Buffet seating, Plated seating.
-- **W3:** Last-minute changes, Round table capacity, Long table capacity, Elderly guest seating, U-shape layout.
-- **W4:** Creating guest list, Seating chart display, Plus-one seating, Head vs Sweetheart table, Large wedding party seating.
-- **W5:** Family-style seating, Dietary needs seating, Seating chart template, Budget seating, What is a table number?
+AEO Box: Statistical Data Table (e.g., "Average wedding guest count: 139").
 
----
+FAQ: 10+ questions with FAQPage Schema.
 
-## 9. COMPARISON TARGETS
-- **Primary:** AllSeated, WeddingWire, The Knot, Zola, Joy.
-- **Secondary:** Aisle Planner, RSVPify, SimpleSeating, Wedding Planner.
-- **Use Cases:** Budget, Large (200+), Small/Intimate, DIY, Luxury, Destination.
+Internal Links: 15+ links to clusters, table type pages, and /.
+
+Template E – Venue/Style-Specific Seating Guide (600-800 words) – Commercial & inspirational intent.
+
+H1: [VENUE_TYPE] Wedding Seating Guide: Layouts & Tips for 2026
+
+Intro: Why [VENUE_TYPE] requires special seating planning.
+
+3 Recommended Layouts: With diagrams and explanations.
+
+Table Configuration: What works best for [VENUE_TYPE].
+
+Flow & Traffic: How guests will move through the space.
+
+AEO Box: Quick Ref Table (Venue Type → Best Layout → Table Types → Capacity).
+
+Internal Links: Pillar + Tool + Table Type Guide.
+
+Template F – Table Type Deep-Dive (600-800 words) – Educational depth.
+
+H1: The Complete Guide to [TABLE_TYPE] Wedding Seating
+
+Definition: What [TABLE_TYPE] tables are and when to use them.
+
+Capacity Guidelines: Exact seating capacities.
+
+Pros and Cons: Visual and functional trade-offs.
+
+Arrangement Tips: How to place them in your floor plan.
+
+AEO Box: Quick Ref Table (Table Type → Capacity → Best For → Seating Style).
+
+Internal Links: Pillar + Tool + Venue Guide.
+
+DELIVERABLE 2: THE REPEATABLE WEEKLY CALENDAR (MON-SUN)
+Monday (Fundamentals & Etiquette): 1 Pillar (Weekly Hub). 5 Micro-Answers (What is...). 3 Clusters on seating basics, etiquette, family dynamics.
+
+Tuesday (Comparisons): 2 Comparison Pages (TableVows vs Competitor X/Y). 5 Micros. 3 Programmatic pages.
+
+Wednesday (Table Type Deep-Dives): 2 Table Type Guides (Round, Long, Square, Sweetheart, etc. rotating). 5 Micros. 3 Programmatic pages.
+
+Thursday (Venue/Style Guides): 2 Venue-Specific Guides (Barn, Beach, Garden, Hotel, etc. rotating). 5 Micros. 3 Programmatic pages.
+
+Friday (Guest Management & Logistics): 2 Clusters on RSVPs, children, elderly, dietary needs, last-minute changes. 5 Micros.
+
+Saturday (Planning & Audit): Interlinking Audit (ensure every new page links to 3+ others). Schema Validation. 4xx Zombie Scan.
+
+Sunday (Pruning & Refreshing): Update 1 legacy section (e.g., blog post with outdated capacities). Refresh lastmod dates. Regenerate sitemap & Ping Google/IndexNow.
+
+DELIVERABLE 3: PROGRAMMATIC CSV HEADERS
+Comparison Pages (Template B):
+URL_Slug, H1_Title, Entity_A, Entity_B, Use_Case, Feature_1_Bool...Feature_5_Bool, Pros_A_Array, Cons_A_Array, Pros_B_Array, Cons_B_Array, Verdict_Winner, Best_For_Scenario, Internal_Link_1, Internal_Link_2
+
+Venue/Style-Specific Pages (Template E):
+URL_Slug, H1_Title, Venue_Type, Best_Layouts_JSON, Table_Types_JSON, Capacity_Info, Flow_Tips, Decor_Notes, Tags
+
+Table Type Pages (Template F):
+URL_Slug, H1_Title, Table_Type, Capacity_Min, Capacity_Max, Best_For, Pros_Array, Cons_Array, Arrangement_Tips, Tags
+
+DELIVERABLE 4: THE ETERNAL WEEKLY RHYTHM (CADENCE)
+Metric	Weekly Target
+Pillar Pages	1
+Venue/Style Guides	2–3
+Table Type Deep-Dives	2–3
+Comparison Pages	1–2
+Cluster Articles	15–25 (3-5/day)
+Programmatic Pages	25–50 (5-10/day)
+Micro-Answer Pages	~35 (5/day)
+Total New Pages/Week	80–120
+New Indexed Pages (Est.)	50–100
+
+DELIVERABLE 5: PRIORITY TOPIC QUEUE (FIRST 4 WEEKS)
+Week 1 (Fundamentals):
+
+Pillar: "The Ultimate Guide to Wedding Seating Charts in 2026"
+
+Comparisons: TableVows vs AllSeated, TableVows vs WeddingWire
+
+Table Types: Round Tables Deep-Dive, Long Tables Deep-Dive
+
+Venues: Barn Wedding Seating Guide, Beach Wedding Seating Guide
+
+Micro: What is a Wedding Seating Chart?, What is a Sweetheart Table?, Who Sits at the Head Table?, How to Seat Divorced Parents?, What is a Place Card?
+
+Week 2 (Etiquette & Guest Management):
+
+Pillar: "The Complete Guide to Wedding Seating Etiquette"
+
+Comparisons: TableVows vs The Knot, TableVows vs Zola
+
+Table Types: Square Tables Deep-Dive, U-Shape Layout Guide
+
+Venues: Garden Wedding Seating Guide, Hotel Ballroom Seating Guide
+
+Micro: What is an Escort Card?, How to Seat Children at Weddings?, How Many Tables for 100 Guests?, What is a Buffet Dinner Seating?, What is a Plated Dinner Seating?
+
+Week 3 (Layouts & Design):
+
+Pillar: "The Ultimate Guide to Wedding Reception Layouts"
+
+Comparisons: TableVows vs Joy, TableVows vs Aisle Planner
+
+Table Types: Sweetheart Table Deep-Dive, Head Table Deep-Dive
+
+Venues: Industrial Wedding Seating Guide, Vineyard Wedding Seating Guide
+
+Micro: How to Handle Last-Minute Seating Changes?, What is a Round Table Capacity?, What is a Long Table Capacity?, How to Seat Elderly Guests?, What is a U-Shape Layout?
+
+Week 4 (Advanced Topics):
+
+Pillar: "The Complete Guide to Wedding Guest Management"
+
+Comparisons: TableVows vs RSVPify, TableVows vs SimpleSeating
+
+Table Types: Mixing Table Types Guide, Small Space Seating Guide
+
+Venues: Outdoor Wedding Seating Guide, Church Hall Seating Guide
+
+Micro: How to Create a Wedding Guest List?, What is a Seating Chart Display?, How to Seat Plus-Ones?, What is a Head Table vs Sweetheart Table?, How to Seat a Large Wedding Party?
+
+DELIVERABLE 6: TABLE TYPE DEEP-DIVE QUEUE (12 WEEKS)
+W1-2: Round Tables, Long/Rectangular Tables
+
+W3-4: Square Tables, Sweetheart Tables
+
+W5-6: Head Tables, U-Shape Layouts
+
+W7-8: Cocktail Tables, Mixed Table Layouts
+
+W9-10: King's Tables, Kids' Tables
+
+W11-12: Lounge Seating, Banquet Tables
+
+DELIVERABLE 7: VENUE/STYLE SEATING GUIDE QUEUE (12 WEEKS)
+W1: Barn Weddings, Beach Weddings
+
+W2: Garden Weddings, Hotel Ballrooms
+
+W3: Industrial Venues, Vineyards/Wineries
+
+W4: Outdoor/Tented Weddings, Church Halls
+
+W5: Rustic Weddings, Modern/Minimalist Weddings
+
+W6: Destination Weddings, Backyard Weddings
+
+W7: Castle/Historic Venues, Mountain/Lodge Weddings
+
+W8: Rooftop Weddings, Restaurant Weddings
+
+W9: Museum/Gallery Weddings, Boathouse Weddings
+
+W10: Country Club Weddings, Brewery Weddings
+
+W11: Garden Estate Weddings, Ranch Weddings
+
+W12: Amphitheater Weddings, Private Home Weddings
+
+DELIVERABLE 8: MICRO-ANSWER TOPIC QUEUE (WEEKS 1-5)
+Week 1:
+
+What is a wedding seating chart?
+
+What is a sweetheart table?
+
+Who sits at the head table?
+
+How to seat divorced parents?
+
+What is a place card?
+
+Week 2:
+
+What is an escort card?
+
+How to seat children at weddings?
+
+How many tables for 100 guests?
+
+What is a buffet dinner seating?
+
+What is a plated dinner seating?
+
+Week 3:
+
+How to handle last-minute seating changes?
+
+What is a round table capacity?
+
+What is a long table capacity?
+
+How to seat elderly guests?
+
+What is a U-shape layout?
+
+Week 4:
+
+How to create a wedding guest list?
+
+What is a seating chart display?
+
+How to seat plus-ones?
+
+What is a head table vs sweetheart table?
+
+How to seat a large wedding party?
+
+Week 5:
+
+What is a family-style dinner seating?
+
+How to seat guests with dietary needs?
+
+What is a seating chart template?
+
+How to make a seating chart on a budget?
+
+What is a table number?
+
+DELIVERABLE 9: COMPARISON TARGETS TO GENERATE
+Primary Competitors: AllSeated, WeddingWire Seating Tool, The Knot Seating Chart, Zola Seating, Joy
+Secondary Competitors: Aisle Planner, RSVPify, SimpleSeating, Wedding Planner
+
+Comparison Use Cases:
+
+Budget-friendly weddings
+
+Large weddings (200+ guests)
+
+Small/intimate weddings
+
+DIY weddings
+
+Luxury/designer weddings
+
+Destination weddings
+
+CRITICAL TASK - DAY 1 (BEFORE STARTING CONTENT)
+URGENT REVIEW REQUIRED: Your /blog page lists 24 blog posts. However, some of these may be placeholders or thin content. Before starting the weekly engine, audit these existing posts to:
+
+Identify which posts are fully published vs. placeholders (check word count and actual content).
+
+Ensure all 24 existing posts have proper internal linking to the new content you'll create.
+
+Add Article Schema to any existing posts that lack it.
+
+Identify missing posts that should be prioritized (e.g., if the "Cultural Seating Traditions" post doesn't exist yet).
+
+If any of the 24 posts are placeholders or thin, update them to at least 500 words before proceeding.
+
+FINAL EXECUTION STATUS
+Append-Only Rule enforced.
+
+GA4 (G-HZQ3QT11QC) preserved globally.
+
+4xx Zombie Audit scheduled for Saturdays.
+
+Sitemap/IndexNow Automation scripted.
+
+All 9 Deliverables generated with specific examples from the TableVows niche.
+
+ACTION: Copy this blueprint. Update 5861b470b3f74191af451cdc90cb2141. Audit the 24 existing blog posts for content depth and schema. Start Week 1 - Monday (publish the "Ultimate Guide to Wedding Seating Charts" pillar + 5 Micros). Run the Saturday audit strictly to catch any 4xx pages before they degrade your GSC coverage. Proceed properly.
