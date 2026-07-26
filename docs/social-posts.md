@@ -805,3 +805,60 @@
 
 3. **Tweet**:
    "Don't let paper waste ruin your green wedding. Use a visual drag-and-drop planner to experiment and find the perfect harmony digitally. 🖱️ Try it today: http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide #EcoFriendlyWedding #EventProfs"
+
+## Social Media Distribution Posts - Wedding Seating Chart Guide
+# Updated: 2026-07-27
+
+**Status: Queued for publishing.**
+
+## Pinterest (3 Posts)
+1. **Title**: How to Create a Wedding Seating Chart in 5 Steps
+   **Description**: The ultimate guide to arranging your reception seating. Group guests, pick table shapes, and avoid common mistakes.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: A vertical infographic outlining the 5 easy steps to seating chart success.
+
+2. **Title**: Rustic Barn Seating Chart Ideas – Layouts & Table Plans
+   **Description**: Get inspired by these beautiful farmhouse table arrangements perfect for a rustic barn wedding.
+   **Link**: http://tablevows.alfo.online/styles/rustic-barn-seating
+   **Visual Concept**: A curated style pin showing a long wooden banquet table in a decorated barn.
+
+3. **Title**: 10 Seating Chart Mistakes to Avoid at Your Wedding
+   **Description**: Don't let these common errors ruin your reception flow! Find out how to seat exes and plus-ones safely.
+   **Link**: http://tablevows.alfo.online/blog/wedding-seating-chart-guide
+   **Visual Concept**: A list pin highlighting the top 10 seating mistakes with clear solutions.
+
+## Instagram (3 Posts)
+1. **Carousel Post**:
+   - Slide 1: Start with a floor plan 🗺️
+   - Slide 2: Group your guests strategically 👨‍👩‍👧‍👦
+   - Slide 3: Arrange your tables based on venue shape 🪑
+   - Slide 4: Preview it all with a drag-and-drop planner 💻
+   - Slide 5: Export your PDF for the caterer! 📄
+   **Caption**: Your seating chart sets the tone for the entire reception. Get it right with these simple steps! 🥂 Link in bio for our Ultimate 2026 Guide. #WeddingPlanning #SeatingChart
+
+2. **Reel**:
+   - **Video**: Screen recording of moving guests and tables seamlessly in TableVows.
+   - **Audio**: An upbeat, trending audio track.
+   - **Text on Screen**: "When planning your seating chart actually becomes fun... ✨"
+   **Caption**: Don't guess—visualize! Watch how easy it is to arrange your reception with our drag-and-drop tool. Try it free via the link in our bio. #WeddingTech #BrideToBe
+
+3. **Static Post / Story**:
+   - **Image/Poll**: "Your seating chart can make or break the vibe. Here's how to get it right." / Poll: "Round tables or long tables?"
+   **Caption**: Are you Team Round or Team Long tables? Let us know below! 👇 Whatever you choose, our new guide has the layout tips you need. Check the link in our bio! #WeddingInspo
+
+## Facebook (2 Posts)
+1. **Post**:
+   "Seating chart stress? We've got you. Read our complete guide to creating a wedding seating chart that your guests will actually love, and try our free drag-and-drop planner today! 🪑✨ http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+
+2. **Post**:
+   "Divorced parents? Exes? Unsure about the head table? Here's how to seat everyone gracefully without the drama. Read our top etiquette tips: http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+
+## Twitter/X (3 Posts)
+1. **Tweet**:
+   "Wedding seating rule #1: Place your most social guests near the quieter ones – balance is everything. 🥂 Read our full guide: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingTips"
+
+2. **Tweet**:
+   "Love long tables? They encourage conversation. Love round tables? They're easier for serving. Choose wisely based on your vibe! 🪑 http://tablevows.alfo.online/blog/wedding-seating-chart-guide"
+
+3. **Tweet**:
+   "Don't guess – visualize! Use a drag-and-drop planner to see your seating chart before the big day. No more sticky notes! 🖱️ Try it: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingTech"
