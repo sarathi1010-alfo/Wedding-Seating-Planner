@@ -11,7 +11,7 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-    'http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide',
+'http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/eco-friendly-seating',
   'http://tablevows.alfo.online/styles/sustainable-reception-layout',
   'http://tablevows.alfo.online/styles/zero-waste-wedding-seating',
@@ -35,7 +35,16 @@ const newUrls = [
   'http://tablevows.alfo.online/blog/what-is-sweetheart-table',
   'http://tablevows.alfo.online/blog/who-sits-at-head-table',
   'http://tablevows.alfo.online/blog/how-to-seat-divorced-parents',
-  'http://tablevows.alfo.online/blog/what-is-place-card'
+  'http://tablevows.alfo.online/blog/what-is-place-card',
+  'http://tablevows.alfo.online/blog/wedding-seating-chart-guide',
+  'http://tablevows.alfo.online/styles/rustic-barn-seating',
+  'http://tablevows.alfo.online/styles/ballroom-elegance',
+  'http://tablevows.alfo.online/styles/beach-wedding-layout',
+  'http://tablevows.alfo.online/styles/garden-party-seating',
+  'http://tablevows.alfo.online/guest-counts/intimate-50-guests',
+  'http://tablevows.alfo.online/guest-counts/medium-150-guests',
+  'http://tablevows.alfo.online/guest-counts/large-300-guests',
+  'http://tablevows.alfo.online/venue-types/outdoor-tent-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

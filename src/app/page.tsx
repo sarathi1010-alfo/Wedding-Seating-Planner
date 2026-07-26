@@ -38,6 +38,20 @@ export default function Home() {
           </div>
         </section>
 
+
+        <section className="py-24 px-6 lg:px-12 bg-background border-t border-border">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-heading mb-6">Expert Tips for 2026</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Want to dive deeper into the strategy of arranging tables? Check out our latest definitive resource:{" "}
+              <Link href="/blog/wedding-seating-chart-guide" className="text-primary hover:underline">
+                How to Create a Wedding Seating Chart That Guests Will Love
+              </Link>
+              . This guide covers everything from floor plans to tricky family dynamics.
+            </p>
+          </div>
+        </section>
+
         <section className="bg-muted py-24 px-6 lg:px-12">
           <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 text-center">
             <div>

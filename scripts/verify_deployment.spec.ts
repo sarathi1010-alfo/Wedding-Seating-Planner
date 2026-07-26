@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
-    '/blog/eco-friendly-wedding-seating-guide',
+'/blog/eco-friendly-wedding-seating-guide',
   '/styles/eco-friendly-seating',
   '/styles/sustainable-reception-layout',
   '/styles/zero-waste-wedding-seating',
@@ -27,7 +27,16 @@ const NEW_URLS = [
   '/blog/what-is-sweetheart-table',
   '/blog/who-sits-at-head-table',
   '/blog/how-to-seat-divorced-parents',
-  '/blog/what-is-place-card'
+  '/blog/what-is-place-card',
+  '/blog/wedding-seating-chart-guide',
+  '/styles/rustic-barn-seating',
+  '/styles/ballroom-elegance',
+  '/styles/beach-wedding-layout',
+  '/styles/garden-party-seating',
+  '/guest-counts/intimate-50-guests',
+  '/guest-counts/medium-150-guests',
+  '/guest-counts/large-300-guests',
+  '/venue-types/outdoor-tent-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
