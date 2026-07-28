@@ -37,6 +37,16 @@ const NEW_URLS = [
   '/guest-counts/medium-150-guests',
   '/guest-counts/large-300-guests',
   '/venue-types/outdoor-tent-layout'
+,
+  '/blog/seasonal-outdoor-layouts-guide',
+  '/styles/spring-outdoor-seating-chart',
+  '/styles/summer-outdoor-seating-chart',
+  '/styles/fall-outdoor-seating-chart',
+  '/styles/winter-outdoor-seating-chart',
+  '/guest-counts/outdoor-50-guest-wedding',
+  '/guest-counts/outdoor-150-guest-wedding',
+  '/guest-counts/outdoor-300-guest-wedding',
+  '/venue-types/heated-winter-tent-wedding'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {

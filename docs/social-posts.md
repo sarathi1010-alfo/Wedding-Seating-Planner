@@ -862,3 +862,25 @@
 
 3. **Tweet**:
    "Don't guess – visualize! Use a drag-and-drop planner to see your seating chart before the big day. No more sticky notes! 🖱️ Try it: http://tablevows.alfo.online/blog/wedding-seating-chart-guide #WeddingTech"
+
+### Seasonal Outdoor Layouts
+
+**For Pinterest (Inspiration & Tutorials):**
+- Pin 1: "Spring Showers or Summer Heat? How to Seat Your Outdoor Wedding" (vertical infographic).
+- Pin 2: "Winter Tent Wedding Seating Chart Ideas – Cozy Layouts" (curated style pin).
+- Pin 3: "5 Things to Remember When Planning Outdoor Wedding Seating" (list pin).
+
+**For Instagram (Visual & Educational):**
+- Carousel: Slide 1 (Spring Clear Tents) → Slide 2 (Summer Sailcloth & Shade) → Slide 3 (Fall Patio Heaters) → Slide 4 (Winter Enclosed Tents) → Slide 5 (Plan it all in TableVows). CTA: Link in bio.
+- Reel: Screen recording of dragging a heater and tables around in TableVows for a fall setup.
+- Static Post: "Don't let the weather ruin your reception. Plan your outdoor seating with the elements in mind."
+- Story: Poll: "Spring Garden or Fall Forest?" + link to the seasonal guide.
+
+**For Facebook (Community Engagement):**
+- Post: "Outdoor wedding on the horizon? From summer heat to winter chills, our comprehensive guide covers how to keep your guests comfortable while looking fabulous."
+- Post: "Planning a winter tent wedding? It's all about draft prevention. See our best layout tips for a cozy celebration."
+
+**For Twitter/X (Quick Wedding Tips):**
+- Tweet: "Summer wedding tip: Leave wider aisles between tables (60+ inches) to allow for better airflow and prevent the space from feeling stifling. #weddingplanning"
+- Tweet: "Winter weddings are magical, but guest comfort is key. Keep tables away from the tent entrances to avoid drafts! #weddingseating"
+- Tweet: "Don't guess how the heaters will fit in your fall tent – map it out digitally! Try our free drag-and-drop planner."
