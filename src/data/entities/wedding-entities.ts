@@ -405,6 +405,17 @@ export const venues: VenueType[] = [
       }
     ]
   }
+,
+
+  {
+    id: 'heated-winter-tent',
+    name: 'Heated Winter Tent',
+    slug: 'heated-winter-tent-wedding',
+    description: 'A fully enclosed, climate-controlled tent setting designed for winter weddings.',
+    seoTitle: 'Heated Winter Tent Wedding Seating Layouts',
+    seoDescription: 'Cozy and warm seating chart layouts for your heated winter tent wedding reception.',
+    faqs: [{ question: 'How to arrange tables in a heated winter tent?', answer: 'Keep tables away from the outer walls and entrances to avoid drafts, concentrating them towards the center of the heated space.' }]
+  }
 ];
 
 export const styles: WeddingStyle[] = [
@@ -1036,6 +1047,44 @@ export const styles: WeddingStyle[] = [
       }
     ]
   }
+,
+
+  {
+    id: 'spring-outdoor',
+    name: 'Spring Outdoor',
+    slug: 'spring-outdoor-seating-chart',
+    description: 'Spring outdoor seating emphasizes open-air layouts under clear-top tents with lush floral centerpieces.',
+    seoTitle: 'Spring Outdoor Wedding Seating Chart Ideas',
+    seoDescription: 'Plan your spring outdoor wedding with our customizable seating chart ideas and layouts.',
+    faqs: [{ question: 'What is the best layout for a spring outdoor wedding?', answer: 'Long family-style tables under a clear-top tent provide a garden party feel while protecting guests from spring showers.' }]
+  },
+  {
+    id: 'summer-outdoor',
+    name: 'Summer Outdoor',
+    slug: 'summer-outdoor-seating-chart',
+    description: 'Summer outdoor seating prioritizes shade, airflow, and hydration stations to keep guests comfortable.',
+    seoTitle: 'Summer Outdoor Wedding Seating Chart Layouts',
+    seoDescription: 'Keep guests cool with optimal summer outdoor wedding seating layouts prioritizing shade and airflow.',
+    faqs: [{ question: 'How do you arrange seating for a summer outdoor wedding?', answer: 'Ensure wider aisles for airflow and position tables under large trees or breathable sailcloth tents to prioritize shade.' }]
+  },
+  {
+    id: 'fall-outdoor',
+    name: 'Fall Outdoor',
+    slug: 'fall-outdoor-seating-chart',
+    description: 'Fall outdoor seating focuses on retaining heat with clustered round tables and strategic patio heaters.',
+    seoTitle: 'Fall Outdoor Wedding Seating Chart Arrangements',
+    seoDescription: 'Cozy and intimate fall outdoor wedding seating layouts to keep guests warm as the sun sets.',
+    faqs: [{ question: 'How should you plan seating for a fall outdoor wedding?', answer: 'Cluster round tables closer together around a central dance floor and strategically place patio heaters to retain body heat.' }]
+  },
+  {
+    id: 'winter-outdoor',
+    name: 'Winter Outdoor',
+    slug: 'winter-outdoor-seating-chart',
+    description: 'Winter outdoor seating relies on fully enclosed, heated tents with draft prevention layouts.',
+    seoTitle: 'Winter Outdoor Wedding Seating Chart Plans',
+    seoDescription: 'Create a magical enclosed winter outdoor wedding seating plan focusing on maximum heating and comfort.',
+    faqs: [{ question: 'What is the key to a winter outdoor seating chart?', answer: 'Keep tables away from entrances to prevent drafts, concentrate seating towards the center, and use a fully enclosed, heated tent.' }]
+  }
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -1529,6 +1578,37 @@ export const guestCounts: GuestCount[] = [
       }
     ]
   },
+
+  {
+    id: 'outdoor-50',
+    name: '50 Guests (Outdoor)',
+    slug: 'outdoor-50-guest-wedding',
+    count: 50,
+    description: 'Intimate outdoor seating for 50 guests, perfect for a cozy garden or backyard setup.',
+    seoTitle: '50-Guest Outdoor Wedding Seating Charts',
+    seoDescription: 'Intimate seating chart layouts for a 50-guest outdoor wedding celebration.',
+    faqs: [{ question: 'How many tables for a 50 guest outdoor wedding?', answer: 'You typically need about 6 round tables of 8, or one long banquet table to fit 50 guests outdoors.' }]
+  },
+  {
+    id: 'outdoor-150',
+    name: '150 Guests (Outdoor)',
+    slug: 'outdoor-150-guest-wedding',
+    count: 150,
+    description: 'Medium outdoor seating for 150 guests, requiring strategic tent placement and dance floor orientation.',
+    seoTitle: '150-Guest Outdoor Wedding Seating Charts',
+    seoDescription: 'Optimize your 150-guest outdoor wedding layout for flow, comfort, and dancing.',
+    faqs: [{ question: 'What is the best outdoor layout for 150 guests?', answer: 'A central dance floor surrounded by round tables in a large tent works best to keep 150 guests engaged and close to the action.' }]
+  },
+  {
+    id: 'outdoor-300',
+    name: '300 Guests (Outdoor)',
+    slug: 'outdoor-300-guest-wedding',
+    count: 300,
+    description: 'Massive outdoor seating for 300 guests, necessitating multiple tents and careful traffic flow management.',
+    seoTitle: '300-Guest Outdoor Wedding Seating Charts',
+    seoDescription: 'Large-scale seating charts for 300-guest outdoor weddings ensuring flow and guest comfort.',
+    faqs: [{ question: 'How do you seat 300 guests at an outdoor wedding?', answer: 'Use multiple large tents, ensure very wide aisles for flow, and consider mixing table shapes to maximize the use of space.' }]
+  }
 ];
 
 export const tableTypes: TableType[] = [
