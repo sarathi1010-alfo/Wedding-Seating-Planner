@@ -11,7 +11,7 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-'http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide',
+  'http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/eco-friendly-seating',
   'http://tablevows.alfo.online/styles/sustainable-reception-layout',
   'http://tablevows.alfo.online/styles/zero-waste-wedding-seating',
@@ -44,8 +44,7 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/intimate-50-guests',
   'http://tablevows.alfo.online/guest-counts/medium-150-guests',
   'http://tablevows.alfo.online/guest-counts/large-300-guests',
-  'http://tablevows.alfo.online/venue-types/outdoor-tent-layout'
-,
+  'http://tablevows.alfo.online/venue-types/outdoor-tent-layout',
   'http://tablevows.alfo.online/blog/seasonal-outdoor-layouts-guide',
   'http://tablevows.alfo.online/styles/spring-outdoor-seating-chart',
   'http://tablevows.alfo.online/styles/summer-outdoor-seating-chart',
