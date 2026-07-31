@@ -884,3 +884,63 @@
 - Tweet: "Summer wedding tip: Leave wider aisles between tables (60+ inches) to allow for better airflow and prevent the space from feeling stifling. #weddingplanning"
 - Tweet: "Winter weddings are magical, but guest comfort is key. Keep tables away from the tent entrances to avoid drafts! #weddingseating"
 - Tweet: "Don't guess how the heaters will fit in your fall tent – map it out digitally! Try our free drag-and-drop planner."
+
+## Social Media Distribution Posts - Destination Wedding Seating Chart Guide
+# Updated: 2026-07-31
+
+**Status: Queued for publishing.**
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to Destination Wedding Seating (2026)
+   **Description**: Planning your seating chart from afar? Learn how to arrange your destination wedding layout, adapt to unique venues, and group guests for maximum connection.
+   **Link**: http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide
+   **Visual Concept**: A vertical infographic showing the 5 essential steps to planning a destination seating chart.
+
+2. **Title**: Tropical Resort Wedding Seating Layouts
+   **Description**: Say "I do" on the beach! Get inspired by these beautiful coastal layouts and learn how to beat the heat with smart seating.
+   **Link**: http://tablevows.alfo.online/styles/tropical-resort-layout
+   **Visual Concept**: A curated style pin showing a shaded, elegant long table set on a white sand beach.
+
+3. **Title**: Top Seating Mistakes to Avoid at a Destination Wedding
+   **Description**: Don't let unpredictable weather or last-minute RSVPs ruin your overseas reception! Discover how to build a flexible floor plan.
+   **Link**: http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide
+   **Visual Concept**: A list pin highlighting the top 5 destination seating mistakes with clear, tech-driven solutions.
+
+## Instagram (3 Posts)
+1. **Carousel Post**:
+   - Slide 1: How to Plan a Destination Wedding Seating Chart ✈️🗺️
+   - Slide 2: Embrace the venue's natural topography (cliffs, beaches, gardens!).
+   - Slide 3: Plan for the elements - prioritize shade, airflow, or heat.
+   - Slide 4: Group guests based on connections made during travel!
+   - Slide 5: Preview it all digitally before you fly out. 💻
+   **Caption**: Taking your celebration overseas? 🌴 Your seating chart requires a totally different strategy! Swipe for our top destination planning tips and hit the link in bio for the full 1,200-word guide. #DestinationWedding #WeddingPlanning #SeatingChart
+
+2. **Reel**:
+   - **Video**: Screen recording of dragging a cliffside terrace table layout around in TableVows, quickly adapting to a new layout shape.
+   - **Audio**: An upbeat, travel-vibe trending audio track.
+   - **Text on Screen**: "When a guest cancels 24 hours before your destination wedding... no problem. 😎"
+   **Caption**: Destination weddings mean last-minute travel changes. Don't rely on sticky notes! Watch how easy it is to adjust your reception on the fly with our digital tool. Try it free via the link in our bio. #WeddingTech #DestinationBride
+
+3. **Static Post / Story**:
+   - **Image/Poll**: A beautiful shot of a European Villa courtyard with a King's table. "What's your dream destination vibe?" / Poll: "Tropical Beach or Historic Villa?"
+   **Caption**: Whether you are heading to a tropical resort or a historic castle, you need a seating plan that works with the environment. Let us know your dream destination below! 👇 And check out our new guide to making it perfect. Check the link in our bio! #WeddingInspo
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a wedding far from home? Don't stress about the seating chart! We've just published our complete 2026 guide to creating a destination wedding layout that your guests will love—and that can handle last-minute travel changes. ✈️🪑 http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide"
+
+2. **Post**:
+   "One of the best things about destination weddings? The friendships formed before the reception even starts! Learn how to group guests based on their travel connections for an unforgettable dinner party: http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide"
+
+3. **Post**:
+   "Paper escort cards blowing away in the beach breeze? We've got solutions. Read our top tips for managing logistics and adapting to unpredictable destination environments. Plus, try our free visual planner! 🖱️ http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide"
+
+## Twitter/X (3 Posts)
+1. **Tweet**:
+   "Destination wedding rule #1: Group guests based on the friendships they've made during the trip! It keeps the energy high and the conversation flowing. 🥂 Read our full guide: http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide #WeddingTips"
+
+2. **Tweet**:
+   "Having a beach wedding? Don't use light paper escort cards—they'll blow away! Opt for heavy sea glass, stones, or a securely mounted seating chart board. 🌴 http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide"
+
+3. **Tweet**:
+   "Last-minute travel cancellations are inevitable for destination weddings. Ditch the paper and use a digital planner so you can adjust your layout instantly on your laptop! 💻 Try it: http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide #WeddingTech"
