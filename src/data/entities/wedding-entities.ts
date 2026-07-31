@@ -49,6 +49,24 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "cliffside-terrace",
+    name: "Cliffside Terrace",
+    slug: "cliffside-terrace-layout",
+    description: "Cliffside terraces offer stunning views but require careful linear seating planning to maximize space and ensure safety.",
+    seoTitle: "Cliffside Terrace Wedding Seating Layouts & Floor Plans",
+    seoDescription: "Design a breathtaking cliffside terrace wedding layout. Create stunning, space-efficient table arrangements with our visual planner.",
+    faqs: [
+      {
+        question: "What is the best seating layout for a narrow cliffside terrace?",
+        answer: "Long, continuous banquet tables that follow the curve of the terrace are the most space-efficient and visually striking option."
+      },
+      {
+        question: "How do I ensure guest safety in a cliffside seating plan?",
+        answer: "Maintain wide aisles away from the edge, place the main pathway on the inland side of the tables, and use sturdy, weighted decor."
+      }
+    ]
+  },
+  {
     id: "venue-botanical-garden-eco",
     name: "Botanical Garden Eco Venue",
     slug: "botanical-garden-eco-layout",
@@ -419,6 +437,62 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "mountain-destination",
+    name: "Mountain Destination",
+    slug: "mountain-destination-seating",
+    description: "Mountain destination seating embraces the outdoors with layouts designed for uneven terrain, spectacular views, and crisp evening air.",
+    seoTitle: "Mountain Destination Wedding Seating Layouts",
+    seoDescription: "Plan a spectacular mountain destination wedding. Interactive seating planners that account for views, climate, and terrain.",
+    faqs: [
+      {
+        question: "How do I plan seating for a mountain destination wedding?",
+        answer: "Prioritize clear sightlines to the mountain views and ensure your layout incorporates space for patio heaters or fire pits as evening temperatures drop."
+      }
+    ]
+  },
+  {
+    id: "european-villa-destination",
+    name: "European Villa Destination",
+    slug: "european-villa-destination",
+    description: "European villa destination styles utilize elegant, long banquet tables in narrow courtyards or terraced gardens for a romantic, communal feast.",
+    seoTitle: "European Villa Destination Wedding Seating Layouts",
+    seoDescription: "Design an elegant European villa destination wedding layout. Create stunning continuous table arrangements with our visual planner.",
+    faqs: [
+      {
+        question: "What is the best seating layout for a European villa courtyard?",
+        answer: "Long, continuous banquet tables (often called King's tables) are traditional, elegant, and perfectly fit the narrow dimensions of most villa courtyards."
+      }
+    ]
+  },
+  {
+    id: "tropical-resort",
+    name: "Tropical Resort",
+    slug: "tropical-resort-layout",
+    description: "Tropical resort layouts focus on shade, airflow, and relaxed configurations suited for warm climates and beachfront settings.",
+    seoTitle: "Tropical Resort Wedding Seating Layouts",
+    seoDescription: "Plan a beautiful tropical resort wedding reception. Free interactive seating charts for beach and resort events.",
+    faqs: [
+      {
+        question: "How do you arrange seating for a tropical resort wedding?",
+        answer: "Ensure tables are not packed too tightly to allow for cross-breezes, and position older guests in the shadiest, coolest areas."
+      }
+    ]
+  },
+  {
+    id: "historic-castle",
+    name: "Historic Castle",
+    slug: "historic-castle-seating",
+    description: "Historic castle seating embraces grand, formal layouts that complement majestic architecture and spacious halls.",
+    seoTitle: "Historic Castle Wedding Seating Layouts & Floor Plans",
+    seoDescription: "Design a regal historic castle wedding layout. Create majestic table arrangements that fit grand spaces perfectly.",
+    faqs: [
+      {
+        question: "What is the best layout for a castle wedding?",
+        answer: "A combination of a long King's head table and surrounding large round tables creates a regal, balanced feel in a large castle hall."
+      }
+    ]
+  },
   {
     id: "style-eco-friendly",
     name: "Eco-Friendly Seating",
@@ -1088,6 +1162,51 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "destination-20",
+    name: "Destination 20 Guests",
+    slug: "destination-20-guests",
+    count: 20,
+    description: "An intimate micro-destination wedding for 20 guests allows for highly personalized and cohesive seating arrangements, often around a single table.",
+    seoTitle: "Destination Wedding Seating Charts for 20 Guests",
+    seoDescription: "Plan an intimate 20-guest destination wedding. Free interactive seating planner for perfect small-scale layouts.",
+    faqs: [
+      {
+        question: "How do you seat 20 guests at a destination wedding?",
+        answer: "A single long 'King's Table' or a U-shape layout is perfect for 20 guests, fostering intimate conversation and a family-dinner atmosphere."
+      }
+    ]
+  },
+  {
+    id: "destination-50",
+    name: "Destination 50 Guests",
+    slug: "destination-50-guests",
+    count: 50,
+    description: "A destination wedding for 50 guests is the perfect size for balancing an intimate feel with a lively, celebratory atmosphere.",
+    seoTitle: "Destination Wedding Seating Charts for 50 Guests",
+    seoDescription: "Manage a 50-guest destination wedding with ease. Our free tool helps you design perfectly balanced layouts.",
+    faqs: [
+      {
+        question: "How do you organize a seating chart for 50 destination guests?",
+        answer: "Group guests based on the friendships they've formed during the trip, using about 5-6 round tables or two long banquet tables."
+      }
+    ]
+  },
+  {
+    id: "destination-100",
+    name: "Destination 100 Guests",
+    slug: "destination-100-guests",
+    count: 100,
+    description: "A destination wedding for 100 guests requires careful planning to ensure all traveling groups feel included and comfortable in a new locale.",
+    seoTitle: "Destination Wedding Seating Charts for 100 Guests",
+    seoDescription: "Design a flawless 100-guest destination wedding layout. Free interactive seating planner for medium-large celebrations.",
+    faqs: [
+      {
+        question: "How do I plan seating for a 100-guest destination wedding?",
+        answer: "Mix tables shapes to fit the venue, ensure clear signage so guests can easily find their seats in an unfamiliar space, and group them by shared travel itineraries."
+      }
+    ]
+  },
   {
     id: "gc-eco-50",
     name: "50 Guests (Eco-Friendly)",
