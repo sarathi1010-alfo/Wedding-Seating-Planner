@@ -62,7 +62,7 @@ export default function RootLayout({
     >
       <head>
         <meta charSet="utf-8" />
-        <AnalyticsBlock gtmId="GTM-XXXXXXX" />
+        <AnalyticsBlock gtmId="G-HZQ3QT11QC" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
