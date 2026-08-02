@@ -1159,6 +1159,79 @@ export const styles: WeddingStyle[] = [
     seoDescription: 'Create a magical enclosed winter outdoor wedding seating plan focusing on maximum heating and comfort.',
     faqs: [{ question: 'What is the key to a winter outdoor seating chart?', answer: 'Keep tables away from entrances to prevent drafts, concentrate seating towards the center, and use a fully enclosed, heated tent.' }]
   }
+,
+  {
+    id: "modern-inclusive",
+    name: "Modern Inclusive",
+    slug: "modern-inclusive-wedding-seating",
+    description: "Modern inclusive seating focuses on fluid dynamics, de-gendering tables, and prioritizing chosen family over rigid traditional etiquette.",
+    seoTitle: "Modern Inclusive Wedding Seating Layouts (LGBTQ+ Friendly)",
+    seoDescription: "Plan a modern, inclusive wedding reception. Free interactive seating charts designed for LGBTQ+ and non-traditional celebrations.",
+    faqs: [
+      {
+        question: "What makes a modern wedding seating chart inclusive?",
+        answer: "It abandons the 'bride/groom side' divide, groups guests by genuine connection rather than alternating genders, and utilizes accessible layouts."
+      },
+      {
+        question: "Can I skip the head table in a modern inclusive wedding?",
+        answer: "Absolutely. Many couples choose a sweetheart table or a large chosen-family table instead of a traditional head table."
+      }
+    ]
+  },
+  {
+    id: "boho-inclusive",
+    name: "Boho Inclusive",
+    slug: "boho-inclusive-wedding-seating",
+    description: "Boho inclusive layouts embrace relaxed, mixed seating like low tables and cushions alongside traditional options, ensuring comfort for everyone.",
+    seoTitle: "Boho Inclusive Wedding Seating Layouts & Ideas",
+    seoDescription: "Design a relaxed, bohemian inclusive wedding layout. Interactive seating planners for diverse and welcoming receptions.",
+    faqs: [
+      {
+        question: "How do I plan inclusive seating for a boho wedding?",
+        answer: "Incorporate various seating heights and styles—from standard tables to floor cushions—so guests can choose what is most comfortable for their bodies."
+      },
+      {
+        question: "What is a good layout for a casual boho inclusive reception?",
+        answer: "A fluid mix of long communal tables and smaller lounge areas encourages mingling without rigid assignments."
+      }
+    ]
+  },
+  {
+    id: "classic-inclusive",
+    name: "Classic Inclusive",
+    slug: "classic-inclusive-wedding-seating",
+    description: "Classic inclusive seating honors formal elegance while updating the rules to respect all identities, families, and relationships.",
+    seoTitle: "Classic Inclusive Wedding Seating Chart Ideas",
+    seoDescription: "Formal elegance meets modern inclusivity. Plan your classic inclusive wedding seating chart with our free interactive tool.",
+    faqs: [
+      {
+        question: "How do I make a classic formal seating chart inclusive?",
+        answer: "Use correct names rather than gendered titles (Mr./Mrs.) on place cards, and seat VIPs based on relationship strength rather than traditional family roles."
+      },
+      {
+        question: "Can a formal ballroom wedding be inclusive?",
+        answer: "Yes, by ensuring wide pathways for accessibility and grouping guests by connection rather than strict gender-alternating patterns."
+      }
+    ]
+  },
+  {
+    id: "chic-inclusive",
+    name: "Chic Inclusive",
+    slug: "chic-inclusive-wedding-seating",
+    description: "Chic inclusive weddings feature high-end design that intentionally incorporates accessible pathways and diverse table arrangements.",
+    seoTitle: "Chic Inclusive Wedding Seating Arrangements",
+    seoDescription: "Design a stylish and inclusive wedding reception. Interactive seating charts that prioritize both aesthetics and guest comfort.",
+    faqs: [
+      {
+        question: "What is chic inclusive wedding seating?",
+        answer: "It is the intersection of high design and deep empathy, ensuring that every design choice (from table height to spacing) accommodates all guests comfortably."
+      },
+      {
+        question: "How do I arrange tables for a chic inclusive reception?",
+        answer: "Use a mix of square and round tables with ample spacing (60+ inches) to create an elegant, uncrowded aesthetic that is also highly accessible."
+      }
+    ]
+  },
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -1728,6 +1801,60 @@ export const guestCounts: GuestCount[] = [
     seoDescription: 'Large-scale seating charts for 300-guest outdoor weddings ensuring flow and guest comfort.',
     faqs: [{ question: 'How do you seat 300 guests at an outdoor wedding?', answer: 'Use multiple large tents, ensure very wide aisles for flow, and consider mixing table shapes to maximize the use of space.' }]
   }
+,
+  {
+    id: "inclusive-50",
+    name: "Inclusive 50 Guests",
+    slug: "inclusive-50-guest-wedding",
+    count: 50,
+    description: "An intimate inclusive wedding for 50 allows you to seat your closest chosen family at one large communal table or a cozy U-shape.",
+    seoTitle: "Inclusive Seating Charts for 50 Guests (Intimate Weddings)",
+    seoDescription: "Plan an intimate, inclusive wedding for 50 guests. Free interactive seating planner for diverse and welcoming celebrations.",
+    faqs: [
+      {
+        question: "What is the best inclusive layout for 50 guests?",
+        answer: "A single large U-shape or a long King's table allows all 50 guests to feel connected and equally valued."
+      },
+      {
+        question: "How do I seat 50 guests inclusively?",
+        answer: "Discard the 'bride/groom' sides and integrate your guests based on shared interests and genuine friendships."
+      }
+    ]
+  },
+  {
+    id: "inclusive-150",
+    name: "Inclusive 150 Guests",
+    slug: "inclusive-150-guest-wedding",
+    count: 150,
+    description: "For 150 guests, an inclusive layout balances energetic zones for friends with accessible, comfortable areas for older relatives.",
+    seoTitle: "Inclusive Seating Charts for 150 Guests | Free Templates",
+    seoDescription: "Design an inclusive seating chart for 150 guests. Interactive layouts that prioritize comfort, accessibility, and chosen family.",
+    faqs: [
+      {
+        question: "How do I plan inclusive seating for 150 guests?",
+        answer: "Create distinct zones—place energetic guests near the dance floor and ensure quiet, highly accessible seating for elderly or neurodivergent guests."
+      },
+      {
+        question: "How many tables are needed for a 150-guest inclusive wedding?",
+        answer: "Typically 15 to 19 tables, depending on the mix of sizes needed to accommodate different chosen family groupings."
+      }
+    ]
+  },
+  {
+    id: "inclusive-300",
+    name: "Inclusive 300 Guests",
+    slug: "inclusive-300-guest-wedding",
+    count: 300,
+    description: "A large inclusive wedding for 300 requires clear pathways, diverse seating options, and careful grouping to ensure everyone feels seen.",
+    seoTitle: "Inclusive Seating Charts for 300 Guests | Large Weddings",
+    seoDescription: "Manage a 300-guest inclusive wedding with ease. Our free tool helps you design accessible and welcoming large-scale layouts.",
+    faqs: [
+      {
+        question: "How do I make a 300-guest wedding feel inclusive?",
+        answer: "Use clear, digital signage and well-planned escort cards to guide guests, and ensure all pathways are wide enough (60+ inches) for mobility devices."
+      }
+    ]
+  },
 ];
 
 export const tableTypes: TableType[] = [
