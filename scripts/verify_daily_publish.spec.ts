@@ -54,6 +54,16 @@ const targetUrls = [
   '/guest-counts/outdoor-150-guest-wedding',
   '/guest-counts/outdoor-300-guest-wedding',
   '/venue-types/heated-winter-tent-wedding'
+,
+  '/blog/inclusive-seating-for-lgbtq-weddings',
+  '/styles/modern-inclusive-wedding-seating',
+  '/styles/boho-inclusive-wedding-seating',
+  '/styles/classic-inclusive-wedding-seating',
+  '/styles/chic-inclusive-wedding-seating',
+  '/guest-counts/inclusive-50-guest-wedding',
+  '/guest-counts/inclusive-150-guest-wedding',
+  '/guest-counts/inclusive-300-guest-wedding',
+  '/venue-types/inclusive-outdoor-tent-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {

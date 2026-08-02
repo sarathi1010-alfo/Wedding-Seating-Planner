@@ -64,6 +64,16 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/outdoor-150-guest-wedding',
   'http://tablevows.alfo.online/guest-counts/outdoor-300-guest-wedding',
   'http://tablevows.alfo.online/venue-types/heated-winter-tent-wedding'
+,
+  'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
+  'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
+  'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
+  'http://tablevows.alfo.online/styles/classic-inclusive-wedding-seating',
+  'http://tablevows.alfo.online/styles/chic-inclusive-wedding-seating',
+  'http://tablevows.alfo.online/guest-counts/inclusive-50-guest-wedding',
+  'http://tablevows.alfo.online/guest-counts/inclusive-150-guest-wedding',
+  'http://tablevows.alfo.online/guest-counts/inclusive-300-guest-wedding',
+  'http://tablevows.alfo.online/venue-types/inclusive-outdoor-tent-layout'
 ];
 
 console.log('Starting simulated SEO pings...');
