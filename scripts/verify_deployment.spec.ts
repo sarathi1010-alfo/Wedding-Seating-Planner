@@ -54,7 +54,16 @@ const NEW_URLS = [
   '/guest-counts/outdoor-50-guest-wedding',
   '/guest-counts/outdoor-150-guest-wedding',
   '/guest-counts/outdoor-300-guest-wedding',
-  '/venue-types/heated-winter-tent-wedding'
+  '/venue-types/heated-winter-tent-wedding',
+  '/blog/diy-wedding-seating-strategies-guide',
+  '/styles/diy-backyard-wedding-seating',
+  '/styles/budget-friendly-reception-layout',
+  '/styles/upcycled-wedding-seating',
+  '/styles/handmade-wedding-seating',
+  '/guest-counts/diy-50-guest-wedding',
+  '/guest-counts/diy-150-guest-wedding',
+  '/guest-counts/diy-300-guest-wedding',
+  '/venue-types/community-hall-diy-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {

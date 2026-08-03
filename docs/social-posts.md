@@ -1005,3 +1005,63 @@
 
 3. **Tweet**:
    "Reinventing wedding traditions is easier when you can visualize the changes. Ditch the rigid rules and try our free drag-and-drop seating planner to build a layout that fits your unique celebration! 💻 Try it: http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings #WeddingTech"
+
+## Social Media Distribution Posts - DIY Wedding Seating Strategies Guide
+# Updated: 2026-08-03
+
+**Status: Queued for publishing.**
+
+## Pinterest (3 Posts)
+1. **Title**: The Ultimate Guide to DIY Wedding Seating (2026)
+   **Description**: Planning a DIY wedding on a budget? Learn how to arrange your seating chart, maximize space, and create a beautiful reception layout without breaking the bank.
+   **Link**: http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide
+   **Visual Concept**: A vertical infographic showing the 4 essential steps to planning a DIY seating chart.
+
+2. **Title**: Upcycled Wedding Seating Layouts
+   **Description**: Say "I do" to sustainability! Get inspired by these beautiful upcycled seating layouts and learn how to create a unique reception.
+   **Link**: http://tablevows.alfo.online/styles/upcycled-wedding-seating
+   **Visual Concept**: A curated style pin showing a beautiful upcycled seating chart on a vintage mirror.
+
+3. **Title**: Top DIY Seating Mistakes to Avoid
+   **Description**: Don't let poor planning ruin your DIY reception! Discover how to build a flawless floor plan and avoid common budget-friendly mistakes.
+   **Link**: http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide
+   **Visual Concept**: A list pin highlighting the top 5 DIY seating mistakes with clear, cost-effective solutions.
+
+## Instagram (3 Posts)
+1. **Carousel Post**:
+   - Slide 1: How to Plan a DIY Wedding Seating Chart 🛠️✨
+   - Slide 2: Measure your venue space accurately.
+   - Slide 3: Digitize your layout before buying physical supplies.
+   - Slide 4: Create a beautiful, upcycled display.
+   - Slide 5: Save money without sacrificing style. 💻
+   **Caption**: Planning a DIY wedding? 🌿 Your seating chart is the perfect place to get creative and save money! Swipe for our top DIY planning tips and hit the link in bio for the full guide. #DIYWedding #WeddingOnABudget #SeatingChart
+
+2. **Reel**:
+   - **Video**: Screen recording of dragging tables around in TableVows to fit a tight budget venue layout.
+   - **Audio**: An upbeat, crafty trending audio track.
+   - **Text on Screen**: "When you realize digital planning saves you from buying 15 extra chairs... 😎"
+   **Caption**: DIY weddings mean managing every detail yourself. Don't waste money on extra rentals! Watch how easy it is to optimize your layout with our digital tool. Try it free via the link in our bio. #WeddingTech #DIYBride
+
+3. **Static Post / Story**:
+   - **Image/Poll**: A beautiful shot of a community hall with long banquet tables. "What's your DIY venue vibe?" / Poll: "Backyard Bash or Community Hall?"
+   **Caption**: Whether you are hosting a backyard bash or transforming a community hall, you need a seating plan that maximizes space and budget. Let us know your venue below! 👇 And check out our new DIY guide. Check the link in our bio! #WeddingInspo
+
+## Facebook (3 Posts)
+1. **Post**:
+   "Planning a DIY wedding on a budget? Don't stress about the seating chart! We've just published our complete 2026 guide to creating a DIY layout that looks expensive but costs a fraction of the price. 🛠️🪑 http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide"
+
+2. **Post**:
+   "One of the best things about DIY weddings? The personal touches! Learn how to create upcycled, beautiful seating displays that reflect your unique style: http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide"
+
+3. **Post**:
+   "Handwriting 150 place cards only to have 5 guests cancel? We've got solutions. Read our top tips for digitizing your DIY seating plan to avoid last-minute stress. Plus, try our free visual planner! 🖱️ http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide"
+
+## Twitter/X (3 Posts)
+1. **Tweet**:
+   "DIY wedding rule #1: Digitize before you physicalize! Use a digital planner to map out your tables before you buy a single piece of wood for your seating chart display. 🥂 Read our full guide: http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide #WeddingTips"
+
+2. **Tweet**:
+   "Planning a backyard wedding? Make sure you measure the space between tables! You need at least 60 inches for comfortable movement. 🌿 http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide"
+
+3. **Tweet**:
+   "Last-minute RSVP changes are inevitable, even for DIY weddings. Ditch the pen and paper and use a digital planner so you can adjust your layout instantly! 💻 Try it: http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide #WeddingTech"
