@@ -63,7 +63,16 @@ const targetUrls = [
   '/guest-counts/inclusive-50-guest-wedding',
   '/guest-counts/inclusive-150-guest-wedding',
   '/guest-counts/inclusive-300-guest-wedding',
-  '/venue-types/inclusive-outdoor-tent-layout'
+  '/venue-types/inclusive-outdoor-tent-layout',
+  '/blog/diy-wedding-seating-strategies-guide',
+  '/styles/diy-backyard-wedding-seating',
+  '/styles/budget-friendly-reception-layout',
+  '/styles/upcycled-wedding-seating',
+  '/styles/handmade-wedding-seating',
+  '/guest-counts/diy-50-guest-wedding',
+  '/guest-counts/diy-150-guest-wedding',
+  '/guest-counts/diy-300-guest-wedding',
+  '/venue-types/community-hall-diy-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {

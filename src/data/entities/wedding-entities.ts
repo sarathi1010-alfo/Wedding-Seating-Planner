@@ -48,6 +48,30 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: "community-hall-diy",
+    name: "Community Hall DIY",
+    slug: "community-hall-diy-layout",
+    description: "Community hall DIY layouts focus on transforming a blank canvas into a beautiful reception space using strategic table placement.",
+    seoTitle: "Community Hall DIY Wedding Seating Layouts",
+    seoDescription: "Transform your community hall venue with our DIY seating layouts. Creative floor plans for blank canvas spaces.",
+    faqs: [
+      {
+        question: "How do you arrange seating in a community hall?",
+        answer: "Community halls are usually large rectangles. Use long tables to create structured rows, or scatter round tables to break up the boxy feel."
+      },
+      {
+        question: "How can I make a community hall look elegant?",
+        answer: "Strategic lighting and a well-planned seating layout draw the eye away from plain walls and towards the beautifully decorated tables."
+      },
+      {
+        question: "What should I consider when planning a hall layout?",
+        answer: "Pay attention to the location of the kitchen, restrooms, and stage, ensuring your seating plan allows for easy access and good sightlines."
+      }
+    ]
+  }
+,
   {
     id: "cliffside-terrace",
     name: "Cliffside Terrace",
@@ -437,6 +461,96 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "diy-backyard",
+    name: "DIY Backyard",
+    slug: "diy-backyard-wedding-seating",
+    description: "DIY backyard wedding seating prioritizes casual elegance and utilizing outdoor space efficiently on a budget.",
+    seoTitle: "DIY Backyard Wedding Seating Layouts & Ideas",
+    seoDescription: "Plan a beautiful, budget-friendly DIY backyard wedding. Discover creative seating charts and layout ideas.",
+    faqs: [
+      {
+        question: "How do you arrange seating in a backyard?",
+        answer: "Use the natural landscape to define zones. Group tables near level ground, and keep the dance floor and bar accessible without blocking the flow."
+      },
+      {
+        question: "What tables are best for a DIY backyard wedding?",
+        answer: "Long rectangular tables or rented folding round tables work best, as they are versatile and easy to move across uneven grass."
+      },
+      {
+        question: "How can I save money on backyard seating?",
+        answer: "Consider renting basic folding chairs and dressing them up, or mixing and matching borrowed chairs for a rustic, eclectic look."
+      }
+    ]
+  },
+  {
+    id: "budget-friendly",
+    name: "Budget Friendly",
+    slug: "budget-friendly-reception-layout",
+    description: "Budget-friendly layouts focus on maximizing space and utilizing cost-effective seating solutions without sacrificing style.",
+    seoTitle: "Budget-Friendly Wedding Reception Seating Layouts",
+    seoDescription: "Save money with our budget-friendly wedding seating layouts. Optimize your reception space efficiently.",
+    faqs: [
+      {
+        question: "What is the most budget-friendly table layout?",
+        answer: "Long banquet tables are usually the most cost-effective, as they require fewer centerpieces and maximize the number of guests per square foot."
+      },
+      {
+        question: "How do I make a cheap seating chart look elegant?",
+        answer: "Use a digital planner to ensure perfect alignment, and create a beautiful DIY display using upcycled materials like old windows or mirrors."
+      },
+      {
+        question: "Do I need assigned seating on a budget?",
+        answer: "Yes, assigned seating actually saves money! It prevents you from having to rent 10-15% extra chairs and tables to accommodate awkward gaps."
+      }
+    ]
+  },
+  {
+    id: "upcycled",
+    name: "Upcycled",
+    slug: "upcycled-wedding-seating",
+    description: "Upcycled wedding seating uses reclaimed or vintage elements for an eco-friendly and deeply personal touch.",
+    seoTitle: "Upcycled Wedding Seating Ideas & Layouts",
+    seoDescription: "Discover creative upcycled wedding seating layouts. Reclaim materials for a beautiful, sustainable reception.",
+    faqs: [
+      {
+        question: "What is upcycled wedding seating?",
+        answer: "It involves using repurposed materials—like vintage doors for tables, or mismatched antique chairs—to create a unique, sustainable seating arrangement."
+      },
+      {
+        question: "Where can I find upcycled seating items?",
+        answer: "Thrift stores, estate sales, and rental companies that specialize in vintage or rustic decor are great places to find upcycled items."
+      },
+      {
+        question: "Does upcycled seating work for formal weddings?",
+        answer: "Yes! When styled correctly, upcycled elements can add a touch of whimsical elegance to even the most formal of events."
+      }
+    ]
+  },
+  {
+    id: "handmade",
+    name: "Handmade",
+    slug: "handmade-wedding-seating",
+    description: "Handmade seating arrangements focus on custom, crafted details that make every guest feel uniquely valued.",
+    seoTitle: "Handmade Wedding Seating Arrangements & Ideas",
+    seoDescription: "Personalize your big day with handmade wedding seating layouts. Unique, crafted ideas for a bespoke reception.",
+    faqs: [
+      {
+        question: "How can I incorporate handmade elements into my seating chart?",
+        answer: "You can create handmade place cards, custom escort displays, or even build your own simple wooden table numbers."
+      },
+      {
+        question: "Is handmade seating cheaper?",
+        answer: "Often, yes, but it requires more time. The trade-off is a highly personalized touch that guests will remember."
+      },
+      {
+        question: "How do I ensure handmade seating looks professional?",
+        answer: "Use a digital planner to ensure the overall layout is flawless, so your handmade details shine in a well-organized space."
+      }
+    ]
+  }
+,
   {
     id: "mountain-destination",
     name: "Mountain Destination",
@@ -1235,6 +1349,77 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "diy-50-guests",
+    name: "DIY 50 Guests",
+    slug: "diy-50-guest-wedding",
+    count: 50,
+    description: "A DIY wedding for 50 guests is perfect for intimate, budget-conscious couples who want a hands-on approach to their celebration.",
+    seoTitle: "DIY 50-Guest Wedding Seating Chart Ideas",
+    seoDescription: "Plan an intimate and budget-friendly DIY wedding for 50 guests. Discover creative seating charts and layouts.",
+    faqs: [
+      {
+        question: "How do I seat 50 guests at a DIY wedding?",
+        answer: "For 50 guests, consider a U-shape layout or 5-6 round tables. This keeps the atmosphere intimate and makes DIY decorating manageable."
+      },
+      {
+        question: "Is a DIY wedding for 50 guests cost-effective?",
+        answer: "Yes, 50 guests is the sweet spot for a DIY wedding, allowing you to personalize details without becoming overwhelmed."
+      },
+      {
+        question: "What is the best table type for 50 guests?",
+        answer: "A single long king's table or a U-shape creates a family-style, connected dinner party vibe perfect for a smaller DIY group."
+      }
+    ]
+  },
+  {
+    id: "diy-150-guests",
+    name: "DIY 150 Guests",
+    slug: "diy-150-guest-wedding",
+    count: 150,
+    description: "A DIY wedding for 150 guests requires careful planning and strategic seating to balance personal touches with crowd management.",
+    seoTitle: "DIY 150-Guest Wedding Seating Chart Layouts",
+    seoDescription: "Organize a stunning DIY wedding for 150 guests. Expert layouts and seating strategies for larger crowds.",
+    faqs: [
+      {
+        question: "Can you DIY a wedding for 150 guests?",
+        answer: "Yes, but you need strict organization. Use a digital planner to map out the 15-19 tables required for 150 guests."
+      },
+      {
+        question: "How do you manage seating for 150 DIY guests?",
+        answer: "Group guests logically and use clear, large signage for your DIY seating chart so guests can easily find their tables."
+      },
+      {
+        question: "What is the best layout for 150 guests on a budget?",
+        answer: "Long banquet tables are usually the most efficient way to seat 150 guests, saving space and reducing the number of centerpieces needed."
+      }
+    ]
+  },
+  {
+    id: "diy-300-guests",
+    name: "DIY 300 Guests",
+    slug: "diy-300-guest-wedding",
+    count: 300,
+    description: "A DIY wedding for 300 guests is a grand undertaking that demands a highly organized, efficient floor plan and digital seating management.",
+    seoTitle: "DIY 300-Guest Wedding Seating Layouts & Strategies",
+    seoDescription: "Tackle a large-scale DIY wedding with confidence. Seating charts and floor plans for 300 guests.",
+    faqs: [
+      {
+        question: "How do you seat 300 guests at a DIY wedding?",
+        answer: "You will need between 30 and 38 tables. A mix of long and round tables often works best to maximize space in a large venue."
+      },
+      {
+        question: "Is it possible to DIY a seating chart for 300 people?",
+        answer: "It is, but you must use a digital tool to plan it. Hand-writing 300 place cards is prone to errors and last-minute stress."
+      },
+      {
+        question: "What is the biggest challenge with 300 guests?",
+        answer: "Room flow. You must leave wide aisles and ensure everyone has a clear path to the bar, restrooms, and exits."
+      }
+    ]
+  }
+,
   {
     id: "destination-20",
     name: "Destination 20 Guests",
