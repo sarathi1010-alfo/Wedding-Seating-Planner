@@ -48,6 +48,17 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "historic-mansion",
+    name: "Historic Mansion",
+    slug: "historic-mansion-vintage-layout",
+    seoTitle: "Historic Mansion Wedding Seating Layouts",
+    seoDescription: "Plan your seating chart for a historic mansion wedding. Free interactive layout planner.",
+    description: "Historic mansions often feature unique room shapes and architectural details that require careful, creative seating arrangements.",
+    faqs: [
+      { question: "What is the biggest challenge when seating guests in a historic mansion?", answer: "Navigating non-traditional room shapes, pillars, and small adjoining rooms while maintaining a cohesive flow." }
+    ]
+  },
 
   {
     id: "community-hall-diy",
@@ -461,6 +472,50 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "vintage-glamour",
+    name: "Vintage Glamour",
+    slug: "vintage-glamour-seating",
+    seoTitle: "Vintage Glamour Wedding Seating Charts & Layouts",
+    seoDescription: "Plan an elegant, vintage glamour wedding reception. Free interactive seating planner for classic events.",
+    description: "A vintage glamour layout often incorporates small intimate round tables mixed with a grand head table, perfect for a 1920s or mid-century aesthetic.",
+    faqs: [
+      { question: "What tables are best for a vintage glamour wedding?", answer: "Intimate round tables paired with a prominent head table create a classic, elegant vibe." }
+    ]
+  },
+  {
+    id: "retro",
+    name: "Retro",
+    slug: "retro-wedding-layout",
+    seoTitle: "Retro Wedding Seating & Layout Ideas",
+    seoDescription: "Design a fun retro wedding seating chart. Free interactive layout planner for unique celebrations.",
+    description: "Retro weddings can utilize diner-style long tables or checkerboard floor plans to evoke a nostalgic atmosphere.",
+    faqs: [
+      { question: "How do you seat guests at a retro wedding?", answer: "Long banquet tables arranged in neat rows often evoke a classic, nostalgic feel suitable for retro themes." }
+    ]
+  },
+  {
+    id: "antique-style",
+    name: "Antique Style",
+    slug: "antique-style-seating",
+    seoTitle: "Antique Style Wedding Seating Charts",
+    seoDescription: "Create a beautiful antique-style wedding layout. Free interactive seating planner for historic venues.",
+    description: "An antique style layout focuses on maximizing the architectural features of historic venues, using mixed table shapes.",
+    faqs: [
+      { question: "Should I mix table shapes for an antique style wedding?", answer: "Yes, mixing long and round tables can help navigate the unique architectural quirks of older venues." }
+    ]
+  },
+  {
+    id: "classic-vintage",
+    name: "Classic Vintage",
+    slug: "classic-vintage-reception",
+    seoTitle: "Classic Vintage Reception Seating Plans",
+    seoDescription: "Plan a classic vintage reception layout. Free interactive seating planner for timeless events.",
+    description: "Classic vintage focuses on symmetry and formal seating arrangements, often featuring a traditional long head table.",
+    faqs: [
+      { question: "Is a traditional head table good for a classic vintage wedding?", answer: "Absolutely. A long, traditional head table is historically accurate and creates a beautiful focal point." }
+    ]
+  },
 
   {
     id: "diy-backyard",
@@ -1349,6 +1404,42 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "vintage-50",
+    name: "Vintage 50 Guests",
+    slug: "vintage-50-guests",
+    count: 50,
+    description: "An intimate vintage wedding for 50 guests allows for elaborate table settings and a cozy, communal dining experience.",
+    seoTitle: "Vintage Seating Charts for 50 Guests",
+    seoDescription: "Plan an intimate vintage wedding for 50 guests. Free interactive seating planner.",
+    faqs: [
+      { question: "How to seat 50 guests at a vintage wedding?", answer: "Use one large king's table or a few small round tables to maintain an intimate, elegant atmosphere." }
+    ]
+  },
+  {
+    id: "vintage-150",
+    name: "Vintage 150 Guests",
+    slug: "vintage-150-guests",
+    count: 150,
+    description: "A medium-sized vintage wedding for 150 guests balances classic elegance with practical crowd management.",
+    seoTitle: "Vintage Seating Charts for 150 Guests",
+    seoDescription: "Plan a classic vintage wedding for 150 guests. Free interactive seating planner.",
+    faqs: [
+      { question: "What is the best layout for a 150 guest vintage wedding?", answer: "A mix of long and round tables helps maximize space in historic venues while accommodating a larger crowd." }
+    ]
+  },
+  {
+    id: "vintage-300",
+    name: "Vintage 300 Guests",
+    slug: "vintage-300-guests",
+    count: 300,
+    description: "A grand vintage celebration for 300 guests requires careful planning to ensure the historic charm isn't lost in the crowd.",
+    seoTitle: "Vintage Seating Charts for 300 Guests",
+    seoDescription: "Plan a grand vintage wedding for 300 guests. Free interactive seating planner for large events.",
+    faqs: [
+      { question: "How to seat 300 guests at a vintage wedding?", answer: "Use a structured layout with wide aisles, ensuring the catering team can move freely in an older, potentially cramped venue." }
+    ]
+  },
 
   {
     id: "diy-50-guests",
