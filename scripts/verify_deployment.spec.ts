@@ -63,7 +63,16 @@ const NEW_URLS = [
   '/guest-counts/diy-50-guest-wedding',
   '/guest-counts/diy-150-guest-wedding',
   '/guest-counts/diy-300-guest-wedding',
-  '/venue-types/community-hall-diy-layout'
+  '/venue-types/community-hall-diy-layout',
+  '/blog/vintage-wedding-seating-chart-guide',
+  '/styles/vintage-glamour-seating',
+  '/styles/retro-wedding-layout',
+  '/styles/antique-style-seating',
+  '/styles/classic-vintage-reception',
+  '/guest-counts/vintage-50-guests',
+  '/guest-counts/vintage-150-guests',
+  '/guest-counts/vintage-300-guests',
+  '/venue-types/historic-mansion-vintage-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
