@@ -48,6 +48,18 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: "pet-friendly-outdoor",
+    name: "Pet-Friendly Outdoor Venue",
+    slug: "pet-friendly-outdoor-venue-layout",
+    description: "Outdoor settings ideal for pets, featuring wide open spaces, natural barriers, and easy access to relief areas.",
+    seoTitle: "Pet-Friendly Outdoor Venue Wedding Seating Layouts",
+    seoDescription: "Plan a flawless outdoor pet-friendly wedding. Interactive seating charts to optimize flow and animal comfort.",
+    faqs: [
+      { question: "What is the best layout for a pet-friendly outdoor venue?", answer: "A layout with scattered tables and a large central lawn area works well, ensuring the pet has room to roam safely on leash." }
+    ]
+  },
   {
     id: "historic-mansion",
     name: "Historic Mansion",
@@ -472,6 +484,52 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "pet-friendly-seating",
+    name: "Pet-Friendly Seating",
+    slug: "pet-friendly-seating",
+    description: "Layouts designed with safe zones, wide aisles, and clear pathways to accommodate furry friends at your wedding.",
+    seoTitle: "Pet-Friendly Wedding Seating Charts & Layout Ideas",
+    seoDescription: "Plan a pet-inclusive wedding with our free seating chart tool. Ensure safety and comfort for both guests and animals.",
+    faqs: [
+      { question: "How do I create a pet-friendly seating layout?", answer: "Designate a safe zone away from speakers, leave wide aisles, and seat allergy-prone guests far from the pet area." },
+      { question: "What table shape is best for pets?", answer: "Round tables are flexible, but long tables can act as barriers to create a designated walkway for animals." }
+    ]
+  },
+  {
+    id: "dog-friendly-layout",
+    name: "Dog-Friendly Layout",
+    slug: "dog-friendly-layout",
+    description: "Specific arrangements catering to canine companions, ensuring they have space to rest without overwhelming guests.",
+    seoTitle: "Dog-Friendly Wedding Seating Chart Layouts",
+    seoDescription: "Include your dog in your big day! Interactive seating charts designed for canine comfort and guest safety.",
+    faqs: [
+      { question: "Where should my dog sit at the reception?", answer: "Usually near the sweetheart table or with a dedicated pet sitter near an exit." }
+    ]
+  },
+  {
+    id: "animal-inclusive-wedding",
+    name: "Animal-Inclusive Wedding",
+    slug: "animal-inclusive-wedding",
+    description: "Comprehensive layouts for weddings featuring multiple pets or farm animals, focusing on flow and containment.",
+    seoTitle: "Animal-Inclusive Wedding Seating Charts & Layouts",
+    seoDescription: "Design a flawless floor plan for your animal-inclusive wedding. Manage guests and animals with ease.",
+    faqs: [
+      { question: "How much space do I need for an animal-inclusive wedding?", answer: "Leave at least 60 inches between tables and keep main pathways clear of decorations." }
+    ]
+  },
+  {
+    id: "pet-centric-reception",
+    name: "Pet-Centric Reception",
+    slug: "pet-centric-reception",
+    description: "A fun, relaxed layout where pets are the stars of the show, complete with integrated pet stations and safe spaces.",
+    seoTitle: "Pet-Centric Wedding Reception Seating Ideas",
+    seoDescription: "Plan the ultimate pet-centric wedding reception with interactive seating layouts that cater to your furry friends.",
+    faqs: [
+      { question: "What is a pet-centric seating plan?", answer: "A layout that incorporates pet safe zones, easy outdoor access, and strategic guest placement for maximum animal comfort." }
+    ]
+  },
   {
     id: "vintage-glamour",
     name: "Vintage Glamour",
@@ -1404,6 +1462,43 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "pet-friendly-50",
+    name: "Pet-Friendly 50 Guests",
+    slug: "pet-friendly-50-guests",
+    count: 50,
+    description: "An intimate pet-friendly wedding for 50 guests, allowing easy management of your furry friend in a small setting.",
+    seoTitle: "Pet-Friendly Seating Charts for 50 Guests",
+    seoDescription: "Plan an intimate 50-guest pet-friendly wedding. Free interactive seating planner for cozy, animal-inclusive celebrations.",
+    faqs: [
+      { question: "How do I seat 50 guests at a pet-friendly wedding?", answer: "Use a mix of round tables to keep the center open, or a U-shape layout where the pet can rest comfortably inside." }
+    ]
+  },
+  {
+    id: "pet-friendly-100",
+    name: "Pet-Friendly 100 Guests",
+    slug: "pet-friendly-100-guests",
+    count: 100,
+    description: "A medium-sized pet-friendly wedding requiring careful zoning to balance guest comfort and pet accessibility.",
+    seoTitle: "Pet-Friendly Seating Charts for 100 Guests",
+    seoDescription: "Manage a 100-guest pet-friendly wedding perfectly. Our free tool helps you design safe, animal-inclusive layouts.",
+    faqs: [
+      { question: "How many tables are needed for 100 guests with a pet?", answer: "Typically 10-12 tables, strategically placed to ensure the pet has a clear exit path." }
+    ]
+  },
+  {
+    id: "pet-friendly-150",
+    name: "Pet-Friendly 150 Guests",
+    slug: "pet-friendly-150-guests",
+    count: 150,
+    description: "A large pet-friendly wedding that requires meticulous planning, dedicated pet sitters, and distinct allergy-free zones.",
+    seoTitle: "Pet-Friendly Seating Charts for 150 Guests",
+    seoDescription: "Design a pet-friendly seating chart for 150 guests. Interactive layouts prioritizing safety and seamless flow.",
+    faqs: [
+      { question: "How do I handle a pet at a 150 guest wedding?", answer: "Hire a dedicated pet sitter, create a quiet safe zone, and ensure wide aisles for quick exits." }
+    ]
+  },
   {
     id: "vintage-50",
     name: "Vintage 50 Guests",
