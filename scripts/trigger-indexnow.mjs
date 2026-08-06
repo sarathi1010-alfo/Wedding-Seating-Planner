@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/pet-friendly-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/pet-friendly-seating',
+  'http://tablevows.alfo.online/styles/dog-friendly-layout',
+  'http://tablevows.alfo.online/styles/animal-inclusive-wedding',
+  'http://tablevows.alfo.online/styles/pet-centric-reception',
+  'http://tablevows.alfo.online/guest-counts/pet-friendly-50-guests',
+  'http://tablevows.alfo.online/guest-counts/pet-friendly-100-guests',
+  'http://tablevows.alfo.online/guest-counts/pet-friendly-150-guests',
+  'http://tablevows.alfo.online/venue-types/pet-friendly-outdoor-venue-layout',
   'http://tablevows.alfo.online/blog/destination-wedding-seating-chart-guide',
   'http://tablevows.alfo.online/styles/mountain-destination-seating',
   'http://tablevows.alfo.online/styles/european-villa-destination',

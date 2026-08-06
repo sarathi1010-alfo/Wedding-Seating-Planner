@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/pet-friendly-wedding-seating-guide',
+  '/styles/pet-friendly-seating',
+  '/styles/dog-friendly-layout',
+  '/styles/animal-inclusive-wedding',
+  '/styles/pet-centric-reception',
+  '/guest-counts/pet-friendly-50-guests',
+  '/guest-counts/pet-friendly-100-guests',
+  '/guest-counts/pet-friendly-150-guests',
+  '/venue-types/pet-friendly-outdoor-venue-layout',
   '/blog/destination-wedding-seating-chart-guide',
   '/styles/mountain-destination-seating',
   '/styles/european-villa-destination',
