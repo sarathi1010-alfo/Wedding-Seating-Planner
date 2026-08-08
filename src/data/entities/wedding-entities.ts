@@ -48,6 +48,18 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "art-gallery-minimalist",
+    name: "Art Gallery Minimalist Venue",
+    slug: "art-gallery-minimalist-layout",
+    description: "An open, sleek space where negative space and geometric seating enhance the minimalist aesthetic.",
+    seoTitle: "Minimalist Art Gallery Wedding Seating Layouts",
+    seoDescription: "Plan a sleek minimalist wedding in an art gallery. Interactive seating charts to optimize flow and negative space.",
+    faqs: [
+      { question: "What is the best layout for a minimalist art gallery venue?", answer: "Use long parallel banquet tables or a perfectly uniform grid of round tables to complement the clean architectural lines." }
+    ]
+  },
+
 
   {
     id: "pet-friendly-outdoor",
@@ -484,6 +496,51 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "minimalist-seating",
+    name: "Minimalist Seating",
+    slug: "minimalist-seating-layout",
+    description: "Layouts focused on wide aisles, geometric harmony, and intentional guest grouping to reduce social friction.",
+    seoTitle: "Minimalist Wedding Seating Charts & Layout Ideas",
+    seoDescription: "Plan a minimalist wedding with our free seating chart tool. Emphasize negative space and elegant uniformity.",
+    faqs: [
+      { question: "How do I create a minimalist seating layout?", answer: "Maximize negative space, use uniform table shapes in a strict grid, and keep centerpieces low and linear." }
+    ]
+  },
+  {
+    id: "modern-minimalist",
+    name: "Modern Minimalist",
+    slug: "modern-minimalist-reception",
+    description: "Sleek and contemporary seating that emphasizes clean lines and architectural simplicity.",
+    seoTitle: "Modern Minimalist Wedding Reception Seating Charts",
+    seoDescription: "Design a modern minimalist reception layout. Interactive tools for sleek, geometric floor plans.",
+    faqs: [
+      { question: "What tables work best for a modern minimalist reception?", answer: "Long, continuous banquet tables (King's tables) or perfectly spaced square tables offer the cleanest lines." }
+    ]
+  },
+  {
+    id: "sleek-seating",
+    name: "Sleek Seating",
+    slug: "sleek-wedding-seating",
+    description: "An uncluttered approach to seating that prioritizes guest comfort and effortless movement.",
+    seoTitle: "Sleek Wedding Seating Charts for Modern Receptions",
+    seoDescription: "Create a sleek, uncluttered wedding seating chart. Free interactive layouts for elegant celebrations.",
+    faqs: [
+      { question: "How much space do I need for a sleek seating layout?", answer: "Aim for at least 72 inches between tables to allow for maximum breathing room and effortless navigation." }
+    ]
+  },
+  {
+    id: "simple-elegant",
+    name: "Simple Elegant",
+    slug: "simple-elegant-seating",
+    description: "A refined layout that strips away the excess to focus on deep connections and essential beauty.",
+    seoTitle: "Simple & Elegant Wedding Seating Charts",
+    seoDescription: "Design simple, elegant wedding seating arrangements. Focus on connection and uncluttered aesthetics.",
+    faqs: [
+      { question: "How do I make simple seating look elegant?", answer: "Focus on perfect alignment, high-quality essential tableware, and cohesive grouping of guests." }
+    ]
+  },
+
 
   {
     id: "pet-friendly-seating",
@@ -1462,6 +1519,43 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "minimalist-50",
+    name: "Minimalist 50 Guests",
+    slug: "minimalist-50-guests",
+    count: 50,
+    description: "An intimate, highly intentional gathering where a single long table or a U-shape enhances connection.",
+    seoTitle: "Minimalist Seating Charts for 50 Guests",
+    seoDescription: "Plan an elegant, minimalist 50-guest wedding. Free interactive seating planner for intimate celebrations.",
+    faqs: [
+      { question: "What is the best minimalist layout for 50 guests?", answer: "A single, continuous long banquet table is the most striking and connection-focused choice." }
+    ]
+  },
+  {
+    id: "minimalist-150",
+    name: "Minimalist 150 Guests",
+    slug: "minimalist-150-guests",
+    count: 150,
+    description: "A medium-sized minimalist event requiring a strict grid of uniform tables to maintain a clean aesthetic.",
+    seoTitle: "Minimalist Seating Charts for 150 Guests",
+    seoDescription: "Design a minimalist seating chart for 150 guests. Interactive layouts emphasizing negative space and geometric order.",
+    faqs: [
+      { question: "How do I seat 150 guests minimally?", answer: "Use a perfect grid of round or square tables, ensuring identical spacing (at least 72 inches) between each." }
+    ]
+  },
+  {
+    id: "minimalist-300",
+    name: "Minimalist 300 Guests",
+    slug: "minimalist-300-guests",
+    count: 300,
+    description: "A large-scale minimalist production where vast negative space and parallel long tables create a monumental impact.",
+    seoTitle: "Minimalist Seating Charts for 300 Guests",
+    seoDescription: "Manage a 300-guest minimalist wedding with ease. Our free tool helps you design sleek, large-scale layouts.",
+    faqs: [
+      { question: "How do I make a 300-guest wedding feel minimalist?", answer: "Utilize extremely long, parallel banquet tables to minimize visual clutter and create strong architectural lines." }
+    ]
+  },
+
 
   {
     id: "pet-friendly-50",

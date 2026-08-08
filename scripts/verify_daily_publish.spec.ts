@@ -90,7 +90,16 @@ const targetUrls = [
   '/guest-counts/vintage-50-guests',
   '/guest-counts/vintage-150-guests',
   '/guest-counts/vintage-300-guests',
-  '/venue-types/historic-mansion-vintage-layout'
+  '/venue-types/historic-mansion-vintage-layout',
+  '/blog/minimalist-wedding-seating-guide',
+  '/styles/minimalist-seating-layout',
+  '/styles/modern-minimalist-reception',
+  '/styles/sleek-wedding-seating',
+  '/styles/simple-elegant-seating',
+  '/guest-counts/minimalist-50-guests',
+  '/guest-counts/minimalist-150-guests',
+  '/guest-counts/minimalist-300-guests',
+  '/venue-types/art-gallery-minimalist-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
