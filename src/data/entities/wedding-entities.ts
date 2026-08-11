@@ -48,6 +48,16 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: "venue-desert-oasis-boho-layout",
+    name: "Desert Oasis Boho Layout",
+    slug: "desert-oasis-boho-layout",
+    description: "Layouts designed specifically for desert oasis bohemian venues.",
+    seoTitle: "Desert Oasis Boho Wedding Seating Layout | TableVows",
+    seoDescription: "Optimize your seating for a stunning desert oasis bohemian wedding.",
+    faqs: [{ question: "How to layout a desert oasis venue?", answer: "Prioritize shade, use natural topography, and group seating organically." }]
+  },
   {
     id: "art-gallery-minimalist",
     name: "Art Gallery Minimalist Venue",
@@ -496,6 +506,43 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "style-boho-chic-seating",
+    name: "Boho Chic Seating",
+    slug: "boho-chic-seating",
+    description: "Relaxed seating with vintage rugs and low tables.",
+    seoTitle: "Boho Chic Wedding Seating Layouts | TableVows",
+    seoDescription: "Discover how to arrange relaxed, eclectic boho chic seating for your wedding reception.",
+    faqs: [{ question: "What is boho chic seating?", answer: "It incorporates eclectic elements like low tables, vintage rugs, and mismatched seating." }]
+  },
+  {
+    id: "style-desert-bohemian-layout",
+    name: "Desert Bohemian Layout",
+    slug: "desert-bohemian-layout",
+    description: "Earthy and organic layouts for a desert boho vibe.",
+    seoTitle: "Desert Bohemian Wedding Layouts | TableVows",
+    seoDescription: "Plan the perfect desert bohemian wedding layout with our expert tips.",
+    faqs: [{ question: "How to plan a desert boho layout?", answer: "Use earthy tones, organic flow, and comfortable lounge seating interspersed with dining tables." }]
+  },
+  {
+    id: "style-indie-wedding-seating",
+    name: "Indie Wedding Seating",
+    slug: "indie-wedding-seating",
+    description: "Alternative and highly personalized indie seating arrangements.",
+    seoTitle: "Indie Wedding Seating Ideas | TableVows",
+    seoDescription: "Explore unique indie seating ideas for a truly personalized wedding experience.",
+    faqs: [{ question: "What makes indie seating different?", answer: "It prioritizes personalization and non-traditional grouping over rigid etiquette." }]
+  },
+  {
+    id: "style-macrame-decor-seating",
+    name: "Macrame Decor Seating",
+    slug: "macrame-decor-seating",
+    description: "Seating arrangements that highlight macrame and woven elements.",
+    seoTitle: "Macrame Decor Wedding Seating | TableVows",
+    seoDescription: "Beautiful seating charts incorporating macrame and woven bohemian decor.",
+    faqs: [{ question: "How to display a macrame seating chart?", answer: "Clip escort cards to a large macrame wall hanging at the entrance to your reception." }]
+  },
   {
     id: "minimalist-seating",
     name: "Minimalist Seating",
@@ -1519,6 +1566,37 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "gc-boho-50-guests",
+    name: "Bohemian 50 Guests",
+    slug: "boho-50-guests",
+    count: 50,
+    description: "Intimate bohemian seating for 50 guests.",
+    seoTitle: "Boho Wedding Seating for 50 Guests | TableVows",
+    seoDescription: "Plan an intimate and eclectic boho wedding layout for 50 guests.",
+    faqs: [{ question: "What is the best layout for a 50 guest boho wedding?", answer: "A single long King's table or a U-shape layout with eclectic seating." }]
+  },
+  {
+    id: "gc-boho-100-guests",
+    name: "Bohemian 100 Guests",
+    slug: "boho-100-guests",
+    count: 100,
+    description: "Boho seating layout for 100 guests.",
+    seoTitle: "Bohemian Wedding Seating for 100 Guests | TableVows",
+    seoDescription: "Manage a medium-sized bohemian wedding with perfectly planned eclectic seating for 100.",
+    faqs: [{ question: "How to seat 100 guests in a boho style?", answer: "Mix long farm tables with cozy lounge areas and low Moroccan tables." }]
+  },
+  {
+    id: "gc-boho-150-guests",
+    name: "Bohemian 150 Guests",
+    slug: "boho-150-guests",
+    count: 150,
+    description: "Large bohemian seating plan for 150 guests.",
+    seoTitle: "Boho Wedding Seating for 150 Guests | TableVows",
+    seoDescription: "Organize an eclectic, free-flowing bohemian seating arrangement for 150 guests.",
+    faqs: [{ question: "Can a large wedding have a boho layout?", answer: "Yes, by creating distinct zones with different table shapes and interspersed lounge seating." }]
+  },
   {
     id: "minimalist-50",
     name: "Minimalist 50 Guests",

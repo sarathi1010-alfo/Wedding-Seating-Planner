@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
+  '/blog/bohemian-wedding-seating-guide',
+  '/styles/boho-chic-seating',
+  '/styles/desert-bohemian-layout',
+  '/styles/indie-wedding-seating',
+  '/styles/macrame-decor-seating',
+  '/guest-counts/boho-50-guests',
+  '/guest-counts/boho-100-guests',
+  '/guest-counts/boho-150-guests',
+  '/venue-types/desert-oasis-boho-layout',
   '/blog/pet-friendly-wedding-seating-guide',
   '/styles/pet-friendly-seating',
   '/styles/dog-friendly-layout',
