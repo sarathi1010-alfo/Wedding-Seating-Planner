@@ -50,6 +50,19 @@ export type TableType = {
 export const venues: VenueType[] = [
 
   {
+    id: "venue-five-star-hotel-luxury-layout",
+    name: "Five Star Hotel Luxury Layout",
+    slug: "five-star-hotel-luxury-layout",
+    description: "Elegant seating configurations for luxury five-star hotel ballrooms.",
+    seoTitle: "Five-Star Hotel Luxury Wedding Seating Layouts | TableVows",
+    seoDescription: "Discover how to arrange seating for a high-end, luxury wedding in a five-star hotel.",
+    faqs: [
+      { question: "How to layout a five-star hotel ballroom?", answer: "Use large King tables, ensure wide walkways for synchronized service, and place VIPs with the best sightlines." },
+      { question: "What is the best table size for a luxury wedding?", answer: "A 72-inch round table seated with 8 to 10 guests is ideal for providing enough room for formal place settings." }
+    ]
+  },
+
+  {
     id: "venue-desert-oasis-boho-layout",
     name: "Desert Oasis Boho Layout",
     slug: "desert-oasis-boho-layout",
@@ -506,6 +519,43 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "style-luxury-ballroom-seating",
+    name: "Luxury Ballroom Seating",
+    slug: "luxury-ballroom-seating",
+    description: "Opulent seating plans specifically designed for luxury ballrooms.",
+    seoTitle: "Luxury Ballroom Wedding Seating Ideas | TableVows",
+    seoDescription: "Explore elegant, high-end seating layouts for luxury ballroom wedding receptions.",
+    faqs: [{ question: "How to seat guests in a luxury ballroom?", answer: "Mix long banquet tables with oversized round tables for a dynamic, exclusive look." }]
+  },
+  {
+    id: "style-high-end-estate-layout",
+    name: "High-End Estate Layout",
+    slug: "high-end-estate-layout",
+    description: "Sophisticated seating arrangements for private estate weddings.",
+    seoTitle: "High-End Estate Wedding Seating Layouts | TableVows",
+    seoDescription: "Perfect your seating chart for a luxury, high-end private estate wedding.",
+    faqs: [{ question: "What is the best layout for a private estate wedding?", answer: "Consider outdoor luxury tents with mixed table shapes and generous spacing for a sprawling estate feel." }]
+  },
+  {
+    id: "style-black-tie-reception-seating",
+    name: "Black-Tie Reception Seating",
+    slug: "black-tie-reception-seating",
+    description: "Formal seating layouts ideal for a classic black-tie reception.",
+    seoTitle: "Black-Tie Reception Wedding Seating Chart | TableVows",
+    seoDescription: "Create a formal, sophisticated seating layout for your black-tie wedding reception.",
+    faqs: [{ question: "How to manage seating for a black-tie event?", answer: "Use precise seating assignments, elegant place cards, and ensure a minimum of 6 feet between tables." }]
+  },
+  {
+    id: "style-designer-wedding-layout",
+    name: "Designer Wedding Layout",
+    slug: "designer-wedding-layout",
+    description: "Custom, designer-focused seating arrangements with a strong visual aesthetic.",
+    seoTitle: "Designer Wedding Seating Layouts & Ideas | TableVows",
+    seoDescription: "Discover highly customized and aesthetically driven seating layouts for designer weddings.",
+    faqs: [{ question: "How do you create a designer wedding seating layout?", answer: "Focus on symmetry, mixed table shapes, and incorporate non-traditional elements like lounge seating." }]
+  },
 
   {
     id: "style-boho-chic-seating",
@@ -1566,6 +1616,37 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "gc-luxury-50-guests",
+    name: "Luxury 50 Guests",
+    slug: "luxury-50-guests",
+    count: 50,
+    description: "Intimate yet incredibly luxurious seating arrangements for 50 guests.",
+    seoTitle: "Luxury Wedding Seating for 50 Guests | TableVows",
+    seoDescription: "Plan an opulent and intimate high-end wedding layout for exactly 50 guests.",
+    faqs: [{ question: "How do you seat 50 guests luxuriously?", answer: "A single long King's table with lavish floral runners creates the ultimate luxury dining experience." }]
+  },
+  {
+    id: "gc-luxury-150-guests",
+    name: "Luxury 150 Guests",
+    slug: "luxury-150-guests",
+    count: 150,
+    description: "Balanced, high-end seating strategies for 150 wedding guests.",
+    seoTitle: "Luxury Wedding Seating for 150 Guests | TableVows",
+    seoDescription: "Optimize your floor plan for a formal luxury wedding of 150 guests.",
+    faqs: [{ question: "What is the best seating arrangement for 150 guests at a luxury event?", answer: "Use a mix of long banquet tables for the center and large 72-inch round tables on the perimeter." }]
+  },
+  {
+    id: "gc-luxury-300-guests",
+    name: "Luxury 300 Guests",
+    slug: "luxury-300-guests",
+    count: 300,
+    description: "Grand, sweeping seating layouts for large luxury weddings of 300 guests.",
+    seoTitle: "Luxury Wedding Seating for 300 Guests | TableVows",
+    seoDescription: "Manage a grand luxury wedding layout of 300 guests with flawless flow.",
+    faqs: [{ question: "How do you manage a luxury seating chart for 300 guests?", answer: "Prioritize wide walkways for waitstaff, clearly delineate VIP sections, and use digital planning tools to manage the scale." }]
+  },
 
   {
     id: "gc-boho-50-guests",
