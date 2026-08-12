@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/luxury-wedding-seating-guide',
+  '/styles/luxury-ballroom-seating',
+  '/styles/high-end-estate-layout',
+  '/styles/black-tie-reception-seating',
+  '/styles/designer-wedding-layout',
+  '/guest-counts/luxury-50-guests',
+  '/guest-counts/luxury-150-guests',
+  '/guest-counts/luxury-300-guests',
+  '/venue-types/five-star-hotel-luxury-layout',
   '/blog/bohemian-wedding-seating-guide',
   '/styles/boho-chic-seating',
   '/styles/desert-bohemian-layout',
