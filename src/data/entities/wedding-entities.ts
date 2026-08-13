@@ -48,6 +48,14 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: 'inclusive-outdoor-tent-layout',
+    name: 'Inclusive Outdoor Tent Layout',
+    slug: 'inclusive-outdoor-tent-layout',
+    description: 'An inclusive outdoor tent layout designed to accommodate diverse guest needs and provide a welcoming atmosphere.',
+    seoTitle: 'Inclusive Outdoor Tent Layout | Wedding Seating Guide',
+    seoDescription: 'Discover the best inclusive outdoor tent layout ideas for a welcoming wedding reception.'
+  },
 
   {
     id: "venue-five-star-hotel-luxury-layout",
@@ -519,6 +527,10 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  { id: 'chic-inclusive-wedding-seating', name: 'Chic Inclusive', slug: 'chic-inclusive-wedding-seating', description: 'A chic and inclusive seating arrangement.', seoTitle: 'Chic Inclusive Wedding Seating', seoDescription: 'Explore chic and inclusive seating ideas.' },
+  { id: 'classic-inclusive-wedding-seating', name: 'Classic Inclusive', slug: 'classic-inclusive-wedding-seating', description: 'A classic and inclusive seating arrangement.', seoTitle: 'Classic Inclusive Wedding Seating', seoDescription: 'Explore classic and inclusive seating ideas.' },
+  { id: 'boho-inclusive-wedding-seating', name: 'Boho Inclusive', slug: 'boho-inclusive-wedding-seating', description: 'A boho and inclusive seating arrangement.', seoTitle: 'Boho Inclusive Wedding Seating', seoDescription: 'Explore boho and inclusive seating ideas.' },
+  { id: 'modern-inclusive-wedding-seating', name: 'Modern Inclusive', slug: 'modern-inclusive-wedding-seating', description: 'A modern and inclusive seating arrangement.', seoTitle: 'Modern Inclusive Wedding Seating', seoDescription: 'Explore modern and inclusive seating ideas.' },
 
   {
     id: "style-luxury-ballroom-seating",
@@ -1616,6 +1628,9 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  { id: 'inclusive-300-guest-wedding', name: 'Inclusive 300 Guests', slug: 'inclusive-300-guest-wedding', description: 'Inclusive seating for 300 guests.', count: 300, seoTitle: 'Inclusive 300 Guest Wedding Seating', seoDescription: 'Ideas for seating 300 guests inclusively.' },
+  { id: 'inclusive-150-guest-wedding', name: 'Inclusive 150 Guests', slug: 'inclusive-150-guest-wedding', description: 'Inclusive seating for 150 guests.', count: 150, seoTitle: 'Inclusive 150 Guest Wedding Seating', seoDescription: 'Ideas for seating 150 guests inclusively.' },
+  { id: 'inclusive-50-guest-wedding', name: 'Inclusive 50 Guests', slug: 'inclusive-50-guest-wedding', description: 'Inclusive seating for 50 guests.', count: 50, seoTitle: 'Inclusive 50 Guest Wedding Seating', seoDescription: 'Ideas for seating 50 guests inclusively.' },
 
   {
     id: "gc-luxury-50-guests",
