@@ -37,7 +37,7 @@ const targetUrls = [
   '/guest-counts/destination-50-guests',
   '/guest-counts/destination-100-guests',
   '/venue-types/cliffside-terrace-layout',
-'/blog/eco-friendly-wedding-seating-guide',
+  '/blog/eco-friendly-wedding-seating-guide',
   '/styles/eco-friendly-seating',
   '/styles/sustainable-reception-layout',
   '/styles/zero-waste-wedding-seating',
@@ -70,8 +70,7 @@ const targetUrls = [
   '/guest-counts/intimate-50-guests',
   '/guest-counts/medium-150-guests',
   '/guest-counts/large-300-guests',
-  '/venue-types/outdoor-tent-layout'
-,
+  '/venue-types/outdoor-tent-layout',
   '/blog/seasonal-outdoor-layouts-guide',
   '/styles/spring-outdoor-seating-chart',
   '/styles/summer-outdoor-seating-chart',
@@ -80,8 +79,7 @@ const targetUrls = [
   '/guest-counts/outdoor-50-guest-wedding',
   '/guest-counts/outdoor-150-guest-wedding',
   '/guest-counts/outdoor-300-guest-wedding',
-  '/venue-types/heated-winter-tent-wedding'
-,
+  '/venue-types/heated-winter-tent-wedding',
   '/blog/inclusive-seating-for-lgbtq-weddings',
   '/styles/modern-inclusive-wedding-seating',
   '/styles/boho-inclusive-wedding-seating',

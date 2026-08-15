@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const PING_LOG = path.join(process.cwd(), 'seo-ops/pings.log');
+const PING_LOG = path.join(process.cwd(),
+  'seo-ops/pings.log');
 const DATE = new Date().toISOString();
 
 const simulatePing = (url, type) => {
@@ -46,8 +47,7 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/destination-20-guests',
   'http://tablevows.alfo.online/guest-counts/destination-50-guests',
   'http://tablevows.alfo.online/guest-counts/destination-100-guests',
-  'http://tablevows.alfo.online/venue-types/cliffside-terrace-layout'
-,
+  'http://tablevows.alfo.online/venue-types/cliffside-terrace-layout',
   'http://tablevows.alfo.online/blog/eco-friendly-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/eco-friendly-seating',
   'http://tablevows.alfo.online/styles/sustainable-reception-layout',
@@ -90,8 +90,7 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/outdoor-50-guest-wedding',
   'http://tablevows.alfo.online/guest-counts/outdoor-150-guest-wedding',
   'http://tablevows.alfo.online/guest-counts/outdoor-300-guest-wedding',
-  'http://tablevows.alfo.online/venue-types/heated-winter-tent-wedding'
-,
+  'http://tablevows.alfo.online/venue-types/heated-winter-tent-wedding',
   'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
   'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
   'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
@@ -133,10 +132,13 @@ const newUrls = [
 console.log('Starting simulated SEO pings...');
 
 newUrls.forEach(url => {
-    simulatePing(url, 'IndexNow');
+    simulatePing(url,
+  'IndexNow');
 });
 
-simulatePing('http://tablevows.alfo.online/sitemap.xml', 'Sitemap-Google');
-simulatePing('http://tablevows.alfo.online/sitemap.xml', 'Sitemap-Bing');
+simulatePing('http://tablevows.alfo.online/sitemap.xml',
+  'Sitemap-Google');
+simulatePing('http://tablevows.alfo.online/sitemap.xml',
+  'Sitemap-Bing');
 
 console.log('SEO pings completed. See seo-ops/pings.log for details.');
