@@ -524,6 +524,18 @@ export const venues: VenueType[] = [
     seoDescription: 'Cozy and warm seating chart layouts for your heated winter tent wedding reception.',
     faqs: [{ question: 'How to arrange tables in a heated winter tent?', answer: 'Keep tables away from the outer walls and entrances to avoid drafts, concentrating them towards the center of the heated space.' }]
   }
+,
+    {
+      id: 'outdoor-tent-layout-specific',
+      name: 'Outdoor Tent Wedding Layout',
+      slug: 'outdoor-tent-layout',
+      description: 'Outdoor Tent Wedding Layout – Flexible Seating Solutions',
+      seoTitle: 'Outdoor Tent Wedding Seating Layouts',
+      seoDescription: 'Flexible seating solutions and layouts for an outdoor tent wedding.',
+      faqs: [
+        { question: "What is a good layout for an outdoor tent?", answer: "Keep tent poles in mind, ensure tables are not too close to the edges in case of rain, and focus the layout around a central dance floor." }
+      ]
+    }
 ];
 
 export const styles: WeddingStyle[] = [
@@ -1625,6 +1637,51 @@ export const styles: WeddingStyle[] = [
       }
     ]
   },
+,
+    {
+      id: 'rustic-barn-seating',
+      name: 'Rustic Barn Seating',
+      slug: 'rustic-barn-seating',
+      description: 'Rustic Barn Wedding Seating – Layouts & Table Ideas',
+      seoTitle: 'Rustic Barn Wedding Seating | Layout Ideas',
+      seoDescription: 'Plan your rustic barn wedding seating with our free layout planner.',
+      faqs: [
+        { question: "What is the best seating for a rustic barn wedding?", answer: "The best seating often incorporates long banquet tables or mixed table shapes to complement the open, rustic feel." }
+      ]
+    },
+    {
+      id: 'ballroom-elegance',
+      name: 'Ballroom Elegance',
+      slug: 'ballroom-elegance',
+      description: 'Ballroom Wedding Seating – Elegant Layouts for Grand Receptions',
+      seoTitle: 'Ballroom Wedding Seating | Elegant Layouts',
+      seoDescription: 'Design an elegant ballroom seating chart for grand receptions.',
+      faqs: [
+        { question: "How to arrange seating for a ballroom?", answer: "Use classic round tables for easy conversation and a formal head table or sweetheart table as a focal point." }
+      ]
+    },
+    {
+      id: 'beach-wedding-layout',
+      name: 'Beach Wedding Layout',
+      slug: 'beach-wedding-layout',
+      description: 'Beach Wedding Seating – Coastal & Casual Arrangements',
+      seoTitle: 'Beach Wedding Seating Layouts',
+      seoDescription: 'Explore coastal and casual seating arrangements for your beach wedding.',
+      faqs: [
+        { question: "What should I consider for a beach wedding layout?", answer: "Account for natural elements like wind and sun, use heavier escort cards, and allow extra space between tables." }
+      ]
+    },
+    {
+      id: 'garden-party-seating',
+      name: 'Garden Party Seating',
+      slug: 'garden-party-seating',
+      description: 'Garden Party Wedding Seating – Romantic Outdoor Layouts',
+      seoTitle: 'Garden Party Wedding Seating Layouts',
+      seoDescription: 'Romantic outdoor seating layouts for your garden party wedding.',
+      faqs: [
+        { question: "How to plan seating for a garden party?", answer: "Incorporate the natural topography, using shade to your advantage, and mix small round or square tables to fit the environment." }
+      ]
+    }
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -2494,6 +2551,43 @@ export const guestCounts: GuestCount[] = [
       }
     ]
   },
+,
+    {
+      id: 'intimate-50-guests',
+      name: 'Intimate 50-Guest Wedding Seating',
+      slug: 'intimate-50-guests',
+      count: 50,
+      description: 'Intimate 50-Guest Wedding Seating – Cozy & Personal',
+      seoTitle: 'Intimate 50-Guest Wedding Seating',
+      seoDescription: 'Cozy and personal seating charts for a 50-guest intimate wedding.',
+      faqs: [
+        { question: "How to seat 50 guests comfortably?", answer: "Consider a U-shape or a single long banquet table to keep everyone close and the atmosphere intimate." }
+      ]
+    },
+    {
+      id: 'medium-150-guests',
+      name: 'Medium 150-Guest Wedding Seating',
+      slug: 'medium-150-guests',
+      count: 150,
+      description: 'Medium 150-Guest Wedding Seating – Balanced & Functional',
+      seoTitle: 'Medium 150-Guest Wedding Seating Layouts',
+      seoDescription: 'Balanced and functional seating charts for 150 guests.',
+      faqs: [
+        { question: "How to seat 150 guests comfortably?", answer: "Mix table sizes, such as 72-inch rounds and long rectangular tables, ensuring plenty of space between tables for flow." }
+      ]
+    },
+    {
+      id: 'large-300-guests',
+      name: 'Large 300-Guest Wedding Seating',
+      slug: 'large-300-guests',
+      count: 300,
+      description: 'Large 300-Guest Wedding Seating – Grand & Organized',
+      seoTitle: 'Large 300-Guest Wedding Seating Layouts',
+      seoDescription: 'Grand and organized seating charts for 300-guest large weddings.',
+      faqs: [
+        { question: "How to plan a seating chart for 300 guests?", answer: "Focus on clear aisles, use multiple escort card displays to prevent bottlenecks, and consider grouping by relationship." }
+      ]
+    }
 ];
 
 export const tableTypes: TableType[] = [
