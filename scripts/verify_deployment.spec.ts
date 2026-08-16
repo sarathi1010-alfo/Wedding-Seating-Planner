@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
+  '/blog/vineyard-wedding-seating-guide',
+  '/styles/vineyard-outdoor-seating',
+  '/styles/winery-barrel-room-layout',
+  '/styles/tuscan-vineyard-seating',
+  '/styles/modern-winery-reception',
+  '/guest-counts/vineyard-50-guests',
+  '/guest-counts/vineyard-150-guests',
+  '/guest-counts/vineyard-300-guests',
+  '/venue-types/vineyard-estate-layout',
   '/blog/luxury-wedding-seating-guide',
   '/styles/luxury-ballroom-seating',
   '/styles/high-end-estate-layout',

@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/vineyard-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/vineyard-outdoor-seating',
+  'http://tablevows.alfo.online/styles/winery-barrel-room-layout',
+  'http://tablevows.alfo.online/styles/tuscan-vineyard-seating',
+  'http://tablevows.alfo.online/styles/modern-winery-reception',
+  'http://tablevows.alfo.online/guest-counts/vineyard-50-guests',
+  'http://tablevows.alfo.online/guest-counts/vineyard-150-guests',
+  'http://tablevows.alfo.online/guest-counts/vineyard-300-guests',
+  'http://tablevows.alfo.online/venue-types/vineyard-estate-layout',
   'http://tablevows.alfo.online/blog/luxury-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/luxury-ballroom-seating',
   'http://tablevows.alfo.online/styles/high-end-estate-layout',

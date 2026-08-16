@@ -49,6 +49,18 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: 'vineyard-estate-layout',
+    name: 'Vineyard Estate Layout',
+    slug: 'vineyard-estate-layout',
+    description: 'Comprehensive layouts that utilize both the outdoor vines and the indoor tasting rooms of a sprawling estate.',
+    seoTitle: 'Vineyard Estate Wedding Seating Layouts',
+    seoDescription: 'Optimize your seating across multiple spaces at a vineyard estate.',
+    faqs: [
+      { question: 'How do I transition guests between spaces?', answer: 'Use clear signage and consider having cocktail hour outdoors before moving guests into the barrel room for dinner.' },
+      { question: 'What is the best way to utilize the estate?', answer: 'Map out distinct zones: a patio for cocktails, vines for photos, and a tent or barrel room for the main reception.' }
+    ]
+  },
+  {
     id: 'inclusive-outdoor-tent-layout',
     name: 'Inclusive Outdoor Tent Layout',
     slug: 'inclusive-outdoor-tent-layout',
@@ -527,6 +539,54 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: 'vineyard-outdoor-seating',
+    name: 'Vineyard Outdoor Seating',
+    slug: 'vineyard-outdoor-seating',
+    description: 'Breathtaking open-air arrangements set among the vines, utilizing long tables to mirror the landscape.',
+    seoTitle: 'Vineyard Outdoor Seating Chart Ideas',
+    seoDescription: 'Explore beautiful seating arrangements for outdoor vineyard weddings.',
+    faqs: [
+      { question: 'What is the best layout for a vineyard?', answer: 'Long family-style tables running parallel to the vines create a stunning visual continuity.' },
+      { question: 'How do you handle uneven ground?', answer: 'Place older guests on the flattest terrain near walkways and consider heel protectors.' }
+    ]
+  },
+  {
+    id: 'winery-barrel-room-layout',
+    name: 'Winery Barrel Room Layout',
+    slug: 'winery-barrel-room-layout',
+    description: 'Cozy and atmospheric seating plans designed for the unique environment of a working barrel room.',
+    seoTitle: 'Winery Barrel Room Seating Layouts',
+    seoDescription: 'Plan the perfect reception inside a winery barrel room with these layout ideas.',
+    faqs: [
+      { question: 'Are barrel rooms cold?', answer: 'Yes, they are usually temperature-controlled. Keep tables away from drafty doors.' },
+      { question: 'How is the lighting in a barrel room?', answer: 'Lighting is typically low. Seat older guests closer to the center where lighting is best.' }
+    ]
+  },
+  {
+    id: 'tuscan-vineyard-seating',
+    name: 'Tuscan Vineyard Seating',
+    slug: 'tuscan-vineyard-seating',
+    description: 'Rustic yet elegant seating arrangements inspired by the rolling hills of Tuscany, perfect for wine country.',
+    seoTitle: 'Tuscan Vineyard Wedding Seating',
+    seoDescription: 'Get inspired by these Tuscan-style seating layouts for your vineyard wedding.',
+    faqs: [
+      { question: 'What tables are best for a Tuscan theme?', answer: 'Long, rustic wooden farm tables paired with cross-back chairs are ideal.' },
+      { question: 'How do I incorporate the theme into the seating chart?', answer: 'Use wine bottles for table numbers and corks for place card holders.' }
+    ]
+  },
+  {
+    id: 'modern-winery-reception',
+    name: 'Modern Winery Reception',
+    slug: 'modern-winery-reception',
+    description: 'Sleek, contemporary seating layouts for modern winery tasting rooms and architectural spaces.',
+    seoTitle: 'Modern Winery Reception Seating Plans',
+    seoDescription: 'Discover sleek and modern seating chart ideas for your winery reception.',
+    faqs: [
+      { question: 'How do I seat guests in a modern tasting room?', answer: 'Mix sleek square tables with high-top cocktail tables for a dynamic layout.' },
+      { question: 'What about large immovable objects?', answer: 'Use a digital planner to accurately map tasting bars and pillars so you do not overcrowd.' }
+    ]
+  },
   { id: 'chic-inclusive-wedding-seating', name: 'Chic Inclusive', slug: 'chic-inclusive-wedding-seating', description: 'A chic and inclusive seating arrangement.', seoTitle: 'Chic Inclusive Wedding Seating', seoDescription: 'Explore chic and inclusive seating ideas.' },
   { id: 'classic-inclusive-wedding-seating', name: 'Classic Inclusive', slug: 'classic-inclusive-wedding-seating', description: 'A classic and inclusive seating arrangement.', seoTitle: 'Classic Inclusive Wedding Seating', seoDescription: 'Explore classic and inclusive seating ideas.' },
   { id: 'boho-inclusive-wedding-seating', name: 'Boho Inclusive', slug: 'boho-inclusive-wedding-seating', description: 'A boho and inclusive seating arrangement.', seoTitle: 'Boho Inclusive Wedding Seating', seoDescription: 'Explore boho and inclusive seating ideas.' },
@@ -1628,6 +1688,45 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: 'vineyard-50-guests',
+    slug: 'vineyard-50-guests',
+    name: 'Intimate 50 Guest Vineyard Wedding',
+    count: 50,
+    description: 'Cozy and intimate seating arrangements for a small group among the vines.',
+    seoTitle: 'Seating 50 Guests at a Vineyard Wedding',
+    seoDescription: 'Plan an intimate vineyard wedding with these layout ideas for 50 guests.',
+    faqs: [
+      { question: 'Is 50 guests too small for a vineyard?', answer: 'Not at all! You can create a highly intimate, single long-table dining experience.' },
+      { question: 'What is the best layout?', answer: 'A U-shape or a single long banquet table works beautifully for 50 guests.' }
+    ]
+  },
+  {
+    id: 'vineyard-150-guests',
+    slug: 'vineyard-150-guests',
+    name: 'Medium 150 Guest Vineyard Wedding',
+    count: 150,
+    description: 'Balanced and flowing seating plans for a medium-sized gathering at a winery.',
+    seoTitle: 'Seating 150 Guests at a Vineyard Wedding',
+    seoDescription: 'Discover how to seat 150 guests comfortably at your vineyard reception.',
+    faqs: [
+      { question: 'How many tables do I need for 150 guests?', answer: 'Typically, 15 to 19 tables depending on whether you use round or long tables.' },
+      { question: 'Can I fit 150 guests in a barrel room?', answer: 'It depends on the specific winery. Always use a digital floor plan to check capacity.' }
+    ]
+  },
+  {
+    id: 'vineyard-300-guests',
+    slug: 'vineyard-300-guests',
+    name: 'Large 300 Guest Vineyard Wedding',
+    count: 300,
+    description: 'Grand and expansive seating strategies for a large-scale event at a vineyard estate.',
+    seoTitle: 'Seating 300 Guests at a Vineyard Wedding',
+    seoDescription: 'Manage a large guest list with these seating chart strategies for 300-guest vineyard weddings.',
+    faqs: [
+      { question: 'How do I manage flow for 300 guests?', answer: 'Ensure wide aisles (at least 60 inches) and multiple bar/buffet stations to prevent bottlenecks.' },
+      { question: 'Should I use a tent?', answer: 'For 300 guests, a large tent is usually necessary unless the winery has a massive indoor facility.' }
+    ]
+  },
   { id: 'inclusive-300-guest-wedding', name: 'Inclusive 300 Guests', slug: 'inclusive-300-guest-wedding', description: 'Inclusive seating for 300 guests.', count: 300, seoTitle: 'Inclusive 300 Guest Wedding Seating', seoDescription: 'Ideas for seating 300 guests inclusively.' },
   { id: 'inclusive-150-guest-wedding', name: 'Inclusive 150 Guests', slug: 'inclusive-150-guest-wedding', description: 'Inclusive seating for 150 guests.', count: 150, seoTitle: 'Inclusive 150 Guest Wedding Seating', seoDescription: 'Ideas for seating 150 guests inclusively.' },
   { id: 'inclusive-50-guest-wedding', name: 'Inclusive 50 Guests', slug: 'inclusive-50-guest-wedding', description: 'Inclusive seating for 50 guests.', count: 50, seoTitle: 'Inclusive 50 Guest Wedding Seating', seoDescription: 'Ideas for seating 50 guests inclusively.' },
