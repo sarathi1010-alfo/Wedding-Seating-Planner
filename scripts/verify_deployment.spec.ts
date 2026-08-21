@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
+  '/blog/inclusive-seating-for-lgbtq-weddings',
+  '/styles/inclusive-rustic-seating',
+  '/styles/inclusive-ballroom-layout',
+  '/styles/inclusive-beach-wedding',
+  '/styles/inclusive-garden-party',
+  '/guest-counts/lgbtq-50-guests',
+  '/guest-counts/lgbtq-150-guests',
+  '/guest-counts/lgbtq-300-guests',
+  '/venue-types/lgbtq-outdoor-tent-layout',
   '/blog/vineyard-wedding-seating-guide',
   '/styles/vineyard-outdoor-seating',
   '/styles/winery-barrel-room-layout',

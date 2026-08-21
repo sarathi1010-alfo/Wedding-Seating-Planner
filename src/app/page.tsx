@@ -44,10 +44,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-heading mb-6">Expert Tips for 2026</h2>
             <p className="text-lg text-muted-foreground mb-8">
               Want to dive deeper into the strategy of arranging tables? Check out our latest definitive resource:{" "}
-              <Link href="/blog/wedding-seating-chart-guide" className="text-primary hover:underline">
-                How to Create a Wedding Seating Chart That Guests Will Love
-              </Link>
-              . This guide covers everything from floor plans to tricky family dynamics.
+              <Link href="/blog/inclusive-seating-for-lgbtq-weddings" className="text-primary hover:underline">Inclusive Seating for LGBTQ+ Weddings: A Modern Guide</Link>. This guide covers everything from rethinking the head table to honoring chosen family.
             </p>
           </div>
         </section>
