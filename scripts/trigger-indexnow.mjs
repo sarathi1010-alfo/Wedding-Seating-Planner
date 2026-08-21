@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
+  'http://tablevows.alfo.online/styles/inclusive-rustic-seating',
+  'http://tablevows.alfo.online/styles/inclusive-ballroom-layout',
+  'http://tablevows.alfo.online/styles/inclusive-beach-wedding',
+  'http://tablevows.alfo.online/styles/inclusive-garden-party',
+  'http://tablevows.alfo.online/guest-counts/lgbtq-50-guests',
+  'http://tablevows.alfo.online/guest-counts/lgbtq-150-guests',
+  'http://tablevows.alfo.online/guest-counts/lgbtq-300-guests',
+  'http://tablevows.alfo.online/venue-types/lgbtq-outdoor-tent-layout',
   'http://tablevows.alfo.online/blog/vineyard-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/vineyard-outdoor-seating',
   'http://tablevows.alfo.online/styles/winery-barrel-room-layout',
@@ -101,7 +110,6 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/outdoor-300-guest-wedding',
   'http://tablevows.alfo.online/venue-types/heated-winter-tent-wedding'
 ,
-  'http://tablevows.alfo.online/blog/inclusive-seating-for-lgbtq-weddings',
   'http://tablevows.alfo.online/styles/modern-inclusive-wedding-seating',
   'http://tablevows.alfo.online/styles/boho-inclusive-wedding-seating',
   'http://tablevows.alfo.online/styles/classic-inclusive-wedding-seating',

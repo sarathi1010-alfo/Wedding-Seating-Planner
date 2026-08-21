@@ -536,6 +536,22 @@ export const venues: VenueType[] = [
     seoDescription: 'Cozy and warm seating chart layouts for your heated winter tent wedding reception.',
     faqs: [{ question: 'How to arrange tables in a heated winter tent?', answer: 'Keep tables away from the outer walls and entrances to avoid drafts, concentrating them towards the center of the heated space.' }]
   }
+,
+  {
+    id: "lgbtq-outdoor-tent",
+    name: "LGBTQ+ Outdoor Tent",
+    slug: "lgbtq-outdoor-tent-layout",
+    description: "Outdoor tent layouts for LGBTQ+ weddings focus on accessibility, flow, and creating a unified chosen family atmosphere.",
+    seoTitle: "LGBTQ+ Outdoor Tent Wedding Seating Charts",
+    seoDescription: "Plan an outdoor tent reception for your LGBTQ+ wedding. Interactive seating planner for accessible and welcoming setups.",
+    faqs: [
+      {
+        question: "What is the best outdoor tent layout for an LGBTQ+ wedding?",
+        answer: "A mixed layout with both round and long tables ensures everyone finds a comfortable spot, centered around the dance floor."
+      }
+    ]
+  }
+
 ];
 
 export const styles: WeddingStyle[] = [
@@ -1685,6 +1701,64 @@ export const styles: WeddingStyle[] = [
       }
     ]
   },
+,
+  {
+    id: "inclusive-rustic-seating",
+    name: "Inclusive Rustic",
+    slug: "inclusive-rustic-seating",
+    description: "An inclusive rustic layout combining communal farmhouse tables with accessible pathways.",
+    seoTitle: "Inclusive Rustic Wedding Seating Layouts",
+    seoDescription: "Plan an inclusive rustic wedding reception. Interactive seating planners for diverse and welcoming celebrations.",
+    faqs: [
+      {
+        question: "How do I make a rustic wedding seating chart inclusive?",
+        answer: "Ensure wide pathways around bulky rustic decor and use a mix of long and round tables."
+      }
+    ]
+  },
+  {
+    id: "inclusive-ballroom-layout",
+    name: "Inclusive Ballroom",
+    slug: "inclusive-ballroom-layout",
+    description: "Inclusive ballroom seating honors formal elegance while updating rules to respect all identities and abilities.",
+    seoTitle: "Inclusive Ballroom Wedding Seating Chart Ideas",
+    seoDescription: "Formal elegance meets modern inclusivity. Plan your inclusive ballroom seating chart with our free interactive tool.",
+    faqs: [
+      {
+        question: "Can a formal ballroom wedding be inclusive?",
+        answer: "Absolutely. Ditch the rigid head table for a sweetheart table, and ensure there's a sensory-friendly quiet zone nearby."
+      }
+    ]
+  },
+  {
+    id: "inclusive-beach-wedding",
+    name: "Inclusive Beach",
+    slug: "inclusive-beach-wedding",
+    description: "Beach inclusive layouts embrace relaxed, accessible seating like firm pathways on sand and shaded zones.",
+    seoTitle: "Inclusive Beach Wedding Seating Layouts & Ideas",
+    seoDescription: "Design a relaxed, accessible beach inclusive wedding layout. Interactive seating planners for welcoming coastal receptions.",
+    faqs: [
+      {
+        question: "How do I plan inclusive seating for a beach wedding?",
+        answer: "Ensure you provide solid pathways for guests with mobility devices and shaded seating for those sensitive to sun."
+      }
+    ]
+  },
+  {
+    id: "inclusive-garden-party",
+    name: "Inclusive Garden",
+    slug: "inclusive-garden-party",
+    description: "Inclusive garden party seating focuses on fluid dynamics, de-gendering tables, and ensuring smooth outdoor navigation.",
+    seoTitle: "Inclusive Garden Party Wedding Seating Layouts",
+    seoDescription: "Plan a modern, inclusive garden wedding reception. Free interactive seating charts designed for diverse celebrations.",
+    faqs: [
+      {
+        question: "What makes a garden wedding seating chart inclusive?",
+        answer: "Using clear signage and arranging tables to allow easy navigation for all guests across uneven terrain."
+      }
+    ]
+  }
+
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -2593,6 +2667,53 @@ export const guestCounts: GuestCount[] = [
       }
     ]
   },
+,
+  {
+    id: "lgbtq-50",
+    name: "LGBTQ+ 50 Guests",
+    slug: "lgbtq-50-guests",
+    count: 50,
+    description: "An intimate LGBTQ+ wedding for 50 allows you to seat your closest chosen family at one large communal table.",
+    seoTitle: "LGBTQ+ Seating Charts for 50 Guests",
+    seoDescription: "Plan an intimate LGBTQ+ wedding for 50 guests. Free interactive seating planner for diverse and welcoming celebrations.",
+    faqs: [
+      {
+        question: "What is the best layout for a 50-guest LGBTQ+ wedding?",
+        answer: "A single large U-shape or a long King's table allows all 50 guests to feel connected."
+      }
+    ]
+  },
+  {
+    id: "lgbtq-150",
+    name: "LGBTQ+ 150 Guests",
+    slug: "lgbtq-150-guests",
+    count: 150,
+    description: "For 150 guests, balance energetic zones for friends with comfortable areas for chosen family.",
+    seoTitle: "LGBTQ+ Seating Charts for 150 Guests | Free Templates",
+    seoDescription: "Design an LGBTQ+ seating chart for 150 guests. Interactive layouts that prioritize comfort and chosen family.",
+    faqs: [
+      {
+        question: "How do I plan seating for a 150-guest LGBTQ+ wedding?",
+        answer: "Create distinct zones based on personality and energy levels, and ditch the traditional gendered wedding party tables."
+      }
+    ]
+  },
+  {
+    id: "lgbtq-300",
+    name: "LGBTQ+ 300 Guests",
+    slug: "lgbtq-300-guests",
+    count: 300,
+    description: "A large LGBTQ+ wedding for 300 requires clear pathways, diverse seating options, and careful grouping.",
+    seoTitle: "LGBTQ+ Seating Charts for 300 Guests | Large Weddings",
+    seoDescription: "Manage a 300-guest LGBTQ+ wedding with ease. Our free tool helps you design accessible and welcoming large-scale layouts.",
+    faqs: [
+      {
+        question: "How do I make a 300-guest LGBTQ+ wedding feel inclusive?",
+        answer: "Use clear, digital signage and well-planned escort cards with preferred names to guide guests comfortably."
+      }
+    ]
+  }
+
 ];
 
 export const tableTypes: TableType[] = [

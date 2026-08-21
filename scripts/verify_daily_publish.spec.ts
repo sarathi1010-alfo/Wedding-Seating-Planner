@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/inclusive-seating-for-lgbtq-weddings',
+  '/styles/inclusive-rustic-seating',
+  '/styles/inclusive-ballroom-layout',
+  '/styles/inclusive-beach-wedding',
+  '/styles/inclusive-garden-party',
+  '/guest-counts/lgbtq-50-guests',
+  '/guest-counts/lgbtq-150-guests',
+  '/guest-counts/lgbtq-300-guests',
+  '/venue-types/lgbtq-outdoor-tent-layout',
   '/blog/vineyard-wedding-seating-guide',
   '/styles/vineyard-outdoor-seating',
   '/styles/winery-barrel-room-layout',
@@ -91,7 +100,6 @@ const targetUrls = [
   '/guest-counts/outdoor-300-guest-wedding',
   '/venue-types/heated-winter-tent-wedding'
 ,
-  '/blog/inclusive-seating-for-lgbtq-weddings',
   '/styles/modern-inclusive-wedding-seating',
   '/styles/boho-inclusive-wedding-seating',
   '/styles/classic-inclusive-wedding-seating',
