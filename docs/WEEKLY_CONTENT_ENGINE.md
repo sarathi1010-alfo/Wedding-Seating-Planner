@@ -139,7 +139,6 @@ Programmatic Pages	25–50 (5-10/day)
 Micro-Answer Pages	~35 (5/day)
 Total New Pages/Week	80–120
 New Indexed Pages (Est.)	50–100
-
 DELIVERABLE 5: PRIORITY TOPIC QUEUE (FIRST 4 WEEKS)
 Week 1 (Fundamentals):
 
