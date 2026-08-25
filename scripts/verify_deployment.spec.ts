@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
+  '/blog/industrial-wedding-seating-guide',
+  '/styles/industrial-chic-seating',
+  '/styles/warehouse-wedding-layout',
+  '/styles/modern-industrial-reception',
+  '/styles/exposed-brick-venue-seating',
+  '/guest-counts/industrial-50-guests',
+  '/guest-counts/industrial-150-guests',
+  '/guest-counts/industrial-300-guests',
+  '/venue-types/converted-warehouse-layout',
   '/blog/vineyard-wedding-seating-guide',
   '/styles/vineyard-outdoor-seating',
   '/styles/winery-barrel-room-layout',

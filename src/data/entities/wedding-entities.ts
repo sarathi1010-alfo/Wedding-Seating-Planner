@@ -48,6 +48,26 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: 'converted-warehouse-layout',
+    name: 'Converted Warehouse',
+    slug: 'converted-warehouse-layout',
+    description: 'Converted warehouses offer massive open floor plans that require strategic zoning and acoustic management for successful seating.',
+    seoTitle: 'Converted Warehouse Wedding Seating Layouts',
+    seoDescription: 'Master the scale of a converted warehouse. Plan your wedding seating chart with our free, interactive floor plan tool.',
+    faqs: [
+      {
+        question: "What are the seating challenges of a converted warehouse?",
+        answer: "The main challenges are managing the acoustics of a large open space and creating intimate zones so the room doesn't feel empty."
+      },
+      {
+        question: "How do I handle lighting for warehouse seating?",
+        answer: "Drop warm string lights or chandeliers lower over the dining tables to visually lower the ceiling and create an intimate dining zone."
+      }
+    ]
+  },
+
   {
     id: 'vineyard-estate-layout',
     name: 'Vineyard Estate Layout',
@@ -539,6 +559,68 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: 'industrial-chic-seating',
+    name: 'Industrial Chic',
+    slug: 'industrial-chic-seating',
+    description: 'Industrial chic seating blends raw architectural elements with elegant, comfortable furniture and warm lighting.',
+    seoTitle: 'Industrial Chic Wedding Seating Layouts',
+    seoDescription: 'Plan a stunning industrial chic wedding reception. Interactive seating charts that blend raw warehouse aesthetics with elegant comfort.',
+    faqs: [
+      {
+        question: "What is industrial chic wedding seating?",
+        answer: "It combines the raw, exposed elements of an industrial space with elegant touches like velvet chairs, warm candlelight, and soft linens."
+      },
+      {
+        question: "How do I arrange tables for an industrial chic reception?",
+        answer: "Mix long wooden farm tables with classic round tables to break up the rigid lines of the warehouse and create visual interest."
+      }
+    ]
+  },
+  {
+    id: 'warehouse-wedding-layout',
+    name: 'Warehouse Layout',
+    slug: 'warehouse-wedding-layout',
+    description: 'Warehouse layouts utilize long parallel tables and strategic zoning to make massive open spaces feel purposeful and intimate.',
+    seoTitle: 'Warehouse Wedding Layout & Seating Ideas',
+    seoDescription: 'Design a purposeful warehouse wedding layout. Manage massive open spaces with our free interactive seating chart tool.',
+    faqs: [
+      {
+        question: "How do I make a warehouse wedding feel intimate?",
+        answer: "Create intentional zones by clustering tables together, using lounge furniture to break up the space, and utilizing lower, warmer lighting."
+      }
+    ]
+  },
+  {
+    id: 'modern-industrial-reception',
+    name: 'Modern Industrial',
+    slug: 'modern-industrial-reception',
+    description: 'Modern industrial receptions feature sleek, minimalist table settings against the backdrop of exposed brick and steel.',
+    seoTitle: 'Modern Industrial Wedding Reception Seating',
+    seoDescription: 'Sleek and modern industrial wedding seating. Plan your layout perfectly with our interactive drag-and-drop tool.',
+    faqs: [
+      {
+        question: "What tables are best for a modern industrial wedding?",
+        answer: "Sleek, minimalist long tables without heavy linens often work best to match the modern aesthetic."
+      }
+    ]
+  },
+  {
+    id: 'exposed-brick-venue-seating',
+    name: 'Exposed Brick Venue',
+    slug: 'exposed-brick-venue-seating',
+    description: 'Seating arrangements designed to highlight and complement the rich textures of exposed brick walls in historic venues.',
+    seoTitle: 'Exposed Brick Venue Wedding Seating',
+    seoDescription: 'Highlight your venue\'s architecture. Plan seating for exposed brick venues with our free interactive tool.',
+    faqs: [
+      {
+        question: "How should I arrange tables near exposed brick walls?",
+        answer: "Leave ample space between the tables and the walls to allow guests to move freely and to let the architectural features serve as a natural backdrop."
+      }
+    ]
+  },
+
   {
     id: 'vineyard-outdoor-seating',
     name: 'Vineyard Outdoor Seating',
@@ -1688,6 +1770,53 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: 'industrial-50-guests',
+    name: 'Industrial 50 Guests',
+    slug: 'industrial-50-guests',
+    count: 50,
+    description: 'An intimate industrial wedding for 50 guests is best served by a single, dramatic King\'s table running the length of the space.',
+    seoTitle: 'Industrial Wedding Seating for 50 Guests',
+    seoDescription: 'Plan an intimate industrial wedding for 50 guests. Free interactive seating planner for lofts and small warehouse spaces.',
+    faqs: [
+      {
+        question: "How do I seat 50 guests in an industrial loft?",
+        answer: "Use one continuous long table or a U-shape arrangement to create a cozy, family-style dining experience that anchors the open room."
+      }
+    ]
+  },
+  {
+    id: 'industrial-150-guests',
+    name: 'Industrial 150 Guests',
+    slug: 'industrial-150-guests',
+    count: 150,
+    description: 'For 150 guests, a mix of long parallel tables and strategic round tables helps balance the acoustics and scale of a warehouse.',
+    seoTitle: 'Industrial Wedding Seating for 150 Guests',
+    seoDescription: 'Design an industrial seating chart for 150 guests. Interactive layouts that manage acoustics and space in large venues.',
+    faqs: [
+      {
+        question: "What is the best layout for 150 guests in a warehouse?",
+        answer: "A combination of three long parallel tables surrounded by round tables helps fill the space without feeling overcrowded."
+      }
+    ]
+  },
+  {
+    id: 'industrial-300-guests',
+    name: 'Industrial 300 Guests',
+    slug: 'industrial-300-guests',
+    count: 300,
+    description: 'A large industrial wedding for 300 requires strict grid layouts and wide aisles to ensure smooth catering flow and guest comfort.',
+    seoTitle: 'Industrial Wedding Seating for 300 Guests',
+    seoDescription: 'Manage a massive 300-guest industrial wedding with ease. Our free tool helps you design functional, large-scale warehouse layouts.',
+    faqs: [
+      {
+        question: "How do I plan seating for 300 in an industrial venue?",
+        answer: "Utilize a strict geometric grid of tables, ensuring aisles are at least 72 inches wide for heavy traffic and catering access."
+      }
+    ]
+  },
+
   {
     id: 'vineyard-50-guests',
     slug: 'vineyard-50-guests',
