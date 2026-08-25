@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/industrial-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/industrial-chic-seating',
+  'http://tablevows.alfo.online/styles/warehouse-wedding-layout',
+  'http://tablevows.alfo.online/styles/modern-industrial-reception',
+  'http://tablevows.alfo.online/styles/exposed-brick-venue-seating',
+  'http://tablevows.alfo.online/guest-counts/industrial-50-guests',
+  'http://tablevows.alfo.online/guest-counts/industrial-150-guests',
+  'http://tablevows.alfo.online/guest-counts/industrial-300-guests',
+  'http://tablevows.alfo.online/venue-types/converted-warehouse-layout',
   'http://tablevows.alfo.online/blog/vineyard-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/vineyard-outdoor-seating',
   'http://tablevows.alfo.online/styles/winery-barrel-room-layout',
