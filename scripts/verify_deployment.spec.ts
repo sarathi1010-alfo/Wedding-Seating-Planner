@@ -127,6 +127,24 @@ const NEW_URLS = [
   '/guest-counts/minimalist-150-guests',
   '/guest-counts/minimalist-300-guests',
   '/venue-types/art-gallery-minimalist-layout'
+,
+  '/blog/inclusive-seating-for-lgbtq-weddings'
+,
+  '/styles/modern-inclusive-wedding-seating'
+,
+  '/styles/boho-inclusive-wedding-seating'
+,
+  '/styles/classic-inclusive-wedding-seating'
+,
+  '/styles/chic-inclusive-wedding-seating'
+,
+  '/guest-counts/inclusive-50-guest-wedding'
+,
+  '/guest-counts/inclusive-150-guest-wedding'
+,
+  '/guest-counts/inclusive-300-guest-wedding'
+,
+  '/venue-types/inclusive-outdoor-tent-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
