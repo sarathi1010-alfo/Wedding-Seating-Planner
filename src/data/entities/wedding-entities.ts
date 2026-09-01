@@ -80,14 +80,6 @@ export const venues: VenueType[] = [
       { question: 'What is the best way to utilize the estate?', answer: 'Map out distinct zones: a patio for cocktails, vines for photos, and a tent or barrel room for the main reception.' }
     ]
   },
-  {
-    id: 'inclusive-outdoor-tent-layout',
-    name: 'Inclusive Outdoor Tent Layout',
-    slug: 'inclusive-outdoor-tent-layout',
-    description: 'An inclusive outdoor tent layout designed to accommodate diverse guest needs and provide a welcoming atmosphere.',
-    seoTitle: 'Inclusive Outdoor Tent Layout | Wedding Seating Guide',
-    seoDescription: 'Discover the best inclusive outdoor tent layout ideas for a welcoming wedding reception.'
-  },
 
   {
     id: "venue-five-star-hotel-luxury-layout",
