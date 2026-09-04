@@ -48,6 +48,15 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: 'downtown-rooftop-layout',
+    name: 'Downtown Rooftop',
+    slug: 'downtown-rooftop-layout',
+    description: 'Stunning downtown rooftop venues offering panoramic skyline views and modern vibes.',
+    seoTitle: 'Downtown Rooftop Wedding Seating Chart Ideas',
+    seoDescription: 'Plan your downtown rooftop wedding reception. Interactive seating charts and floor plans for urban skyline venues.',
+    faqs: [{ question: 'What is the best layout for a downtown rooftop?', answer: 'Maximize the view by using long tables aligned parallel to the skyline.' }]
+  },
 
   {
     id: 'converted-warehouse-layout',
@@ -551,6 +560,42 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: 'urban-rooftop-seating',
+    name: 'Urban Rooftop',
+    slug: 'urban-rooftop-seating',
+    description: 'Chic and modern urban rooftop seating arrangements.',
+    seoTitle: 'Urban Rooftop Wedding Seating Charts',
+    seoDescription: 'Design an urban rooftop wedding. Interactive seating layouts for modern city venues.',
+    faqs: [{ question: 'How to arrange urban rooftop seating?', answer: 'Focus on sleek, modern furniture and keep centerpieces low to avoid wind disruption.' }]
+  },
+  {
+    id: 'modern-penthouse-layout',
+    name: 'Modern Penthouse',
+    slug: 'modern-penthouse-layout',
+    description: 'Luxurious modern penthouse reception layouts.',
+    seoTitle: 'Modern Penthouse Wedding Seating Charts',
+    seoDescription: 'Plan a luxurious modern penthouse wedding reception with our interactive seating tools.',
+    faqs: [{ question: 'What tables work best in a modern penthouse?', answer: 'A mix of long banquets and chic high-tops works well for penthouse spaces.' }]
+  },
+  {
+    id: 'skyline-view-reception',
+    name: 'Skyline View',
+    slug: 'skyline-view-reception',
+    description: 'Seating arrangements designed to maximize skyline views.',
+    seoTitle: 'Skyline View Wedding Seating Charts',
+    seoDescription: 'Maximize your venue\'s skyline view with these strategic seating chart layouts.',
+    faqs: [{ question: 'How do I maximize the skyline view for guests?', answer: 'Seat guests in a crescent shape at round tables, or use long tables facing the windows.' }]
+  },
+  {
+    id: 'city-chic-wedding-seating',
+    name: 'City Chic',
+    slug: 'city-chic-wedding-seating',
+    description: 'Elegant and sophisticated city chic wedding layouts.',
+    seoTitle: 'City Chic Wedding Seating Charts',
+    seoDescription: 'Create an elegant city chic wedding reception with our free interactive seating planner.',
+    faqs: [{ question: 'What is a city chic seating layout?', answer: 'It combines sophisticated, minimalist design with strategic placement to encourage mingling.' }]
+  },
 
   {
     id: 'industrial-chic-seating',
@@ -1762,6 +1807,36 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: 'rooftop-50-guests',
+    name: 'Rooftop 50 Guests',
+    slug: 'rooftop-50-guests',
+    count: 50,
+    description: 'Intimate rooftop seating for 50 guests.',
+    seoTitle: '50-Guest Rooftop Wedding Seating Charts',
+    seoDescription: 'Intimate seating chart layouts for a 50-guest rooftop wedding celebration.',
+    faqs: [{ question: 'How to seat 50 guests on a rooftop?', answer: 'Use one or two long tables to create a cozy, communal dining experience against the skyline.' }]
+  },
+  {
+    id: 'rooftop-150-guests',
+    name: 'Rooftop 150 Guests',
+    slug: 'rooftop-150-guests',
+    count: 150,
+    description: 'Medium rooftop seating for 150 guests.',
+    seoTitle: '150-Guest Rooftop Wedding Seating Charts',
+    seoDescription: 'Optimize your 150-guest rooftop wedding layout for flow, comfort, and views.',
+    faqs: [{ question: 'What is the best rooftop layout for 150 guests?', answer: 'A mix of long tables for dining and high-tops near the bar helps manage the flow of 150 guests.' }]
+  },
+  {
+    id: 'rooftop-300-guests',
+    name: 'Rooftop 300 Guests',
+    slug: 'rooftop-300-guests',
+    count: 300,
+    description: 'Large rooftop seating for 300 guests.',
+    seoTitle: '300-Guest Rooftop Wedding Seating Charts',
+    seoDescription: 'Large-scale seating charts for 300-guest rooftop weddings ensuring flow and safety.',
+    faqs: [{ question: 'How do you seat 300 guests on a rooftop?', answer: 'Carefully follow fire codes for aisles and use long, parallel tables to maximize the available space efficiently.' }]
+  },
 
   {
     id: 'industrial-50-guests',

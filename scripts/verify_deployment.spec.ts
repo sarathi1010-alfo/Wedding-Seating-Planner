@@ -144,7 +144,16 @@ const NEW_URLS = [
 ,
   '/guest-counts/inclusive-300-guest-wedding'
 ,
-  '/venue-types/inclusive-outdoor-tent-layout'
+  '/venue-types/inclusive-outdoor-tent-layout',
+  '/blog/rooftop-wedding-seating-chart-guide',
+  '/styles/urban-rooftop-seating',
+  '/styles/modern-penthouse-layout',
+  '/styles/skyline-view-reception',
+  '/styles/city-chic-wedding-seating',
+  '/guest-counts/rooftop-50-guests',
+  '/guest-counts/rooftop-150-guests',
+  '/guest-counts/rooftop-300-guests',
+  '/venue-types/downtown-rooftop-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
