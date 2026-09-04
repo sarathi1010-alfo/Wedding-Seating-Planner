@@ -135,7 +135,16 @@ const targetUrls = [
   '/guest-counts/minimalist-50-guests',
   '/guest-counts/minimalist-150-guests',
   '/guest-counts/minimalist-300-guests',
-  '/venue-types/art-gallery-minimalist-layout'
+  '/venue-types/art-gallery-minimalist-layout',
+  '/blog/rooftop-wedding-seating-chart-guide',
+  '/styles/urban-rooftop-seating',
+  '/styles/modern-penthouse-layout',
+  '/styles/skyline-view-reception',
+  '/styles/city-chic-wedding-seating',
+  '/guest-counts/rooftop-50-guests',
+  '/guest-counts/rooftop-150-guests',
+  '/guest-counts/rooftop-300-guests',
+  '/venue-types/downtown-rooftop-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
