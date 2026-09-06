@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
+  '/blog/country-club-wedding-seating-guide',
+  '/styles/country-club-seating',
+  '/styles/golf-course-reception',
+  '/styles/classic-clubhouse-layout',
+  '/styles/preppy-wedding-seating',
+  '/guest-counts/country-club-50-guests',
+  '/guest-counts/country-club-150-guests',
+  '/guest-counts/country-club-300-guests',
+  '/venue-types/country-club-ballroom-layout',
   '/blog/industrial-wedding-seating-guide',
   '/styles/industrial-chic-seating',
   '/styles/warehouse-wedding-layout',

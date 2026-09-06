@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/country-club-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/country-club-seating',
+  'http://tablevows.alfo.online/styles/golf-course-reception',
+  'http://tablevows.alfo.online/styles/classic-clubhouse-layout',
+  'http://tablevows.alfo.online/styles/preppy-wedding-seating',
+  'http://tablevows.alfo.online/guest-counts/country-club-50-guests',
+  'http://tablevows.alfo.online/guest-counts/country-club-150-guests',
+  'http://tablevows.alfo.online/guest-counts/country-club-300-guests',
+  'http://tablevows.alfo.online/venue-types/country-club-ballroom-layout',
   'http://tablevows.alfo.online/blog/industrial-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/industrial-chic-seating',
   'http://tablevows.alfo.online/styles/warehouse-wedding-layout',

@@ -49,6 +49,15 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: 'venue_country_club_ballroom',
+    name: 'Country Club Ballroom Layout',
+    slug: 'country-club-ballroom-layout',
+    description: 'Grand layouts for a formal country club ballroom.',
+    seoTitle: 'Country Club Ballroom Wedding Layouts',
+    seoDescription: 'Formal seating charts for your country club ballroom wedding.',
+  },
+
+  {
     id: 'downtown-rooftop-layout',
     name: 'Downtown Rooftop',
     slug: 'downtown-rooftop-layout',
@@ -560,6 +569,39 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: 'style_country_club',
+    name: 'Country Club Seating',
+    slug: 'country-club-seating',
+    description: 'Classic and refined seating arrangements suitable for a country club setting.',
+    seoTitle: 'Country Club Wedding Seating & Layouts',
+    seoDescription: 'Discover elegant country club seating arrangements for your 2026 wedding.',
+  },
+  {
+    id: 'style_golf_course',
+    name: 'Golf Course Reception',
+    slug: 'golf-course-reception',
+    description: 'Outdoor and indoor-outdoor seating plans overlooking the greens.',
+    seoTitle: 'Golf Course Wedding Reception Seating',
+    seoDescription: 'Plan a stunning golf course reception with these layout ideas.',
+  },
+  {
+    id: 'style_classic_clubhouse',
+    name: 'Classic Clubhouse Layout',
+    slug: 'classic-clubhouse-layout',
+    description: 'Traditional and timeless layouts for a classic clubhouse vibe.',
+    seoTitle: 'Classic Clubhouse Wedding Layouts',
+    seoDescription: 'Timeless clubhouse seating layouts for an elegant wedding reception.',
+  },
+  {
+    id: 'style_preppy',
+    name: 'Preppy Wedding Seating',
+    slug: 'preppy-wedding-seating',
+    description: 'Bright, clean, and preppy seating layouts.',
+    seoTitle: 'Preppy Wedding Seating Chart Ideas',
+    seoDescription: 'Bright and classic preppy wedding seating arrangements.',
+  },
+
   {
     id: 'urban-rooftop-seating',
     name: 'Urban Rooftop',
@@ -1807,6 +1849,34 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: 'gc_country_club_50',
+    name: '50 Guest Country Club Wedding',
+    slug: 'country-club-50-guests',
+    count: 50,
+    description: 'Intimate country club seating for 50 guests.',
+    seoTitle: 'Intimate Country Club Seating for 50 Guests',
+    seoDescription: 'How to arrange a cozy 50-guest country club wedding.',
+  },
+  {
+    id: 'gc_country_club_150',
+    name: '150 Guest Country Club Wedding',
+    slug: 'country-club-150-guests',
+    count: 150,
+    description: 'Standard 150 guest country club seating.',
+    seoTitle: '150 Guest Country Club Wedding Seating',
+    seoDescription: 'Perfect layouts for a 150-guest country club reception.',
+  },
+  {
+    id: 'gc_country_club_300',
+    name: '300 Guest Country Club Wedding',
+    slug: 'country-club-300-guests',
+    count: 300,
+    description: 'Large scale country club seating for 300 guests.',
+    seoTitle: 'Large 300 Guest Country Club Seating Chart',
+    seoDescription: 'Managing a massive 300-guest country club wedding layout.',
+  },
+
   {
     id: 'rooftop-50-guests',
     name: 'Rooftop 50 Guests',
