@@ -1065,3 +1065,50 @@
 
 3. **Tweet**:
    "Last-minute RSVP changes are inevitable, even for DIY weddings. Ditch the pen and paper and use a digital planner so you can adjust your layout instantly! 💻 Try it: http://tablevows.alfo.online/blog/diy-wedding-seating-strategies-guide #WeddingTech"
+
+## Social Media Distribution Posts - Country Club Wedding Seating Guide
+# Updated: 2026-09-02
+
+**For Pinterest (Inspiration & Tutorials):**
+
+Pin 1: "How to Layout Your Country Club Wedding" (vertical infographic).
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Pin 2: "Golf Course Reception: Elegant Seating Ideas" (curated style pin).
+Link: http://tablevows.alfo.online/styles/golf-course-reception
+
+Pin 3: "Country Club Ballroom Layouts - 3 Stunning Options" (list pin).
+Link: http://tablevows.alfo.online/venue-types/country-club-ballroom-layout
+
+**For Instagram (Visual & Educational):**
+
+Carousel: Slide 1 (Map the ballroom) -> Slide 2 (Mix table shapes) -> Slide 3 (Protect older guests) -> Slide 4 (Preview with visual planner) -> Slide 5 (Export for the club coordinator). CTA: Link in bio.
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Reel: Screen recording of mixing long and round tables for a grand country club ballroom in TableVows.
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Static Post: "A country club wedding requires an impeccable seating layout to match the elegant service. Here's how to get it right."
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Story: Poll: "Indoor ballroom or tented patio overlooking the 18th hole?" + link to the guide.
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+**For Facebook (Community Engagement):**
+
+Post: "Planning a country club wedding? The layout is key to managing the flow of the room. Read our complete guide and try our free drag-and-drop planner."
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Post: "Wondering how to mix table shapes in a grand ballroom for that ultra-elegant feel? We break it down step-by-step."
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+**For Twitter/X (Quick Wedding Tips):**
+
+Tweet: "Country club wedding rule #1: Leave at least 60 inches between tables for seamless white-glove service."
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Tweet: "Don't let older guests get drafty by the patio doors! Strategic seating is everything. Learn more in our 2026 Country Club Guide."
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
+
+Tweet: "Visualize your country club ballroom layout BEFORE the big day. Use a digital planner to ensure perfect flow."
+Link: http://tablevows.alfo.online/blog/country-club-wedding-seating-guide
