@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/inclusive-lgbtq-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/lgbtq-inclusive-seating',
+  'http://tablevows.alfo.online/styles/gender-neutral-wedding-layout',
+  'http://tablevows.alfo.online/styles/pride-themed-reception',
+  'http://tablevows.alfo.online/styles/chosen-family-seating',
+  'http://tablevows.alfo.online/guest-counts/inclusive-50-guests',
+  'http://tablevows.alfo.online/guest-counts/inclusive-150-guests',
+  'http://tablevows.alfo.online/guest-counts/inclusive-300-guests',
+  'http://tablevows.alfo.online/venue-types/inclusive-community-center-layout',
   'http://tablevows.alfo.online/blog/country-club-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/country-club-seating',
   'http://tablevows.alfo.online/styles/golf-course-reception',
