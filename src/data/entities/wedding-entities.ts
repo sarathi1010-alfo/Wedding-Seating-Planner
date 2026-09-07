@@ -49,6 +49,14 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: 'venue_inclusive_community',
+    name: 'Inclusive Community Center Layout',
+    slug: 'inclusive-community-center-layout',
+    description: 'Welcoming layouts for a community center venue.',
+    seoTitle: 'Community Center Wedding Layouts',
+    seoDescription: 'Inclusive seating charts for your community center wedding.',
+  },
+  {
     id: 'venue_country_club_ballroom',
     name: 'Country Club Ballroom Layout',
     slug: 'country-club-ballroom-layout',
@@ -569,6 +577,38 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: 'style_lgbtq_inclusive',
+    name: 'LGBTQ+ Inclusive Seating',
+    slug: 'lgbtq-inclusive-seating',
+    description: 'Welcoming and inclusive seating arrangements for modern LGBTQ+ weddings.',
+    seoTitle: 'LGBTQ+ Inclusive Wedding Seating & Layouts',
+    seoDescription: 'Discover inclusive seating arrangements for your 2026 wedding.',
+  },
+  {
+    id: 'style_gender_neutral',
+    name: 'Gender-Neutral Wedding Layout',
+    slug: 'gender-neutral-wedding-layout',
+    description: 'Layouts focusing on gender-neutral language and organization.',
+    seoTitle: 'Gender-Neutral Wedding Seating Layouts',
+    seoDescription: 'Plan your reception with these gender-neutral seating ideas.',
+  },
+  {
+    id: 'style_pride_themed',
+    name: 'Pride-Themed Reception',
+    slug: 'pride-themed-reception',
+    description: 'Vibrant seating arrangements for a pride-themed celebration.',
+    seoTitle: 'Pride-Themed Wedding Reception Layouts',
+    seoDescription: 'Celebrate love with these vibrant pride-themed seating charts.',
+  },
+  {
+    id: 'style_chosen_family',
+    name: 'Chosen Family Seating',
+    slug: 'chosen-family-seating',
+    description: 'Layouts that prioritize chosen family and close friends.',
+    seoTitle: 'Chosen Family Wedding Seating Ideas',
+    seoDescription: 'How to organize a seating chart that honors your chosen family.',
+  },
   {
     id: 'style_country_club',
     name: 'Country Club Seating',
@@ -1849,6 +1889,33 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: 'gc_inclusive_50',
+    name: '50 Guest Inclusive Wedding',
+    slug: 'inclusive-50-guests',
+    count: 50,
+    description: 'Intimate and inclusive seating for 50 guests.',
+    seoTitle: 'Intimate Inclusive Seating for 50 Guests',
+    seoDescription: 'How to arrange a cozy 50-guest inclusive wedding.',
+  },
+  {
+    id: 'gc_inclusive_150',
+    name: '150 Guest Inclusive Wedding',
+    slug: 'inclusive-150-guests',
+    count: 150,
+    description: 'Balanced inclusive layouts for 150 guests.',
+    seoTitle: 'Inclusive Layouts for 150 Guests',
+    seoDescription: 'Seating chart ideas for a 150-guest inclusive wedding reception.',
+  },
+  {
+    id: 'gc_inclusive_300',
+    name: '300 Guest Inclusive Wedding',
+    slug: 'inclusive-300-guests',
+    count: 300,
+    description: 'Large-scale inclusive seating for 300 guests.',
+    seoTitle: 'Grand Inclusive Seating for 300 Guests',
+    seoDescription: 'Organize a grand 300-guest inclusive wedding reception.',
+  },
   {
     id: 'gc_country_club_50',
     name: '50 Guest Country Club Wedding',

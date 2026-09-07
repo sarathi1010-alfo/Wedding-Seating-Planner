@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/inclusive-lgbtq-wedding-seating-guide',
+  '/styles/lgbtq-inclusive-seating',
+  '/styles/gender-neutral-wedding-layout',
+  '/styles/pride-themed-reception',
+  '/styles/chosen-family-seating',
+  '/guest-counts/inclusive-50-guests',
+  '/guest-counts/inclusive-150-guests',
+  '/guest-counts/inclusive-300-guests',
+  '/venue-types/inclusive-community-center-layout',
   '/blog/country-club-wedding-seating-guide',
   '/styles/country-club-seating',
   '/styles/golf-course-reception',
