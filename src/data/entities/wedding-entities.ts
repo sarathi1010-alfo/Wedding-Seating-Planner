@@ -574,6 +574,17 @@ export const venues: VenueType[] = [
     seoDescription: 'Cozy and warm seating chart layouts for your heated winter tent wedding reception.',
     faqs: [{ question: 'How to arrange tables in a heated winter tent?', answer: 'Keep tables away from the outer walls and entrances to avoid drafts, concentrating them towards the center of the heated space.' }]
   }
+
+,
+  {
+    id: "venue-private-estate",
+    name: "Private Estate",
+    slug: "private-estate-micro-layout",
+    description: "Exclusive residential or rental properties offering bespoke, high-end micro wedding experiences.",
+    seoTitle: "Private Estate Micro Wedding Layouts & Seating",
+    seoDescription: "Plan a luxurious private estate micro wedding. Free interactive floor plan tools for residential and rental venues.",
+    faqs: [{ question: "How to plan seating at a private estate?", answer: "Utilize the existing architecture—seat guests along a grand terrace or in a central formal dining room." }]
+  },
 ];
 
 export const styles: WeddingStyle[] = [
@@ -1886,6 +1897,43 @@ export const styles: WeddingStyle[] = [
       }
     ]
   },
+
+  {
+    id: "micro-intimate",
+    name: "Intimate Micro Wedding",
+    slug: "intimate-micro-wedding",
+    description: "Warm, cozy, and hyper-focused on connection, perfect for small guest lists.",
+    seoTitle: "Intimate Micro Wedding Seating Layouts & Ideas",
+    seoDescription: "Plan a deeply connected and intimate micro wedding. Interactive seating charts for close-knit celebrations.",
+    faqs: [{ question: "How do you make an intimate micro wedding feel special?", answer: "Focus on a single, shared dining table and hyper-personalized details for each guest." }]
+  },
+  {
+    id: "micro-minimalist",
+    name: "Minimalist Micro Layout",
+    slug: "minimalist-micro-layout",
+    description: "Clean lines, open space, and intentional design for a sleek, modern small wedding.",
+    seoTitle: "Minimalist Micro Wedding Seating Chart Templates",
+    seoDescription: "Design a clean, intentional minimalist micro wedding. Free interactive seating planner for modern small events.",
+    faqs: [{ question: "What seating works best for a minimalist micro wedding?", answer: "Sleek, unadorned long tables with ample negative space between settings." }]
+  },
+  {
+    id: "micro-courtyard",
+    name: "Courtyard Micro Wedding",
+    slug: "courtyard-micro-wedding",
+    description: "Charming outdoor or semi-outdoor settings utilizing enclosed architectural spaces.",
+    seoTitle: "Courtyard Micro Wedding Seating Charts & Layouts",
+    seoDescription: "Plan a charming courtyard micro wedding. Interactive layouts for historic or modern enclosed outdoor spaces.",
+    faqs: [{ question: "How to arrange tables in a courtyard for a micro wedding?", answer: "Use a U-shape or a single long table running down the center, flanked by the architectural walls." }]
+  },
+  {
+    id: "micro-private-dining",
+    name: "Private Dining Seating",
+    slug: "private-dining-seating",
+    description: "Luxurious restaurant-style seating focusing on a high-end culinary experience.",
+    seoTitle: "Private Dining Wedding Seating Ideas & Floor Plans",
+    seoDescription: "Optimize your private dining room for a micro wedding. Free interactive planner for high-end restaurant receptions.",
+    faqs: [{ question: "How to handle private dining seating for a wedding?", answer: "Work with the restaurant's existing prime tables, grouping guests intimately, often utilizing a single long feature table." }]
+  },
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -2926,6 +2974,38 @@ export const guestCounts: GuestCount[] = [
       }
     ]
   },
+
+  {
+    id: "micro-10",
+    name: "Micro 10 Guests",
+    slug: "micro-10-guests",
+    count: 10,
+    description: "An incredibly intimate gathering, perfect for a single, beautifully appointed table.",
+    seoTitle: "10-Guest Micro Wedding Seating Charts",
+    seoDescription: "Plan an exclusive 10-guest micro wedding. Interactive layouts for hyper-intimate dinner party receptions.",
+    faqs: [{ question: "What is the best layout for 10 guests?", answer: "A single round table or a small rectangular dining table where everyone can converse easily." }]
+  },
+  {
+    id: "micro-20",
+    name: "Micro 20 Guests",
+    slug: "micro-20-guests",
+    count: 20,
+    description: "A small, focused celebration that allows for a single King's table or intimate lounge seating.",
+    seoTitle: "20-Guest Micro Wedding Seating Charts & Layouts",
+    seoDescription: "Design a beautiful 20-guest micro wedding seating chart. Free interactive planner for small, focused celebrations.",
+    faqs: [{ question: "How many tables for 20 guests?", answer: "One long King's table seating 10 on each side is often the most impactful layout for 20 guests." }]
+  },
+  {
+    id: "micro-30",
+    name: "Micro 30 Guests",
+    slug: "micro-30-guests",
+    count: 30,
+    description: "A perfectly sized micro wedding for a U-shape arrangement or mixed small tables.",
+    seoTitle: "30-Guest Micro Wedding Seating Ideas & Floor Plans",
+    seoDescription: "Optimize your 30-guest micro wedding layout. Interactive seating charts for U-shapes and intimate clusters.",
+    faqs: [{ question: "What is a good layout for a 30-guest wedding?", answer: "A U-shape layout facing a central focal point is excellent for keeping 30 guests connected." }]
+  },
+
 ];
 
 export const tableTypes: TableType[] = [

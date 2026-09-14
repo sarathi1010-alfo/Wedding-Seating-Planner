@@ -46,6 +46,8 @@ export default function Home() {
               Want to dive deeper into the strategy of arranging tables? Check out our latest definitive resource:{" "}
               <Link href="/blog/inclusive-lgbtq-wedding-seating-guide" className="text-primary hover:underline">
                 Inclusive Seating for LGBTQ+ Weddings: The 2026 Guide
+              </Link> and <Link href="/blog/micro-wedding-seating-layouts-guide" className="text-primary hover:underline">
+                Micro Wedding Seating Layouts: The 2026 Guide
               </Link>
               . This guide covers everything from floor plans to tricky family dynamics.
             </p>
