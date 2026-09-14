@@ -172,7 +172,16 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/rooftop-50-guests',
   'http://tablevows.alfo.online/guest-counts/rooftop-150-guests',
   'http://tablevows.alfo.online/guest-counts/rooftop-300-guests',
-  'http://tablevows.alfo.online/venue-types/downtown-rooftop-layout'
+  'http://tablevows.alfo.online/venue-types/downtown-rooftop-layout',
+  'http://tablevows.alfo.online/blog/micro-wedding-seating-layouts-guide',
+  'http://tablevows.alfo.online/styles/intimate-micro-wedding',
+  'http://tablevows.alfo.online/styles/minimalist-micro-layout',
+  'http://tablevows.alfo.online/styles/courtyard-micro-wedding',
+  'http://tablevows.alfo.online/styles/private-dining-seating',
+  'http://tablevows.alfo.online/guest-counts/micro-10-guests',
+  'http://tablevows.alfo.online/guest-counts/micro-20-guests',
+  'http://tablevows.alfo.online/guest-counts/micro-30-guests',
+  'http://tablevows.alfo.online/venue-types/private-estate-micro-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

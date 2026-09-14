@@ -171,7 +171,16 @@ const NEW_URLS = [
   '/guest-counts/rooftop-50-guests',
   '/guest-counts/rooftop-150-guests',
   '/guest-counts/rooftop-300-guests',
-  '/venue-types/downtown-rooftop-layout'
+  '/venue-types/downtown-rooftop-layout',
+  '/blog/micro-wedding-seating-layouts-guide',
+  '/styles/intimate-micro-wedding',
+  '/styles/minimalist-micro-layout',
+  '/styles/courtyard-micro-wedding',
+  '/styles/private-dining-seating',
+  '/guest-counts/micro-10-guests',
+  '/guest-counts/micro-20-guests',
+  '/guest-counts/micro-30-guests',
+  '/venue-types/private-estate-micro-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
