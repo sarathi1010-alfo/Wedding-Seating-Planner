@@ -48,6 +48,9 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  { id: 'large-scale-aquarium-layout', name: 'Large Scale Aquarium', slug: 'large-scale-aquarium-layout', description: 'Layouts for large-scale aquariums.', seoTitle: 'Large Scale Aquarium Layout', seoDescription: 'Explore layouts for large-scale aquariums.' },
+
   {
     id: 'venue_inclusive_community',
     name: 'Inclusive Community Center Layout',
@@ -588,6 +591,12 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  { id: 'underwater-tunnel-seating', name: 'Underwater Tunnel Seating', slug: 'underwater-tunnel-seating', description: 'Seating arrangements in underwater tunnels.', seoTitle: 'Underwater Tunnel Seating Layouts', seoDescription: 'Explore underwater tunnel seating layouts.' },
+  { id: 'marine-exhibit-reception', name: 'Marine Exhibit Reception', slug: 'marine-exhibit-reception', description: 'Reception layouts near marine exhibits.', seoTitle: 'Marine Exhibit Reception Seating', seoDescription: 'Explore marine exhibit reception seating.' },
+  { id: 'aquatic-blue-lighting-layout', name: 'Aquatic Blue Lighting', slug: 'aquatic-blue-lighting-layout', description: 'Layouts optimized for aquatic blue lighting.', seoTitle: 'Aquatic Blue Lighting Layout', seoDescription: 'Explore layouts with aquatic blue lighting.' },
+  { id: 'ocean-view-aquarium-seating', name: 'Ocean View Aquarium', slug: 'ocean-view-aquarium-seating', description: 'Seating with ocean views at the aquarium.', seoTitle: 'Ocean View Aquarium Seating', seoDescription: 'Explore ocean view aquarium seating.' },
+
   {
     id: 'style_lgbtq_inclusive',
     name: 'LGBTQ+ Inclusive Seating',
@@ -1937,6 +1946,11 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  { id: 'aquarium-50-guests', name: 'Aquarium 50 Guests', slug: 'aquarium-50-guests', count: 50, description: 'Aquarium seating for 50 guests.', seoTitle: 'Aquarium 50 Guest Wedding Seating', seoDescription: 'Ideas for aquarium seating for 50 guests.' },
+  { id: 'aquarium-150-guests', name: 'Aquarium 150 Guests', slug: 'aquarium-150-guests', count: 150, description: 'Aquarium seating for 150 guests.', seoTitle: 'Aquarium 150 Guest Wedding Seating', seoDescription: 'Ideas for aquarium seating for 150 guests.' },
+  { id: 'aquarium-300-guests', name: 'Aquarium 300 Guests', slug: 'aquarium-300-guests', count: 300, description: 'Aquarium seating for 300 guests.', seoTitle: 'Aquarium 300 Guest Wedding Seating', seoDescription: 'Ideas for aquarium seating for 300 guests.' },
+
   {
     id: 'gc_inclusive_50',
     name: '50 Guest Inclusive Wedding',

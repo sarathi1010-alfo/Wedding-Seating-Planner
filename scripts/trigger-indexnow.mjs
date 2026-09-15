@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/aquarium-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/underwater-tunnel-seating',
+  'http://tablevows.alfo.online/styles/marine-exhibit-reception',
+  'http://tablevows.alfo.online/styles/aquatic-blue-lighting-layout',
+  'http://tablevows.alfo.online/styles/ocean-view-aquarium-seating',
+  'http://tablevows.alfo.online/guest-counts/aquarium-50-guests',
+  'http://tablevows.alfo.online/guest-counts/aquarium-150-guests',
+  'http://tablevows.alfo.online/guest-counts/aquarium-300-guests',
+  'http://tablevows.alfo.online/venue-types/large-scale-aquarium-layout',
   'http://tablevows.alfo.online/blog/inclusive-lgbtq-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/lgbtq-inclusive-seating',
   'http://tablevows.alfo.online/styles/gender-neutral-wedding-layout',

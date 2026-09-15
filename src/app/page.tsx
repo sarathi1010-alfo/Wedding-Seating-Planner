@@ -43,13 +43,16 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-heading mb-6">Expert Tips for 2026</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Want to dive deeper into the strategy of arranging tables? Check out our latest definitive resource:{" "}
+              Want to dive deeper into the strategy of arranging tables? Check out our latest definitive resources:{" "}
+              <Link href="/blog/aquarium-wedding-seating-guide" className="text-primary hover:underline">
+                Aquarium Wedding Seating Guide
+              </Link>, {" "}
               <Link href="/blog/inclusive-lgbtq-wedding-seating-guide" className="text-primary hover:underline">
                 Inclusive Seating for LGBTQ+ Weddings: The 2026 Guide
               </Link> and <Link href="/blog/micro-wedding-seating-layouts-guide" className="text-primary hover:underline">
                 Micro Wedding Seating Layouts: The 2026 Guide
               </Link>
-              . This guide covers everything from floor plans to tricky family dynamics.
+              . These guides cover everything from floor plans to unique venue constraints.
             </p>
           </div>
         </section>

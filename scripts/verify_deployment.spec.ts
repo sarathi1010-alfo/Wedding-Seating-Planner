@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS = [
+  '/blog/aquarium-wedding-seating-guide',
+  '/styles/underwater-tunnel-seating',
+  '/styles/marine-exhibit-reception',
+  '/styles/aquatic-blue-lighting-layout',
+  '/styles/ocean-view-aquarium-seating',
+  '/guest-counts/aquarium-50-guests',
+  '/guest-counts/aquarium-150-guests',
+  '/guest-counts/aquarium-300-guests',
+  '/venue-types/large-scale-aquarium-layout',
   '/blog/inclusive-lgbtq-wedding-seating-guide',
   '/styles/lgbtq-inclusive-seating',
   '/styles/gender-neutral-wedding-layout',
