@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/winter-wonderland-seating-guide',
+  'http://tablevows.alfo.online/styles/winter-wonderland-seating',
+  'http://tablevows.alfo.online/styles/cozy-fireplace-layout',
+  'http://tablevows.alfo.online/styles/snowy-mountain-reception',
+  'http://tablevows.alfo.online/styles/ice-palace-seating',
+  'http://tablevows.alfo.online/guest-counts/winter-50-guests',
+  'http://tablevows.alfo.online/guest-counts/winter-150-guests',
+  'http://tablevows.alfo.online/guest-counts/winter-300-guests',
+  'http://tablevows.alfo.online/venue-types/ski-lodge-layout',
   'http://tablevows.alfo.online/blog/aquarium-wedding-seating-guide',
   'http://tablevows.alfo.online/styles/underwater-tunnel-seating',
   'http://tablevows.alfo.online/styles/marine-exhibit-reception',

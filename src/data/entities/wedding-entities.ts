@@ -48,6 +48,8 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  { id: 'ski-lodge-layout', name: 'Ski Lodge', slug: 'ski-lodge-layout', description: 'Cozy ski lodge wedding seating layouts.', seoTitle: 'Ski Lodge Wedding Layout - Cozy Seating Solutions', seoDescription: 'Flexible seating solutions for a rustic ski lodge wedding.', faqs: [{ question: 'What is a good layout for a ski lodge?', answer: 'Long banquet tables paired with cozy lounge areas near the fire.' }] },
+
 
   { id: 'large-scale-aquarium-layout', name: 'Large Scale Aquarium', slug: 'large-scale-aquarium-layout', description: 'Layouts for large-scale aquariums.', seoTitle: 'Large Scale Aquarium Layout', seoDescription: 'Explore layouts for large-scale aquariums.' },
 
@@ -591,6 +593,11 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  { id: 'winter-wonderland-seating', name: 'Winter Wonderland', slug: 'winter-wonderland-seating', description: 'Magical winter wonderland seating arrangements with cozy vibes.', seoTitle: 'Winter Wonderland Wedding Seating - Layouts & Tips', seoDescription: 'Explore magical winter wonderland wedding seating layouts.', faqs: [{ question: 'What is the best seating for a winter wonderland wedding?', answer: 'Round tables with tall frosted centerpieces work beautifully, or long cozy banquet tables.' }] },
+  { id: 'cozy-fireplace-layout', name: 'Cozy Fireplace', slug: 'cozy-fireplace-layout', description: 'Seating centered around a roaring fireplace.', seoTitle: 'Cozy Fireplace Wedding Seating Layouts', seoDescription: 'Design an intimate wedding reception around a cozy fireplace.', faqs: [{ question: 'How to arrange tables around a fireplace?', answer: 'Use U-shapes or place the sweetheart table directly in front for a romantic focal point.' }] },
+  { id: 'snowy-mountain-reception', name: 'Snowy Mountain', slug: 'snowy-mountain-reception', description: 'Mountain lodge inspired seating for snowy receptions.', seoTitle: 'Snowy Mountain Wedding Seating - Lodge Layouts', seoDescription: 'Warm and inviting seating layouts for a snowy mountain wedding.', faqs: [{ question: 'How to keep guests warm in a mountain venue?', answer: 'Seat sensitive guests away from doors and close to the room center or heating elements.' }] },
+  { id: 'ice-palace-seating', name: 'Ice Palace', slug: 'ice-palace-seating', description: 'Grand, crystal-inspired seating for winter glamour.', seoTitle: 'Ice Palace Wedding Seating - Grand Winter Layouts', seoDescription: 'Luxurious ice palace wedding seating arrangements.', faqs: [{ question: 'What table shapes fit an ice palace theme?', answer: 'Mix long kings tables with round tables featuring crystal decor.' }] },
+
 
   { id: 'underwater-tunnel-seating', name: 'Underwater Tunnel Seating', slug: 'underwater-tunnel-seating', description: 'Seating arrangements in underwater tunnels.', seoTitle: 'Underwater Tunnel Seating Layouts', seoDescription: 'Explore underwater tunnel seating layouts.' },
   { id: 'marine-exhibit-reception', name: 'Marine Exhibit Reception', slug: 'marine-exhibit-reception', description: 'Reception layouts near marine exhibits.', seoTitle: 'Marine Exhibit Reception Seating', seoDescription: 'Explore marine exhibit reception seating.' },
@@ -1946,6 +1953,10 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  { id: 'winter-50-guests', name: 'Winter 50 Guests', slug: 'winter-50-guests', count: 50, description: 'Intimate winter seating for 50 guests.', seoTitle: 'Intimate 50-Guest Winter Wedding Seating', seoDescription: 'Cozy and personal winter wedding seating for 50 guests.', faqs: [{ question: 'How to seat 50 guests comfortably in winter?', answer: 'Use clustered seating or a single U-shape layout to foster a close, warm atmosphere.' }] },
+  { id: 'winter-150-guests', name: 'Winter 150 Guests', slug: 'winter-150-guests', count: 150, description: 'Balanced winter seating for 150 guests.', seoTitle: 'Medium 150-Guest Winter Wedding Seating', seoDescription: 'Balanced and functional winter wedding seating for 150 guests.', faqs: [{ question: 'What is the best layout for a 150-guest winter wedding?', answer: 'A mix of round and long tables helps maximize space while maintaining an intimate feel.' }] },
+  { id: 'winter-300-guests', name: 'Winter 300 Guests', slug: 'winter-300-guests', count: 300, description: 'Grand winter seating for 300 guests.', seoTitle: 'Large 300-Guest Winter Wedding Seating', seoDescription: 'Grand and organized winter wedding seating for 300 guests.', faqs: [{ question: 'How to manage 300 guests at a winter reception?', answer: 'Ensure ample aisle space for heavy winter coats and clear navigation to amenities.' }] },
+
 
   { id: 'aquarium-50-guests', name: 'Aquarium 50 Guests', slug: 'aquarium-50-guests', count: 50, description: 'Aquarium seating for 50 guests.', seoTitle: 'Aquarium 50 Guest Wedding Seating', seoDescription: 'Ideas for aquarium seating for 50 guests.' },
   { id: 'aquarium-150-guests', name: 'Aquarium 150 Guests', slug: 'aquarium-150-guests', count: 150, description: 'Aquarium seating for 150 guests.', seoTitle: 'Aquarium 150 Guest Wedding Seating', seoDescription: 'Ideas for aquarium seating for 150 guests.' },
