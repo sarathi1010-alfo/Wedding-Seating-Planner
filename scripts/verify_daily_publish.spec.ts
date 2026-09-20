@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/cultural-wedding-seating-traditions-guide',
+  '/styles/cultural-fusion-seating',
+  '/styles/traditional-asian-banquet',
+  '/styles/classic-european-seating',
+  '/styles/modern-multicultural-seating',
+  '/guest-counts/intimate-75-guests',
+  '/guest-counts/medium-125-guests',
+  '/guest-counts/large-350-guests',
+  '/venue-types/cultural-heritage-center',
   '/blog/winter-wonderland-seating-guide',
   '/styles/winter-wonderland-seating',
   '/styles/cozy-fireplace-layout',

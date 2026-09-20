@@ -44,6 +44,9 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-heading mb-6">Expert Tips for 2026</h2>
             <p className="text-lg text-muted-foreground mb-8">
               Want to dive deeper into the strategy of arranging tables? Check out our latest definitive resources:{" "}
+              <Link href="/blog/cultural-wedding-seating-traditions-guide" className="text-primary hover:underline">
+                Cultural Wedding Seating Traditions Guide
+              </Link>, {" "}
               <Link href="/blog/aquarium-wedding-seating-guide" className="text-primary hover:underline">
                 Aquarium Wedding Seating Guide
               </Link>, {" "}

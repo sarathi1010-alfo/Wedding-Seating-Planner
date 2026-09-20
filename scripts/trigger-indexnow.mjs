@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/cultural-wedding-seating-traditions-guide',
+  'http://tablevows.alfo.online/styles/cultural-fusion-seating',
+  'http://tablevows.alfo.online/styles/traditional-asian-banquet',
+  'http://tablevows.alfo.online/styles/classic-european-seating',
+  'http://tablevows.alfo.online/styles/modern-multicultural-seating',
+  'http://tablevows.alfo.online/guest-counts/intimate-75-guests',
+  'http://tablevows.alfo.online/guest-counts/medium-125-guests',
+  'http://tablevows.alfo.online/guest-counts/large-350-guests',
+  'http://tablevows.alfo.online/venue-types/cultural-heritage-center',
   'http://tablevows.alfo.online/blog/winter-wonderland-seating-guide',
   'http://tablevows.alfo.online/styles/winter-wonderland-seating',
   'http://tablevows.alfo.online/styles/cozy-fireplace-layout',
