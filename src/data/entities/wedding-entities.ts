@@ -48,6 +48,21 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: 'venue-cultural-heritage-center',
+    name: 'Cultural Heritage Center',
+    slug: 'cultural-heritage-center',
+    description: 'A space dedicated to honoring cultural traditions and large family gatherings.',
+    seoTitle: 'Cultural Heritage Center Wedding Seating - Layouts & Tips',
+    seoDescription: 'Plan your cultural heritage center wedding seating with expert layouts, balancing tradition and modern flow.',
+    faqs: [
+      {
+        question: 'How to arrange seating in a cultural heritage center?',
+        answer: 'Prioritize honoring elders and specific cultural table structures while maintaining clear sightlines for all guests.'
+      }
+    ]
+  },
+
   { id: 'ski-lodge-layout', name: 'Ski Lodge', slug: 'ski-lodge-layout', description: 'Cozy ski lodge wedding seating layouts.', seoTitle: 'Ski Lodge Wedding Layout - Cozy Seating Solutions', seoDescription: 'Flexible seating solutions for a rustic ski lodge wedding.', faqs: [{ question: 'What is a good layout for a ski lodge?', answer: 'Long banquet tables paired with cozy lounge areas near the fire.' }] },
 
 
@@ -593,6 +608,63 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: 'style-cultural-fusion-seating',
+    name: 'Cultural Fusion Seating',
+    slug: 'cultural-fusion-seating',
+    description: 'Blending diverse cultural seating traditions into a harmonious layout.',
+    seoTitle: 'Cultural Fusion Wedding Seating - Balancing Traditions',
+    seoDescription: 'Expert tips on navigating and blending cultural seating traditions for a harmonious fusion wedding.',
+    faqs: [
+      {
+        question: 'What is the best way to handle fusion wedding seating?',
+        answer: 'Open communication and a flexible visual planner are key to balancing different cultural expectations.'
+      }
+    ]
+  },
+  {
+    id: 'style-traditional-asian-banquet',
+    name: 'Traditional Asian Banquet',
+    slug: 'traditional-asian-banquet',
+    description: 'Classic round table arrangements emphasizing family and hierarchy.',
+    seoTitle: 'Traditional Asian Banquet Seating - Etiquette & Layouts',
+    seoDescription: 'Master the etiquette and layouts of traditional Asian banquet seating for your wedding.',
+    faqs: [
+      {
+        question: 'What is the standard table shape for an Asian banquet?',
+        answer: 'Large round tables are universally preferred to symbolize completeness and accommodate family-style dining.'
+      }
+    ]
+  },
+  {
+    id: 'style-classic-european-seating',
+    name: 'Classic European Seating',
+    slug: 'classic-european-seating',
+    description: 'Traditional head table layouts and formal dining structures.',
+    seoTitle: 'Classic European Wedding Seating - Formal Layouts',
+    seoDescription: 'Guide to classic European wedding seating, including the traditional head table and formal arrangements.',
+    faqs: [
+      {
+        question: 'What characterizes classic European seating?',
+        answer: 'A prominent traditional head table and formal, structured guest seating.'
+      }
+    ]
+  },
+  {
+    id: 'style-modern-multicultural-seating',
+    name: 'Modern Multicultural Seating',
+    slug: 'modern-multicultural-seating',
+    description: 'Contemporary approaches to honoring diverse heritages.',
+    seoTitle: 'Modern Multicultural Wedding Seating - Contemporary Layouts',
+    seoDescription: 'Discover modern approaches to multicultural wedding seating that honor diverse heritages in a contemporary setting.',
+    faqs: [
+      {
+        question: 'How do you create a modern multicultural seating chart?',
+        answer: 'Focus on inclusion, utilize mixed table shapes, and emphasize visual balance across different family groups.'
+      }
+    ]
+  },
+
   { id: 'winter-wonderland-seating', name: 'Winter Wonderland', slug: 'winter-wonderland-seating', description: 'Magical winter wonderland seating arrangements with cozy vibes.', seoTitle: 'Winter Wonderland Wedding Seating - Layouts & Tips', seoDescription: 'Explore magical winter wonderland wedding seating layouts.', faqs: [{ question: 'What is the best seating for a winter wonderland wedding?', answer: 'Round tables with tall frosted centerpieces work beautifully, or long cozy banquet tables.' }] },
   { id: 'cozy-fireplace-layout', name: 'Cozy Fireplace', slug: 'cozy-fireplace-layout', description: 'Seating centered around a roaring fireplace.', seoTitle: 'Cozy Fireplace Wedding Seating Layouts', seoDescription: 'Design an intimate wedding reception around a cozy fireplace.', faqs: [{ question: 'How to arrange tables around a fireplace?', answer: 'Use U-shapes or place the sweetheart table directly in front for a romantic focal point.' }] },
   { id: 'snowy-mountain-reception', name: 'Snowy Mountain', slug: 'snowy-mountain-reception', description: 'Mountain lodge inspired seating for snowy receptions.', seoTitle: 'Snowy Mountain Wedding Seating - Lodge Layouts', seoDescription: 'Warm and inviting seating layouts for a snowy mountain wedding.', faqs: [{ question: 'How to keep guests warm in a mountain venue?', answer: 'Seat sensitive guests away from doors and close to the room center or heating elements.' }] },
@@ -1953,6 +2025,52 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: 'gc-intimate-75-guests',
+    name: 'Intimate 75 Guests',
+    slug: 'intimate-75-guests',
+    count: 75,
+    description: 'A close-knit gathering that allows for personalized interaction.',
+    seoTitle: '75-Guest Wedding Seating - Intimate Layouts',
+    seoDescription: 'Plan perfect seating for 75 guests, ensuring an intimate and engaging atmosphere.',
+    faqs: [
+      {
+        question: 'What is the best layout for 75 guests?',
+        answer: 'A mix of round and long tables creates a dynamic and intimate feel for this group size.'
+      }
+    ]
+  },
+  {
+    id: 'gc-medium-125-guests',
+    name: 'Medium 125 Guests',
+    slug: 'medium-125-guests',
+    count: 125,
+    description: 'A classic medium-sized wedding balancing energy and connection.',
+    seoTitle: '125-Guest Wedding Seating - Balanced Layouts',
+    seoDescription: 'Expert seating strategies for a 125-guest wedding, optimizing space and guest interaction.',
+    faqs: [
+      {
+        question: 'How many tables do I need for 125 guests?',
+        answer: 'Typically 13 to 16 tables, depending on whether you use 8-person or 10-person rounds.'
+      }
+    ]
+  },
+  {
+    id: 'gc-large-350-guests',
+    name: 'Large 350 Guests',
+    slug: 'large-350-guests',
+    count: 350,
+    description: 'A grand celebration requiring strategic crowd management.',
+    seoTitle: '350-Guest Wedding Seating - Grand Scale Layouts',
+    seoDescription: 'Master the logistics of seating 350 guests with our expert grand scale layout guides.',
+    faqs: [
+      {
+        question: 'How do you organize seating for 350 guests?',
+        answer: 'Clear zones, wide aisles, and meticulous grouping are essential for managing a crowd of this size.'
+      }
+    ]
+  },
+
   { id: 'winter-50-guests', name: 'Winter 50 Guests', slug: 'winter-50-guests', count: 50, description: 'Intimate winter seating for 50 guests.', seoTitle: 'Intimate 50-Guest Winter Wedding Seating', seoDescription: 'Cozy and personal winter wedding seating for 50 guests.', faqs: [{ question: 'How to seat 50 guests comfortably in winter?', answer: 'Use clustered seating or a single U-shape layout to foster a close, warm atmosphere.' }] },
   { id: 'winter-150-guests', name: 'Winter 150 Guests', slug: 'winter-150-guests', count: 150, description: 'Balanced winter seating for 150 guests.', seoTitle: 'Medium 150-Guest Winter Wedding Seating', seoDescription: 'Balanced and functional winter wedding seating for 150 guests.', faqs: [{ question: 'What is the best layout for a 150-guest winter wedding?', answer: 'A mix of round and long tables helps maximize space while maintaining an intimate feel.' }] },
   { id: 'winter-300-guests', name: 'Winter 300 Guests', slug: 'winter-300-guests', count: 300, description: 'Grand winter seating for 300 guests.', seoTitle: 'Large 300-Guest Winter Wedding Seating', seoDescription: 'Grand and organized winter wedding seating for 300 guests.', faqs: [{ question: 'How to manage 300 guests at a winter reception?', answer: 'Ensure ample aisle space for heavy winter coats and clear navigation to amenities.' }] },
