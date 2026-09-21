@@ -55,8 +55,10 @@ export default function Home() {
               </Link> ,
               <Link href="/blog/micro-wedding-seating-layouts-guide" className="text-primary hover:underline">
                 Micro Wedding Seating Layouts: The 2026 Guide
-              </Link>, and <Link href="/blog/winter-wonderland-seating-guide" className="text-primary hover:underline">
+              </Link>, <Link href="/blog/winter-wonderland-seating-guide" className="text-primary hover:underline">
                 Winter Wonderland Wedding Seating
+              </Link>, and <Link href="/blog/nautical-yacht-wedding-seating-guide" className="text-primary hover:underline">
+                Nautical & Yacht Wedding Seating
               </Link>
               . These guides cover everything from floor plans to unique venue constraints.
             </p>

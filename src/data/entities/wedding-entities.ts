@@ -49,6 +49,17 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "luxury-yacht",
+    name: "Luxury Yacht",
+    slug: "luxury-yacht-layout",
+    description: "A glamorous floating reception offering unparalleled ocean views and a highly curated, intimate seating experience.",
+    seoTitle: "Luxury Yacht Wedding Seating Charts & Layouts",
+    seoDescription: "Design a flawless luxury yacht wedding layout. Interactive seating planners for moving vessels and waterfront views.",
+    faqs: [
+      { question: "How do you arrange seating on a yacht?", answer: "Align tables along the length of the deck to maximize space and ensure weight is distributed evenly." }
+    ]
+  },
+{
     id: 'venue-cultural-heritage-center',
     name: 'Cultural Heritage Center',
     slug: 'cultural-heritage-center',
@@ -609,6 +620,42 @@ export const venues: VenueType[] = [
 
 export const styles: WeddingStyle[] = [
   {
+    id: "yacht-deck",
+    name: "Yacht Deck Seating",
+    slug: "yacht-deck-seating",
+    description: "Sleek and sophisticated seating arrangements optimized for the unique dimensions of a luxury yacht deck.",
+    seoTitle: "Yacht Deck Wedding Seating & Floor Plans",
+    seoDescription: "Optimize your yacht deck wedding reception. Interactive layouts for narrow spaces and stunning ocean views.",
+    faqs: [{ question: "What tables work best on a yacht deck?", answer: "Long, narrow tables often work best on a yacht deck to maintain clear walkways for guests and crew." }]
+  },
+  {
+    id: "nautical-chic",
+    name: "Nautical Chic Layout",
+    slug: "nautical-chic-layout",
+    description: "An elegant, maritime-inspired layout featuring crisp linens, classic table shapes, and ocean-themed centerpieces.",
+    seoTitle: "Nautical Chic Wedding Seating Charts",
+    seoDescription: "Plan a beautiful nautical chic wedding reception. Free interactive seating planner for maritime-inspired celebrations.",
+    faqs: [{ question: "How to design a nautical chic seating chart?", answer: "Use classic round tables with navy and white linens, and incorporate maritime elements like compasses or anchor motifs into the table numbers." }]
+  },
+  {
+    id: "sailcloth-tent",
+    name: "Sailcloth Tent Seating",
+    slug: "sailcloth-tent-seating",
+    description: "A breezy, elegant outdoor layout under a stunning sailcloth tent, perfect for coastal or waterfront receptions.",
+    seoTitle: "Sailcloth Tent Wedding Seating & Layout Ideas",
+    seoDescription: "Design your perfect sailcloth tent wedding layout. Interactive seating charts for coastal outdoor celebrations.",
+    faqs: [{ question: "How to arrange tables in a sailcloth tent?", answer: "Center the dance floor under the highest peak of the tent and arrange a mix of round and long tables radiating outwards." }]
+  },
+  {
+    id: "maritime-reception",
+    name: "Maritime Reception Layout",
+    slug: "maritime-reception-layout",
+    description: "A grand, historically inspired maritime layout suitable for yacht clubs or maritime museums.",
+    seoTitle: "Maritime Wedding Reception Layouts & Ideas",
+    seoDescription: "Plan a grand maritime wedding reception. Interactive seating charts for yacht clubs and waterfront venues.",
+    faqs: [{ question: "What is a maritime reception layout?", answer: "A layout that emphasizes water views and often incorporates long banquet tables reminiscent of traditional ship dining halls." }]
+  },
+{
     id: 'style-cultural-fusion-seating',
     name: 'Cultural Fusion Seating',
     slug: 'cultural-fusion-seating',
@@ -2026,6 +2073,36 @@ export const styles: WeddingStyle[] = [
 
 export const guestCounts: GuestCount[] = [
   {
+    id: "nautical-50",
+    name: "Nautical 50 Guests",
+    slug: "nautical-50-guests",
+    count: 50,
+    description: "An intimate nautical gathering perfect for a smaller charter yacht or a private room at a yacht club.",
+    seoTitle: "50-Guest Nautical Wedding Seating Charts",
+    seoDescription: "Plan an intimate 50-guest nautical wedding. Free interactive seating planner for small yachts and waterfront venues.",
+    faqs: [{ question: "What is the best layout for a 50-guest yacht wedding?", answer: "A single long King's table running the length of the main deck creates a highly intimate and communal experience." }]
+  },
+  {
+    id: "nautical-100",
+    name: "Nautical 100 Guests",
+    slug: "nautical-100-guests",
+    count: 100,
+    description: "A mid-sized nautical celebration requiring a larger vessel or a spacious waterfront tent.",
+    seoTitle: "100-Guest Nautical Wedding Seating Charts",
+    seoDescription: "Design a 100-guest nautical wedding layout. Interactive seating planners for medium-sized yacht clubs and boats.",
+    faqs: [{ question: "How many tables for a 100-guest nautical wedding?", answer: "Typically 10 to 12 tables, depending on the mix of round and rectangular tables used to fit the venue's shape." }]
+  },
+  {
+    id: "nautical-150",
+    name: "Nautical 150 Guests",
+    slug: "nautical-150-guests",
+    count: 150,
+    description: "A large nautical wedding that demands careful flow management on land or a very substantial luxury yacht.",
+    seoTitle: "150-Guest Nautical Wedding Seating Charts",
+    seoDescription: "Manage a 150-guest nautical wedding with ease. Our free tool helps you design accessible and flowing waterfront layouts.",
+    faqs: [{ question: "How do you seat 150 guests at a waterfront wedding?", answer: "Use a mix of table sizes to maximize space, and ensure the dance floor and bar are centrally located to keep energy high." }]
+  },
+{
     id: 'gc-intimate-75-guests',
     name: 'Intimate 75 Guests',
     slug: 'intimate-75-guests',
