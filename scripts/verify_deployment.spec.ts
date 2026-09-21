@@ -208,6 +208,16 @@ const NEW_URLS = [
   '/guest-counts/micro-20-guests',
   '/guest-counts/micro-30-guests',
   '/venue-types/private-estate-micro-layout'
+,
+  '/blog/nautical-yacht-wedding-seating-guide',
+  '/styles/yacht-deck-seating',
+  '/styles/nautical-chic-layout',
+  '/styles/sailcloth-tent-seating',
+  '/styles/maritime-reception-layout',
+  '/guest-counts/nautical-50-guests',
+  '/guest-counts/nautical-100-guests',
+  '/guest-counts/nautical-150-guests',
+  '/venue-types/luxury-yacht-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
