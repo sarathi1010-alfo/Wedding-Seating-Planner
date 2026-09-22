@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/how-to-plan-seasonal-outdoor-wedding-seating',
+  'http://tablevows.alfo.online/styles/spring-bloom-seating',
+  'http://tablevows.alfo.online/styles/summer-breeze-layout',
+  'http://tablevows.alfo.online/styles/autumn-harvest-seating',
+  'http://tablevows.alfo.online/styles/winter-frost-layout',
+  'http://tablevows.alfo.online/guest-counts/outdoor-50-guests-cozy',
+  'http://tablevows.alfo.online/guest-counts/outdoor-150-guests-balanced',
+  'http://tablevows.alfo.online/guest-counts/outdoor-300-guests-grand',
+  'http://tablevows.alfo.online/venue-types/seasonal-botanical-garden',
   'http://tablevows.alfo.online/blog/cultural-wedding-seating-traditions-guide',
   'http://tablevows.alfo.online/styles/cultural-fusion-seating',
   'http://tablevows.alfo.online/styles/traditional-asian-banquet',

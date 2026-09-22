@@ -48,6 +48,7 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  { id: 'seasonal-botanical-garden', name: 'Seasonal Botanical Garden', slug: 'seasonal-botanical-garden', description: 'Lush botanical garden layouts.', seoTitle: 'Seasonal Botanical Garden Wedding Seating', seoDescription: 'Layouts and ideas for a seasonal botanical garden wedding.', faqs: [{ question: 'How to arrange tables in a botanical garden?', answer: 'Curve tables along natural pathways and clearings to integrate with the environment.' }] },
   {
     id: "luxury-yacht",
     name: "Luxury Yacht",
@@ -619,6 +620,10 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  { id: 'spring-bloom-seating', name: 'Spring Bloom Layout', slug: 'spring-bloom-seating', description: 'Fresh spring botanical table layouts.', seoTitle: 'Spring Bloom Wedding Seating', seoDescription: 'Ideas for fresh spring bloom layouts.', faqs: [{ question: 'What is a spring bloom layout?', answer: 'It is a layout focused on incorporating natural floral beauty with airy seating arrangements.' }] },
+  { id: 'summer-breeze-layout', name: 'Summer Breeze Layout', slug: 'summer-breeze-layout', description: 'Airy summer seating arrangements.', seoTitle: 'Summer Breeze Wedding Seating', seoDescription: 'Ideas for summer breeze layouts.', faqs: [{ question: 'How to arrange summer breeze seating?', answer: 'Use wide aisles and shaded areas to ensure comfort in the summer heat.' }] },
+  { id: 'autumn-harvest-seating', name: 'Autumn Harvest Layout', slug: 'autumn-harvest-seating', description: 'Cozy autumn seating arrangements.', seoTitle: 'Autumn Harvest Wedding Seating', seoDescription: 'Ideas for autumn harvest layouts.', faqs: [{ question: 'What tables work best for autumn harvest seating?', answer: 'Long wooden tables fit perfectly with the rustic autumn aesthetic.' }] },
+  { id: 'winter-frost-layout', name: 'Winter Frost Layout', slug: 'winter-frost-layout', description: 'Intimate winter seating arrangements.', seoTitle: 'Winter Frost Wedding Seating', seoDescription: 'Ideas for winter frost layouts.', faqs: [{ question: 'How to keep guests warm with winter seating?', answer: 'Seat them closer together and away from doorways or edges of tents.' }] },
   {
     id: "yacht-deck",
     name: "Yacht Deck Seating",
@@ -2072,6 +2077,9 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  { id: 'outdoor-50-guests-cozy', name: 'Outdoor 50 Guests', slug: 'outdoor-50-guests-cozy', count: 50, description: 'Cozy outdoor seating for 50 guests.', seoTitle: 'Cozy Outdoor 50-Guest Wedding Seating', seoDescription: 'Cozy and intimate outdoor seating arrangements for 50 guests.', faqs: [{ question: 'How to seat 50 guests outdoors?', answer: 'Use clustered seating to create a cozy, intimate environment in an open space.' }] },
+  { id: 'outdoor-150-guests-balanced', name: 'Outdoor 150 Guests', slug: 'outdoor-150-guests-balanced', count: 150, description: 'Balanced outdoor seating for 150 guests.', seoTitle: 'Balanced Outdoor 150-Guest Wedding Seating', seoDescription: 'Balanced outdoor seating arrangements for 150 guests.', faqs: [{ question: 'What is the best outdoor layout for 150 guests?', answer: 'A mix of long and round tables under a clear-top tent or canopy.' }] },
+  { id: 'outdoor-300-guests-grand', name: 'Outdoor 300 Guests', slug: 'outdoor-300-guests-grand', count: 300, description: 'Grand outdoor seating for 300 guests.', seoTitle: 'Grand Outdoor 300-Guest Wedding Seating', seoDescription: 'Grand outdoor seating arrangements for 300 guests.', faqs: [{ question: 'How to manage 300 guests outdoors?', answer: 'Ensure ample lighting, wide aisles, and clear pathways to amenities.' }] },
   {
     id: "nautical-50",
     name: "Nautical 50 Guests",

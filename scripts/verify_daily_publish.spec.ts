@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/how-to-plan-seasonal-outdoor-wedding-seating',
+  '/styles/spring-bloom-seating',
+  '/styles/summer-breeze-layout',
+  '/styles/autumn-harvest-seating',
+  '/styles/winter-frost-layout',
+  '/guest-counts/outdoor-50-guests-cozy',
+  '/guest-counts/outdoor-150-guests-balanced',
+  '/guest-counts/outdoor-300-guests-grand',
+  '/venue-types/seasonal-botanical-garden',
   '/blog/cultural-wedding-seating-traditions-guide',
   '/styles/cultural-fusion-seating',
   '/styles/traditional-asian-banquet',
