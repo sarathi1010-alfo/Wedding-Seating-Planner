@@ -218,6 +218,16 @@ const targetUrls = [
   '/guest-counts/nautical-100-guests',
   '/guest-counts/nautical-150-guests',
   '/venue-types/luxury-yacht-layout'
+,
+  '/blog/amphitheater-wedding-seating-guide',
+  '/styles/amphitheater-terraced-seating',
+  '/styles/dramatic-circular-layout',
+  '/styles/open-air-theater-seating',
+  '/styles/stadium-style-wedding-seating',
+  '/guest-counts/amphitheater-50-guests',
+  '/guest-counts/amphitheater-150-guests',
+  '/guest-counts/amphitheater-300-guests',
+  '/venue-types/classic-stone-amphitheater'
 ];
 
 test.describe('Daily Publish Verification', () => {

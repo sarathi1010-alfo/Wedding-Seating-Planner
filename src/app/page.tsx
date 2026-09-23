@@ -59,7 +59,7 @@ export default function Home() {
                 Winter Wonderland Wedding Seating
               </Link>, <Link href="/blog/how-to-plan-seasonal-outdoor-wedding-seating" className="text-primary hover:underline">How to Plan Seasonal Outdoor Wedding Seating</Link>, and <Link href="/blog/nautical-yacht-wedding-seating-guide" className="text-primary hover:underline">
                 Nautical & Yacht Wedding Seating
-              </Link>
+              </Link>, <Link href="/blog/amphitheater-wedding-seating-guide" className="text-primary hover:underline">Amphitheater Wedding Seating</Link>
               . These guides cover everything from floor plans to unique venue constraints.
             </p>
           </div>
