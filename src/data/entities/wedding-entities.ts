@@ -48,6 +48,17 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "classic-stone-amphitheater",
+    name: "Classic Stone Amphitheater",
+    slug: "classic-stone-amphitheater",
+    description: "Historic or natural stone amphitheaters requiring careful leveling and accessible routing.",
+    seoTitle: "Classic Stone Amphitheater Wedding Seating Layouts",
+    seoDescription: "Design a seating chart for a classic stone amphitheater, navigating unique topography and architectural features.",
+    faqs: [
+      { question: "Do I need special tables for a stone amphitheater?", answer: "You may need leveling platforms or shims if the stone tiers are uneven." }
+    ]
+  },
   { id: 'seasonal-botanical-garden', name: 'Seasonal Botanical Garden', slug: 'seasonal-botanical-garden', description: 'Lush botanical garden layouts.', seoTitle: 'Seasonal Botanical Garden Wedding Seating', seoDescription: 'Layouts and ideas for a seasonal botanical garden wedding.', faqs: [{ question: 'How to arrange tables in a botanical garden?', answer: 'Curve tables along natural pathways and clearings to integrate with the environment.' }] },
   {
     id: "luxury-yacht",
@@ -620,6 +631,50 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "amphitheater-terraced",
+    name: "Amphitheater Terraced Seating",
+    slug: "amphitheater-terraced-seating",
+    description: "Utilizes the natural tiers of an amphitheater for tiered, unobstructed seating layouts.",
+    seoTitle: "Amphitheater Terraced Wedding Seating Layouts",
+    seoDescription: "Design a stunning terraced seating chart for your amphitheater wedding.",
+    faqs: [
+      { question: "How do you seat guests on terraced levels?", answer: "Group guests by mobility, keeping those who need easier access on the top or bottom tiers, and use curved tables." }
+    ]
+  },
+  {
+    id: "dramatic-circular",
+    name: "Dramatic Circular Layout",
+    slug: "dramatic-circular-layout",
+    description: "A layout that emphasizes the circular or semi-circular nature of amphitheaters, focusing attention inward.",
+    seoTitle: "Dramatic Circular Wedding Seating Layouts",
+    seoDescription: "Create a dramatic circular seating arrangement focused on a central focal point.",
+    faqs: [
+      { question: "What is the focal point of a circular layout?", answer: "Typically, the couple's sweetheart table or a central dance floor serves as the focal point in a circular amphitheater layout." }
+    ]
+  },
+  {
+    id: "open-air-theater",
+    name: "Open-Air Theater Seating",
+    slug: "open-air-theater-seating",
+    description: "Arrangements designed for outdoor theater spaces, prioritizing sightlines and acoustics.",
+    seoTitle: "Open-Air Theater Wedding Seating Layouts",
+    seoDescription: "Optimize your open-air theater wedding seating for the best views and acoustics.",
+    faqs: [
+      { question: "Are acoustics an issue in open-air theater seating?", answer: "Amphitheaters are designed for sound projection, so speeches from the center will carry well to all tiers." }
+    ]
+  },
+  {
+    id: "stadium-style",
+    name: "Stadium Style Wedding Seating",
+    slug: "stadium-style-wedding-seating",
+    description: "Tiered seating arrangements similar to a stadium, ensuring every guest has a clear view of the couple.",
+    seoTitle: "Stadium Style Tiered Wedding Seating Layouts",
+    seoDescription: "Plan a stadium-style tiered seating chart so every guest has a perfect view.",
+    faqs: [
+      { question: "Is stadium seating good for weddings?", answer: "Yes, it provides excellent visibility and a unique, dramatic atmosphere, though it requires careful mobility planning." }
+    ]
+  },
   { id: 'spring-bloom-seating', name: 'Spring Bloom Layout', slug: 'spring-bloom-seating', description: 'Fresh spring botanical table layouts.', seoTitle: 'Spring Bloom Wedding Seating', seoDescription: 'Ideas for fresh spring bloom layouts.', faqs: [{ question: 'What is a spring bloom layout?', answer: 'It is a layout focused on incorporating natural floral beauty with airy seating arrangements.' }] },
   { id: 'summer-breeze-layout', name: 'Summer Breeze Layout', slug: 'summer-breeze-layout', description: 'Airy summer seating arrangements.', seoTitle: 'Summer Breeze Wedding Seating', seoDescription: 'Ideas for summer breeze layouts.', faqs: [{ question: 'How to arrange summer breeze seating?', answer: 'Use wide aisles and shaded areas to ensure comfort in the summer heat.' }] },
   { id: 'autumn-harvest-seating', name: 'Autumn Harvest Layout', slug: 'autumn-harvest-seating', description: 'Cozy autumn seating arrangements.', seoTitle: 'Autumn Harvest Wedding Seating', seoDescription: 'Ideas for autumn harvest layouts.', faqs: [{ question: 'What tables work best for autumn harvest seating?', answer: 'Long wooden tables fit perfectly with the rustic autumn aesthetic.' }] },
@@ -2077,6 +2132,42 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "amphitheater-50",
+    name: "50 Guests (Amphitheater)",
+    slug: "amphitheater-50-guests",
+    count: 50,
+    description: "Intimate seating arrangements utilizing the lower tiers of an amphitheater.",
+    seoTitle: "50-Guest Amphitheater Wedding Seating Charts",
+    seoDescription: "Intimate seating chart layouts for a 50-guest amphitheater wedding.",
+    faqs: [
+      { question: "Can you have a small wedding in an amphitheater?", answer: "Yes, by restricting seating to the lowest tiers, you create an intimate feeling within a grand space." }
+    ]
+  },
+  {
+    id: "amphitheater-150",
+    name: "150 Guests (Amphitheater)",
+    slug: "amphitheater-150-guests",
+    count: 150,
+    description: "Balanced seating arrangements spreading across multiple tiers of an amphitheater.",
+    seoTitle: "150-Guest Amphitheater Wedding Seating Charts",
+    seoDescription: "Plan a medium-sized 150-guest wedding in an amphitheater with these layouts.",
+    faqs: [
+      { question: "How to manage 150 guests in an amphitheater?", answer: "Use curved banquet tables along the middle tiers to efficiently seat 150 guests while maintaining good sightlines." }
+    ]
+  },
+  {
+    id: "amphitheater-300",
+    name: "300 Guests (Amphitheater)",
+    slug: "amphitheater-300-guests",
+    count: 300,
+    description: "Large-scale seating charts utilizing the full capacity of an amphitheater venue.",
+    seoTitle: "300-Guest Amphitheater Wedding Seating Charts",
+    seoDescription: "Manage a large 300-guest list with these expansive amphitheater seating chart strategies.",
+    faqs: [
+      { question: "Is an amphitheater good for 300 guests?", answer: "Yes, the tiered layout ensures that even with 300 guests, everyone has a clear view of the central action." }
+    ]
+  },
   { id: 'outdoor-50-guests-cozy', name: 'Outdoor 50 Guests', slug: 'outdoor-50-guests-cozy', count: 50, description: 'Cozy outdoor seating for 50 guests.', seoTitle: 'Cozy Outdoor 50-Guest Wedding Seating', seoDescription: 'Cozy and intimate outdoor seating arrangements for 50 guests.', faqs: [{ question: 'How to seat 50 guests outdoors?', answer: 'Use clustered seating to create a cozy, intimate environment in an open space.' }] },
   { id: 'outdoor-150-guests-balanced', name: 'Outdoor 150 Guests', slug: 'outdoor-150-guests-balanced', count: 150, description: 'Balanced outdoor seating for 150 guests.', seoTitle: 'Balanced Outdoor 150-Guest Wedding Seating', seoDescription: 'Balanced outdoor seating arrangements for 150 guests.', faqs: [{ question: 'What is the best outdoor layout for 150 guests?', answer: 'A mix of long and round tables under a clear-top tent or canopy.' }] },
   { id: 'outdoor-300-guests-grand', name: 'Outdoor 300 Guests', slug: 'outdoor-300-guests-grand', count: 300, description: 'Grand outdoor seating for 300 guests.', seoTitle: 'Grand Outdoor 300-Guest Wedding Seating', seoDescription: 'Grand outdoor seating arrangements for 300 guests.', faqs: [{ question: 'How to manage 300 guests outdoors?', answer: 'Ensure ample lighting, wide aisles, and clear pathways to amenities.' }] },
