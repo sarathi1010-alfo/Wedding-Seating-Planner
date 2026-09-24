@@ -48,6 +48,18 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: "v-brewery-taproom",
+    name: "Brewery Taproom",
+    slug: "brewery-taproom-seating",
+    description: "Seating strategies for industrial brewery taproom spaces with tanks.",
+    seoTitle: "Brewery Taproom Wedding Seating – Layouts & Table Ideas",
+    seoDescription: "Discover how to arrange tables around fermentation tanks and long bars in a brewery taproom for your wedding.",
+    faqs: [
+      { question: "Can I use round tables in a brewery?", answer: "Yes, but long family-style tables often fit the industrial aesthetic and narrow spaces better." }
+    ]
+  },
   {
     id: "classic-stone-amphitheater",
     name: "Classic Stone Amphitheater",
@@ -631,6 +643,43 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "s-industrial-chic",
+    name: "Industrial Chic",
+    slug: "industrial-chic-brewery",
+    description: "Polished concrete, exposed brick, and modern seating layouts.",
+    seoTitle: "Industrial Chic Brewery Seating – Modern Wedding Layouts",
+    seoDescription: "Blend raw industrial elements with elegant seating for your brewery wedding.",
+    faqs: []
+  },
+  {
+    id: "s-craft-beer-casual",
+    name: "Craft Beer Casual",
+    slug: "craft-beer-casual-seating",
+    description: "Relaxed seating with high-tops and lounge areas.",
+    seoTitle: "Craft Beer Casual Wedding Seating – Relaxed Layouts",
+    seoDescription: "Create a laid-back, conversational seating chart using high-tops and lounge furniture.",
+    faqs: []
+  },
+  {
+    id: "s-urban-warehouse",
+    name: "Urban Warehouse",
+    slug: "urban-warehouse-layout",
+    description: "Open floor plans in converted warehouse breweries.",
+    seoTitle: "Urban Warehouse Brewery Layout – Open Space Seating",
+    seoDescription: "Maximize the open square footage of an urban warehouse brewery for your wedding.",
+    faqs: []
+  },
+  {
+    id: "s-brewery-garden",
+    name: "Brewery Garden",
+    slug: "brewery-garden-seating",
+    description: "Outdoor seating in brewery beer gardens and patios.",
+    seoTitle: "Brewery Garden Wedding Seating – Outdoor Taproom Layouts",
+    seoDescription: "Arrange tables seamlessly in an outdoor brewery beer garden for your wedding reception.",
+    faqs: []
+  },
   {
     id: "amphitheater-terraced",
     name: "Amphitheater Terraced Seating",
@@ -2132,6 +2181,37 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "gc-brewery-50",
+    name: "Intimate Brewery (50 Guests)",
+    slug: "brewery-50-guests",
+    description: "Seating for a small group in a private taproom.",
+    seoTitle: "50-Guest Brewery Wedding Seating – Intimate Taproom Layouts",
+    seoDescription: "Perfect table arrangements for a cozy 50-person wedding in a brewery taproom.",
+    count: 50,
+    faqs: []
+  },
+  {
+    id: "gc-brewery-120",
+    name: "Standard Brewery (120 Guests)",
+    slug: "brewery-120-guests",
+    description: "Balancing dining and dancing in a medium brewery space.",
+    seoTitle: "120-Guest Brewery Wedding Seating – Balanced Layouts",
+    seoDescription: "How to fit 120 guests comfortably alongside brewing tanks and a dance floor.",
+    count: 120,
+    faqs: []
+  },
+  {
+    id: "gc-brewery-250",
+    name: "Large Brewery (250 Guests)",
+    slug: "brewery-250-guests",
+    description: "Managing a large crowd in an expansive production facility.",
+    seoTitle: "250-Guest Brewery Wedding Seating – Large Scale Layouts",
+    seoDescription: "Strategic seating for a massive 250-person wedding in a full-scale brewery.",
+    count: 250,
+    faqs: []
+  },
   {
     id: "amphitheater-50",
     name: "50 Guests (Amphitheater)",

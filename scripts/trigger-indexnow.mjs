@@ -11,6 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
+  'http://tablevows.alfo.online/blog/brewery-wedding-seating-guide',
+  'http://tablevows.alfo.online/venue-types/brewery-taproom-seating',
+  'http://tablevows.alfo.online/styles/industrial-chic-brewery',
+  'http://tablevows.alfo.online/styles/craft-beer-casual-seating',
+  'http://tablevows.alfo.online/styles/urban-warehouse-layout',
+  'http://tablevows.alfo.online/styles/brewery-garden-seating',
+  'http://tablevows.alfo.online/guest-counts/brewery-50-guests',
+  'http://tablevows.alfo.online/guest-counts/brewery-120-guests',
+  'http://tablevows.alfo.online/guest-counts/brewery-250-guests',
   'http://tablevows.alfo.online/blog/how-to-plan-seasonal-outdoor-wedding-seating',
   'http://tablevows.alfo.online/styles/spring-bloom-seating',
   'http://tablevows.alfo.online/styles/summer-breeze-layout',
