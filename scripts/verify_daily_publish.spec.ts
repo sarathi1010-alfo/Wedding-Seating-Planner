@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/brewery-wedding-seating-guide',
+  '/venue-types/brewery-taproom-seating',
+  '/styles/industrial-chic-brewery',
+  '/styles/craft-beer-casual-seating',
+  '/styles/urban-warehouse-layout',
+  '/styles/brewery-garden-seating',
+  '/guest-counts/brewery-50-guests',
+  '/guest-counts/brewery-120-guests',
+  '/guest-counts/brewery-250-guests',
   '/blog/how-to-plan-seasonal-outdoor-wedding-seating',
   '/styles/spring-bloom-seating',
   '/styles/summer-breeze-layout',
