@@ -640,6 +640,19 @@ export const venues: VenueType[] = [
     seoDescription: "Plan a luxurious private estate micro wedding. Free interactive floor plan tools for residential and rental venues.",
     faqs: [{ question: "How to plan seating at a private estate?", answer: "Utilize the existing architecture—seat guests along a grand terrace or in a central formal dining room." }]
   },
+
+  {
+    id: "glass-conservatory-layout",
+    name: "Glass Conservatory",
+    slug: "glass-conservatory-layout",
+    description: "Layouts tailored for the unique acoustics and climate of a glass conservatory.",
+    seoTitle: "Glass Conservatory Wedding Layouts | Seating Charts",
+    seoDescription: "Design a flawless seating chart for a glass conservatory, balancing sunlight and acoustics.",
+    faqs: [
+      { question: "How to handle acoustics in a glass conservatory?", answer: "Place tables near dense foliage to absorb sound." }
+    ]
+  }
+
 ];
 
 export const styles: WeddingStyle[] = [
@@ -2178,6 +2191,52 @@ export const styles: WeddingStyle[] = [
     seoDescription: "Optimize your private dining room for a micro wedding. Free interactive planner for high-end restaurant receptions.",
     faqs: [{ question: "How to handle private dining seating for a wedding?", answer: "Work with the restaurant's existing prime tables, grouping guests intimately, often utilizing a single long feature table." }]
   },
+
+  {
+    id: "lush-greenery-seating",
+    name: "Lush Greenery Seating",
+    slug: "lush-greenery-seating",
+    description: "Immersive seating layouts enveloped by dense, lush botanical elements.",
+    seoTitle: "Lush Greenery Wedding Seating Layouts | Table Ideas",
+    seoDescription: "Discover how to arrange seating surrounded by lush greenery for an immersive botanical wedding reception.",
+    faqs: [
+      { question: "How to fit tables among lush greenery?", answer: "Use narrow, long tables that fit within natural pathways." }
+    ]
+  },
+  {
+    id: "tropical-greenhouse-layout",
+    name: "Tropical Greenhouse Layout",
+    slug: "tropical-greenhouse-layout",
+    description: "Vibrant and warm seating arrangements for a tropical greenhouse setting.",
+    seoTitle: "Tropical Greenhouse Wedding Layouts | Seating Charts",
+    seoDescription: "Plan a vibrant seating chart for your tropical greenhouse wedding, maximizing exotic flora.",
+    faqs: [
+      { question: "What is best for a tropical layout?", answer: "Focus on airflow and bright, contrasting centerpieces." }
+    ]
+  },
+  {
+    id: "floral-conservatory-seating",
+    name: "Floral Conservatory Seating",
+    slug: "floral-conservatory-seating",
+    description: "Elegant seating plans designed for historic floral conservatories.",
+    seoTitle: "Floral Conservatory Wedding Seating | Layout Ideas",
+    seoDescription: "Elegant and classic seating arrangements perfect for historic floral conservatories.",
+    faqs: [
+      { question: "How to decorate conservatory tables?", answer: "Keep centerpieces low so they don't compete with the conservatory's blooms." }
+    ]
+  },
+  {
+    id: "botanical-garden-reception",
+    name: "Botanical Garden Reception",
+    slug: "botanical-garden-reception",
+    description: "Organic, free-flowing seating charts for botanical garden weddings.",
+    seoTitle: "Botanical Garden Wedding Reception Seating",
+    seoDescription: "Seamlessly integrate your reception seating into the natural flow of a botanical garden.",
+    faqs: [
+      { question: "Are round tables okay in gardens?", answer: "Only if the clearings are wide enough to accommodate them without crowding paths." }
+    ]
+  }
+
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -3404,6 +3463,43 @@ export const guestCounts: GuestCount[] = [
     seoDescription: "Optimize your 30-guest micro wedding layout. Interactive seating charts for U-shapes and intimate clusters.",
     faqs: [{ question: "What is a good layout for a 30-guest wedding?", answer: "A U-shape layout facing a central focal point is excellent for keeping 30 guests connected." }]
   },
+
+  {
+    id: "greenhouse-50-guests",
+    name: "Intimate 50-Guest Greenhouse",
+    slug: "greenhouse-50-guests",
+    count: 50,
+    description: "A cozy layout for 50 guests nestled within a greenhouse.",
+    seoTitle: "50-Guest Greenhouse Wedding Seating Chart",
+    seoDescription: "Perfect your 50-guest micro wedding seating chart in a lush greenhouse venue.",
+    faqs: [
+      { question: "How many long tables for 50 guests?", answer: "You can comfortably seat 50 guests at two long banquet tables." }
+    ]
+  },
+  {
+    id: "greenhouse-150-guests",
+    name: "Medium 150-Guest Greenhouse",
+    slug: "greenhouse-150-guests",
+    count: 150,
+    description: "Strategic seating for 150 guests in an expansive greenhouse.",
+    seoTitle: "150-Guest Greenhouse Wedding Layouts",
+    seoDescription: "Navigate space constraints to comfortably seat 150 guests in a botanical greenhouse.",
+    faqs: [
+      { question: "How to fit 150 people in a greenhouse?", answer: "Utilize parallel long tables to maximize floor space." }
+    ]
+  },
+  {
+    id: "greenhouse-250-guests",
+    name: "Large 250-Guest Greenhouse",
+    slug: "greenhouse-250-guests",
+    count: 250,
+    description: "Maximizing capacity for large greenhouse celebrations.",
+    seoTitle: "250-Guest Greenhouse Seating Configurations",
+    seoDescription: "Expert strategies for seating 250 guests safely and beautifully in a large greenhouse.",
+    faqs: [
+      { question: "Is 250 too large for a greenhouse?", answer: "No, but it requires highly precise digital planning to ensure safe clearance." }
+    ]
+  }
 
 ];
 
