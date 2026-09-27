@@ -57,7 +57,7 @@ export default function Home() {
                 Micro Wedding Seating Layouts: The 2026 Guide
               </Link>, <Link href="/blog/winter-wonderland-seating-guide" className="text-primary hover:underline">
                 Winter Wonderland Wedding Seating
-              </Link>, <Link href="/blog/how-to-plan-seasonal-outdoor-wedding-seating" className="text-primary hover:underline">How to Plan Seasonal Outdoor Wedding Seating</Link>, and <Link href="/blog/nautical-yacht-wedding-seating-guide" className="text-primary hover:underline">
+              </Link>, <Link href="/blog/how-to-plan-seasonal-outdoor-wedding-seating" className="text-primary hover:underline">How to Plan Seasonal Outdoor Wedding Seating</Link>, <Link href="/blog/botanical-greenhouse-wedding-seating-guide" className="text-primary hover:underline">Botanical Greenhouse Wedding Seating</Link> and <Link href="/blog/nautical-yacht-wedding-seating-guide" className="text-primary hover:underline">
                 Nautical & Yacht Wedding Seating
               </Link>, <Link href="/blog/amphitheater-wedding-seating-guide" className="text-primary hover:underline">Amphitheater Wedding Seating</Link>, <Link href="/blog/brewery-wedding-seating-guide" className="text-primary hover:underline">Brewery Wedding Seating Guide</Link>
               . These guides cover everything from floor plans to unique venue constraints.
