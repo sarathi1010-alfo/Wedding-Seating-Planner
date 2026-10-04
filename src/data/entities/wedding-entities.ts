@@ -48,6 +48,18 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "outdoor-botanical-layout",
+    name: "Outdoor Botanical Layout",
+    slug: "outdoor-botanical-layout",
+    description: "Immersive seating configurations designed for expansive botanical gardens and arboretums.",
+    seoTitle: "Outdoor Botanical Garden Wedding Seating",
+    seoDescription: "Design a spectacular botanical garden reception layout. Interactive tools for navigating outdoor flora.",
+    faqs: [
+      { question: "How to plan a botanical garden layout?", answer: "Map out all immovable trees and flower beds first to ensure guest tables fit naturally into the space." }
+    ]
+  },
+
 
   {
     id: "v-brewery-taproom",
@@ -656,6 +668,51 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "spring-garden-seating",
+    name: "Spring Garden Seating",
+    slug: "spring-garden-seating",
+    description: "Flowing serpentine tables and strategic placement around blooming flora for a vibrant spring celebration.",
+    seoTitle: "Spring Garden Wedding Seating Charts & Layouts",
+    seoDescription: "Plan a beautiful spring garden wedding layout. Interactive seating charts optimized for blooming landscapes.",
+    faqs: [
+      { question: "What are the best tables for a garden wedding?", answer: "Serpentine or long banquet tables fit naturally along curved garden pathways." }
+    ]
+  },
+  {
+    id: "summer-beach-layout",
+    name: "Summer Beach Layout",
+    slug: "summer-beach-layout",
+    description: "Casual, stable seating arrangements designed for sandy terrain and ocean breezes.",
+    seoTitle: "Summer Beach Wedding Seating & Casual Layouts",
+    seoDescription: "Design stable and breezy summer beach wedding layouts. Free interactive tool for coastal seating.",
+    faqs: [
+      { question: "How do you set up tables on the beach?", answer: "Use sturdy farm tables and benches rather than individual chairs to prevent sinking into the sand." }
+    ]
+  },
+  {
+    id: "autumn-vineyard-seating",
+    name: "Autumn Vineyard Seating",
+    slug: "autumn-vineyard-seating",
+    description: "Rustic harvest tables arranged to maximize vineyard views during the spectacular autumn season.",
+    seoTitle: "Autumn Vineyard Wedding Seating Arrangements",
+    seoDescription: "Optimize your autumn vineyard reception. Harvest table layouts for spectacular foliage views.",
+    faqs: [
+      { question: "Where should we place tables at a vineyard?", answer: "Position long harvest tables between the vines or on the crush pad facing the rolling hills." }
+    ]
+  },
+  {
+    id: "winter-tented-seating",
+    name: "Winter Tented Seating",
+    slug: "winter-tented-seating",
+    description: "Cozy, climate-controlled layouts mapped specifically around industrial heating units in clear-top tents.",
+    seoTitle: "Winter Tented Wedding Seating Charts",
+    seoDescription: "Plan a warm, cozy winter tented reception. Interactive seating planner for heated clear-top tents.",
+    faqs: [
+      { question: "How to layout a heated winter tent?", answer: "Ensure ample safety perimeter around heaters and avoid placing guest tables directly in the hot air flow." }
+    ]
+  },
+
 
   {
     id: "s-industrial-chic",
@@ -2240,6 +2297,43 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "seasonal-50-guests",
+    name: "Seasonal 50 Guests",
+    slug: "seasonal-50-guests",
+    count: 50,
+    description: "Intimate seasonal layouts perfect for small gardens or cozy winter tents.",
+    seoTitle: "50-Guest Seasonal Outdoor Layouts",
+    seoDescription: "Plan an intimate 50-guest seasonal outdoor reception with our interactive seating planner.",
+    faqs: [
+      { question: "How to arrange 50 guests outdoors?", answer: "Use small clusters of tables or a single U-shape layout depending on the terrain." }
+    ]
+  },
+  {
+    id: "seasonal-150-guests",
+    name: "Seasonal 150 Guests",
+    slug: "seasonal-150-guests",
+    count: 150,
+    description: "Balanced seasonal layouts for medium-sized outdoor celebrations.",
+    seoTitle: "150-Guest Seasonal Wedding Seating",
+    seoDescription: "Medium outdoor wedding layouts for 150 guests. Free interactive tool for seasonal celebrations.",
+    faqs: [
+      { question: "How much outdoor space for 150 guests?", answer: "You will need a sizable flat lawn or a large marquee tent to comfortably seat 150 guests." }
+    ]
+  },
+  {
+    id: "seasonal-300-guests",
+    name: "Seasonal 300 Guests",
+    slug: "seasonal-300-guests",
+    count: 300,
+    description: "Grand outdoor configurations for large 300-guest seasonal weddings.",
+    seoTitle: "300-Guest Seasonal Outdoor Seating Charts",
+    seoDescription: "Manage a grand 300-guest outdoor wedding with ease. Our tool helps map sprawling seasonal layouts.",
+    faqs: [
+      { question: "How to layout a large outdoor wedding?", answer: "Create clear, wide pathways and group tables into smaller micro-zones to maintain intimacy." }
+    ]
+  },
+
 
   {
     id: "gc-brewery-50",
