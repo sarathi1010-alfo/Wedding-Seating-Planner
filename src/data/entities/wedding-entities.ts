@@ -48,6 +48,7 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  { id: 'open-air-boma-layout', name: 'Open-Air Boma', slug: 'open-air-boma-layout', description: 'Circular layouts designed for traditional open-air boma enclosures.', seoTitle: 'Open-Air Boma Wedding Layouts', seoDescription: 'Seating charts designed specifically for traditional boma enclosures.', faqs: [{ question: 'How to arrange seating in a boma?', answer: 'Embrace the circle. Arrange tables in a ring around the central fire.' }] },
   {
     id: "outdoor-botanical-layout",
     name: "Outdoor Botanical Layout",
@@ -668,6 +669,10 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  { id: 'luxury-safari-tent-seating', name: 'Luxury Safari Tent', slug: 'luxury-safari-tent-seating', description: 'Elegant seating layouts designed for luxury canvas safari tents.', seoTitle: 'Luxury Safari Tent Wedding Seating Layouts', seoDescription: 'Plan perfect seating within a luxury safari tent. Maximize views and manage space.', faqs: [{ question: 'How to arrange tables in a safari tent?', answer: 'Radiate tables outward from the center pole and keep sightlines clear.' }] },
+  { id: 'savannah-sunset-layout', name: 'Savannah Sunset', slug: 'savannah-sunset-layout', description: 'Layouts that maximize the golden hour views over the open savannah.', seoTitle: 'Savannah Sunset Wedding Layouts', seoDescription: 'Arrange your seating to capture the perfect savannah sunset.', faqs: [{ question: 'How to seat guests for a sunset view?', answer: 'Use an arc layout facing west to ensure everyone has a great view.' }] },
+  { id: 'wildlife-reserve-reception', name: 'Wildlife Reserve', slug: 'wildlife-reserve-reception', description: 'Adaptable layouts for raw wildlife reserve environments.', seoTitle: 'Wildlife Reserve Reception Seating', seoDescription: 'Seating strategies for unpredictable wildlife reserve environments.', faqs: [{ question: 'How to manage seating in a reserve?', answer: 'Keep seating compact and ensure clear paths for catering and safety.' }] },
+  { id: 'rustic-bushveld-seating', name: 'Rustic Bushveld', slug: 'rustic-bushveld-seating', description: 'Earthy, communal seating perfect for the African bushveld.', seoTitle: 'Rustic Bushveld Wedding Seating', seoDescription: 'Communal and earthy seating for a genuine bushveld experience.', faqs: [{ question: 'What tables work for bushveld?', answer: 'Heavy, long wooden tables provide stability on uneven ground.' }] },
   {
     id: "spring-garden-seating",
     name: "Spring Garden Seating",
@@ -2297,6 +2302,9 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  { id: 'safari-50-guests', name: 'Intimate Safari (50 Guests)', slug: 'safari-50-guests', count: 50, description: 'Perfect layouts for a highly intimate 50-guest safari wedding.', seoTitle: '50-Guest Safari Wedding Seating Chart', seoDescription: 'Plan an intimate 50-guest safari wedding seating arrangement.', faqs: [{ question: 'How to seat 50 guests on safari?', answer: 'A single long king table or a U-shape around a fire pit works beautifully.' }] },
+  { id: 'safari-100-guests', name: 'Medium Safari (100 Guests)', slug: 'safari-100-guests', count: 100, description: 'Balanced layouts for a 100-guest safari celebration.', seoTitle: '100-Guest Safari Wedding Seating Chart', seoDescription: 'Manage seating for 100 guests in a wilderness setting.', faqs: [{ question: 'How to seat 100 guests outdoors?', answer: 'Use a mix of long tables to navigate uneven terrain efficiently.' }] },
+  { id: 'safari-150-guests', name: 'Large Safari (150 Guests)', slug: 'safari-150-guests', count: 150, description: 'Structured layouts for a larger 150-guest safari event.', seoTitle: '150-Guest Safari Wedding Seating Chart', seoDescription: 'Complex seating strategies for 150 guests in a safari lodge.', faqs: [{ question: 'Can you host 150 guests on safari?', answer: 'Yes, but it often requires a large stretch tent and careful zone planning.' }] },
   {
     id: "seasonal-50-guests",
     name: "Seasonal 50 Guests",
