@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls: string[] = [
-  '/blog/seasonal-outdoor-wedding-seating-guide',
-  '/styles/spring-garden-seating',
-  '/styles/summer-beach-layout',
-  '/styles/autumn-vineyard-seating',
-  '/styles/winter-tented-seating',
-  '/guest-counts/seasonal-50-guests',
-  '/guest-counts/seasonal-150-guests',
-  '/guest-counts/seasonal-300-guests',
-  '/venue-types/outdoor-botanical-layout'
+  '/blog/safari-wildlife-wedding-seating-guide',
+  '/styles/luxury-safari-tent-seating',
+  '/styles/savannah-sunset-layout',
+  '/styles/wildlife-reserve-reception',
+  '/styles/rustic-bushveld-seating',
+  '/guest-counts/safari-50-guests',
+  '/guest-counts/safari-100-guests',
+  '/guest-counts/safari-150-guests',
+  '/venue-types/open-air-boma-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
