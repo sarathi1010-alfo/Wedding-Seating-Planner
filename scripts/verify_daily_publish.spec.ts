@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls: string[] = [
-  '/blog/safari-wildlife-wedding-seating-guide',
-  '/styles/luxury-safari-tent-seating',
-  '/styles/savannah-sunset-layout',
-  '/styles/wildlife-reserve-reception',
-  '/styles/rustic-bushveld-seating',
-  '/guest-counts/safari-50-guests',
-  '/guest-counts/safari-100-guests',
-  '/guest-counts/safari-150-guests',
-  '/venue-types/open-air-boma-layout'
+  '/blog/desert-oasis-seating-guide',
+  '/styles/desert-chic-seating',
+  '/styles/canyon-sunset-layout',
+  '/styles/boho-desert-reception',
+  '/styles/succulent-garden-seating',
+  '/guest-counts/desert-micro-30-guests',
+  '/guest-counts/desert-medium-100-guests',
+  '/guest-counts/desert-large-200-guests',
+  '/venue-types/canyon-cliffside-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
@@ -33,7 +33,7 @@ test.describe('Daily Publish Verification', () => {
     await page.goto('/');
 
     // Check if hero button works and leads to planner
-    const startBtn = page.getByRole('button', { name: 'Start Planning Your Seating Layout' });
+    const startBtn = page.getByText('Start Planning Your Seating Layout').first();
     await expect(startBtn).toBeVisible();
     await startBtn.click();
     await expect(page).toHaveURL(/\/planner/);
