@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/desert-oasis-seating-guide',
-  'http://tablevows.alfo.online/styles/desert-chic-seating',
-  'http://tablevows.alfo.online/styles/canyon-sunset-layout',
-  'http://tablevows.alfo.online/styles/boho-desert-reception',
-  'http://tablevows.alfo.online/styles/succulent-garden-seating',
-  'http://tablevows.alfo.online/guest-counts/desert-micro-30-guests',
-  'http://tablevows.alfo.online/guest-counts/desert-medium-100-guests',
-  'http://tablevows.alfo.online/guest-counts/desert-large-200-guests',
-  'http://tablevows.alfo.online/venue-types/canyon-cliffside-layout'
+  'http://tablevows.alfo.online/blog/castle-historic-venue-seating-guide',
+  'http://tablevows.alfo.online/styles/gothic-castle-seating',
+  'http://tablevows.alfo.online/styles/renaissance-courtyard-layout',
+  'http://tablevows.alfo.online/styles/historic-mansion-reception',
+  'http://tablevows.alfo.online/styles/medieval-banquet-seating',
+  'http://tablevows.alfo.online/guest-counts/castle-intimate-40-guests',
+  'http://tablevows.alfo.online/guest-counts/castle-medium-120-guests',
+  'http://tablevows.alfo.online/guest-counts/castle-grand-250-guests',
+  'http://tablevows.alfo.online/venue-types/historic-fortress-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

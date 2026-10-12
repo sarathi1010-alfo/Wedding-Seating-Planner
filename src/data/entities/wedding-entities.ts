@@ -48,6 +48,22 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: 'historic-fortress-layout',
+    name: 'Historic Fortress Layout',
+    slug: 'historic-fortress-layout',
+    description: 'Rugged yet refined seating arrangements for a fortress wedding.',
+    seoTitle: 'Historic Fortress Wedding Seating - Layouts & Tips',
+    seoDescription: 'Discover rugged yet refined seating arrangements for a unique historic fortress wedding.',
+    faqs: [
+      {
+        question: 'What type of seating works best in a historic fortress?',
+        answer: 'Sturdy wooden tables and benches mixed with elegant drapery can soften the stone surroundings while maintaining the historic feel.'
+      }
+    ]
+  },
+
   { id: 'venue-canyon-cliffside', name: 'Canyon Cliffside', slug: 'canyon-cliffside-layout', description: 'Layouts for cliffside views.', seoTitle: 'Canyon Cliffside Wedding Layouts', seoDescription: 'Design seating for a canyon cliffside wedding.', faqs: [{ question: 'How to arrange seating on a canyon cliffside?', answer: 'Keep tables safely away from the edge and use heavy centerpieces to prevent wind disruption.' }] },
   { id: 'open-air-boma-layout', name: 'Open-Air Boma', slug: 'open-air-boma-layout', description: 'Circular layouts designed for traditional open-air boma enclosures.', seoTitle: 'Open-Air Boma Wedding Layouts', seoDescription: 'Seating charts designed specifically for traditional boma enclosures.', faqs: [{ question: 'How to arrange seating in a boma?', answer: 'Embrace the circle. Arrange tables in a ring around the central fire.' }] },
   {
@@ -670,6 +686,64 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: 'gothic-castle-seating',
+    name: 'Gothic Castle Seating',
+    slug: 'gothic-castle-seating',
+    description: 'Embrace the dramatic elegance of a gothic castle with rich seating arrangements.',
+    seoTitle: 'Gothic Castle Wedding Seating - Layouts & Tips',
+    seoDescription: 'Discover dramatic and elegant seating arrangements for a gothic castle wedding.',
+    faqs: [
+      {
+        question: 'What is the best layout for a gothic castle wedding?',
+        answer: 'Long banquet tables with heavy dark wood and candlelit centerpieces perfectly match the gothic aesthetic.'
+      }
+    ]
+  },
+  {
+    id: 'renaissance-courtyard-layout',
+    name: 'Renaissance Courtyard Layout',
+    slug: 'renaissance-courtyard-layout',
+    description: 'Transform a renaissance courtyard into an enchanting dining space with strategic seating.',
+    seoTitle: 'Renaissance Courtyard Wedding Seating - Layouts & Tips',
+    seoDescription: 'Explore beautiful seating arrangements for an enchanting renaissance courtyard wedding.',
+    faqs: [
+      {
+        question: 'How do you arrange seating in a renaissance courtyard?',
+        answer: 'Utilize circular layouts around central fountains or statues to create a cohesive and immersive experience.'
+      }
+    ]
+  },
+  {
+    id: 'historic-mansion-reception',
+    name: 'Historic Mansion Reception',
+    slug: 'historic-mansion-reception',
+    description: 'Elegant seating layouts designed for the sophisticated spaces of a historic mansion.',
+    seoTitle: 'Historic Mansion Wedding Seating - Layouts & Tips',
+    seoDescription: 'Find sophisticated seating arrangements tailored for a historic mansion reception.',
+    faqs: [
+      {
+        question: 'What table shapes work best in a historic mansion?',
+        answer: 'A mix of round and oval tables often complements the ornate architecture and varying room sizes of historic mansions.'
+      }
+    ]
+  },
+  {
+    id: 'medieval-banquet-seating',
+    name: 'Medieval Banquet Seating',
+    slug: 'medieval-banquet-seating',
+    description: 'Create a grand, communal dining experience inspired by medieval feasts.',
+    seoTitle: 'Medieval Banquet Wedding Seating - Layouts & Tips',
+    seoDescription: 'Learn how to design grand, communal seating arrangements inspired by medieval banquets.',
+    faqs: [
+      {
+        question: 'How do you create a medieval banquet seating layout?',
+        answer: 'Use long, continuous rectangular tables placed end-to-end to foster a lively, communal atmosphere.'
+      }
+    ]
+  },
+
   { id: 'style-desert-chic', name: 'Desert Chic', slug: 'desert-chic-seating', description: 'Desert chic layouts.', seoTitle: 'Desert Chic Layouts', seoDescription: 'Desert chic seating tips.', faqs: [{ question: 'What is desert chic seating?', answer: 'It blends bohemian comfort with modern elegance, utilizing raw wood tables and plush cushions.' }] },
   { id: 'style-canyon-sunset', name: 'Canyon Sunset', slug: 'canyon-sunset-layout', description: 'Sunset layouts.', seoTitle: 'Canyon Sunset Layouts', seoDescription: 'Sunset seating tips.', faqs: [{ question: 'How to plan canyon sunset seating?', answer: 'Orient the sweetheart table and guest seating to maximize the view of the sunset without blinding guests.' }] },
   { id: 'style-boho-desert', name: 'Boho Desert', slug: 'boho-desert-reception', description: 'Boho desert layouts.', seoTitle: 'Boho Desert Layouts', seoDescription: 'Boho desert seating tips.', faqs: [{ question: 'What is boho desert seating?', answer: 'It incorporates low seating, Moroccan rugs, and eclectic floor cushions around low tables.' }] },
@@ -2307,6 +2381,53 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: 'castle-intimate-40-guests',
+    name: 'Intimate Castle 40 Guests',
+    slug: 'castle-intimate-40-guests',
+    count: 40,
+    description: 'Cozy and luxurious seating plans for a small castle wedding.',
+    seoTitle: 'Intimate Castle Wedding Seating for 40 Guests',
+    seoDescription: 'Cozy and luxurious seating plans tailored for a small, 40-guest castle wedding.',
+    faqs: [
+      {
+        question: 'How do you seat 40 guests in a castle?',
+        answer: 'A single, grand U-shaped table or one long king\'s table creates an incredibly intimate and regal dining experience.'
+      }
+    ]
+  },
+  {
+    id: 'castle-medium-120-guests',
+    name: 'Medium Castle 120 Guests',
+    slug: 'castle-medium-120-guests',
+    count: 120,
+    description: 'Balanced seating layouts for a mid-sized historic venue celebration.',
+    seoTitle: 'Medium Castle Wedding Seating for 120 Guests',
+    seoDescription: 'Balanced and elegant seating layouts for a mid-sized, 120-guest historic venue celebration.',
+    faqs: [
+      {
+        question: 'What is the best layout for 120 guests in a historic venue?',
+        answer: 'A mix of round tables and a central rectangular head table works well to balance the space and ensure everyone feels connected.'
+      }
+    ]
+  },
+  {
+    id: 'castle-grand-250-guests',
+    name: 'Grand Castle 250 Guests',
+    slug: 'castle-grand-250-guests',
+    count: 250,
+    description: 'Expansive seating strategies for large, grand castle receptions.',
+    seoTitle: 'Grand Castle Wedding Seating for 250 Guests',
+    seoDescription: 'Expansive seating strategies designed for large, 250-guest grand castle receptions.',
+    faqs: [
+      {
+        question: 'How do you arrange seating for 250 guests in a castle?',
+        answer: 'Utilize multiple adjoining rooms or a large great hall with long banquet tables to accommodate a large guest list while maintaining the historic ambiance.'
+      }
+    ]
+  },
+
   { id: 'gc-desert-30', name: 'Desert 30 Guests', slug: 'desert-micro-30-guests', count: 30, description: 'Desert 30 guests.', seoTitle: 'Desert 30 Guests Layouts', seoDescription: 'Seating for 30.', faqs: [{ question: 'How to seat 30 guests in the desert?', answer: 'Use a single long kings table or a U-shape layout for an intimate, communal dining experience.' }] },
   { id: 'gc-desert-100', name: 'Desert 100 Guests', slug: 'desert-medium-100-guests', count: 100, description: 'Desert 100 guests.', seoTitle: 'Desert 100 Guests Layouts', seoDescription: 'Seating for 100.', faqs: [{ question: 'How to seat 100 guests in the desert?', answer: 'Use a mix of long family-style tables and rounds, creating distinct dining zones while maintaining a unified feel.' }] },
   { id: 'gc-desert-200', name: 'Desert 200 Guests', slug: 'desert-large-200-guests', count: 200, description: 'Desert 200 guests.', seoTitle: 'Desert 200 Guests Layouts', seoDescription: 'Seating for 200.', faqs: [{ question: 'How to seat 200 guests in the desert?', answer: 'Utilize a large clear-top tent to protect against wind and sun while keeping the expansive desert view.' }] },
