@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/castle-historic-venue-seating-guide',
-  'http://tablevows.alfo.online/styles/gothic-castle-seating',
-  'http://tablevows.alfo.online/styles/renaissance-courtyard-layout',
-  'http://tablevows.alfo.online/styles/historic-mansion-reception',
-  'http://tablevows.alfo.online/styles/medieval-banquet-seating',
-  'http://tablevows.alfo.online/guest-counts/castle-intimate-40-guests',
-  'http://tablevows.alfo.online/guest-counts/castle-medium-120-guests',
-  'http://tablevows.alfo.online/guest-counts/castle-grand-250-guests',
-  'http://tablevows.alfo.online/venue-types/historic-fortress-layout'
+  'http://tablevows.alfo.online/blog/enchanted-forest-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/woodland-fairy-seating',
+  'http://tablevows.alfo.online/styles/mossy-glen-layout',
+  'http://tablevows.alfo.online/styles/twilight-canopy-reception',
+  'http://tablevows.alfo.online/styles/mystic-grove-seating',
+  'http://tablevows.alfo.online/guest-counts/forest-intimate-30-guests',
+  'http://tablevows.alfo.online/guest-counts/forest-medium-100-guests',
+  'http://tablevows.alfo.online/guest-counts/forest-grand-200-guests',
+  'http://tablevows.alfo.online/venue-types/ancient-redwood-grove-layout'
 ];
 
 console.log('Starting simulated SEO pings...');
