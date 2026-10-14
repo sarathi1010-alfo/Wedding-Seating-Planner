@@ -48,6 +48,20 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: 'ancient-redwood-grove-layout',
+    name: 'Ancient Redwood Grove Layout',
+    slug: 'ancient-redwood-grove-layout',
+    description: 'Majestic seating configurations designed to complement towering ancient redwoods.',
+    seoTitle: 'Ancient Redwood Grove Wedding Seating - Layouts & Tips',
+    seoDescription: 'Design majestic seating configurations that complement the breathtaking scale of an ancient redwood grove.',
+    faqs: [
+      {
+        question: 'How do you arrange seating around massive redwoods?',
+        answer: 'Use the massive trunks as natural room dividers, clustering tables in the spaces between them to emphasize their scale.'
+      }
+    ]
+  },
 
   {
     id: 'historic-fortress-layout',
@@ -686,6 +700,62 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: 'woodland-fairy-seating',
+    name: 'Woodland Fairy Seating',
+    slug: 'woodland-fairy-seating',
+    description: 'Ethereal and magical seating arrangements inspired by woodland fairies.',
+    seoTitle: 'Woodland Fairy Wedding Seating - Magical Layouts',
+    seoDescription: 'Discover ethereal and magical seating arrangements perfect for a woodland fairy themed wedding.',
+    faqs: [
+      {
+        question: 'What tables work best for a woodland fairy theme?',
+        answer: 'Low, rustic wooden tables with mismatched, vintage seating or even plush floor cushions enhance the ethereal vibe.'
+      }
+    ]
+  },
+  {
+    id: 'mossy-glen-layout',
+    name: 'Mossy Glen Layout',
+    slug: 'mossy-glen-layout',
+    description: 'Lush, green-focused seating configurations for a mossy forest glen.',
+    seoTitle: 'Mossy Glen Wedding Seating - Lush Green Layouts',
+    seoDescription: 'Explore lush, green-focused seating configurations designed to blend perfectly into a mossy forest glen.',
+    faqs: [
+      {
+        question: 'How do I incorporate moss into my seating?',
+        answer: 'Use live-edge wooden tables and drape the center with thick runners of fresh moss and subtle fairy lights.'
+      }
+    ]
+  },
+  {
+    id: 'twilight-canopy-reception',
+    name: 'Twilight Canopy Reception',
+    slug: 'twilight-canopy-reception',
+    description: 'Seating arrangements designed specifically for evening receptions under a forest canopy.',
+    seoTitle: 'Twilight Canopy Wedding Seating - Evening Forest Layouts',
+    seoDescription: 'Design the perfect seating arrangement for a magical evening reception under a dense forest canopy.',
+    faqs: [
+      {
+        question: 'How is seating different for an evening forest wedding?',
+        answer: 'Lighting becomes the primary focus. Ensure every table is adequately illuminated without losing the moody, twilight atmosphere.'
+      }
+    ]
+  },
+  {
+    id: 'mystic-grove-seating',
+    name: 'Mystic Grove Seating',
+    slug: 'mystic-grove-seating',
+    description: 'Intimate and slightly mysterious seating layouts for a secluded grove.',
+    seoTitle: 'Mystic Grove Wedding Seating - Intimate Layouts',
+    seoDescription: 'Create an intimate and slightly mysterious seating layout perfect for a secluded, mystic grove.',
+    faqs: [
+      {
+        question: 'How do I seat guests in a small grove?',
+        answer: 'Use small, clustered round tables to navigate tightly grouped trees and create a cozy, secretive dining experience.'
+      }
+    ]
+  },
 
   {
     id: 'gothic-castle-seating',
@@ -2381,6 +2451,51 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: 'forest-intimate-30-guests',
+    name: 'Intimate Forest 30 Guests',
+    slug: 'forest-intimate-30-guests',
+    count: 30,
+    description: 'Cozy and deeply connected seating plans for a small, 30-guest forest wedding.',
+    seoTitle: 'Intimate Forest Wedding Seating for 30 Guests',
+    seoDescription: 'Design a cozy and deeply connected seating plan for a small, intimate 30-guest forest wedding.',
+    faqs: [
+      {
+        question: 'What is the best layout for 30 guests in a forest?',
+        answer: 'A single, winding banquet table or a large U-shape creates a wonderful, communal dining experience for a small group.'
+      }
+    ]
+  },
+  {
+    id: 'forest-medium-100-guests',
+    name: 'Medium Forest 100 Guests',
+    slug: 'forest-medium-100-guests',
+    count: 100,
+    description: 'Balanced and flowing seating arrangements for 100 guests in a woodland setting.',
+    seoTitle: 'Forest Wedding Seating for 100 Guests - Balanced Layouts',
+    seoDescription: 'Discover balanced and flowing seating arrangements perfect for accommodating 100 guests in a woodland setting.',
+    faqs: [
+      {
+        question: 'How do I manage 100 guests in a forest?',
+        answer: 'Mix long winding tables with clusters of round tables to comfortably fit everyone while maintaining a natural, organic flow.'
+      }
+    ]
+  },
+  {
+    id: 'forest-grand-200-guests',
+    name: 'Grand Forest 200 Guests',
+    slug: 'forest-grand-200-guests',
+    count: 200,
+    description: 'Large-scale, strategic seating plans for a grand 200-guest forest celebration.',
+    seoTitle: 'Grand Forest Wedding Seating for 200 Guests',
+    seoDescription: 'Master large-scale, strategic seating plans for a spectacular 200-guest grand forest celebration.',
+    faqs: [
+      {
+        question: 'Can a forest venue hold 200 guests?',
+        answer: 'Yes, if you have a large enough clearing. You must carefully map the terrain and create distinct dining zones to prevent crowding.'
+      }
+    ]
+  },
 
   {
     id: 'castle-intimate-40-guests',
