@@ -48,6 +48,8 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  { id: 'theme-park-pavilion', name: 'Theme Park Pavilion', slug: 'theme-park-pavilion-layout', description: 'Seating strategies for rented theme park pavilions.', seoTitle: 'Theme Park Pavilion Wedding Layout - Organized Fun', seoDescription: 'Optimize space in a theme park pavilion with our seating charts.', faqs: [{ question: 'How do I use a theme park pavilion effectively?', answer: 'Work with the shape of the pavilion, using concentric rings for circular spaces or parallel rows for rectangular ones.' }] },
+
   {
     id: 'ancient-redwood-grove-layout',
     name: 'Ancient Redwood Grove Layout',
@@ -700,6 +702,11 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  { id: 'carnival-chic', name: 'Carnival Chic', slug: 'carnival-chic-seating', description: 'Playful yet elegant carnival-inspired seating.', seoTitle: 'Carnival Chic Wedding Seating - Playful Layouts', seoDescription: 'Combine fun and elegance with our carnival chic seating layouts.', faqs: [{ question: 'How to arrange a carnival chic wedding?', answer: 'Mix long communal tables with small round tables, using bright linens anchored by elegant centerpieces.' }] },
+  { id: 'retro-boardwalk', name: 'Retro Boardwalk', slug: 'retro-boardwalk-layout', description: 'Classic seaside boardwalk seating arrangements.', seoTitle: 'Retro Boardwalk Wedding Layout - Seaside Charm', seoDescription: 'Nostalgic and organized retro boardwalk wedding seating plans.', faqs: [{ question: 'What tables work best for a boardwalk theme?', answer: 'Long rectangular tables set in parallel rows evoke the classic feel of a boardwalk pier.' }] },
+  { id: 'rollercoaster-reception', name: 'Rollercoaster Reception', slug: 'rollercoaster-reception', description: 'High-energy seating for thrill-seeking couples.', seoTitle: 'Rollercoaster Reception Layouts - High Energy Seating', seoDescription: 'Manage high-energy zones perfectly with our rollercoaster reception seating guides.', faqs: [{ question: 'How to manage seating near a rollercoaster?', answer: 'Create a buffer zone by placing the dance floor or bar between the ride and the dining area.' }] },
+  { id: 'fairground-intimate', name: 'Fairground Intimate', slug: 'fairground-intimate-seating', description: 'Cozy seating amidst the excitement of a fairground.', seoTitle: 'Fairground Intimate Seating - Cozy Wedding Layouts', seoDescription: 'Create a cozy oasis in a bustling fairground with our intimate seating plans.', faqs: [{ question: 'How to make a fairground feel intimate?', answer: 'Use circular table arrangements to draw guests inward and create a focal point away from the distractions.' }] },
+
   {
     id: 'woodland-fairy-seating',
     name: 'Woodland Fairy Seating',
@@ -2451,6 +2458,10 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  { id: 'amusement-40', name: '40 Guests', slug: 'amusement-intimate-40-guests', count: 40, description: 'Intimate theme park gathering for 40 guests.', seoTitle: '40 Guest Amusement Park Wedding Seating', seoDescription: 'Perfect seating layouts for a small 40-guest amusement park wedding.', faqs: [{ question: 'How to seat 40 guests at a theme park?', answer: 'Group tables closely in a designated pavilion to keep the party united in a large venue.' }] },
+  { id: 'amusement-120', name: '120 Guests', slug: 'amusement-medium-120-guests', count: 120, description: 'Balanced theme park seating for 120 guests.', seoTitle: '120 Guest Amusement Park Layouts', seoDescription: 'Manage 120 guests effortlessly at your amusement park wedding.', faqs: [{ question: 'What is the best layout for 120 guests at a theme park?', answer: 'Mix long and round tables to accommodate different groups while maintaining a cohesive look.' }] },
+  { id: 'amusement-250', name: '250 Guests', slug: 'amusement-grand-250-guests', count: 250, description: 'Grand scale seating for 250 guests in an amusement park.', seoTitle: '250 Guest Grand Theme Park Wedding Seating', seoDescription: 'Organize a massive 250-guest celebration in a theme park setting.', faqs: [{ question: 'How to organize 250 guests in a theme park?', answer: 'Clearly define zones for dining, dancing, and entertainment, using clear signage to guide guests.' }] },
+
   {
     id: 'forest-intimate-30-guests',
     name: 'Intimate Forest 30 Guests',

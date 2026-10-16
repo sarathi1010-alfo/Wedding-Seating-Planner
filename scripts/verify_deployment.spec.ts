@@ -3,15 +3,15 @@ import { test, expect } from '@playwright/test';
 const BASE_URL = 'http://localhost:3000';
 
 const NEW_URLS: string[] = [
-  '/blog/enchanted-forest-wedding-seating-guide',
-  '/styles/woodland-fairy-seating',
-  '/styles/mossy-glen-layout',
-  '/styles/twilight-canopy-reception',
-  '/styles/mystic-grove-seating',
-  '/guest-counts/forest-intimate-30-guests',
-  '/guest-counts/forest-medium-100-guests',
-  '/guest-counts/forest-grand-200-guests',
-  '/venue-types/ancient-redwood-grove-layout'
+  '/blog/amusement-park-wedding-seating-guide',
+  '/styles/carnival-chic-seating',
+  '/styles/retro-boardwalk-layout',
+  '/styles/rollercoaster-reception',
+  '/styles/fairground-intimate-seating',
+  '/guest-counts/amusement-intimate-40-guests',
+  '/guest-counts/amusement-medium-120-guests',
+  '/guest-counts/amusement-grand-250-guests',
+  '/venue-types/theme-park-pavilion-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {

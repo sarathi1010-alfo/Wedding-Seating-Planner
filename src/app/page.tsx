@@ -64,6 +64,9 @@ export default function Home() {
               </Link> , {" "}
               <Link href="/blog/enchanted-forest-wedding-seating-guide" className="text-primary hover:underline">
                 Enchanted Forest Wedding Seating Guide
+              </Link>, {" "}
+              <Link href="/blog/amusement-park-wedding-seating-guide" className="text-primary hover:underline">
+                Amusement Park Wedding Seating Guide
               </Link> ,
 
               <Link href="/blog/micro-wedding-seating-layouts-guide" className="text-primary hover:underline">

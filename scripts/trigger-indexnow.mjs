@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/enchanted-forest-wedding-seating-guide',
-  'http://tablevows.alfo.online/styles/woodland-fairy-seating',
-  'http://tablevows.alfo.online/styles/mossy-glen-layout',
-  'http://tablevows.alfo.online/styles/twilight-canopy-reception',
-  'http://tablevows.alfo.online/styles/mystic-grove-seating',
-  'http://tablevows.alfo.online/guest-counts/forest-intimate-30-guests',
-  'http://tablevows.alfo.online/guest-counts/forest-medium-100-guests',
-  'http://tablevows.alfo.online/guest-counts/forest-grand-200-guests',
-  'http://tablevows.alfo.online/venue-types/ancient-redwood-grove-layout'
+  'http://tablevows.alfo.online/blog/amusement-park-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/carnival-chic-seating',
+  'http://tablevows.alfo.online/styles/retro-boardwalk-layout',
+  'http://tablevows.alfo.online/styles/rollercoaster-reception',
+  'http://tablevows.alfo.online/styles/fairground-intimate-seating',
+  'http://tablevows.alfo.online/guest-counts/amusement-intimate-40-guests',
+  'http://tablevows.alfo.online/guest-counts/amusement-medium-120-guests',
+  'http://tablevows.alfo.online/guest-counts/amusement-grand-250-guests',
+  'http://tablevows.alfo.online/venue-types/theme-park-pavilion-layout'
 ];
 
 console.log('Starting simulated SEO pings...');
