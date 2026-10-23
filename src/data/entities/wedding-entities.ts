@@ -697,8 +697,21 @@ export const venues: VenueType[] = [
     faqs: [
       { question: "How to handle acoustics in a glass conservatory?", answer: "Place tables near dense foliage to absorb sound." }
     ]
+  },
+  {
+    id: "botanical-garden-terrace-layout",
+    name: "Botanical Garden Terrace",
+    slug: "botanical-garden-terrace-layout",
+    description: "Elegant seating layouts designed for botanical garden terraces.",
+    seoTitle: "Botanical Garden Terrace Wedding Seating Layouts | TableVows",
+    seoDescription: "Design elegant seating layouts for your botanical garden terrace wedding. Maximize the natural flora and create intimate dining spaces.",
+    faqs: [
+      {
+        question: "How do you arrange tables on a garden terrace?",
+        answer: "Work with the existing pathways and flower beds, tucking small clusters of tables into natural nooks for an intimate 'secret garden' vibe."
+      }
+    ]
   }
-
 ];
 
 export const styles: WeddingStyle[] = [
@@ -2453,8 +2466,63 @@ export const styles: WeddingStyle[] = [
     faqs: [
       { question: "Are round tables okay in gardens?", answer: "Only if the clearings are wide enough to accommodate them without crowding paths." }
     ]
+  },
+  {
+    id: "autumn-orchard-seating",
+    name: "Autumn Orchard Seating",
+    slug: "autumn-orchard-seating",
+    description: "Rustic and cozy seating layouts perfect for autumn orchard weddings, featuring warm colors and harvest themes.",
+    seoTitle: "Autumn Orchard Wedding Seating Layouts | TableVows",
+    seoDescription: "Discover beautiful seating layouts for autumn orchard weddings. Learn how to arrange tables among the apple trees for a cozy, rustic reception.",
+    faqs: [
+      {
+        question: "What is the best layout for an autumn orchard wedding?",
+        answer: "Long, family-style tables set parallel to the rows of trees work best to create a natural canopy and breathtaking perspective for an orchard wedding."
+      }
+    ]
+  },
+  {
+    id: "spring-meadow-layout",
+    name: "Spring Meadow Layout",
+    slug: "spring-meadow-layout",
+    description: "Soft and romantic seating arrangements designed for spring meadow weddings.",
+    seoTitle: "Spring Meadow Wedding Seating Arrangements | TableVows",
+    seoDescription: "Explore organic and curved seating arrangements perfect for a spring meadow wedding. Maximize the natural beauty of blooming flowers.",
+    faqs: [
+      {
+        question: "How should I arrange tables in a meadow?",
+        answer: "Use scattered clusters of round tables or crescent layouts to mimic the natural, organic flow of the environment, avoiding rigid, blocky lines."
+      }
+    ]
+  },
+  {
+    id: "winter-patio-heaters-seating",
+    name: "Winter Patio Heaters Seating",
+    slug: "winter-patio-heaters-seating",
+    description: "Strategic seating plans for winter patio receptions ensuring all guests stay warm and comfortable.",
+    seoTitle: "Winter Patio Seating Charts & Heater Placement | TableVows",
+    seoDescription: "Learn how to plan a seating chart for a winter patio wedding. Tips on heater placement, clear-top tents, and keeping guests cozy.",
+    faqs: [
+      {
+        question: "Where should I place patio heaters?",
+        answer: "Arrange heaters to provide even warmth without obstructing pathways or views. Keep older guests in the most central, warmest parts of the tent or patio."
+      }
+    ]
+  },
+  {
+    id: "summer-lakeside-banquet",
+    name: "Summer Lakeside Banquet",
+    slug: "summer-lakeside-banquet",
+    description: "Spectacular long table banquet layouts for summer lakeside weddings.",
+    seoTitle: "Summer Lakeside Banquet Seating Layouts | TableVows",
+    seoDescription: "Design a spectacular summer lakeside banquet with long communal tables. Maximize the view and keep guests comfortable in the heat.",
+    faqs: [
+      {
+        question: "How do you arrange tables by a lake?",
+        answer: "Set long rectangular tables end-to-end, parallel to the shoreline, to create a stunning visual statement and ensure everyone has a great view."
+      }
+    ]
   }
-
 ];
 
 export const guestCounts: GuestCount[] = [
@@ -3856,8 +3924,52 @@ export const guestCounts: GuestCount[] = [
     faqs: [
       { question: "Is 250 too large for a greenhouse?", answer: "No, but it requires highly precise digital planning to ensure safe clearance." }
     ]
+  },
+  {
+    id: "outdoor-intimate-60-guests",
+    name: "Intimate Outdoor (60 Guests)",
+    slug: "outdoor-intimate-60-guests",
+    count: 60,
+    description: "Cozy and connected seating charts for intimate outdoor weddings of 60 guests.",
+    seoTitle: "Outdoor Seating Chart for 60 Guests | TableVows",
+    seoDescription: "Plan the perfect intimate outdoor wedding seating chart for 60 guests. Ideas for U-shaped layouts and small garden gatherings.",
+    faqs: [
+      {
+        question: "What is the best layout for 60 guests outdoors?",
+        answer: "A U-shaped or hollow square layout is perfect for an intimate gathering of 60, creating a shared, warm atmosphere."
+      }
+    ]
+  },
+  {
+    id: "outdoor-medium-140-guests",
+    name: "Medium Outdoor (140 Guests)",
+    slug: "outdoor-medium-140-guests",
+    count: 140,
+    description: "Balanced and functional seating arrangements for medium-sized outdoor weddings.",
+    seoTitle: "Outdoor Seating Chart for 140 Guests | TableVows",
+    seoDescription: "Discover functional and beautiful seating arrangements for a 140-guest outdoor wedding. Tips for managing flow and creating zones.",
+    faqs: [
+      {
+        question: "How do you seat 140 guests outdoors?",
+        answer: "Mix long and round tables to maximize space and visual interest, ensuring you leave at least 5 feet between tables for comfortable navigation."
+      }
+    ]
+  },
+  {
+    id: "outdoor-grand-300-guests",
+    name: "Grand Outdoor (300 Guests)",
+    slug: "outdoor-grand-300-guests",
+    count: 300,
+    description: "Organized and spacious seating plans for grand outdoor weddings of 300 guests.",
+    seoTitle: "Outdoor Seating Chart for 300 Guests | TableVows",
+    seoDescription: "Plan a grand outdoor wedding seating chart for 300 guests. Expert tips on managing large crowds, catering flow, and clear pathways.",
+    faqs: [
+      {
+        question: "How do you manage an outdoor seating chart for 300 guests?",
+        answer: "Create distinct zones for cocktails, dining, and dancing, and use very clear signage. Prioritize wide, unobstructed pathways for catering teams."
+      }
+    ]
   }
-
 ];
 
 export const tableTypes: TableType[] = [

@@ -61,7 +61,10 @@ export default function Home() {
               </Link>, {" "}
               <Link href="/blog/safari-wildlife-wedding-seating-guide" className="text-primary hover:underline">
                 Safari & Wildlife Reserve Wedding Seating Guide
-              </Link> , {" "}
+              </Link>, {" "}
+              <Link href="/blog/seasonal-outdoor-wedding-seating-layouts-2026" className="text-primary hover:underline">
+                Seasonal Outdoor Wedding Seating Layouts
+              </Link>
               <Link href="/blog/enchanted-forest-wedding-seating-guide" className="text-primary hover:underline">
                 Enchanted Forest Wedding Seating Guide
               </Link>, {" "}
