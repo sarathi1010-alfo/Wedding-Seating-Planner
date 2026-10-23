@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/amusement-park-wedding-seating-guide',
-  'http://tablevows.alfo.online/styles/carnival-chic-seating',
-  'http://tablevows.alfo.online/styles/retro-boardwalk-layout',
-  'http://tablevows.alfo.online/styles/rollercoaster-reception',
-  'http://tablevows.alfo.online/styles/fairground-intimate-seating',
-  'http://tablevows.alfo.online/guest-counts/amusement-intimate-40-guests',
-  'http://tablevows.alfo.online/guest-counts/amusement-medium-120-guests',
-  'http://tablevows.alfo.online/guest-counts/amusement-grand-250-guests',
-  'http://tablevows.alfo.online/venue-types/theme-park-pavilion-layout'
+  'http://tablevows.alfo.online/blog/seasonal-outdoor-wedding-seating-layouts-2026',
+  'http://tablevows.alfo.online/styles/autumn-orchard-seating',
+  'http://tablevows.alfo.online/styles/spring-meadow-layout',
+  'http://tablevows.alfo.online/styles/winter-patio-heaters-seating',
+  'http://tablevows.alfo.online/styles/summer-lakeside-banquet',
+  'http://tablevows.alfo.online/guest-counts/outdoor-intimate-60-guests',
+  'http://tablevows.alfo.online/guest-counts/outdoor-medium-140-guests',
+  'http://tablevows.alfo.online/guest-counts/outdoor-grand-300-guests',
+  'http://tablevows.alfo.online/venue-types/botanical-garden-terrace-layout'
 ];
 
 console.log('Starting simulated SEO pings...');
