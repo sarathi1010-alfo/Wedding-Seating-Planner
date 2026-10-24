@@ -19,7 +19,16 @@ const newUrls = [
   'http://tablevows.alfo.online/guest-counts/outdoor-intimate-60-guests',
   'http://tablevows.alfo.online/guest-counts/outdoor-medium-140-guests',
   'http://tablevows.alfo.online/guest-counts/outdoor-grand-300-guests',
-  'http://tablevows.alfo.online/venue-types/botanical-garden-terrace-layout'
+  'http://tablevows.alfo.online/venue-types/botanical-garden-terrace-layout',
+  'http://tablevows.alfo.online/blog/museum-gallery-wedding-seating-guide',
+  'http://tablevows.alfo.online/venue-types/museum-gallery-wedding-seating',
+  'http://tablevows.alfo.online/venue-types/art-exhibit-space-seating',
+  'http://tablevows.alfo.online/styles/modern-art-chic-layout',
+  'http://tablevows.alfo.online/styles/classic-museum-seating',
+  'http://tablevows.alfo.online/guest-counts/museum-intimate-50-guests',
+  'http://tablevows.alfo.online/guest-counts/museum-medium-150-guests',
+  'http://tablevows.alfo.online/guest-counts/gallery-large-250-guests',
+  'http://tablevows.alfo.online/guest-counts/gallery-grand-350-guests'
 ];
 
 console.log('Starting simulated SEO pings...');
