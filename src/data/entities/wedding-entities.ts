@@ -48,6 +48,35 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: 'museum-gallery',
+    name: 'Museum & Gallery',
+    slug: 'museum-gallery-wedding-seating',
+    description: 'Sophisticated seating layouts for museums and art galleries.',
+    seoTitle: 'Museum & Gallery Wedding Seating - Sophisticated Layouts',
+    seoDescription: 'Navigate the unique challenges of museum and gallery wedding seating with our sophisticated layouts.',
+    faqs: [
+      {
+        question: 'How to plan a seating chart for a museum?',
+        answer: 'Use a digital planner to map tables while ensuring safe distances from the art and wide pathways for catering staff.'
+      }
+    ]
+  },
+  {
+    id: 'art-exhibit-space',
+    name: 'Art Exhibit Space',
+    slug: 'art-exhibit-space-seating',
+    description: 'Creative seating arrangements tailored for art exhibit spaces.',
+    seoTitle: 'Art Exhibit Space Wedding Seating - Creative Layouts',
+    seoDescription: 'Discover creative and flexible seating arrangements perfectly tailored for art exhibit spaces.',
+    faqs: [
+      {
+        question: 'What tables work best in an art exhibit space?',
+        answer: 'Sleek, rectangular tables often complement the clean lines and modern aesthetic of contemporary art exhibit spaces.'
+      }
+    ]
+  },
   { id: 'theme-park-pavilion', name: 'Theme Park Pavilion', slug: 'theme-park-pavilion-layout', description: 'Seating strategies for rented theme park pavilions.', seoTitle: 'Theme Park Pavilion Wedding Layout - Organized Fun', seoDescription: 'Optimize space in a theme park pavilion with our seating charts.', faqs: [{ question: 'How do I use a theme park pavilion effectively?', answer: 'Work with the shape of the pavilion, using concentric rings for circular spaces or parallel rows for rectangular ones.' }] },
 
   {
@@ -715,6 +744,35 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: 'modern-art-chic',
+    name: 'Modern Art Chic',
+    slug: 'modern-art-chic-layout',
+    description: 'Clean lines and minimalist seating for a modern art chic wedding.',
+    seoTitle: 'Modern Art Chic Wedding Seating - Minimalist Layouts',
+    seoDescription: 'Embrace a modern aesthetic with our clean, minimalist chic wedding seating layouts.',
+    faqs: [
+      {
+        question: 'How to arrange a modern art chic wedding?',
+        answer: 'Utilize long, sleek rectangular tables arranged in dramatic rows to reflect a minimalist aesthetic.'
+      }
+    ]
+  },
+  {
+    id: 'classic-museum',
+    name: 'Classic Museum',
+    slug: 'classic-museum-seating',
+    description: 'Elegant seating layouts designed for classic museum settings.',
+    seoTitle: 'Classic Museum Wedding Seating - Elegant Layouts',
+    seoDescription: 'Plan a timeless and elegant reception with our classic museum wedding seating guides.',
+    faqs: [
+      {
+        question: 'What is the best layout for a classic museum wedding?',
+        answer: 'Round tables placed organically to complement classic architecture and frame classical artwork.'
+      }
+    ]
+  },
   { id: 'carnival-chic', name: 'Carnival Chic', slug: 'carnival-chic-seating', description: 'Playful yet elegant carnival-inspired seating.', seoTitle: 'Carnival Chic Wedding Seating - Playful Layouts', seoDescription: 'Combine fun and elegance with our carnival chic seating layouts.', faqs: [{ question: 'How to arrange a carnival chic wedding?', answer: 'Mix long communal tables with small round tables, using bright linens anchored by elegant centerpieces.' }] },
   { id: 'retro-boardwalk', name: 'Retro Boardwalk', slug: 'retro-boardwalk-layout', description: 'Classic seaside boardwalk seating arrangements.', seoTitle: 'Retro Boardwalk Wedding Layout - Seaside Charm', seoDescription: 'Nostalgic and organized retro boardwalk wedding seating plans.', faqs: [{ question: 'What tables work best for a boardwalk theme?', answer: 'Long rectangular tables set in parallel rows evoke the classic feel of a boardwalk pier.' }] },
   { id: 'rollercoaster-reception', name: 'Rollercoaster Reception', slug: 'rollercoaster-reception', description: 'High-energy seating for thrill-seeking couples.', seoTitle: 'Rollercoaster Reception Layouts - High Energy Seating', seoDescription: 'Manage high-energy zones perfectly with our rollercoaster reception seating guides.', faqs: [{ question: 'How to manage seating near a rollercoaster?', answer: 'Create a buffer zone by placing the dance floor or bar between the ride and the dining area.' }] },
@@ -2526,6 +2584,67 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: 'museum-intimate-50',
+    name: '50 Guests',
+    slug: 'museum-intimate-50-guests',
+    count: 50,
+    description: 'Intimate seating layouts for 50 guests in a museum setting.',
+    seoTitle: '50 Guest Intimate Museum Wedding Seating',
+    seoDescription: 'Perfect seating layouts for a small 50-guest museum wedding reception.',
+    faqs: [
+      {
+        question: 'How to seat 50 guests in a museum?',
+        answer: 'Use a single, long banquet table or a small cluster of rounds near a focal art piece for an intimate dining experience.'
+      }
+    ]
+  },
+  {
+    id: 'museum-medium-150',
+    name: '150 Guests',
+    slug: 'museum-medium-150-guests',
+    count: 150,
+    description: 'Balanced seating for 150 guests in a museum or gallery.',
+    seoTitle: '150 Guest Museum Wedding Seating Layouts',
+    seoDescription: 'Manage 150 guests effortlessly in a museum setting while respecting conservation zones.',
+    faqs: [
+      {
+        question: 'What is the best layout for 150 guests in a gallery?',
+        answer: 'Mix long and round tables to accommodate groups while ensuring clear pathways and safe distances from exhibits.'
+      }
+    ]
+  },
+  {
+    id: 'gallery-large-250',
+    name: '250 Guests',
+    slug: 'gallery-large-250-guests',
+    count: 250,
+    description: 'Large scale seating for 250 guests in a spacious gallery.',
+    seoTitle: '250 Guest Large Gallery Wedding Seating',
+    seoDescription: 'Organize a grand 250-guest celebration across multiple interconnected gallery spaces.',
+    faqs: [
+      {
+        question: 'How to organize 250 guests in a gallery?',
+        answer: 'Utilize multiple interconnected rooms if necessary, treating each gallery as a distinct dining area with a cohesive theme.'
+      }
+    ]
+  },
+  {
+    id: 'gallery-grand-350',
+    name: '350 Guests',
+    slug: 'gallery-grand-350-guests',
+    count: 350,
+    description: 'Grand seating plans for 350 guests in a major museum venue.',
+    seoTitle: '350 Guest Grand Museum Wedding Seating',
+    seoDescription: 'Flawlessly execute a grand 350-guest wedding in a major museum or gallery.',
+    faqs: [
+      {
+        question: 'How to handle catering for 350 guests in a museum?',
+        answer: 'Designate exceptionally wide service aisles (4-5 feet) and ensure clear, direct paths from the prep area to all tables.'
+      }
+    ]
+  },
   { id: 'amusement-40', name: '40 Guests', slug: 'amusement-intimate-40-guests', count: 40, description: 'Intimate theme park gathering for 40 guests.', seoTitle: '40 Guest Amusement Park Wedding Seating', seoDescription: 'Perfect seating layouts for a small 40-guest amusement park wedding.', faqs: [{ question: 'How to seat 40 guests at a theme park?', answer: 'Group tables closely in a designated pavilion to keep the party united in a large venue.' }] },
   { id: 'amusement-120', name: '120 Guests', slug: 'amusement-medium-120-guests', count: 120, description: 'Balanced theme park seating for 120 guests.', seoTitle: '120 Guest Amusement Park Layouts', seoDescription: 'Manage 120 guests effortlessly at your amusement park wedding.', faqs: [{ question: 'What is the best layout for 120 guests at a theme park?', answer: 'Mix long and round tables to accommodate different groups while maintaining a cohesive look.' }] },
   { id: 'amusement-250', name: '250 Guests', slug: 'amusement-grand-250-guests', count: 250, description: 'Grand scale seating for 250 guests in an amusement park.', seoTitle: '250 Guest Grand Theme Park Wedding Seating', seoDescription: 'Organize a massive 250-guest celebration in a theme park setting.', faqs: [{ question: 'How to organize 250 guests in a theme park?', answer: 'Clearly define zones for dining, dancing, and entertainment, using clear signage to guide guests.' }] },
