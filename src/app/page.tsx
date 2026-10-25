@@ -59,6 +59,9 @@ export default function Home() {
               <Link href="/blog/inclusive-lgbtq-wedding-seating-guide" className="text-primary hover:underline">
                 Inclusive Seating for LGBTQ+ Weddings: The 2026 Guide
               </Link>, {" "}
+              <Link href="/blog/mountain-destination-seating-guide" className="text-primary hover:underline">
+                Mountain Destination Wedding Seating: The 2026 Guide
+              </Link>, {" "}
               <Link href="/blog/safari-wildlife-wedding-seating-guide" className="text-primary hover:underline">
                 Safari & Wildlife Reserve Wedding Seating Guide
               </Link>, {" "}

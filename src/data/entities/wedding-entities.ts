@@ -48,6 +48,20 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "ski-resort-lodge-layout",
+    name: "Ski Resort Lodge",
+    slug: "ski-resort-lodge-layout",
+    description: "Cozy and functional seating arrangements designed specifically for ski resort lodge venues, maximizing warmth and views.",
+    seoTitle: "Ski Resort Lodge Wedding Seating Layouts",
+    seoDescription: "Plan the perfect ski resort lodge wedding. Interactive seating charts that balance cozy aesthetics with practical lodge dimensions.",
+    faqs: [
+      {
+        question: "How do you plan seating for a ski resort lodge?",
+        answer: "Utilize U-shape or mixed table layouts to maximize space around central fireplaces and large viewing windows."
+      }
+    ]
+  },
 
   {
     id: 'museum-gallery',
@@ -744,6 +758,62 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "alpine-chic-layout",
+    name: "Alpine Chic",
+    slug: "alpine-chic-layout",
+    description: "Elegant seating designs for alpine weddings, balancing rugged mountain beauty with sophisticated dining arrangements.",
+    seoTitle: "Alpine Chic Wedding Seating Layouts",
+    seoDescription: "Design a sophisticated alpine chic wedding reception. Interactive seating charts for elevated mountain celebrations.",
+    faqs: [
+      {
+        question: "What is an alpine chic seating layout?",
+        answer: "It combines the rustic elements of long farm tables with elegant, sophisticated place settings and clear sightlines to mountain views."
+      }
+    ]
+  },
+  {
+    id: "rustic-lodge-seating",
+    name: "Rustic Lodge",
+    slug: "rustic-lodge-seating",
+    description: "Warm, communal seating charts perfect for historic and rustic mountain lodges.",
+    seoTitle: "Rustic Lodge Wedding Seating Charts",
+    seoDescription: "Create a warm, communal atmosphere with our rustic lodge wedding seating charts and interactive layout tools.",
+    faqs: [
+      {
+        question: "How to arrange tables in a rustic lodge?",
+        answer: "Long wooden banquet tables arranged parallel to the room's main architectural features, like log walls or fireplaces, work best."
+      }
+    ]
+  },
+  {
+    id: "mountain-modern-seating",
+    name: "Mountain Modern",
+    slug: "mountain-modern-seating",
+    description: "Sleek, minimalist seating configurations designed for contemporary mountain venues and high-altitude luxury resorts.",
+    seoTitle: "Mountain Modern Wedding Seating Ideas",
+    seoDescription: "Plan a sleek mountain modern reception. Digital seating tools to optimize flow in contemporary alpine venues.",
+    faqs: [
+      {
+        question: "What tables fit a mountain modern aesthetic?",
+        answer: "Minimalist square or sleek rectangular tables arranged in strict geometric grids complement the modern alpine architecture."
+      }
+    ]
+  },
+  {
+    id: "snowy-peak-banquet",
+    name: "Snowy Peak Banquet",
+    slug: "snowy-peak-banquet",
+    description: "Expansive banquet layouts designed to frame dramatic snowy peak views while keeping guests warm and comfortable.",
+    seoTitle: "Snowy Peak Banquet Wedding Seating",
+    seoDescription: "Maximize spectacular views with our snowy peak banquet seating layouts. Interactive planning for dramatic winter weddings.",
+    faqs: [
+      {
+        question: "How do you seat guests for a snowy peak view?",
+        answer: "Arrange tables in a sweeping arc or U-shape facing the primary windows so all guests can enjoy the dramatic snowy peaks."
+      }
+    ]
+  },
 
   {
     id: 'modern-art-chic',
@@ -2584,6 +2654,51 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "mountain-intimate-40-guests",
+    name: "Mountain Intimate 40 Guests",
+    slug: "mountain-intimate-40-guests",
+    count: 40,
+    description: "Cozy seating configurations for a 40-guest intimate mountain wedding, perfect for small lodges and private chalets.",
+    seoTitle: "Mountain Wedding Seating Charts for 40 Guests",
+    seoDescription: "Plan an intimate 40-guest mountain wedding. Free interactive seating planner for cozy alpine celebrations.",
+    faqs: [
+      {
+        question: "How do I seat 40 guests at a mountain chalet?",
+        answer: "A single large King's table or a U-shape layout centered around a fireplace creates a deeply intimate and warm atmosphere."
+      }
+    ]
+  },
+  {
+    id: "mountain-medium-120-guests",
+    name: "Mountain Medium 120 Guests",
+    slug: "mountain-medium-120-guests",
+    count: 120,
+    description: "Balanced seating layouts for a 120-guest mountain wedding, optimizing space in resort lodges or outdoor tented areas.",
+    seoTitle: "Mountain Wedding Seating Charts for 120 Guests",
+    seoDescription: "Manage a 120-guest mountain wedding perfectly. Interactive layouts prioritizing views and comfortable flow.",
+    faqs: [
+      {
+        question: "How many tables are needed for 120 guests at a lodge?",
+        answer: "Typically 12 to 15 tables, mixing long farm tables and rounds to maximize the unique floor plans of mountain lodges."
+      }
+    ]
+  },
+  {
+    id: "mountain-grand-250-guests",
+    name: "Mountain Grand 250 Guests",
+    slug: "mountain-grand-250-guests",
+    count: 250,
+    description: "Expansive seating strategies for a 250-guest grand mountain celebration, requiring precise logistical planning and large-scale tenting.",
+    seoTitle: "Mountain Wedding Seating Charts for 250 Guests",
+    seoDescription: "Design a flawless seating chart for a 250-guest mountain wedding. Digital tools to manage large-scale alpine logistics.",
+    faqs: [
+      {
+        question: "How do you handle seating for 250 guests in the mountains?",
+        answer: "Focus on clear, wide service aisles and consider multiple interconnected tents to ensure everyone is comfortable and protected from the elements."
+      }
+    ]
+  },
 
   {
     id: 'museum-intimate-50',
