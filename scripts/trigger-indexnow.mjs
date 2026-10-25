@@ -11,24 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/seasonal-outdoor-wedding-seating-layouts-2026',
-  'http://tablevows.alfo.online/styles/autumn-orchard-seating',
-  'http://tablevows.alfo.online/styles/spring-meadow-layout',
-  'http://tablevows.alfo.online/styles/winter-patio-heaters-seating',
-  'http://tablevows.alfo.online/styles/summer-lakeside-banquet',
-  'http://tablevows.alfo.online/guest-counts/outdoor-intimate-60-guests',
-  'http://tablevows.alfo.online/guest-counts/outdoor-medium-140-guests',
-  'http://tablevows.alfo.online/guest-counts/outdoor-grand-300-guests',
-  'http://tablevows.alfo.online/venue-types/botanical-garden-terrace-layout',
-  'http://tablevows.alfo.online/blog/museum-gallery-wedding-seating-guide',
-  'http://tablevows.alfo.online/venue-types/museum-gallery-wedding-seating',
-  'http://tablevows.alfo.online/venue-types/art-exhibit-space-seating',
-  'http://tablevows.alfo.online/styles/modern-art-chic-layout',
-  'http://tablevows.alfo.online/styles/classic-museum-seating',
-  'http://tablevows.alfo.online/guest-counts/museum-intimate-50-guests',
-  'http://tablevows.alfo.online/guest-counts/museum-medium-150-guests',
-  'http://tablevows.alfo.online/guest-counts/gallery-large-250-guests',
-  'http://tablevows.alfo.online/guest-counts/gallery-grand-350-guests'
+  'http://tablevows.alfo.online/blog/mountain-destination-seating-guide',
+  'http://tablevows.alfo.online/styles/alpine-chic-layout',
+  'http://tablevows.alfo.online/styles/rustic-lodge-seating',
+  'http://tablevows.alfo.online/styles/mountain-modern-seating',
+  'http://tablevows.alfo.online/styles/snowy-peak-banquet',
+  'http://tablevows.alfo.online/guest-counts/mountain-intimate-40-guests',
+  'http://tablevows.alfo.online/guest-counts/mountain-medium-120-guests',
+  'http://tablevows.alfo.online/guest-counts/mountain-grand-250-guests',
+  'http://tablevows.alfo.online/venue-types/ski-resort-lodge-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

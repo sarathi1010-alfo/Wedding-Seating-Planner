@@ -1,24 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls: string[] = [
-  '/blog/seasonal-outdoor-wedding-seating-layouts-2026',
-  '/styles/autumn-orchard-seating',
-  '/styles/spring-meadow-layout',
-  '/styles/winter-patio-heaters-seating',
-  '/styles/summer-lakeside-banquet',
-  '/guest-counts/outdoor-intimate-60-guests',
-  '/guest-counts/outdoor-medium-140-guests',
-  '/guest-counts/outdoor-grand-300-guests',
-  '/venue-types/botanical-garden-terrace-layout',
-  '/blog/museum-gallery-wedding-seating-guide',
-  '/venue-types/museum-gallery-wedding-seating',
-  '/venue-types/art-exhibit-space-seating',
-  '/styles/modern-art-chic-layout',
-  '/styles/classic-museum-seating',
-  '/guest-counts/museum-intimate-50-guests',
-  '/guest-counts/museum-medium-150-guests',
-  '/guest-counts/gallery-large-250-guests',
-  '/guest-counts/gallery-grand-350-guests'
+  '/blog/mountain-destination-seating-guide',
+  '/styles/alpine-chic-layout',
+  '/styles/rustic-lodge-seating',
+  '/styles/mountain-modern-seating',
+  '/styles/snowy-peak-banquet',
+  '/guest-counts/mountain-intimate-40-guests',
+  '/guest-counts/mountain-medium-120-guests',
+  '/guest-counts/mountain-grand-250-guests',
+  '/venue-types/ski-resort-lodge-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
@@ -42,7 +33,7 @@ test.describe('Daily Publish Verification', () => {
     await page.goto('/');
 
     // Check if hero button works and leads to planner
-    const startBtn = page.getByText('Start Planning Your Seating Layout').first();
+    const startBtn = page.getByRole('link', { name: /Start Planning/i }).first();
     await expect(startBtn).toBeVisible();
     await startBtn.click();
     await expect(page).toHaveURL(/\/planner/);
