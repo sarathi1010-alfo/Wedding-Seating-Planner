@@ -37,7 +37,7 @@ export function RelatedTools({ currentTag }: { currentTag: string }) {
               <h4 className="font-heading font-semibold text-lg mb-2 text-foreground">{tool.name}</h4>
               <p className="text-sm text-muted-foreground mb-6 flex-1">{tool.description}</p>
               <Link href={tool.url} className="w-full">
-                <Button variant="outline" className="w-full">Try Now</Button>
+                <Button variant="outline" className="w-full min-h-[44px]">Try Now</Button>
               </Link>
             </div>
           ))}

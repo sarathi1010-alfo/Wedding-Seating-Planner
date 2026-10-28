@@ -29,7 +29,7 @@ export function Navbar() {
       </nav>
       <div className="ml-6 flex items-center gap-4">
         <Link href="/planner">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
+          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 min-h-[48px] min-w-[48px] h-12">
             Start Planning
           </Button>
         </Link>
