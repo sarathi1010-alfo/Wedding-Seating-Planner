@@ -364,6 +364,5 @@ Allow: /
 ------------------------------------------------------------------------------
 SITEMAPS – TABLEVOWS.ALFO.ONLINE
 ------------------------------------------------------------------------------
-Sitemap: http://tablevows.alfo.online/sitemap.xml
-Sitemap: http://tablevows.alfo.online/sitemap-articles.xml
-Sitemap: http://tablevows.alfo.online/sitemap-products.xml
+Sitemap: https://tablevows.alfo.online/sitemap.xml
+
