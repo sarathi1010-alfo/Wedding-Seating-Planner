@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/mountain-destination-seating-guide',
-  'http://tablevows.alfo.online/styles/alpine-chic-layout',
-  'http://tablevows.alfo.online/styles/rustic-lodge-seating',
-  'http://tablevows.alfo.online/styles/mountain-modern-seating',
-  'http://tablevows.alfo.online/styles/snowy-peak-banquet',
-  'http://tablevows.alfo.online/guest-counts/mountain-intimate-40-guests',
-  'http://tablevows.alfo.online/guest-counts/mountain-medium-120-guests',
-  'http://tablevows.alfo.online/guest-counts/mountain-grand-250-guests',
-  'http://tablevows.alfo.online/venue-types/ski-resort-lodge-layout'
+  'http://tablevows.alfo.online/blog/inclusive-lgbtq-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/pride-themed-reception',
+  'http://tablevows.alfo.online/styles/gender-neutral-table-layouts',
+  'http://tablevows.alfo.online/styles/inclusive-banquet-seating',
+  'http://tablevows.alfo.online/styles/non-traditional-mixed-seating',
+  'http://tablevows.alfo.online/guest-counts/intimate-lgbtq-30-guests',
+  'http://tablevows.alfo.online/guest-counts/medium-lgbtq-100-guests',
+  'http://tablevows.alfo.online/guest-counts/grand-pride-250-guests',
+  'http://tablevows.alfo.online/venue-types/lgbtq-friendly-resort-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

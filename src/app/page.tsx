@@ -54,6 +54,9 @@ export default function Home() {
               <Link href="/blog/desert-oasis-seating-guide" className="text-primary hover:underline">
                 Desert Oasis Wedding Seating Guide
               </Link>, {" "}
+              <Link href="/blog/inclusive-lgbtq-wedding-seating-guide" className="text-primary hover:underline">
+                Inclusive Seating for LGBTQ+ Weddings
+              </Link>, {" "}
               <Link href="/blog/cultural-wedding-seating-traditions-guide" className="text-primary hover:underline">
                 Cultural Wedding Seating Traditions Guide
               </Link>, {" "}

@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls: string[] = [
-  '/blog/mountain-destination-seating-guide',
-  '/styles/alpine-chic-layout',
-  '/styles/rustic-lodge-seating',
-  '/styles/mountain-modern-seating',
-  '/styles/snowy-peak-banquet',
-  '/guest-counts/mountain-intimate-40-guests',
-  '/guest-counts/mountain-medium-120-guests',
-  '/guest-counts/mountain-grand-250-guests',
-  '/venue-types/ski-resort-lodge-layout'
+  '/blog/inclusive-lgbtq-wedding-seating-guide',
+  '/styles/pride-themed-reception',
+  '/styles/gender-neutral-table-layouts',
+  '/styles/inclusive-banquet-seating',
+  '/styles/non-traditional-mixed-seating',
+  '/guest-counts/intimate-lgbtq-30-guests',
+  '/guest-counts/medium-lgbtq-100-guests',
+  '/guest-counts/grand-pride-250-guests',
+  '/venue-types/lgbtq-friendly-resort-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
@@ -18,7 +18,7 @@ test.describe('Daily Publish Verification', () => {
       const consoleErrors: string[] = [];
       page.on('pageerror', (error) => consoleErrors.push(error.message));
 
-      const response = await page.goto(url);
+      const response = await page.goto('http://localhost:3000' + url);
       expect(response?.status()).toBe(200);
       expect(consoleErrors).toHaveLength(0);
 
@@ -30,7 +30,7 @@ test.describe('Daily Publish Verification', () => {
   }
 
   test('Verify core seating planner functionality on /', async ({ page }) => {
-    await page.goto('/');
+    await page.goto('http://localhost:3000/');
 
     // Check if hero button works and leads to planner
     const startBtn = page.getByRole('link', { name: /Start Planning/i }).first();
