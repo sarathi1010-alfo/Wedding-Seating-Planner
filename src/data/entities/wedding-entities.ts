@@ -49,6 +49,17 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "lgbtq-friendly-resort-layout",
+    name: "Inclusive Resort Layout",
+    slug: "lgbtq-friendly-resort-layout",
+    description: "Versatile seating strategies for destination weddings at LGBTQ+-friendly resorts.",
+    seoTitle: "Inclusive Resort Wedding Seating Charts & Ideas",
+    seoDescription: "Plan a welcoming destination wedding with our inclusive resort seating charts. Optimize for comfort and celebration.",
+    faqs: [
+      { question: "How do you seat guests at a destination resort wedding?", answer: "Keep the layout fluid, utilizing both indoor dining and outdoor patio lounge seating to embrace the resort atmosphere." }
+    ]
+  },
+  {
     id: "ski-resort-lodge-layout",
     name: "Ski Resort Lodge",
     slug: "ski-resort-lodge-layout",
@@ -758,6 +769,50 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "pride-themed-reception",
+    name: "Pride-Themed Reception",
+    slug: "pride-themed-reception",
+    description: "Vibrant and celebratory seating layouts designed for Pride-themed wedding receptions.",
+    seoTitle: "Pride-Themed Wedding Seating Chart Ideas & Layouts",
+    seoDescription: "Plan a vibrant and inclusive Pride-themed wedding reception. Interactive seating charts and floor plan ideas.",
+    faqs: [
+      { question: "How to arrange tables for a Pride-themed wedding?", answer: "Use long banquet tables to foster community, and consider arranging them to reflect a rainbow spectrum across the room." }
+    ]
+  },
+  {
+    id: "gender-neutral-table-layouts",
+    name: "Gender-Neutral Table Layouts",
+    slug: "gender-neutral-table-layouts",
+    description: "Inclusive seating charts focusing on comfort and connection without relying on gendered traditions.",
+    seoTitle: "Gender-Neutral Wedding Seating Charts | TableVows",
+    seoDescription: "Create a welcoming environment with gender-neutral wedding seating layouts. Tips for escort cards and table arrangements.",
+    faqs: [
+      { question: "What makes a seating chart gender-neutral?", answer: "A gender-neutral chart removes honorifics from escort cards and groups guests by relationship rather than outdated 'sides'." }
+    ]
+  },
+  {
+    id: "inclusive-banquet-seating",
+    name: "Inclusive Banquet Seating",
+    slug: "inclusive-banquet-seating",
+    description: "Long, communal banquet table layouts that emphasize chosen family and shared experiences.",
+    seoTitle: "Inclusive Banquet Table Wedding Layouts & Seating Charts",
+    seoDescription: "Foster a sense of community with inclusive banquet seating. Free interactive tools to map out long, welcoming tables.",
+    faqs: [
+      { question: "Why are banquet tables good for inclusive weddings?", answer: "They break down formal barriers, making everyone feel like part of one large, chosen family dinner." }
+    ]
+  },
+  {
+    id: "non-traditional-mixed-seating",
+    name: "Non-Traditional Mixed Seating",
+    slug: "non-traditional-mixed-seating",
+    description: "Fluid and dynamic layouts combining lounge seating with traditional tables for a relaxed vibe.",
+    seoTitle: "Non-Traditional Mixed Seating Charts for Modern Weddings",
+    seoDescription: "Break the mold with non-traditional mixed seating layouts. Combine lounges and tables for an inclusive, fluid reception.",
+    faqs: [
+      { question: "How do you mix lounges and dining tables?", answer: "Place dining tables near the food service areas and cluster lounge seating near the bar or dance floor for fluid socializing." }
+    ]
+  },
   {
     id: "alpine-chic-layout",
     name: "Alpine Chic",
@@ -2654,6 +2709,42 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "intimate-lgbtq-30-guests",
+    name: "Intimate LGBTQ+ Gathering (30 Guests)",
+    slug: "intimate-lgbtq-30-guests",
+    count: 30,
+    description: "Cozy and deeply personal seating for a 30-guest chosen family celebration.",
+    seoTitle: "30-Guest Inclusive Wedding Seating Chart Ideas",
+    seoDescription: "Plan the perfect intimate seating chart for 30 guests. Focus on chosen family and close connections.",
+    faqs: [
+      { question: "What is the best layout for 30 close friends?", answer: "A U-shape layout or one long King's table ensures everyone can interact and share the moment together." }
+    ]
+  },
+  {
+    id: "medium-lgbtq-100-guests",
+    name: "Medium Inclusive Celebration (100 Guests)",
+    slug: "medium-lgbtq-100-guests",
+    count: 100,
+    description: "Balanced seating arrangements for a 100-guest inclusive wedding reception.",
+    seoTitle: "100-Guest LGBTQ+ Wedding Seating Charts & Layouts",
+    seoDescription: "Organize a 100-guest inclusive wedding reception. Interactive tools to balance chosen family and relatives.",
+    faqs: [
+      { question: "How to balance chosen and biological family for 100 guests?", answer: "Mix groups across tables based on shared interests rather than keeping 'sides' separate, using a digital planner to visualize the flow." }
+    ]
+  },
+  {
+    id: "grand-pride-250-guests",
+    name: "Grand Pride Celebration (250 Guests)",
+    slug: "grand-pride-250-guests",
+    count: 250,
+    description: "Spacious and organized seating for a massive 250-guest Pride-themed wedding.",
+    seoTitle: "250-Guest Inclusive Wedding Seating Chart Strategies",
+    seoDescription: "Expertly manage a grand 250-guest inclusive wedding. Seating chart strategies for large-scale, vibrant celebrations.",
+    faqs: [
+      { question: "How to manage seating for a 250-guest inclusive wedding?", answer: "Use a mix of long banquet tables for community feel and round tables to maximize floor space, ensuring wide pathways for accessibility." }
+    ]
+  },
   {
     id: "mountain-intimate-40-guests",
     name: "Mountain Intimate 40 Guests",
