@@ -49,6 +49,17 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "observatory-dome-layout",
+    name: "Observatory Dome Layout",
+    slug: "observatory-dome-layout",
+    description: "Circular seating arrangements perfectly tailored for the unique space beneath an observatory dome.",
+    seoTitle: "Observatory Dome Wedding Layouts | Seating Charts",
+    seoDescription: "Plan a celestial seating chart for your observatory dome wedding, maximizing circular space.",
+    faqs: [
+      { question: "What is the best layout for a dome?", answer: "Concentric circular layouts work best to align with the architecture." }
+    ]
+  },
+  {
     id: "lgbtq-friendly-resort-layout",
     name: "Inclusive Resort Layout",
     slug: "lgbtq-friendly-resort-layout",
@@ -769,6 +780,50 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "celestial-themed-reception",
+    name: "Celestial Themed Reception",
+    slug: "celestial-themed-reception",
+    description: "Star-inspired seating arrangements that bring the cosmos into your wedding reception.",
+    seoTitle: "Celestial Themed Wedding Seating Chart Ideas",
+    seoDescription: "Design a magical celestial-themed wedding layout. Free interactive seating planner for star-crossed lovers.",
+    faqs: [
+      { question: "How to arrange a celestial reception?", answer: "Use curved or serpentine tables arranged to mimic orbits." }
+    ]
+  },
+  {
+    id: "stargazer-layout",
+    name: "Stargazer Layout",
+    slug: "stargazer-layout",
+    description: "A layout designed to give every guest a clear view of the night sky or planetarium projections.",
+    seoTitle: "Stargazer Wedding Seating Layout & Floor Plans",
+    seoDescription: "Optimize your stargazer wedding layout for the best views. Interactive planners for celestial events.",
+    faqs: [
+      { question: "What tables work best for a stargazer layout?", answer: "Mix round and curved tables to ensure everyone has a comfortable view upward." }
+    ]
+  },
+  {
+    id: "midnight-sky-banquet",
+    name: "Midnight Sky Banquet",
+    slug: "midnight-sky-banquet",
+    description: "Dramatic and elegant seating for an evening reception inspired by the deep midnight sky.",
+    seoTitle: "Midnight Sky Banquet Wedding Seating Charts",
+    seoDescription: "Plan an elegant midnight sky banquet. Interactive seating charts for evening and night-sky themed weddings.",
+    faqs: [
+      { question: "How do you light a midnight sky banquet?", answer: "Use focused pin-spot lighting and abundant enclosed candlelight on tables." }
+    ]
+  },
+  {
+    id: "galaxy-inspired-seating",
+    name: "Galaxy Inspired Seating",
+    slug: "galaxy-inspired-seating",
+    description: "Dynamic and fluid seating arrangements that evoke the sweeping arms of a galaxy.",
+    seoTitle: "Galaxy Inspired Wedding Seating & Layouts",
+    seoDescription: "Create a dynamic galaxy-inspired wedding layout. Free seating planner for cosmic celebrations.",
+    faqs: [
+      { question: "How to create a galaxy layout?", answer: "Use a mix of table shapes radiating outward from a central dance floor." }
+    ]
+  },
   {
     id: "pride-themed-reception",
     name: "Pride-Themed Reception",
@@ -2709,6 +2764,42 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "intimate-celestial-40-guests",
+    name: "Intimate Celestial (40 Guests)",
+    slug: "intimate-celestial-40-guests",
+    count: 40,
+    description: "A cozy and intimate celestial gathering perfect for a small planetarium or observatory.",
+    seoTitle: "40 Guest Celestial Wedding Seating Charts",
+    seoDescription: "Plan an intimate 40-guest celestial wedding. Free interactive seating planner for small planetariums.",
+    faqs: [
+      { question: "What is the best layout for 40 guests in a dome?", answer: "A single large curved table or a U-shape layout provides an intimate experience." }
+    ]
+  },
+  {
+    id: "medium-observatory-120-guests",
+    name: "Medium Observatory (120 Guests)",
+    slug: "medium-observatory-120-guests",
+    count: 120,
+    description: "A balanced layout for 120 guests, maximizing space and views in a mid-sized observatory.",
+    seoTitle: "120 Guest Observatory Wedding Seating Charts",
+    seoDescription: "Design a 120-guest observatory wedding layout. Interactive seating planners for celestial venues.",
+    faqs: [
+      { question: "How to seat 120 guests in an observatory?", answer: "Use concentric rings of round tables around the central telescope or focal point." }
+    ]
+  },
+  {
+    id: "grand-planetarium-250-guests",
+    name: "Grand Planetarium (250 Guests)",
+    slug: "grand-planetarium-250-guests",
+    count: 250,
+    description: "A large-scale celestial wedding that demands careful flow management in a grand planetarium.",
+    seoTitle: "250 Guest Planetarium Wedding Seating Layouts",
+    seoDescription: "Organize a grand 250-guest planetarium wedding. Interactive seating planner for large celestial events.",
+    faqs: [
+      { question: "How to manage 250 guests in a planetarium?", answer: "Ensure wide pathways (at least 60 inches) between the concentric rings of tables for efficient service." }
+    ]
+  },
   {
     id: "intimate-lgbtq-30-guests",
     name: "Intimate LGBTQ+ Gathering (30 Guests)",

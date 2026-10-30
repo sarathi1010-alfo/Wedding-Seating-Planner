@@ -11,15 +11,15 @@ const simulatePing = (url, type) => {
 };
 
 const newUrls = [
-  'http://tablevows.alfo.online/blog/inclusive-lgbtq-wedding-seating-guide',
-  'http://tablevows.alfo.online/styles/pride-themed-reception',
-  'http://tablevows.alfo.online/styles/gender-neutral-table-layouts',
-  'http://tablevows.alfo.online/styles/inclusive-banquet-seating',
-  'http://tablevows.alfo.online/styles/non-traditional-mixed-seating',
-  'http://tablevows.alfo.online/guest-counts/intimate-lgbtq-30-guests',
-  'http://tablevows.alfo.online/guest-counts/medium-lgbtq-100-guests',
-  'http://tablevows.alfo.online/guest-counts/grand-pride-250-guests',
-  'http://tablevows.alfo.online/venue-types/lgbtq-friendly-resort-layout'
+  'http://tablevows.alfo.online/blog/planetarium-observatory-wedding-seating-guide',
+  'http://tablevows.alfo.online/styles/celestial-themed-reception',
+  'http://tablevows.alfo.online/styles/stargazer-layout',
+  'http://tablevows.alfo.online/styles/midnight-sky-banquet',
+  'http://tablevows.alfo.online/styles/galaxy-inspired-seating',
+  'http://tablevows.alfo.online/guest-counts/intimate-celestial-40-guests',
+  'http://tablevows.alfo.online/guest-counts/medium-observatory-120-guests',
+  'http://tablevows.alfo.online/guest-counts/grand-planetarium-250-guests',
+  'http://tablevows.alfo.online/venue-types/observatory-dome-layout'
 ];
 
 console.log('Starting simulated SEO pings...');

@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls: string[] = [
-  '/blog/inclusive-lgbtq-wedding-seating-guide',
-  '/styles/pride-themed-reception',
-  '/styles/gender-neutral-table-layouts',
-  '/styles/inclusive-banquet-seating',
-  '/styles/non-traditional-mixed-seating',
-  '/guest-counts/intimate-lgbtq-30-guests',
-  '/guest-counts/medium-lgbtq-100-guests',
-  '/guest-counts/grand-pride-250-guests',
-  '/venue-types/lgbtq-friendly-resort-layout'
+  '/blog/planetarium-observatory-wedding-seating-guide',
+  '/styles/celestial-themed-reception',
+  '/styles/stargazer-layout',
+  '/styles/midnight-sky-banquet',
+  '/styles/galaxy-inspired-seating',
+  '/guest-counts/intimate-celestial-40-guests',
+  '/guest-counts/medium-observatory-120-guests',
+  '/guest-counts/grand-planetarium-250-guests',
+  '/venue-types/observatory-dome-layout'
 ];
 
 test.describe('Daily Publish Verification', () => {
