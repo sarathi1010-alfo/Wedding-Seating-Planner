@@ -25,7 +25,7 @@ export const viewport: Viewport = {
   themeColor: "#ffffff",
 };
 
-import { AnalyticsBlock } from "@/components/shared/AnalyticsBlock";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -51,7 +51,7 @@ export default function RootLayout({
     "url": "https://alfo.online",
     "logo": "https://alfo.online/logo.png",
     "sameAs": [
-      "https://twitter.com/alfo_online"
+      "https://github.com/sarathi1010-alfo"
     ]
   };
 
@@ -61,8 +61,20 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <head>
-        <meta charSet="utf-8" />
-        <AnalyticsBlock gtmId="G-HZQ3QT11QC" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HZQ3QT11QC', {
+              cookie_domain: 'auto'
+            });
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}

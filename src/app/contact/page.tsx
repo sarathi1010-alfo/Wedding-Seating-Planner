@@ -21,9 +21,6 @@ export default function ContactPage() {
         <p>
           Email us directly at: <a href="mailto:support@alfo.online">support@alfo.online</a>
         </p>
-        <p>
-          You can also reach out to us on Twitter <a href="https://twitter.com/alfo_online">@alfo_online</a>.
-        </p>
       </main>
       <Footer />
     </div>

@@ -2,7 +2,22 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 export function proxy(request: NextRequest) {
-  const hostname = request.headers.get('host');
+  const url = request.nextUrl.clone();
+  const hostname = request.headers.get('host') || '';
+  const forwardedProto = request.headers.get('x-forwarded-proto');
+
+  // Enforce HTTPS redirect for non-localhost
+  if (!hostname.includes('localhost') && forwardedProto === 'http') {
+    url.protocol = 'https:';
+    return NextResponse.redirect(url, 308);
+  }
+
+  // Trailing slash normalization (strip trailing slash except root /)
+  if (url.pathname !== '/' && url.pathname.endsWith('/')) {
+    url.pathname = url.pathname.slice(0, -1);
+    return NextResponse.redirect(url, 308);
+  }
+
   const response = NextResponse.next();
 
   // Prevent Vercel domain indexing by adding X-Robots-Tag: noindex

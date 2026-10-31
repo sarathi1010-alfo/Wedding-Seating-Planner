@@ -32,10 +32,8 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-2 text-sm">
-          <h4 className="font-semibold text-foreground mb-2">Social</h4>
-          <Link href="https://twitter.com/alfo_online" className="text-muted-foreground hover:text-foreground transition-colors">Twitter</Link>
-          <Link href="https://github.com/alfo-online" className="text-muted-foreground hover:text-foreground transition-colors">GitHub</Link>
-          <Link href="https://linkedin.com/company/alfo-online" className="text-muted-foreground hover:text-foreground transition-colors">LinkedIn</Link>
+          <h4 className="font-semibold text-foreground mb-2">Community</h4>
+          <Link href="https://github.com/sarathi1010-alfo" className="text-muted-foreground hover:text-foreground transition-colors">GitHub</Link>
         </div>
       </div>
 

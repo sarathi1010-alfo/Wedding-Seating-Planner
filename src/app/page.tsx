@@ -26,8 +26,8 @@ export default function Home() {
             Visually, beautifully, stress-free. Drag and drop guests, arrange tables, and export print-ready layouts instantly. No accounts required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/planner">
-              <Button size="lg" className="rounded-full h-14 px-8 text-lg bg-foreground text-background hover:bg-foreground/90">
+            <Link href="/planner" className="w-full sm:w-auto">
+              <Button size="lg" className="rounded-full h-14 w-full sm:w-auto text-base sm:text-lg px-6 sm:px-8 bg-foreground text-background hover:bg-foreground/90">
                 Start Planning Your Seating Layout
               </Button>
             </Link>
