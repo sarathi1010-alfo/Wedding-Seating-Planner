@@ -48,6 +48,22 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+
+  {
+    id: "haunted-castle",
+    name: "Haunted Castle",
+    slug: "haunted-castle-layout",
+    description: "Seating arrangements designed for historic, atmospheric castles with vaulted ceilings and dramatic fireplaces.",
+    seoTitle: "Haunted Castle Wedding Seating Charts & Layouts",
+    seoDescription: "Plan your haunted castle wedding reception. Optimize your layout around historic architectural features.",
+    faqs: [
+      {
+        question: "How do you arrange seating in a castle?",
+        answer: "Utilize the natural focal points, like massive fireplaces, and use long tables to mimic historical feasts."
+      }
+    ]
+  },
+
   {
     id: 'venue-cultural-heritage-center',
     name: 'Cultural Heritage Center',
@@ -608,6 +624,44 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "gothic-romance",
+    name: "Gothic Romance",
+    slug: "gothic-romance-seating",
+    description: "Moody, dramatic seating for a gothic romance wedding, featuring dark palettes and intimate lighting.",
+    seoTitle: "Gothic Romance Wedding Seating Charts & Ideas",
+    seoDescription: "Design a gothic romance seating chart. Explore interactive layouts for a moody, deeply romantic reception.",
+    faqs: [{ question: "What is the best layout for a gothic romance wedding?", answer: "Long banquet tables under dim, warm lighting emphasize the dramatic romance of the theme." }]
+  },
+  {
+    id: "dark-academia",
+    name: "Dark Academia",
+    slug: "dark-academia-banquet",
+    description: "Scholarly, moody seating arrangements perfect for library or historic hall venues with a dark academia vibe.",
+    seoTitle: "Dark Academia Banquet Seating Charts",
+    seoDescription: "Plan a dark academia wedding reception. Interactive seating charts for scholarly, elegant, and moody banquets.",
+    faqs: [{ question: "How to arrange tables for a dark academia theme?", answer: "Use classic, straight banquet rows and incorporate vintage elements like books into the centerpieces." }]
+  },
+  {
+    id: "victorian-macabre",
+    name: "Victorian Macabre",
+    slug: "victorian-macabre-seating",
+    description: "Ornate, slightly eerie seating arrangements featuring black lace, candelabras, and Victorian elegance.",
+    seoTitle: "Victorian Macabre Wedding Seating Layouts",
+    seoDescription: "Design a Victorian macabre seating chart. Embrace the eerie elegance with interactive tools for your reception.",
+    faqs: [{ question: "What table shape suits a Victorian macabre wedding?", answer: "A mix of small round parlor-style tables and a grand, heavily decorated head table works beautifully." }]
+  },
+  {
+    id: "vampiric-elegance",
+    name: "Vampiric Elegance",
+    slug: "vampiric-elegance-layout",
+    description: "Highly dramatic seating layouts with deep reds, blacks, and U-shape arrangements that command attention.",
+    seoTitle: "Vampiric Elegance Wedding Seating Ideas",
+    seoDescription: "Create a vampiric elegance seating layout. Plan your dark, dramatic reception with our interactive planner.",
+    faqs: [{ question: "How to center a vampiric elegance seating chart?", answer: "Use a U-shape layout to draw all eyes to a dramatic, candlelit sweetheart table." }]
+  },
+
   {
     id: 'style-cultural-fusion-seating',
     name: 'Cultural Fusion Seating',
@@ -2025,6 +2079,53 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "gothic-50",
+    name: "Gothic 50 Guests",
+    slug: "gothic-50-guests",
+    count: 50,
+    description: "An intimate, moody gathering for 50 guests, perfect for a single, long 'Great Hall' table.",
+    seoTitle: "50-Guest Gothic Wedding Seating Charts",
+    seoDescription: "Plan an intimate 50-guest gothic wedding. Free interactive seating planner for dark romance celebrations.",
+    faqs: [
+      {
+        question: "What is the best layout for a 50-guest gothic wedding?",
+        answer: "A single, dramatically long banquet table ensures everyone is part of the intense, moody atmosphere."
+      }
+    ]
+  },
+  {
+    id: "gothic-150",
+    name: "Gothic 150 Guests",
+    slug: "gothic-150-guests",
+    count: 150,
+    description: "A medium-sized gothic reception requiring careful lighting zones and a mix of grand tables.",
+    seoTitle: "150-Guest Gothic Wedding Seating Ideas",
+    seoDescription: "Manage a 150-guest gothic wedding with ease. Design accessible and dramatic layouts using our free tool.",
+    faqs: [
+      {
+        question: "How do I plan gothic seating for 150 guests?",
+        answer: "Use multiple long tables running parallel to create a grand hall effect, ensuring clear pathways."
+      }
+    ]
+  },
+  {
+    id: "gothic-300",
+    name: "Gothic 300 Guests",
+    slug: "gothic-300-guests",
+    count: 300,
+    description: "A massive, theatrical gothic reception where scale and dramatic focal points are essential.",
+    seoTitle: "300-Guest Gothic Wedding Seating Charts",
+    seoDescription: "Design a spectacular 300-guest gothic wedding. Master the logistics of large, dramatic seating layouts.",
+    faqs: [
+      {
+        question: "How do you seat 300 guests at a gothic wedding?",
+        answer: "Rely heavily on clear, illuminated signage and consider a U-shape around a central, dramatic dance floor."
+      }
+    ]
+  },
+
   {
     id: 'gc-intimate-75-guests',
     name: 'Intimate 75 Guests',

@@ -207,7 +207,16 @@ const NEW_URLS = [
   '/guest-counts/micro-10-guests',
   '/guest-counts/micro-20-guests',
   '/guest-counts/micro-30-guests',
-  '/venue-types/private-estate-micro-layout'
+  '/venue-types/private-estate-micro-layout',
+  '/blog/gothic-wedding-seating-guide',
+  '/styles/gothic-romance-seating',
+  '/styles/dark-academia-banquet',
+  '/styles/victorian-macabre-seating',
+  '/styles/vampiric-elegance-layout',
+  '/guest-counts/gothic-50-guests',
+  '/guest-counts/gothic-150-guests',
+  '/guest-counts/gothic-300-guests',
+  '/venue-types/haunted-castle-layout'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
