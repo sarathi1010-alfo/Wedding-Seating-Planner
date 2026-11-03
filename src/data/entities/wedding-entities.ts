@@ -50,6 +50,17 @@ export type TableType = {
 export const venues: VenueType[] = [
 
   {
+    id: "lgbtq-community-center",
+    name: "LGBTQ+ Community Center",
+    slug: "lgbtq-community-center",
+    description: "Versatile, welcoming layouts for celebrations hosted in meaningful community spaces and queer-owned venues.",
+    seoTitle: "Community Center Wedding Seating Layouts",
+    seoDescription: "Design seating for a community center wedding. Free interactive tools for versatile, open-concept spaces.",
+    faqs: [{ question: "How to layout a community center wedding?", answer: "Utilize flexible, modular seating that can be easily rearranged from ceremony style to reception banquets." }]
+  },
+
+
+  {
     id: "haunted-castle",
     name: "Haunted Castle",
     slug: "haunted-castle-layout",
@@ -624,6 +635,44 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+
+  {
+    id: "queer-joy-celebration",
+    name: "Queer Joy Celebration",
+    slug: "queer-joy-celebration",
+    description: "Vibrant, unapologetic, and fluid layouts designed for maximum connection and celebrating diverse love.",
+    seoTitle: "Queer Joy Wedding Seating Layouts | Inclusive Planners",
+    seoDescription: "Design a vibrant queer joy celebration. Free interactive seating charts for inclusive, dynamic LGBTQ+ weddings.",
+    faqs: [{ question: "How to design a queer joy seating layout?", answer: "Focus on fluid spaces, integrated tables, and lounge areas that encourage mingling across different micro-communities." }]
+  },
+  {
+    id: "gender-neutral-elegance",
+    name: "Gender-Neutral Elegance",
+    slug: "gender-neutral-elegance",
+    description: "Sophisticated, modern layouts that discard archaic traditions and focus on the couple's unique aesthetic.",
+    seoTitle: "Gender-Neutral Wedding Seating Layouts & Floor Plans",
+    seoDescription: "Plan a sophisticated, gender-neutral wedding reception. Interactive tools for modern, inclusive seating charts.",
+    faqs: [{ question: "What is gender-neutral seating?", answer: "Seating that avoids 'sides' and heteronormative VIP table structures, prioritizing chosen family and integrated guest lists." }]
+  },
+  {
+    id: "pride-festival-vibe",
+    name: "Pride Festival Vibe",
+    slug: "pride-festival-vibe",
+    description: "High-energy, colorful, and communal seating arrangements perfect for large-scale, festival-style weddings.",
+    seoTitle: "Pride Festival Wedding Seating Chart Ideas",
+    seoDescription: "Create a festival-style wedding layout. Free drag-and-drop seating charts for high-energy, vibrant LGBTQ+ celebrations.",
+    faqs: [{ question: "How to seat a festival-style wedding?", answer: "Use long communal banquets mixed with casual lounge zones to mimic a lively, open festival atmosphere." }]
+  },
+  {
+    id: "modern-lgbtq-chic",
+    name: "Modern LGBTQ+ Chic",
+    slug: "modern-lgbtq-chic",
+    description: "Sleek, contemporary layouts that center the couple with a chic sweetheart table and geometric guest tables.",
+    seoTitle: "Modern LGBTQ+ Chic Wedding Seating Floor Plans",
+    seoDescription: "Design a sleek, modern LGBTQ+ wedding reception. Free interactive seating planner for chic, contemporary layouts.",
+    faqs: [{ question: "What tables work best for modern chic weddings?", answer: "A mix of square and round tables with sharp, clean lines creates a highly contemporary and stylish look." }]
+  },
+
 
   {
     id: "gothic-romance",
@@ -2079,6 +2128,38 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+
+  {
+    id: "intimate-40-inclusive",
+    name: "Intimate 40 (Inclusive)",
+    slug: "intimate-40-inclusive",
+    count: 40,
+    description: "A deeply personal 40-person layout ideal for chosen family gatherings and highly integrated micro-weddings.",
+    seoTitle: "40-Guest Inclusive Wedding Seating Layouts",
+    seoDescription: "Plan a deeply intimate 40-guest inclusive wedding. Interactive seating charts for chosen family micro-weddings.",
+    faqs: [{ question: "How to seat 40 guests inclusively?", answer: "A U-shape layout or one single long King's table ensures all 40 guests feel equally valued and connected." }]
+  },
+  {
+    id: "medium-130-inclusive",
+    name: "Medium 130 (Inclusive)",
+    slug: "medium-130-inclusive",
+    count: 130,
+    description: "A balanced 130-guest arrangement that mixes biological and chosen family across fluid, dynamic table zones.",
+    seoTitle: "130-Guest LGBTQ+ Inclusive Wedding Seating Charts",
+    seoDescription: "Organize a 130-guest inclusive wedding reception. Free drag-and-drop floor plan tools for modern layouts.",
+    faqs: [{ question: "How to manage 130 guests without 'sides'?", answer: "Mix friend groups and families at 8-10 person round tables, distributing energy evenly across the room." }]
+  },
+  {
+    id: "large-250-inclusive",
+    name: "Large 250 (Inclusive)",
+    slug: "large-250-inclusive",
+    count: 250,
+    description: "A grand scale 250-guest layout designed to maintain an inclusive, welcoming atmosphere despite the size.",
+    seoTitle: "250-Guest Inclusive Wedding Seating Floor Plans",
+    seoDescription: "Manage a grand 250-guest inclusive celebration. Free interactive tools to build welcoming, large-scale seating charts.",
+    faqs: [{ question: "How to keep a 250-guest wedding feeling inclusive?", answer: "Create smaller 'neighborhoods' of tables within the larger room, anchoring each with key chosen family members." }]
+  },
+
 
   {
     id: "gothic-50",
