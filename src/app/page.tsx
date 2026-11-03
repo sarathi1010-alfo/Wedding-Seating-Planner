@@ -57,8 +57,10 @@ export default function Home() {
                 Micro Wedding Seating Layouts: The 2026 Guide
               </Link>, and <Link href="/blog/winter-wonderland-seating-guide" className="text-primary hover:underline">
                 Winter Wonderland Wedding Seating
-              </Link>, and <Link href="/blog/gothic-wedding-seating-guide" className="text-primary hover:underline">
+              </Link>, <Link href="/blog/gothic-wedding-seating-guide" className="text-primary hover:underline">
                 Gothic Wedding Seating Guide
+              </Link>, and <Link href="/blog/lgbtq-inclusive-wedding-seating-guide" className="text-primary hover:underline">
+                Inclusive Seating for LGBTQ+ Weddings: The 2026 Guide
               </Link>
               . These guides cover everything from floor plans to unique venue constraints.
             </p>

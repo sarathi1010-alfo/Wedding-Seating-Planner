@@ -171,24 +171,15 @@ const NEW_URLS = [
   '/guest-counts/minimalist-50-guests',
   '/guest-counts/minimalist-150-guests',
   '/guest-counts/minimalist-300-guests',
-  '/venue-types/art-gallery-minimalist-layout'
-,
-  '/blog/inclusive-seating-for-lgbtq-weddings'
-,
-  '/styles/modern-inclusive-wedding-seating'
-,
-  '/styles/boho-inclusive-wedding-seating'
-,
-  '/styles/classic-inclusive-wedding-seating'
-,
-  '/styles/chic-inclusive-wedding-seating'
-,
-  '/guest-counts/inclusive-50-guest-wedding'
-,
-  '/guest-counts/inclusive-150-guest-wedding'
-,
-  '/guest-counts/inclusive-300-guest-wedding'
-,
+  '/venue-types/art-gallery-minimalist-layout',
+  '/blog/inclusive-seating-for-lgbtq-weddings',
+  '/styles/modern-inclusive-wedding-seating',
+  '/styles/boho-inclusive-wedding-seating',
+  '/styles/classic-inclusive-wedding-seating',
+  '/styles/chic-inclusive-wedding-seating',
+  '/guest-counts/inclusive-50-guest-wedding',
+  '/guest-counts/inclusive-150-guest-wedding',
+  '/guest-counts/inclusive-300-guest-wedding',
   '/venue-types/inclusive-outdoor-tent-layout',
   '/blog/rooftop-wedding-seating-chart-guide',
   '/styles/urban-rooftop-seating',
@@ -216,7 +207,16 @@ const NEW_URLS = [
   '/guest-counts/gothic-50-guests',
   '/guest-counts/gothic-150-guests',
   '/guest-counts/gothic-300-guests',
-  '/venue-types/haunted-castle-layout'
+  '/venue-types/haunted-castle-layout',
+  '/blog/lgbtq-inclusive-wedding-seating-guide',
+  '/styles/queer-joy-celebration',
+  '/styles/gender-neutral-elegance',
+  '/styles/pride-festival-vibe',
+  '/styles/modern-lgbtq-chic',
+  '/guest-counts/intimate-40-inclusive',
+  '/guest-counts/medium-130-inclusive',
+  '/guest-counts/large-250-inclusive',
+  '/venue-types/lgbtq-community-center'
 ];
 
 test.describe('Technical Verification - Zero Errors Policy', () => {
