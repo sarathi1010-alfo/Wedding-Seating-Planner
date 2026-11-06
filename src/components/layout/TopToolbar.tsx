@@ -4,11 +4,17 @@ import { usePlannerStore } from "@/store/plannerStore";
 import { Button } from "@/components/ui/button";
 import { toPng } from "html-to-image";
 import jsPDF from "jspdf";
+import { trackEvent } from "@/lib/gtag";
 
 export function TopToolbar() {
   const { tables, guests, assignments } = usePlannerStore();
 
   const handleExportPNG = async () => {
+    trackEvent('export_chart', {
+      format: 'png',
+      total_tables: tables.length,
+      total_guests: guests.length,
+    });
     const node = document.getElementById("canvas-container");
     if (!node) return;
 
@@ -32,6 +38,11 @@ export function TopToolbar() {
   };
 
   const handleExportPDF = () => {
+    trackEvent('export_chart', {
+      format: 'pdf',
+      total_tables: tables.length,
+      total_guests: guests.length,
+    });
     // A4 paper is 210 x 297 mm
     const doc = new jsPDF({
       orientation: 'portrait',

@@ -12,5 +12,5 @@ jobs:
       - name: Send Sitemap to Google Indexing API
         uses: robingenz/action-google-indexing@v1.0.0
         with:
-          siteUrl: 'http://tablevows.alfo.online'   # No trailing slash
+          siteUrl: 'https://tablevows.alfo.online'   # No trailing slash
           gcpServiceAccountKey: ${{ secrets.GCP_SA_KEY }}   

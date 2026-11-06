@@ -4,6 +4,7 @@ import { usePlannerStore } from "@/store/plannerStore";
 import { Button } from "@/components/ui/button";
 import { TableShape } from "@/store/types";
 import { useState } from "react";
+import { trackEvent } from "@/lib/gtag";
 
 interface RightSidebarProps {
   selectedTableId?: string | null;
@@ -16,6 +17,10 @@ export function RightSidebar({ selectedTableId }: RightSidebarProps) {
   // When a table is selected, we can list its seated guests.
 
   const handleAddTable = (shape: TableShape) => {
+    trackEvent('create_table', {
+      table_shape: shape,
+      seats: shape === 'round' ? 8 : 10,
+    });
     const tableNumber = tables.length + 1;
     const newTable = {
       id: `t-${Date.now()}`,
