@@ -48,6 +48,15 @@ export type TableType = {
 
 // Core Entities
 export const venues: VenueType[] = [
+  {
+    id: "planetarium-observatory",
+    name: "Planetarium & Observatory",
+    slug: "planetarium-layout",
+    description: "Map out seating under the stars in a planetarium or observatory setting.",
+    seoTitle: "Planetarium Wedding Layouts - Seating Under the Stars",
+    seoDescription: "Design a magical planetarium wedding layout. Free interactive seating charts for observatories and starry venues.",
+    faqs: [{ question: "How to arrange tables in a planetarium?", answer: "Use circular seating radiating outward from the center to mimic orbits and maximize views of the dome." }]
+  },
 
   {
     id: "lgbtq-community-center",
@@ -635,6 +644,42 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "celestial-galaxy",
+    name: "Celestial Galaxy",
+    slug: "celestial-galaxy-seating",
+    description: "Deep cosmic hues, starry ambient lighting, and out-of-this-world arrangements.",
+    seoTitle: "Celestial Galaxy Wedding Seating - Starry Layouts",
+    seoDescription: "Plan a celestial galaxy themed wedding with starry ambient lighting. Free interactive seating charts.",
+    faqs: [{ question: "What is celestial seating?", answer: "Celestial seating involves dark, moody decor with ambient lighting that mimics the night sky, often grouping guests by constellations." }]
+  },
+  {
+    id: "milky-way-banquet",
+    name: "Milky Way Banquet",
+    slug: "milky-way-banquet",
+    description: "Sweeping, curved long tables that mimic the arms of a galaxy.",
+    seoTitle: "Milky Way Banquet Layout - Sweeping Wedding Seating",
+    seoDescription: "Design a sweeping Milky Way banquet layout for your wedding. Free interactive seating charts.",
+    faqs: [{ question: "How to create a Milky Way layout?", answer: "Use serpentine or curved long tables to create a sweeping, continuous flow across the room." }]
+  },
+  {
+    id: "astronomy-club",
+    name: "Astronomy Club",
+    slug: "astronomy-club-reception",
+    description: "Vintage star charts, brass telescopes, and scholarly cosmic decor.",
+    seoTitle: "Astronomy Club Wedding Reception Seating",
+    seoDescription: "Plan a vintage astronomy club themed wedding reception. Free interactive seating charts.",
+    faqs: [{ question: "What tables fit an astronomy theme?", answer: "Classic round tables with vintage star chart overlays and brass centerpieces work beautifully." }]
+  },
+  {
+    id: "starlight-lounge",
+    name: "Starlight Lounge",
+    slug: "starlight-lounge-layout",
+    description: "Intimate lounge seating with ambient, starry uplighting.",
+    seoTitle: "Starlight Lounge Wedding Layouts",
+    seoDescription: "Design a cozy starlight lounge wedding reception. Free interactive seating charts for intimate spaces.",
+    faqs: [{ question: "How to seat guests in a starlight lounge?", answer: "Mix small cocktail tables with low lounge furniture, using pin-spot lighting to create intimate, starry nooks." }]
+  },
 
   {
     id: "queer-joy-celebration",
@@ -2128,6 +2173,36 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "celestial-50",
+    name: "Intimate Celestial (50 Guests)",
+    slug: "celestial-50-guests",
+    count: 50,
+    description: "A cozy, starry gathering for 50 close friends and family.",
+    seoTitle: "50-Guest Celestial Wedding Seating Charts",
+    seoDescription: "Plan an intimate 50-guest celestial wedding. Free interactive seating charts.",
+    faqs: [{ question: "How to seat 50 guests for a celestial theme?", answer: "Use a single, long U-shape table dramatically lit with candles and fairy lights for an intimate experience." }]
+  },
+  {
+    id: "celestial-150",
+    name: "Grand Celestial (150 Guests)",
+    slug: "celestial-150-guests",
+    count: 150,
+    description: "A sweeping, cosmic celebration for 150 guests.",
+    seoTitle: "150-Guest Celestial Wedding Seating Charts",
+    seoDescription: "Plan a grand 150-guest celestial wedding. Free interactive seating charts.",
+    faqs: [{ question: "How to arrange tables for a 150-guest celestial wedding?", answer: "Mix long tables radiating from a central dance floor with smaller round tables in the 'outer orbit'." }]
+  },
+  {
+    id: "celestial-300",
+    name: "Galactic Gala (300 Guests)",
+    slug: "celestial-300-guests",
+    count: 300,
+    description: "A massive, immersive starry night gala for 300 guests.",
+    seoTitle: "300-Guest Celestial Wedding Seating Charts",
+    seoDescription: "Plan a massive 300-guest celestial wedding gala. Free interactive seating charts.",
+    faqs: [{ question: "How to manage seating for a 300-guest celestial gala?", answer: "Use large 72-inch round tables grouped in distinct 'constellation' zones to break up the large space." }]
+  },
 
   {
     id: "intimate-40-inclusive",

@@ -59,6 +59,8 @@ export default function Home() {
                 Winter Wonderland Wedding Seating
               </Link>, <Link href="/blog/gothic-wedding-seating-guide" className="text-primary hover:underline">
                 Gothic Wedding Seating Guide
+              </Link>, <Link href="/blog/celestial-starry-night-seating-guide" className="text-primary hover:underline">
+                Celestial Starry Night Wedding Seating Guide
               </Link>, and <Link href="/blog/lgbtq-inclusive-wedding-seating-guide" className="text-primary hover:underline">
                 Inclusive Seating for LGBTQ+ Weddings: The 2026 Guide
               </Link>

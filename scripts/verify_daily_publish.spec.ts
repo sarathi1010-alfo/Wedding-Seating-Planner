@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const targetUrls = [
+  '/blog/celestial-starry-night-seating-guide',
+  '/styles/celestial-galaxy-seating',
+  '/styles/milky-way-banquet',
+  '/styles/astronomy-club-reception',
+  '/styles/starlight-lounge-layout',
+  '/guest-counts/celestial-50-guests',
+  '/guest-counts/celestial-150-guests',
+  '/guest-counts/celestial-300-guests',
+  '/venue-types/planetarium-layout',
   '/blog/cultural-wedding-seating-traditions-guide',
   '/styles/cultural-fusion-seating',
   '/styles/traditional-asian-banquet',
