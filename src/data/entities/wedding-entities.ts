@@ -49,6 +49,15 @@ export type TableType = {
 // Core Entities
 export const venues: VenueType[] = [
   {
+    id: "ancient-redwood-grove",
+    name: "Ancient Redwood Grove",
+    slug: "ancient-redwood-grove",
+    description: "Map out seating among towering ancient trees and mystical woodland clearings.",
+    seoTitle: "Redwood Grove Forest Wedding Seating Charts",
+    seoDescription: "Plan a magical forest wedding in an ancient redwood grove. Free interactive floor plan tools.",
+    faqs: [{ question: "How to plan seating in a forest grove?", answer: "Use curved serpentine tables to weave naturally between the large tree trunks." }]
+  },
+  {
     id: "planetarium-observatory",
     name: "Planetarium & Observatory",
     slug: "planetarium-layout",
@@ -644,6 +653,42 @@ export const venues: VenueType[] = [
 ];
 
 export const styles: WeddingStyle[] = [
+  {
+    id: "mystical-woodland",
+    name: "Mystical Woodland",
+    slug: "mystical-woodland-seating",
+    description: "Deep greens, mossy textures, and magical glowing ambient light.",
+    seoTitle: "Mystical Woodland Forest Wedding Seating",
+    seoDescription: "Plan a mystical woodland wedding with mossy textures and magical lighting.",
+    faqs: [{ question: "What is mystical woodland seating?", answer: "It incorporates natural elements like moss runners and dark wood tables in a forest setting." }]
+  },
+  {
+    id: "fairy-tale-forest",
+    name: "Fairy-Tale Forest",
+    slug: "fairy-tale-forest-layout",
+    description: "Light, ethereal romance among the trees with delicate florals.",
+    seoTitle: "Fairy-Tale Forest Wedding Seating Layouts",
+    seoDescription: "Create a fairy-tale forest seating layout with ethereal romance.",
+    faqs: [{ question: "How to arrange a fairy-tale forest layout?", answer: "Scatter round tables with light, airy linens throughout a bright forest clearing." }]
+  },
+  {
+    id: "twilight-grove",
+    name: "Twilight Grove",
+    slug: "twilight-grove-reception",
+    description: "Evening woodland receptions relying on thousands of fairy lights.",
+    seoTitle: "Twilight Grove Evening Forest Wedding Seating",
+    seoDescription: "Design a twilight grove evening reception with magical fairy lights.",
+    faqs: [{ question: "What is the best layout for a twilight grove?", answer: "Arrange curved tables in a sweeping crescent shape facing a central lit focal point." }]
+  },
+  {
+    id: "moss-and-fern",
+    name: "Moss & Fern",
+    slug: "moss-and-fern-tables",
+    description: "Tablescapes heavily utilizing natural forest floor elements.",
+    seoTitle: "Moss & Fern Woodland Table Layouts",
+    seoDescription: "Plan woodland table layouts utilizing moss and fern natural elements.",
+    faqs: [{ question: "How to decorate tables in a forest?", answer: "Use moss runners instead of fabric and incorporate ferns and local wildflowers." }]
+  },
   {
     id: "celestial-galaxy",
     name: "Celestial Galaxy",
@@ -2173,6 +2218,36 @@ export const styles: WeddingStyle[] = [
 ];
 
 export const guestCounts: GuestCount[] = [
+  {
+    id: "enchanted-50",
+    name: "Intimate Enchanted (50 Guests)",
+    slug: "enchanted-50-guests",
+    count: 50,
+    description: "A cozy gathering among the trees for 50 close guests.",
+    seoTitle: "50-Guest Enchanted Forest Wedding Seating Charts",
+    seoDescription: "Plan an intimate 50-guest enchanted forest wedding. Free interactive seating charts.",
+    faqs: [{ question: "How to seat 50 guests in a forest?", answer: "Use a small cluster of stable round tables nestled safely in a natural clearing." }]
+  },
+  {
+    id: "enchanted-150",
+    name: "Woodland Celebration (150 Guests)",
+    slug: "enchanted-150-guests",
+    count: 150,
+    description: "A magical woodland celebration for 150 guests.",
+    seoTitle: "150-Guest Enchanted Forest Wedding Seating Charts",
+    seoDescription: "Plan a grand 150-guest enchanted forest wedding. Free interactive seating charts.",
+    faqs: [{ question: "How to arrange tables for a 150-guest forest wedding?", answer: "Use sweeping serpentine tables that weave gracefully between the trees." }]
+  },
+  {
+    id: "enchanted-300",
+    name: "Grand Forest Gala (300 Guests)",
+    slug: "enchanted-300-guests",
+    count: 300,
+    description: "A massive enchanted forest gala for 300 guests.",
+    seoTitle: "300-Guest Enchanted Forest Wedding Seating Charts",
+    seoDescription: "Plan a massive 300-guest enchanted forest wedding gala. Free interactive seating charts.",
+    faqs: [{ question: "How to manage seating for a 300-guest forest gala?", answer: "Ensure a large enough clearing and use sturdy flooring under large 72-inch round tables for stability." }]
+  },
   {
     id: "celestial-50",
     name: "Intimate Celestial (50 Guests)",

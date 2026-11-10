@@ -223,7 +223,16 @@ const targetUrls = [
   '/guest-counts/intimate-40-inclusive',
   '/guest-counts/medium-130-inclusive',
   '/guest-counts/large-250-inclusive',
-  '/venue-types/lgbtq-community-center'
+  '/venue-types/lgbtq-community-center',
+  '/blog/enchanted-forest-wedding-seating-guide',
+  '/styles/mystical-woodland-seating',
+  '/styles/fairy-tale-forest-layout',
+  '/styles/twilight-grove-reception',
+  '/styles/moss-and-fern-tables',
+  '/guest-counts/enchanted-50-guests',
+  '/guest-counts/enchanted-150-guests',
+  '/guest-counts/enchanted-300-guests',
+  '/venue-types/ancient-redwood-grove'
 ];
 
 test.describe('Daily Publish Verification', () => {
